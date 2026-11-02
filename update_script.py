@@ -4,16 +4,15 @@ import requests
 
 def parse_slug_to_title(href_str):
     if not href_str:
-        return "Trận đấu trực tiếp"
+        return ""
     parts = [p for p in href_str.strip('/').split('/') if p]
     slug = parts[-1] if parts else ""
     if not slug or "truc-tiep" in slug:
         if len(parts) >= 2:
             slug = parts[-1]
         else:
-            return "Trận đấu trực tiếp"
+            return ""
 
-    # Trích xuất thời gian và ngày tháng từ slug (ví dụ: luc-1930-ngay-02-11-2026)
     time_str = ""
     match_slug = slug
     time_match = re.search(r'luc-(\d{2})(\d{2})-ngay-(\d{2})-(\d{2})-(\d{4})', slug)
@@ -22,7 +21,6 @@ def parse_slug_to_title(href_str):
         time_str = f"{d}/{mo}/{y} {h}:{m}"
         match_slug = re.sub(r'-luc-\d+-ngay-[\d-]+', '', slug).strip('-')
 
-    # Làm sạch tên đội bóng
     team_name = match_slug.replace('-', ' ').title()
     team_name = re.sub(r'\bVs\b', 'vs', team_name)
 
@@ -51,7 +49,6 @@ def generate_m3u_and_json():
             count = 0
             seen_links = set()
 
-            # Chuẩn hóa danh sách providers
             providers = []
             if isinstance(data, dict):
                 if "providers" in data and isinstance(data["providers"], list):
@@ -72,7 +69,6 @@ def generate_m3u_and_json():
                 prov_name = prov.get("name") or prov.get("title") or prov.get("provider_name") or "Kênh Trực Tiếp"
                 prov_logo = prov.get("logo") or prov.get("icon") or ""
                 
-                # Tìm danh sách trận đấu bên trong provider
                 matches = []
                 for k in ["matches", "list", "items", "data", "match_list", "schedule", "channels", "matchs", "match", "content"]:
                     if k in prov and isinstance(prov[k], list):
@@ -86,86 +82,131 @@ def generate_m3u_and_json():
                             break
 
                 if not matches:
-                    if prov.get("url") or prov.get("href") or prov.get("m3u8"):
-                        matches = [prov]
+                    matches = [prov]
 
                 for match in matches:
                     if not isinstance(match, dict):
                         continue
-                    
-                    href = match.get("href") or match.get("url_info") or ""
-                    match_title = parse_slug_to_title(href)
-                    
-                    if match_title == "Trận đấu trực tiếp":
-                        alt_title = match.get("title") or match.get("name") or match.get("match_name")
-                        if alt_title and not any(kw in alt_title.lower() for kw in ['url', 'href', 'logo', 'referer']):
-                            match_title = alt_title
 
-                    logo = match.get("home_logo") or match.get("logo") or match.get("icon") or prov_logo
+                    # 1. Trích xuất tên trận đấu từ nhiều nguồn ưu tiên khác nhau trong object
+                    home = match.get("home_team") or match.get("home") or ""
+                    away = match.get("away_team") or match.get("away") or ""
                     
-                    stream_url = match.get("url") or match.get("stream_url") or match.get("m3u8") or ""
+                    match_title = ""
+                    if home and away:
+                        match_title = f"{home} vs {away}"
+                    else:
+                        # Kiểm tra xem tiêu đề có nằm trong các trường title/name không
+                        raw_t = match.get("title") or match.get("name") or match.get("match_name") or ""
+                        if raw_t and not any(kw in raw_t.lower() for kw in ['url', 'href', 'logo', 'referer', 'http']):
+                            match_title = raw_t
+
+                    # Nếu vẫn chưa có, bóc từ slug href
+                    if not match_title:
+                        href = match.get("href") or match.get("url_info") or ""
+                        match_title = parse_slug_to_title(href)
+
+                    if not match_title or match_title == "Trận đấu trực tiếp":
+                        match_title = f"{prov_name} Trực Tiếp"
+
+                    # 2. Lấy thời gian, giải đấu, tên BLV và logo chuẩn
+                    time_str = match.get("time") or match.get("date") or ""
+                    league = match.get("league") or match.get("tournament") or ""
+                    blv = match.get("blv") or match.get("commentator") or ""
+                    logo = match.get("home_logo") or match.get("logo") or match.get("icon") or prov_logo
+
+                    # Xây dựng chuỗi tiêu đề hoàn chỉnh hiển thị trên TV
+                    title_parts = []
+                    if time_str:
+                        title_parts.append(f"[{time_str}]")
+                    title_parts.append(match_title)
+                    if league and league not in match_title:
+                        title_parts.append(f"({league})")
+                    if blv:
+                        title_parts.append(f"- BLV: {blv}")
+
+                    display_title = " ".join(title_parts)
+
+                    # 3. Thu thập các luồng phát stream (.m3u8) bên trong trận đấu
+                    streams = []
+                    for dk in ["url", "stream_url", "m3u8", "source"]:
+                        val = match.get(dk)
+                        if isinstance(val, str) and val.startswith("http"):
+                            streams.append(("Server chính", val))
+
+                    for sk in ["streams", "links", "servers", "sources"]:
+                        arr = match.get(sk)
+                        if isinstance(arr, list):
+                            for s in arr:
+                                if isinstance(s, str) and s.startswith("http"):
+                                    streams.append(("Server", s))
+                                elif isinstance(s, dict):
+                                    s_url = s.get("url") or s.get("link") or s.get("m3u8") or ""
+                                    s_name = s.get("name") or "Server"
+                                    if s_url.startswith("http"):
+                                        streams.append((s_name, s_url))
+
+                    # Nếu không tìm thấy mảng streams, quét nhanh trong object tìm link .m3u8
+                    if not streams:
+                        for sub_k, sub_v in match.items():
+                            if isinstance(sub_v, str) and sub_v.startswith("http") and (".m3u8" in sub_v or ".ts" in sub_v or "live" in sub_v):
+                                streams.append(("Server", sub_v))
+
                     referer = match.get("Referer") or match.get("referer") or ""
                     ua = match.get("user_agent") or "Mozilla/5.0"
 
-                    if not stream_url:
-                        for sub_k, sub_v in match.items():
-                            if isinstance(sub_v, str) and sub_v.startswith("http") and (".m3u8" in sub_v or ".ts" in sub_v or "live" in sub_v):
-                                stream_url = sub_v
-                                break
+                    for s_name, s_url in streams:
+                        s_lower = s_url.lower()
+                        if any(ext in s_lower for ext in ['.png', '.jpg', '.jpeg', '.webp', '.gif']):
+                            continue
 
-                    if stream_url and isinstance(stream_url, str) and stream_url.startswith("http"):
-                        s_lower = stream_url.lower()
-                        is_image = any(ext in s_lower for ext in ['.png', '.jpg', '.jpeg', '.webp', '.gif'])
-                        
-                        if not is_image:
-                            if stream_url not in seen_links:
-                                seen_links.add(stream_url.strip())
+                        if s_url not in seen_links:
+                            seen_links.add(s_url.strip())
+                            
+                            item_title = f"{display_title} [{s_name}]" if len(streams) > 1 and s_name != "Server chính" else display_title
+                            
+                            m3u_content += f"#EXTINF:-1 tvg-logo=\"{logo}\" group-title=\"{prov_name}\",{item_title}\n"
+                            
+                            final_link = s_url.strip()
+                            if referer:
+                                final_link = f"{s_url.strip()}|User-Agent={ua}&Referer={referer.strip()}"
+                            elif ua != "Mozilla/5.0":
+                                final_link = f"{s_url.strip()}|User-Agent={ua}"
                                 
-                                m3u_content += f"#EXTINF:-1 tvg-logo=\"{logo}\" group-title=\"{prov_name}\",{match_title}\n"
-                                
-                                final_link = stream_url.strip()
-                                if referer:
-                                    final_link = f"{stream_url.strip()}|User-Agent={ua}&Referer={referer.strip()}"
-                                elif ua != "Mozilla/5.0":
-                                    final_link = f"{stream_url.strip()}|User-Agent={ua}"
-                                    
-                                m3u_content += f"{final_link}\n"
-                                count += 1
+                            m3u_content += f"{final_link}\n"
+                            count += 1
 
-            # Vét cạn dự phòng để chắc chắn không bao giờ bị 0 luồng
+            # Fallback vét cạn nếu danh sách rỗng
             if count == 0:
-                print("Chạy quét vét cạn dự phòng toàn bộ JSON...")
-                def recursive_search(node, current_group="Trực Tiếp"):
+                print("Chạy quét fallback dự phòng...")
+                def recursive_fallback(node, group="Trực Tiếp"):
                     nonlocal count, m3u_content, seen_links
                     if isinstance(node, list):
                         for item in node:
-                            recursive_search(item, current_group)
+                            recursive_fallback(item, group)
                     elif isinstance(node, dict):
-                        g = node.get("name") or node.get("title") or current_group
+                        g = node.get("name") or node.get("title") or group
                         u = node.get("url") or node.get("stream_url") or node.get("m3u8") or ""
-                        h = node.get("href") or ""
-                        if u and isinstance(u, str) and u.startswith("http") and not any(ext in u.lower() for ext in ['.png', '.jpg', '.webp']):
+                        if u and isinstance(u, str) and u.startswith("http") and (".m3u8" in u or "live" in u):
                             if u not in seen_links:
                                 seen_links.add(u)
-                                title = parse_slug_to_title(h) if h else "Trận đấu trực tiếp"
+                                t = node.get("title") or node.get("match_name") or "Trận đấu trực tiếp"
                                 logo = node.get("home_logo") or node.get("logo") or ""
                                 ref = node.get("Referer") or node.get("referer") or ""
                                 
-                                m3u_content += f"#EXTINF:-1 tvg-logo=\"{logo}\" group-title=\"{g}\",{title}\n"
-                                final_link = u
-                                if ref:
-                                    final_link = f"{u}|Referer={ref}"
+                                m3u_content += f"#EXTINF:-1 tvg-logo=\"{logo}\" group-title=\"{g}\",{t}\n"
+                                final_link = f"{u}|Referer={ref}" if ref else u
                                 m3u_content += f"{final_link}\n"
                                 count += 1
                         for sub_k, sub_v in node.items():
                             if isinstance(sub_v, (list, dict)):
-                                recursive_search(sub_v, g)
-                recursive_search(data)
+                                recursive_fallback(sub_v, g)
+                recursive_fallback(data)
 
             with open('playlist.m3u', 'w', encoding='utf-8') as f:
                 f.write(m3u_content)
                 
-            print(f"Đã tạo xong file playlist.m3u với {count} luồng trận đấu chuẩn xác tuyệt đối!")
+            print(f"Đã tạo xong file playlist.m3u với {count} luồng trận đấu đầy đủ thông tin!")
             
         else:
             print(f"Lỗi HTTP: {response.status_code}")
