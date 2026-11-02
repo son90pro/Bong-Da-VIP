@@ -1,186 +1,46 @@
 #EXTM3U x-tvg-url=""
-#EXTINF:-1 tvg-logo="" group-title="Xôi Lạc TV",Trận đấu trực tiếp
-https://almafestival.info/
-#EXTINF:-1 tvg-logo="" group-title="Casper Ruud vs Juan Manuel Cerundolo",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/tennis/team/vjxm85fpv09m6od/image/small
+#EXTINF:-1 tvg-logo="" group-title="BLV VIC",Trận đấu trực tiếp
+https://live2.jorvakstreamcache.com/live/channel32.m3u8
+#EXTINF:-1 tvg-logo="" group-title="BLV VIC (HD)",Trận đấu trực tiếp
+https://live2.domaincdn.cc/livecdn/channel-32.m3u8?auth_key=3000001793631189-0-0-b6c1fa14f51955d897c04ff82dc63dfc
 #EXTINF:-1 tvg-logo="" group-title="BLV LUCAS",Trận đấu trực tiếp
 https://live2.jorvakstreamcache.com/live/channel31.m3u8
 #EXTINF:-1 tvg-logo="" group-title="BLV LUCAS (HD)",Trận đấu trực tiếp
-https://live2.domaincdn.cc/livecdn/channel-31.m3u8?auth_key=3000001793630889-0-0-f8542543fb298036c7c2e856d6dd6113
-#EXTINF:-1 tvg-logo="" group-title="Tenerife vs Andorra CF",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/football/team/z8yomo4hj41q0j6/image/small
+https://live2.domaincdn.cc/livecdn/channel-31.m3u8?auth_key=3000001793631196-0-0-74d397b461fb7dbefff34f351bc6c10d
 #EXTINF:-1 tvg-logo="" group-title="BLV Server 1 (HD)",Trận đấu trực tiếp
-https://live1.quickscoreboardz.com/live/channel30/playlist.m3u8?wsSecret=f6579e38236929a51078ff0c83822933&wsABSTime=1793674087
-#EXTINF:-1 tvg-logo="" group-title="Marko vs Apollon Kalamarias F.C.",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/football/team/vjxm8ghjjozr6od/image/small
+https://live1.quickscoreboardz.com/live/channel30/playlist.m3u8?wsSecret=52cb93bfe3d2f5cc6017e30b43bd41ec&wsABSTime=1793674388
 #EXTINF:-1 tvg-logo="" group-title="BLV Server 1 (HD)",Trận đấu trực tiếp
-https://live1.quickscoreboardz.com/live/channel20/playlist.m3u8?wsSecret=db63bf9348a8176077c9cbe97d65ef44&wsABSTime=1793674079
-#EXTINF:-1 tvg-logo="" group-title="Mashujaa FC vs Pamba Jiji",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/football/team/ednm9whvx4kryox/image/small
+https://live1.quickscoreboardz.com/live/channel6/playlist.m3u8?wsSecret=94313b9d580d88a86fa093c735e16838&wsABSTime=1793674387
 #EXTINF:-1 tvg-logo="" group-title="BLV Server 1 (HD)",Trận đấu trực tiếp
-https://live1.quickscoreboardz.com/live/channel21/playlist.m3u8?wsSecret=1f2c599716d15ff52013b40dcf8d99f2&wsABSTime=1793674079
-#EXTINF:-1 tvg-logo="" group-title="Pakhtakor vs Al Nassr",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/football/team/dj2ryohk27yq1zp/image/small
+https://live1.quickscoreboardz.com/live/channel20/playlist.m3u8?wsSecret=ed7562226db3cb948b90e2842fb9bacd&wsABSTime=1793674387
+#EXTINF:-1 tvg-logo="" group-title="BLV Server 1 (HD)",Trận đấu trực tiếp
+https://live1.quickscoreboardz.com/live/channel74/playlist.m3u8?wsSecret=1977fc13027c13b0d2bd2467baf3b58d&wsABSTime=1793674388
+#EXTINF:-1 tvg-logo="" group-title="BLV Server 1 (HD)",Trận đấu trực tiếp
+https://live1.quickscoreboardz.com/live/channel21/playlist.m3u8?wsSecret=3a6c2f37f53422fbeefdc6dfeafd9129&wsABSTime=1793674387
+#EXTINF:-1 tvg-logo="" group-title="BLV Server 1 (HD)",Trận đấu trực tiếp
+https://live1.quickscoreboardz.com/live/channel57/playlist.m3u8?wsSecret=d8ecb3f1d3d9a9acf8f84a8638cd94c5&wsABSTime=1793674388
 #EXTINF:-1 tvg-logo="" group-title="BLV ROY",Trận đấu trực tiếp
 https://live2.jorvakstreamcache.com/live/channel1.m3u8
 #EXTINF:-1 tvg-logo="" group-title="BLV FELIX",Trận đấu trực tiếp
-https://live2.domaincdn.cc/livecdn/channel-24.m3u8?auth_key=3000001793630880-0-0-948b42532ea84410b00fa44007a00f54
+https://live2.domaincdn.cc/livecdn/channel-24.m3u8?auth_key=3000001793631189-0-0-0cef34f79e7f696aa585797f1f6a89fe
 #EXTINF:-1 tvg-logo="" group-title="BLV FELIX",Trận đấu trực tiếp
-https://live1.quickscoreboardz.com/live/channel24/playlist.m3u8?wsSecret=e2caf44aa61c7feac6a6ab2a539dd9f3&wsABSTime=1793674081
+https://live1.quickscoreboardz.com/live/channel24/playlist.m3u8?wsSecret=06902fcfe1d66eaf0941fc0c999a0a4f&wsABSTime=1793674389
 #EXTINF:-1 tvg-logo="" group-title="BLV ROY (FULL HD)",Trận đấu trực tiếp
-https://live2.domaincdn.cc/livecdn/channel-1.m3u8?auth_key=3000001793630881-0-0-390fe8b472b1fac9226db277f23e7370
-#EXTINF:-1 tvg-logo="" group-title="Nữ ZFK Spartak Subotica vs Nữ ZFK TSC",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/football/team/y0or5jhlzl5qwzv/image/small
+https://live2.domaincdn.cc/livecdn/channel-1.m3u8?auth_key=3000001793631190-0-0-0126236a016e13ffbcb43250d033eeca
 #EXTINF:-1 tvg-logo="" group-title="BLV Server 1 (HD)",Trận đấu trực tiếp
-https://live1.quickscoreboardz.com/live/channel39/playlist.m3u8?wsSecret=573e5397877c11f923f6dff841ec170a&wsABSTime=1793674087
-#EXTINF:-1 tvg-logo="" group-title="Al Jeel vs Al Najma(KSA)",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/football/team/l5ergphow7pr8k0/image/small
-#EXTINF:-1 tvg-logo="" group-title="BLV POLO",Trận đấu trực tiếp
-https://live2.jorvakstreamcache.com/live/channel10.m3u8
-#EXTINF:-1 tvg-logo="" group-title="BLV POLO (HD)",Trận đấu trực tiếp
-https://live2.domaincdn.cc/livecdn/channel-10.m3u8?auth_key=3000001793630887-0-0-ad159479824563458841d82e6e9b619a
-#EXTINF:-1 tvg-logo="" group-title="Hokori vs Team Synapse",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/dota2/team/4wyrnxki82x2m86/image/small
-#EXTINF:-1 tvg-logo="" group-title="Hà Nội vs LP Bank Ninh Bình",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/volleyball/team/zp5rzdhjz82wq82/image/small
-#EXTINF:-1 tvg-logo="" group-title="Mattia Bellucci vs Lorenzo Sonego",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/tennis/team/8yomojfzn5yq0j6/image/small
-#EXTINF:-1 tvg-logo="" group-title="Kyrian Jacquet vs Tomas Machac",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/tennis/team/jw2r0jfwlx0mz84/image/small
-#EXTINF:-1 tvg-logo="" group-title="Al Zulfi vs Al-Jandal",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/football/team/l5ergphp3l7r8k0/image/small
-#EXTINF:-1 tvg-logo="" group-title="Cherno More Varna vs Botev Vratsa",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/football/team/p4jwq2ghyddm0ve/image/small
-#EXTINF:-1 tvg-logo="" group-title="Krylya Sovetov vs Zenit St. Petersburg",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/football/team/jednm9wh42dryox/image/small
-#EXTINF:-1 tvg-logo="" group-title="Torpedo Kutaisi vs Dila Gori",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/football/team/4wyrn4h8825q86p/image/small
-#EXTINF:-1 tvg-logo="" group-title="Al-Shabbab vs Al-Tadhmon",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/football/team/965mkyh742jr1ge/image/small
-#EXTINF:-1 tvg-logo="" group-title="Um Alhassam vs Bahrain SC",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/football/team/2y8m4zhzze3ql07/image/small
-#EXTINF:-1 tvg-logo="" group-title="Sumgayit FK vs Safa Baku",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/football/team/gpxwrxlhk33ryk0/image/small
-#EXTINF:-1 tvg-logo="" group-title="FK Dubocica vs Vozdovac Beograd",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/football/team/dn1m1ghn2y1moep/image/small
-#EXTINF:-1 tvg-logo="" group-title="Wadi Degla SC vs Zamalek",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/football/team/y0or5jhlkkyqwzv/image/small
-#EXTINF:-1 tvg-logo="" group-title="Nữ USFAS Bamako vs Nữ Ampem Darkoa",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/football/team/ednm9whe5d6ryox/image/small
-#EXTINF:-1 tvg-logo="" group-title="Petkim Spor vs Anadolu Efes1976",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/basketball/team/v2y8m4pt266ml07/image/small
-#EXTINF:-1 tvg-logo="" group-title="Al-Rayyan vs Qatar Sports",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/volleyball/team/z318q67h5g1ro9j/image/small
-#EXTINF:-1 tvg-logo="" group-title="Misa vs Psychoface",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/csgo/team/4wyrnxzf82wlm86/image/small
-#EXTINF:-1 tvg-logo="" group-title="Alex Molcan vs Titouan Droguet",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/tennis/team/n54ql4fj301rvy9/image/small
-#EXTINF:-1 tvg-logo="" group-title="Natus Vincere vs Nemiga Gaming",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/dota2/team/1l4rjektez9m7vx/image/small
-#EXTINF:-1 tvg-logo="" group-title="Zenit Petersburg vs KK Igokea",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/basketball/team/vl7oqd4tzwwq510/image/small
-#EXTINF:-1 tvg-logo="" group-title="Nữ Nurmon Jymy vs Nữ Kangasala",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/volleyball/team/jednm9vh4jwqyox/image/small
-#EXTINF:-1 tvg-logo="" group-title="Nữ TTT Riga vs Nữ Elitzur Ramla",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/basketball/team/p3glrwyt2pxqdyj/image/small
-#EXTINF:-1 tvg-logo="" group-title="Nữ Besiktas JK vs Nữ Maccabi Ashdod",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/basketball/team/jednm9kty77ryox/image/small
-#EXTINF:-1 tvg-logo="" group-title="Qatar SC vs Al Ahli",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/basketball/team/y39mp4t3ykvmojx/image/small
-#EXTINF:-1 tvg-logo="" group-title="Besiktas vs Cayirova Belediyesi",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/basketball/team/gx7lm73td10r2wd/image/small
-#EXTINF:-1 tvg-logo="" group-title="Mckis Jaworzno vs BKS Visła Bydgoszcz",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/volleyball/team/9dn1m1nhyx9qoep/image/small
-#EXTINF:-1 tvg-logo="" group-title="Würzburg vs Tartu Ulikool",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/basketball/team/965mk8t7x07m1ge/image/small
-#EXTINF:-1 tvg-logo="" group-title="Denis Shapovalov vs Karen Khachanov",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/tennis/team/dj2ry1fg8zkr1zp/image/small
-#EXTINF:-1 tvg-logo="" group-title="Nữ Hartberg vs Nữ UVC Graz",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/volleyball/team/4zp5rzdhv2kq82w/image/small
-#EXTINF:-1 tvg-logo="" group-title="Lfo 10 vs Illyrians",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/csgo/team/vjxm89wu40knq6o/image/small
-#EXTINF:-1 tvg-logo="" group-title="Nữ Odense Volleyball 2 vs Nữ Brondby",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/volleyball/team/pxwrxdhgzxnvmyk/image/small
-#EXTINF:-1 tvg-logo="" group-title="America Volei vs Norde Volei",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/volleyball/team/gpxwrxdh671myk0/image/small
-#EXTINF:-1 tvg-logo="" group-title="Gamerlegion vs CyberHero",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/dota2/team/4wyrnxki81d0m86/image/small
-#EXTINF:-1 tvg-logo="" group-title="Pallacanestro Cantù vs Olimpia Milano",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/basketball/team/e4wyrn1t135q86p/image/small
-#EXTINF:-1 tvg-logo="" group-title="Ugo Humbert vs Botic van de Zandschulp",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/tennis/team/x7lm7nfpzn2q2wd/image/small
-#EXTINF:-1 tvg-logo="" group-title="Nữ Mogilno vs Nữ MKS Kalisz",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/volleyball/team/4wyrn3hn6nkm86p/image/small
-#EXTINF:-1 tvg-logo="" group-title="Nữ VLI vs Nữ Gentofte",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/volleyball/team/p4jwq23h25gr0ve/image/small
-#EXTINF:-1 tvg-logo="" group-title="Nữ Novara vs Nữ Brescia",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/volleyball/team/8y39mpwhg5lqojx/image/small
-#EXTINF:-1 tvg-logo="" group-title="Sao Jose vs Fortaleza B. C.",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/basketball/team/dj2ry7tkyxkr1zp/image/small
-#EXTINF:-1 tvg-logo="" group-title="SESI-SP vs Praia Clube",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/volleyball/team/z8yomoxhwxem0j6/image/small
-#EXTINF:-1 tvg-logo="" group-title="Illinois-Chicago vs St. Francis(ILL)",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/basketball/team/9vjxm8xty96q6od/image/small
-#EXTINF:-1 tvg-logo="" group-title="Cleveland Cavaliers vs Oklahoma City Thunder",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/basketball/team/gy0or5gtd87qwzv/image/small
-#EXTINF:-1 tvg-logo="" group-title="New York Knicks vs Brooklyn Nets",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/basketball/team/e4wyrn1t16oq86p/image/small
-#EXTINF:-1 tvg-logo="" group-title="Philadelphia 76ers vs Chicago Bulls",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/basketball/team/yl5ergytj4wr8k0/image/small
-#EXTINF:-1 tvg-logo="" group-title="Indiana Pacers vs Atlanta Hawks",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/basketball/team/56ypq3ktdvomd7o/image/small
-#EXTINF:-1 tvg-logo="" group-title="Charlotte Hornets vs Detroit Pistons",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/basketball/team/vl7oqd4tzgjq510/image/small
-#EXTINF:-1 tvg-logo="" group-title="Orlando Magic vs Washington Wizards",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/basketball/team/v2y8m4ptd5eml07/image/small
-#EXTINF:-1 tvg-logo="" group-title="Minnesota Timberwolves vs Milwaukee Bucks",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/basketball/team/p4jwq25tdwxq0ve/image/small
-#EXTINF:-1 tvg-logo="" group-title="Dallas Mavericks vs Sacramento Kings",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/basketball/team/4zp5rzkte37r82w/image/small
-#EXTINF:-1 tvg-logo="" group-title="Nữ IBK vs Nữ Hyundai Hillstate",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/volleyball/team/9k82redh51eqepz/image/small
-#EXTINF:-1 tvg-logo="" group-title="Ziraat Bankasi vs Sungurlu",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/volleyball/team/j1l4rjdh7e8r7vx/image/small
-#EXTINF:-1 tvg-logo="" group-title="Top Esports vs Invictus Gaming",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/lol/team/965mk6zt7d83q1g/image/small
-#EXTINF:-1 tvg-logo="" group-title="Gen.G Esports vs Lyon Gaming",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/lol/team/k82repjtvpxzqep/image/small
-#EXTINF:-1 tvg-logo="" group-title="Dplus vs Bilibili Gaming",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/lol/team/23xmvxjt3nj2rg8/image/small
-#EXTINF:-1 tvg-logo="" group-title="Karmine Corp vs T1",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/lol/team/318q6g8to50vro9/image/small
-#EXTINF:-1 tvg-logo="" group-title="Romania U17 vs Đảo Síp U17",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/football/team/4wyrn4h8255q86p/image/small
-#EXTINF:-1 tvg-logo="" group-title="FC Vardar Skopje vs Vlazrimi Struga",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/football/team/kdj2ryoh38yq1zp/image/small
-#EXTINF:-1 tvg-logo="" group-title="Bokelj Kotor vs FK Buducnost Podgorica",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/football/team/vjxm8gh4w8lr6od/image/small
-#EXTINF:-1 tvg-logo="" group-title="FC Noah B vs Pyunik B",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/football/team/dn1m1gh82gnmoep/image/small
-#EXTINF:-1 tvg-logo="" group-title="Pinheiros Sao Paolo vs Caxias do Sul",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/basketball/team/kdj2ry7t6j1r1zp/image/small
-#EXTINF:-1 tvg-logo="" group-title="Brasília vs Botafogo",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/basketball/team/e4wyrn1tpd0q86p/image/small
-#EXTINF:-1 tvg-logo="" group-title="Cameron Norrie vs Matteo Arnaldi",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/tennis/team/4jwq2pfx9x6m0ve/image/small
-#EXTINF:-1 tvg-logo="" group-title="Daniel Merida Aguilar vs Sebastian Baez",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/tennis/team/vjxm85fp698m6od/image/small
-#EXTINF:-1 tvg-logo="" group-title="Robert GallowayAndre Goransson vs Benjamin BonziArthur Rinderknech",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/tennis/team/6ypq3pf12eerd7o/image/small
-#EXTINF:-1 tvg-logo="" group-title="Police Club vs Al-Ahli",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/volleyball/team/z8yomoxhde9m0j6/image/small
-#EXTINF:-1 tvg-logo="" group-title="OG vs Yellow Submarine",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/dota2/team/jw2r08et1nvqz84/image/small
-#EXTINF:-1 tvg-logo="" group-title="Giờ Vàng TV",Trận đấu trực tiếp
-https://giovang.love
+https://live1.quickscoreboardz.com/live/channel39/playlist.m3u8?wsSecret=ee9f35e483defea9c247a59955a5fe6c&wsABSTime=1793674388
+#EXTINF:-1 tvg-logo="" group-title="BLV Server 1 (HD)",Trận đấu trực tiếp
+https://live1.quickscoreboardz.com/live/channel40/playlist.m3u8?wsSecret=117e1434ff52ebd973d0df225e13ca51&wsABSTime=1793674380
+#EXTINF:-1 tvg-logo="" group-title="BLV Server 1 (HD)",Trận đấu trực tiếp
+https://live1.quickscoreboardz.com/live/channel49/playlist.m3u8?wsSecret=712e44af8a309000a9d4683e1bff1cf1&wsABSTime=1793674388
 #EXTINF:-1 tvg-logo="" group-title="Ben",Trận đấu trực tiếp
 https://pzhgifbkllliv.vcdn.cloud/1793446590_hd/1793446590_hd@720p.m3u8
 #EXTINF:-1 tvg-logo="" group-title="Khô Gà TV",Trận đấu trực tiếp
 https://khoga1.live/
-#EXTINF:-1 tvg-logo="" group-title="BLV Xôi Gấc",Trận đấu trực tiếp
-https://livecdn321.cdnfastter.xyz/live/live_5e3f2549e4/index.m3u8?token=pCk_XLBJTDboKaC3LME17XPjU4pgaPXEOkc_CroCj0U&expires=1852800615
 #EXTINF:-1 tvg-logo="" group-title="BLV Khô Chè",Trận đấu trực tiếp
 https://livecdn321.cdnfastter.xyz/live/live_a7657aeb05/index.m3u8?token=JhV-r8e3ccnFy-WcOqY4LotVZyi-effj_AKbg9uCVjU&expires=1852800615
+#EXTINF:-1 tvg-logo="" group-title="BLV Xôi Gấc",Trận đấu trực tiếp
+https://livecdn321.cdnfastter.xyz/live/live_5e3f2549e4/index.m3u8?token=pCk_XLBJTDboKaC3LME17XPjU4pgaPXEOkc_CroCj0U&expires=1852800615
 #EXTINF:-1 tvg-logo="" group-title="BLV Khô Mật",Trận đấu trực tiếp
 https://livecdn321.cdnfastter.xyz/live/live_b30ba5315c/index.m3u8?token=ZNaU8SPI--3-JASIZXv-JImAVGukJOEv6T9_GMWMfU0&expires=1852800615
 #EXTINF:-1 tvg-logo="" group-title="BLV Tam Mao",Trận đấu trực tiếp
@@ -195,6 +55,8 @@ https://livecdn321.cdnfastter.xyz/live/live_09982ecf49/index.m3u8?token=5VclvTpM
 https://livecdn321.cdnfastter.xyz/live/live_f3d9c6a005/index.m3u8?token=rr1el4pzxOrMeroS7m-gXYnBMw8InO7dtXeJtJksyhA&expires=1852800615
 #EXTINF:-1 tvg-logo="" group-title="BLV Khô Cá",Trận đấu trực tiếp
 https://livecdn321.cdnfastter.xyz/live/live_062e5de010/index.m3u8?token=M6vDly-jvMUtRrO3xVQUwWJozWVPDQ0yVqDBWtZUbgM&expires=1852800615
+#EXTINF:-1 tvg-logo="" group-title="Ziraat Bankkart vs Sungurlu Belediyesi Spor",Trận đấu trực tiếp
+https://khoga1.live/media/teams/logos/ziraat-bankkart-vb.png
 #EXTINF:-1 tvg-logo="" group-title="Chuối Chiên TV",Trận đấu trực tiếp
 https://live11.chuoichientv.me/
 #EXTINF:-1 tvg-logo="" group-title="Chuối Lá HD1",Trận đấu trực tiếp
@@ -239,8 +101,6 @@ https://gckc0525.edgemaxcdn.org/live/chuoigia/playlist.m3u8
 https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoigiahd/playlist.m3u8
 #EXTINF:-1 tvg-logo="" group-title="Chuối Già FHD",Trận đấu trực tiếp
 https://gckc0525.edgemaxcdn.org/live/chuoigiahd/playlist.m3u8
-#EXTINF:-1 tvg-logo="" group-title="Sao Kê TV",Trận đấu trực tiếp
-https://shophyip.com/
 #EXTINF:-1 tvg-logo="" group-title="BLV C2",Trận đấu trực tiếp
 https://live05.miekgo.app/live/08552895.m3u8
 #EXTINF:-1 tvg-logo="" group-title="BLV C2 Server 2",Trận đấu trực tiếp
@@ -250,25 +110,31 @@ https://live05.miekgo.app/live/14830711.m3u8
 #EXTINF:-1 tvg-logo="" group-title="BLV GIÀ LÀNG Server 2",Trận đấu trực tiếp
 https://live05.yefpwmc.app/live/14830711_tsc.m3u8
 #EXTINF:-1 tvg-logo="" group-title="Server gốc",Trận đấu trực tiếp
-https://live.hztx2020.com/live/14338712_6c522cfd01e996ef8e822dcf7d779f8f_autoChange.m3u8?auth_key=1793645304-0-0-83153b4e5bd492fdceef49ff67a8a7f4
+https://live.hztx2020.com/live/14338712_6c522cfd01e996ef8e822dcf7d779f8f_autoChange.m3u8?auth_key=1793645348-0-0-22959a0e81e6cf47adaf722d7e67989b
 #EXTINF:-1 tvg-logo="" group-title="BLV MOUNTAIN DEW",Trận đấu trực tiếp
 https://live05.miekgo.app/live/87547578.m3u8
 #EXTINF:-1 tvg-logo="" group-title="BLV MOUNTAIN DEW Server 2",Trận đấu trực tiếp
 https://live05.yefpwmc.app/live/87547578_tsc.m3u8
 #EXTINF:-1 tvg-logo="" group-title="Server gốc",Trận đấu trực tiếp
-https://live.hztx2020.com/live/14228443_4be4cc57faa6b23aacbcd12b789f405a_autoChange.m3u8?auth_key=1793645303-0-0-9175427fa62bfc4807200bba835598f2
+https://live.hztx2020.com/live/14228443_4be4cc57faa6b23aacbcd12b789f405a_autoChange.m3u8?auth_key=1793645348-0-0-8f26c17fcc0bc3d43b5e93f457365def
 #EXTINF:-1 tvg-logo="" group-title="BLV AQUA",Trận đấu trực tiếp
 https://live05.miekgo.app/live/18812304.m3u8
 #EXTINF:-1 tvg-logo="" group-title="BLV AQUA Server 2",Trận đấu trực tiếp
 https://live05.yefpwmc.app/live/18812304_tsc.m3u8
+#EXTINF:-1 tvg-logo="" group-title="Server gốc",Trận đấu trực tiếp
+https://live.hztx2020.com/live/14228444_cadf268c6c087152d2d22d1e7d82e1bd_autoChange.m3u8?auth_key=1793645348-0-0-5410ceb29e6be06f8f929d5a35d3248d
 #EXTINF:-1 tvg-logo="" group-title="BLV 7UP",Trận đấu trực tiếp
 https://live05.miekgo.app/live/78905744.m3u8
 #EXTINF:-1 tvg-logo="" group-title="BLV 7UP Server 2",Trận đấu trực tiếp
 https://live05.yefpwmc.app/live/78905744_tsc.m3u8
+#EXTINF:-1 tvg-logo="" group-title="Server gốc",Trận đấu trực tiếp
+https://live2.hztx2020.com/live/72334396_1991297cf7a25761d1d85e9da7b4c1a1_autoChange.m3u8?auth_key=1793645348-0-0-85b67619527f849d95a2ec10bb423298
 #EXTINF:-1 tvg-logo="" group-title="BLV SAMURAI",Trận đấu trực tiếp
 https://live05.miekgo.app/live/07808742.m3u8
 #EXTINF:-1 tvg-logo="" group-title="BLV SAMURAI Server 2",Trận đấu trực tiếp
 https://live05.yefpwmc.app/live/07808742_tsc.m3u8
+#EXTINF:-1 tvg-logo="" group-title="Server gốc",Trận đấu trực tiếp
+https://live.hztx2020.com/live/14215759_2f6015e3f03442c2f6d95ba2b0f49789_autoChange.m3u8?auth_key=1793645348-0-0-47e6f278c9e932fe1cc59397f6cc50cb
 #EXTINF:-1 tvg-logo="" group-title="BLV REDBULL",Trận đấu trực tiếp
 https://live05.miekgo.app/live/49572724.m3u8
 #EXTINF:-1 tvg-logo="" group-title="BLV REDBULL Server 2",Trận đấu trực tiếp
@@ -329,672 +195,72 @@ https://live05.yefpwmc.app/live/89756030_tsc.m3u8
 https://live05.miekgo.app/live/75915087.m3u8
 #EXTINF:-1 tvg-logo="" group-title="BLV MONSTER Server 2",Trận đấu trực tiếp
 https://live05.yefpwmc.app/live/75915087_tsc.m3u8
-#EXTINF:-1 tvg-logo="" group-title="Sút Bóng TV",Trận đấu trực tiếp
-https://sutbongtv.my/
 #EXTINF:-1 tvg-logo="" group-title="TẠ BIÊN GIỚI",Trận đấu trực tiếp
-https://pull.niues.live/live/stream-9912144_lhd.m3u8?auth_key=1793634512-0-0-2c127c05b4c2788bf352a0355242a298
+https://pull.niues.live/live/stream-9912144_lhd.m3u8?auth_key=1793635117-0-0-06168ce09db5a2a4e7e023153134f55a
 #EXTINF:-1 tvg-logo="" group-title="RICKHANTER",Trận đấu trực tiếp
-https://pull.niues.live/live/stream-9912122_lhd.m3u8?auth_key=1793634512-0-0-e5b015837c19ecfbca518548f06a2d97
+https://pull.niues.live/live/stream-9912122_lhd.m3u8?auth_key=1793635117-0-0-d3ee0964d4dfb57f086297a12a475258
 #EXTINF:-1 tvg-logo="" group-title="BLV TAP",Trận đấu trực tiếp
-https://pull.niur.live/live/stream-9912041_lhd.m3u8?txSecret=4c9ef00f77711721ba355cc91300df23&txTime=6ae8f720
+https://pull.niur.live/live/stream-9912041_lhd.m3u8?txSecret=1b8a659aa25805c6716b1d532113488b&txTime=6ae8f97d
 #EXTINF:-1 tvg-logo="" group-title="ZIZOU",Trận đấu trực tiếp
-https://pull.niues.live/live/stream-9912145_lhd.m3u8?auth_key=1793634512-0-0-d20c1b85bfb4c2faed51cf2a98667d22
+https://pull.niues.live/live/stream-9912145_lhd.m3u8?auth_key=1793635117-0-0-45ec92e1f1fbefe6f3bead0ade682faf
 #EXTINF:-1 tvg-logo="" group-title="BLV CUỘI",Trận đấu trực tiếp
-https://pull.niues.live/live/stream-9912146_lhd.m3u8?auth_key=1793634512-0-0-dba34ba4fa11a56ca1c925d42db6c7a2
+https://pull.niues.live/live/stream-9912146_lhd.m3u8?auth_key=1793635117-0-0-91e64586822ff144b367649dcb178076
 #EXTINF:-1 tvg-logo="" group-title="BLV Củ Cải",Trận đấu trực tiếp
-https://pull.niues.live/live/stream-9912091_lhd.m3u8?auth_key=1793634512-0-0-e3c364787e3c07d5fd1af991e011c3c2
+https://pull.niues.live/live/stream-9912091_lhd.m3u8?auth_key=1793635117-0-0-be02cafe85815f999dfb6765445abfe1
 #EXTINF:-1 tvg-logo="" group-title="BLV PEWPEW",Trận đấu trực tiếp
-https://pull.niues.live/live/stream-9912135_lhd.m3u8?auth_key=1793634512-0-0-cc7d7387fb2627454407e51e1c1bc301
+https://pull.niues.live/live/stream-9912135_lhd.m3u8?auth_key=1793635117-0-0-8e253dd574b9723645e08346bc7f34d7
 #EXTINF:-1 tvg-logo="" group-title="REDBULL",Trận đấu trực tiếp
-https://pull.niues.live/live/stream-9912131_lhd.m3u8?auth_key=1793634512-0-0-9403c5188cd7fe4fa3eb420cd2bfe8d2
+https://pull.niues.live/live/stream-9912131_lhd.m3u8?auth_key=1793635117-0-0-dff86fc15fb422b2100b66664f41e0e8
 #EXTINF:-1 tvg-logo="" group-title="BLV GIÓ",Trận đấu trực tiếp
-https://pull.niur.live/live/stream-321443_lhd.m3u8?txSecret=510630789b20a2118f5b458ddadd680d&txTime=6ae8f720
+https://pull.niur.live/live/stream-321443_lhd.m3u8?txSecret=eeaa8f74faf8a723affefac8ba579c92&txTime=6ae8f97d
 #EXTINF:-1 tvg-logo="" group-title="QUỐC KHÁNH",Trận đấu trực tiếp
-https://pull.niur.live/live/stream-9912129_lhd.m3u8?txSecret=0c9eb64b808f1dfabfe618716908c72e&txTime=6ae8f720
+https://pull.niur.live/live/stream-9912129_lhd.m3u8?txSecret=328492e5d3b61ce9204241c2e4b07a7c&txTime=6ae8f97d
+#EXTINF:-1 tvg-logo="" group-title="BC Barnaul Altayskiy Kray vs Tambov",Trận đấu trực tiếp
+https://img.sportbo.live/basketball/team/df24952191ee427526ee2c88c7a8a60a.webp
 #EXTINF:-1 tvg-logo="" group-title="BLV RÔSI",Trận đấu trực tiếp
-https://pull.niur.live/live/stream-9912102_lhd.m3u8?txSecret=58498c0a950193a1a5557c9c8de01673&txTime=6ae8f720
+https://pull.niur.live/live/stream-9912102_lhd.m3u8?txSecret=1457daffc4bb1c13441c9ee5266aa578&txTime=6ae8f97d
 #EXTINF:-1 tvg-logo="" group-title="TYPN",Trận đấu trực tiếp
-https://pull.niues.live/live/stream-9912009_lhd.m3u8?auth_key=1793634512-0-0-6e6a97ab711bf8f1cd7fe398ab4ac57b
+https://pull.niues.live/live/stream-9912009_lhd.m3u8?auth_key=1793635117-0-0-fec6e923d53e29efa7c508935a50881a
 #EXTINF:-1 tvg-logo="" group-title="BLV TOMIA",Trận đấu trực tiếp
-https://pull.niues.live/live/stream-9912008_lhd.m3u8?auth_key=1793634512-0-0-bdd4fd9d487c75ab94a833bc98d12e54
+https://pull.niues.live/live/stream-9912008_lhd.m3u8?auth_key=1793635117-0-0-1024b74e03c011991dc42b9c352ecf95
 #EXTINF:-1 tvg-logo="" group-title="A PÁO",Trận đấu trực tiếp
-https://pull.niues.live/live/stream-235232_lhd.m3u8?auth_key=1793634512-0-0-210c4e543573d3c837fc29db31b7580a
+https://pull.niues.live/live/stream-235232_lhd.m3u8?auth_key=1793635117-0-0-ba815131e37222563a587a878ab175a0
 #EXTINF:-1 tvg-logo="" group-title="BLV KAN",Trận đấu trực tiếp
-https://pull.niur.live/live/stream-283501_lhd.m3u8?txSecret=f822a9248110487d190830aeca67b1cd&txTime=6ae8f720
+https://pull.niur.live/live/stream-283501_lhd.m3u8?txSecret=a8830551fc37480a05db993f1b0cd43b&txTime=6ae8f97d
 #EXTINF:-1 tvg-logo="" group-title="BLV ENZO",Trận đấu trực tiếp
-https://pull.niues.live/live/stream-380460_lhd.m3u8?auth_key=1793634512-0-0-01cfc18ecdc79e5673c66a37f5e4dcce
+https://pull.niues.live/live/stream-380460_lhd.m3u8?auth_key=1793635117-0-0-8398eae6cc6bc68df99fb6e4b9bf8a56
 #EXTINF:-1 tvg-logo="" group-title="TRÀ ĐÁ",Trận đấu trực tiếp
-https://pull.niues.live/live/stream-603914_lhd.m3u8?auth_key=1793634512-0-0-74edfd502ddea4e28527d09200ae2674
+https://pull.niues.live/live/stream-603914_lhd.m3u8?auth_key=1793635117-0-0-c08b409f4f80f569ff90870d58f15ae5
 #EXTINF:-1 tvg-logo="" group-title="KENCHU",Trận đấu trực tiếp
-https://pull.niues.live/live/stream-9912124_lhd.m3u8?auth_key=1793634512-0-0-b0163fc695b7e9be84a375af2a44978e
+https://pull.niues.live/live/stream-9912124_lhd.m3u8?auth_key=1793635117-0-0-b841a1bcc55aac9e510f14487ae29e47
 #EXTINF:-1 tvg-logo="" group-title="THẠCH TÚ",Trận đấu trực tiếp
-https://pull.niur.live/live/stream-9912116_lhd.m3u8?txSecret=878f506218716046b83033a791a6a634&txTime=6ae8f720
+https://pull.niur.live/live/stream-9912116_lhd.m3u8?txSecret=6381d1fe14f4bfcc1890061f7558c893&txTime=6ae8f97d
 #EXTINF:-1 tvg-logo="" group-title="BLV PIRLO",Trận đấu trực tiếp
-https://pull.niur.live/live/stream-9912127_lhd.m3u8?txSecret=28519f76fcb4ee68d4106db3f53a43d2&txTime=6ae8f720
+https://pull.niur.live/live/stream-9912127_lhd.m3u8?txSecret=4a3540ce5cf64a34d5a3f114a703d607&txTime=6ae8f97d
 #EXTINF:-1 tvg-logo="" group-title="CR Bưởi",Trận đấu trực tiếp
-https://pull.niur.live/live/stream-387694_lhd.m3u8?txSecret=1e96aade67563b696e61daff08172454&txTime=6ae8f720
+https://pull.niur.live/live/stream-387694_lhd.m3u8?txSecret=33cf83e2f202ac365ce4f34388face0a&txTime=6ae8f97d
+#EXTINF:-1 tvg-logo="" group-title="BLV BÉO",Trận đấu trực tiếp
+https://pull.niur.live/live/stream-459401_lhd.m3u8?txSecret=9fd168756b1077a5a2cc0e77e48990e7&txTime=6ae8f97d
 #EXTINF:-1 tvg-logo="" group-title="A BỆU",Trận đấu trực tiếp
-https://pull.niues.live/live/stream-9912142_lhd.m3u8?auth_key=1793634512-0-0-c9ec1cbb0ab2d8cbb70a841393c60a20
+https://pull.niues.live/live/stream-9912142_lhd.m3u8?auth_key=1793635117-0-0-a12b1e23fb5ba4d53cdf740d8f350e0f
+#EXTINF:-1 tvg-logo="" group-title="BLV HEHE",Trận đấu trực tiếp
+https://pull.niues.live/live/stream-622241_lhd.m3u8?auth_key=1793635117-0-0-bb67e91da59188e7fa85ecbd5704f93a
 #EXTINF:-1 tvg-logo="" group-title="MP3",Trận đấu trực tiếp
-https://pull.niur.live/live/stream-621840_lhd.m3u8?txSecret=339c9402349916c5ee9527751b1d8fae&txTime=6ae8f720
-#EXTINF:-1 tvg-logo="" group-title="Phá Làng TV",Trận đấu trực tiếp
-https://phalang1.tv/
-#EXTINF:-1 tvg-logo="" group-title="Real Oviedo vs Las Palmas",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/football/team/d23xmvkh562qg8n/image/small
-#EXTINF:-1 tvg-logo="" group-title="Al-Riyadh U21 vs Al Hazm U21",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/football/team/4wyrn4hev4pq86p/image/small
-#EXTINF:-1 tvg-logo="" group-title="Al Feiha Reserves vs Al Kholood U21",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/football/team/318q66hj28xqo9j/image/small
-#EXTINF:-1 tvg-logo="" group-title="Dormaa Unity SC vs Yapei United",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/football/team/x7lm7phppkpm2wd/image/small
-#EXTINF:-1 tvg-logo="" group-title="Flamurtari vs KS Perparimi Kukesi",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/football/team/965mkyh773zr1ge/image/small
-#EXTINF:-1 tvg-logo="" group-title="WAC Casablanca (W) vs Phoenix Marrakech (W)",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/football/team/4jwq2gh70o7m0ve/image/small
-#EXTINF:-1 tvg-logo="" group-title="Hapoel Azor vs MS Jerusalem",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/football/team/4wyrn4h810wq86p/image/small
-#EXTINF:-1 tvg-logo="" group-title="CS Voluntari vs Farul Constanta",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/football/team/1l4rjnh6pgpm7vx/image/small
-#EXTINF:-1 tvg-logo="" group-title="PFK Montana vs Spartak Pleven",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/football/team/l7oqdehn0yvr510/image/small
-#EXTINF:-1 tvg-logo="" group-title="JAC d'Angre vs CO Bouafle",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/football/team/965mkyhzyg4r1ge/image/small
-#EXTINF:-1 tvg-logo="" group-title="FC Dobrudzha Dobrich vs Fratria",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/football/team/318q66ho4zdqo9j/image/small
-#EXTINF:-1 tvg-logo="" group-title="Al Nasr SC vs Al Shabab",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/football/team/965mkyh7816r1ge/image/small
-#EXTINF:-1 tvg-logo="" group-title="Vaasa VPS vs HJK Helsinki",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/football/team/e4wyrn4hp84q86p/image/small
-#EXTINF:-1 tvg-logo="" group-title="FC Karpaty Lviv vs Kudrivka",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/football/team/p4jwq2ghl9km0ve/image/small
-#EXTINF:-1 tvg-logo="" group-title="NK Bravo vs FC Koper",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/football/team/jw2r09hn59drz84/image/small
-#EXTINF:-1 tvg-logo="" group-title="Ostrava B vs Jihlava",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/football/team/x7lm7phkvo8m2wd/image/small
-#EXTINF:-1 tvg-logo="" group-title="Hapoel Nof HaGalil vs Beitar Nahariya",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/football/team/x7lm7phkne1m2wd/image/small
-#EXTINF:-1 tvg-logo="" group-title="FC Diarra vs Djoliba",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/football/team/y0or5jhgx80qwzv/image/small
-#EXTINF:-1 tvg-logo="" group-title="All Boys vs CA Estudiantes",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/football/team/pxwrxlhg087ryk0/image/small
-#EXTINF:-1 tvg-logo="" group-title="Tractor vs Neftchi Fergana",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/football/team/l7oqdehn85er510/image/small
-#EXTINF:-1 tvg-logo="" group-title="Leixoes U23 vs Rio Ave U23",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/football/team/pxwrxlh980oryk0/image/small
-#EXTINF:-1 tvg-logo="" group-title="Atromitos Athens vs Volos NPS",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/football/team/gx7lm7phy23m2wd/image/small
-#EXTINF:-1 tvg-logo="" group-title="Sport Huancayo vs FBC Melgar",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/football/team/dj2ryohk65dq1zp/image/small
-#EXTINF:-1 tvg-logo="" group-title="CD Moron U20 vs CA San Miguel U20",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/football/team/vjxm8gh8981r6od/image/small
-#EXTINF:-1 tvg-logo="" group-title="AS Korofina vs Derby Académie",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/football/team/n54qllh85w5qvy9/image/small
-#EXTINF:-1 tvg-logo="" group-title="Simba SC vs Namungo FC",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/football/team/4jwq2gh4nwlm0ve/image/small
-#EXTINF:-1 tvg-logo="" group-title="Al-Wasl vs Al Quwa Al Jawiya",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/football/team/3glrw7hwnkkqdyj/image/small
+https://pull.niur.live/live/stream-621840_lhd.m3u8?txSecret=a1dc1c1d54287b609c54a3674ec120c9&txTime=6ae8f97d
 #EXTINF:-1 tvg-logo="" group-title="Inter Turku vs Gnistan Helsinki",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/football/team/e4wyrn4hnwnq86p/image/small
-#EXTINF:-1 tvg-logo="" group-title="NK Brezice vs ND Beltinci",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/football/team/n54qllhenn9qvy9/image/small
-#EXTINF:-1 tvg-logo="" group-title="Al Sadd vs Al Ahli",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/football/team/gpxwrxlhdn6ryk0/image/small
-#EXTINF:-1 tvg-logo="" group-title="US Goree vs US Ouakam Dakar",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/football/team/zp5rzgh7l5vq82w/image/small
-#EXTINF:-1 tvg-logo="" group-title="Deportivo Maldonado (R) vs Boston River (R)",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/football/team/3glrw7hyk48qdyj/image/small
-#EXTINF:-1 tvg-logo="" group-title="Nordia Jerusalem vs Kfar Saba 1928",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/football/team/y0or5jh4dv0qwzv/image/small
-#EXTINF:-1 tvg-logo="" group-title="Triglav Kranj vs Krka",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/football/team/l7oqdehn6k8r510/image/small
-#EXTINF:-1 tvg-logo="" group-title="Maccabi Yavne vs Shimshon Tel Aviv",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/football/team/3glrw7hw4zoqdyj/image/small
-#EXTINF:-1 tvg-logo="" group-title="CR Temouchent vs Biskra",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/football/team/y39mp1h3x68mojx/image/small
-#EXTINF:-1 tvg-logo="" group-title="Kayserispor vs Muglaspor",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/football/team/jednm9why8jryox/image/small
-#EXTINF:-1 tvg-logo="" group-title="Nữ Wolfsburg vs Nữ Hoffenheim",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/football/team/4wyrn4h8v49q86p/image/small
-#EXTINF:-1 tvg-logo="" group-title="America PE U19 vs Nautico Capibaribe U19",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/football/team/k82rekh1gekrepz/image/small
-#EXTINF:-1 tvg-logo="" group-title="AS Pompiers vs King Nouakchott",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/football/team/l5ergphn2k8r8k0/image/small
-#EXTINF:-1 tvg-logo="" group-title="Metalac Gornji Milanovac vs Jedinstvo UB",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/football/team/pxwrxlhg9g1ryk0/image/small
-#EXTINF:-1 tvg-logo="" group-title="Ashdod MS vs Bnei Yehuda",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/football/team/gy0or5jh266qwzv/image/small
-#EXTINF:-1 tvg-logo="" group-title="Nữ BK Hacken vs Nữ Kristianstads ",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/football/team/l7oqdeh0d1gr510/image/small
-#EXTINF:-1 tvg-logo="" group-title="Radnicki Nis vs FK Zeleznicar",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/football/team/d23xmvkh5k4qg8n/image/small
-#EXTINF:-1 tvg-logo="" group-title="Radomiak Radom vs Slask Wroclaw",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/football/team/x7lm7phkg1zm2wd/image/small
-#EXTINF:-1 tvg-logo="" group-title="Ipojuca U19 vs Botafogo RJ U19",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/football/team/n54qllhdn7kqvy9/image/small
-#EXTINF:-1 tvg-logo="" group-title="Al-Ahli Tripoli vs Al Khmes",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/football/team/318q66ho3gwqo9j/image/small
-#EXTINF:-1 tvg-logo="" group-title="Genclerbirligi vs Alanyaspor",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/football/team/gx7lm7phd6wm2wd/image/small
-#EXTINF:-1 tvg-logo="" group-title="Nữ Malmo  vs Nữ IFK Norrkoping",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/football/team/23xmvkh3p5jqg8n/image/small
-#EXTINF:-1 tvg-logo="" group-title="Nữ Valerenga vs Nữ Lyn",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/football/team/965mkyh7p19r1ge/image/small
-#EXTINF:-1 tvg-logo="" group-title="Zaglebie Lubin vs Korona Kielce",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/football/team/4zp5rzghek0q82w/image/small
-#EXTINF:-1 tvg-logo="" group-title="EC Vitoria U19 vs zp5rzgh1go3q82w",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/football/team/4wyrn4hd9kvq86p/image/small
-#EXTINF:-1 tvg-logo="" group-title="JK Tallinna Kalev II vs Tartu Kalev",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/football/team/vjxm8gh477pr6od/image/small
-#EXTINF:-1 tvg-logo="" group-title="Atletico Mineiro U19 vs Cruzeiro PB U19",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/football/team/x7lm7phk488m2wd/image/small
-#EXTINF:-1 tvg-logo="" group-title="Oslo Football Academy Dakar vs Dakar FC",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/football/team/x7lm7phwj8lm2wd/image/small
-#EXTINF:-1 tvg-logo="" group-title="Hapoel Raanana vs Kiryat Yam SC",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/football/team/gpxwrxlhk6gryk0/image/small
-#EXTINF:-1 tvg-logo="" group-title="Wanderers FC (R) vs Cerro Largo Reserves",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/football/team/318q66h03y6qo9j/image/small
-#EXTINF:-1 tvg-logo="" group-title="Hapoel Kfar Shalem vs Ironi Modiin",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/football/team/y0or5jhl2xnqwzv/image/small
-#EXTINF:-1 tvg-logo="" group-title="Progreso (R) vs Racing Montevideo (R)",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/football/team/dn1m1ghn1klmoep/image/small
-#EXTINF:-1 tvg-logo="" group-title="Mladost Lucani vs Radnik Surdulica",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/football/team/1l4rjnh67zgm7vx/image/small
-#EXTINF:-1 tvg-logo="" group-title="Polonia Bytom vs Odra Opole",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/football/team/x7lm7phkg91m2wd/image/small
-#EXTINF:-1 tvg-logo="" group-title="Chojniczanka Chojnice vs Avia Swidnik",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/football/team/965mkyh7z44r1ge/image/small
-#EXTINF:-1 tvg-logo="" group-title="Maccabi Jaffa vs Hapoel Kfar Saba",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/football/team/vjxm8gh4e35r6od/image/small
-#EXTINF:-1 tvg-logo="" group-title="M.Lroni Kiryat vs Holon Yermiyahu",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/football/team/965mkyh7x7zr1ge/image/small
-#EXTINF:-1 tvg-logo="" group-title="Real Jaen CF vs Algeciras",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/football/team/z318q66hlk0qo9j/image/small
-#EXTINF:-1 tvg-logo="" group-title="Real Valladolid vs Leganes",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/football/team/gx7lm7phdywm2wd/image/small
-#EXTINF:-1 tvg-logo="" group-title="Sassuolo vs Fiorentina",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/football/team/vjxm8gh49xpr6od/image/small
-#EXTINF:-1 tvg-logo="" group-title="Hapoel Umm Fahm vs Maccabi Nujeidat Ahmed",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/football/team/vjxm8ghg5njr6od/image/small
-#EXTINF:-1 tvg-logo="" group-title="Kalamata vs Iraklis",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/football/team/ednm9whk8yyryox/image/small
-#EXTINF:-1 tvg-logo="" group-title="Cape Town City FC vs Magesi",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/football/team/y0or5jhlpgwqwzv/image/small
-#EXTINF:-1 tvg-logo="" group-title="Arda vs Septemvri Sofia",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/football/team/y39mp1hjw6wmojx/image/small
-#EXTINF:-1 tvg-logo="" group-title="Teuta Durres vs Partizani Tirana",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/football/team/d23xmvkh1zyqg8n/image/small
-#EXTINF:-1 tvg-logo="" group-title="Oster vs Helsingborg",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/football/team/23xmvkh3k8vqg8n/image/small
-#EXTINF:-1 tvg-logo="" group-title="GAIS vs AIK Solna",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/football/team/8y39mp1hl59mojx/image/small
-#EXTINF:-1 tvg-logo="" group-title="Comunicaciones BsAs vs Talleres RE",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/football/team/3glrw7h1w04qdyj/image/small
-#EXTINF:-1 tvg-logo="" group-title="San Martin Burzaco vs UAI Urquiza",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/football/team/gx7lm7ph12em2wd/image/small
-#EXTINF:-1 tvg-logo="" group-title="Liniers vs Ituzaingo",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/football/team/dn1m1ghe0g8moep/image/small
-#EXTINF:-1 tvg-logo="" group-title="Atletico CE vs Vila Real CE",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/football/team/l5ergph386wr8k0/image/small
-#EXTINF:-1 tvg-logo="" group-title="SER Cruz Alta vs Gremio Atletico Farroupilha",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/football/team/4wyrn4hd525q86p/image/small
-#EXTINF:-1 tvg-logo="" group-title="Kongsvinger vs Stabaek",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/football/team/l5ergphov48r8k0/image/small
-#EXTINF:-1 tvg-logo="" group-title="Argentino de Quilmes vs CA Brown Adrogue",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/football/team/56ypq3nh2zlmd7o/image/small
-#EXTINF:-1 tvg-logo="" group-title="Guarany de Camaragibe vs Sete de Setembro PE",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/football/team/8yomo4hzwypq0j6/image/small
-#EXTINF:-1 tvg-logo="" group-title="Chacarita juniors vs Nueva Chicago",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/football/team/k82rekhvnd8repz/image/small
-#EXTINF:-1 tvg-logo="" group-title="H. Ramat Gan vs Maccabi Tel Aviv",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/football/team/9vjxm8ghznjr6od/image/small
-#EXTINF:-1 tvg-logo="" group-title="Defensores Unidos vs Deportivo Laferrere",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/football/team/2y8m4zhjg86ql07/image/small
-#EXTINF:-1 tvg-logo="" group-title="Sonderjyske vs Copenhagen",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/football/team/p4jwq2ghjowm0ve/image/small
-#EXTINF:-1 tvg-logo="" group-title="Penafiel vs Feirense",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/football/team/e4wyrn4h15xq86p/image/small
-#EXTINF:-1 tvg-logo="" group-title="Sportivo Barracas vs Leones de Rosario",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/football/team/8yomo4hkk3wq0j6/image/small
-#EXTINF:-1 tvg-logo="" group-title="Atletico Rafaela vs Patronato Parana",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/football/team/kn54qllhoz3qvy9/image/small
-#EXTINF:-1 tvg-logo="" group-title="Mjallby AIF vs Kalmar",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/football/team/p4jwq2ghyjdm0ve/image/small
-#EXTINF:-1 tvg-logo="" group-title="Al Ahly FC vs Arab Contractors",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/football/team/ednm9whkkggryox/image/small
-#EXTINF:-1 tvg-logo="" group-title="Landskrona BoIS vs Orebro",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/football/team/gx7lm7phdx4m2wd/image/small
-#EXTINF:-1 tvg-logo="" group-title="Al Gharafa vs Al Qadsiah",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/football/team/l5ergpho0nlr8k0/image/small
-#EXTINF:-1 tvg-logo="" group-title="Al Ittihad(KSA) vs Al-Ain FC",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/football/team/9vjxm8ghyv3r6od/image/small
-#EXTINF:-1 tvg-logo="" group-title="UTC Cajamarca vs Dep. Garcilaso",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/football/team/x7lm7phkpx8m2wd/image/small
-#EXTINF:-1 tvg-logo="" group-title="Universitatea Cluj vs FCSB",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/football/team/vjxm8gh4573r6od/image/small
-#EXTINF:-1 tvg-logo="" group-title="Hapoel Tel Aviv vs Maccabi Haifa",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/football/team/jednm9wh35kryox/image/small
-#EXTINF:-1 tvg-logo="" group-title="Diosgyor VTK vs Kecskemeti TE",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/football/team/gy0or5jhpwkqwzv/image/small
-#EXTINF:-1 tvg-logo="" group-title="Maccabi Ashdod vs  Ramat HaSharon",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/football/team/y0or5jh4d0wqwzv/image/small
-#EXTINF:-1 tvg-logo="" group-title="CR Belouizdad vs JS Saoura",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/football/team/e4wyrn4hkoeq86p/image/small
-#EXTINF:-1 tvg-logo="" group-title="Defensor Sporting (R) vs Montevideo City Torque Reserves",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/football/team/ednm9wh9pndryox/image/small
-#EXTINF:-1 tvg-logo="" group-title="Deportivo Italiano vs Deportivo LSM",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/football/team/pxwrxlhzjg2ryk0/image/small
-#EXTINF:-1 tvg-logo="" group-title="Hull City U21 vs Derby County U21",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/football/team/6ypq3nh51lgmd7o/image/small
-#EXTINF:-1 tvg-logo="" group-title="Independiente Yumbo vs Boca Juniors Cali",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/football/team/4wyrn4h4x7vq86p/image/small
-#EXTINF:-1 tvg-logo="" group-title="Bolton Wanderers U21 vs QPR U21",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/football/team/k82rekh91xyrepz/image/small
-#EXTINF:-1 tvg-logo="" group-title="Liverpool Montevideo (R) vs Penarol (R)",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/football/team/l5ergph37xkr8k0/image/small
-#EXTINF:-1 tvg-logo="" group-title="Heracles Almelo vs FC Oss",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/football/team/kn54qllh6ewqvy9/image/small
-#EXTINF:-1 tvg-logo="" group-title="Gzira United vs Marsaxlokk FC",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/football/team/8yomo4h7oo1q0j6/image/small
-#EXTINF:-1 tvg-logo="" group-title="Bournemouth U21 vs Cardiff City U21",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/football/team/318q66hjko4qo9j/image/small
-#EXTINF:-1 tvg-logo="" group-title="Wycombe Wanderers U21 vs Brentford U21",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/football/team/23xmvkhxnk8qg8n/image/small
-#EXTINF:-1 tvg-logo="" group-title="Preston U21 vs Fleetwood Town U21",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/football/team/n54qllhe98oqvy9/image/small
-#EXTINF:-1 tvg-logo="" group-title="Fortaleza vs Atl. Goianiense",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/football/team/v2y8m4zhy70ql07/image/small
-#EXTINF:-1 tvg-logo="" group-title="Clodiense vs Bassano",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/football/team/x7lm7ph00y0m2wd/image/small
-#EXTINF:-1 tvg-logo="" group-title="Jong Ajax (R) vs Vitesse Arnhem",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/football/team/9dn1m1ghznemoep/image/small
-#EXTINF:-1 tvg-logo="" group-title="PSV Eindhoven (R) vs NAC Breda",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/football/team/e4wyrn4hnddq86p/image/small
-#EXTINF:-1 tvg-logo="" group-title="Motagua Reserves vs CD Marathon (R)",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/football/team/l7oqdehlyvdr510/image/small
-#EXTINF:-1 tvg-logo="" group-title="FC Utrecht (R) vs Dordrecht",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/football/team/k82rekhv6gnrepz/image/small
-#EXTINF:-1 tvg-logo="" group-title="La Luz Reserves vs Central Espanol Reserves",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/football/team/4jwq2gh768em0ve/image/small
-#EXTINF:-1 tvg-logo="" group-title="Exeter City U21 vs Reading U21",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/football/team/e4wyrn4hk0kq86p/image/small
-#EXTINF:-1 tvg-logo="" group-title="Stal Rzeszow vs Puszcza",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/football/team/kn54qllhl1wqvy9/image/small
-#EXTINF:-1 tvg-logo="" group-title="JuventusU23 vs Pro Vercelli",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/football/team/vjxm8ghj5j1r6od/image/small
-#EXTINF:-1 tvg-logo="" group-title="LKS Lodz vs Polonia Warszawa",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/football/team/l965mkyhvlnr1ge/image/small
-#EXTINF:-1 tvg-logo="" group-title="SD Huesca vs Gimnastic de Tarragona",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/football/team/1l4rjnh6z3gm7vx/image/small
-#EXTINF:-1 tvg-logo="" group-title="Nữ Fiorentina vs Nữ Juventus",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/football/team/jw2r09hnnnxrz84/image/small
-#EXTINF:-1 tvg-logo="" group-title="R. Czestochowa vs Pogon Szczecin",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/football/team/3glrw7hw8ynqdyj/image/small
-#EXTINF:-1 tvg-logo="" group-title="Casarano vs Foggia",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/football/team/l7oqdeh6dy1r510/image/small
-#EXTINF:-1 tvg-logo="" group-title="Novara vs Desenzano Calvina",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/football/team/9k82rekhkkyrepz/image/small
-#EXTINF:-1 tvg-logo="" group-title="Sportivo Luqueno (R) vs Nacional Asuncion (R)",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/football/team/n54qllhengnqvy9/image/small
-#EXTINF:-1 tvg-logo="" group-title="Chelmsford City vs Farnham Town",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/football/team/23xmvkh3kdyqg8n/image/small
-#EXTINF:-1 tvg-logo="" group-title="Lorient vs Brest",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/football/team/d23xmvkh5vvqg8n/image/small
-#EXTINF:-1 tvg-logo="" group-title="Salisbury City vs Braintree Town",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/football/team/l7oqdehn64pr510/image/small
-#EXTINF:-1 tvg-logo="" group-title="Aveley vs St Albans City",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/football/team/y0or5jhl6k3qwzv/image/small
-#EXTINF:-1 tvg-logo="" group-title="Red Star FC 93 vs Nancy",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/football/team/x7lm7phk686m2wd/image/small
-#EXTINF:-1 tvg-logo="" group-title="Reims vs Sochaux",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/football/team/965mkyh7oygr1ge/image/small
-#EXTINF:-1 tvg-logo="" group-title="Atalanta vs Parma",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/football/team/gx7lm7phyw6m2wd/image/small
-#EXTINF:-1 tvg-logo="" group-title="AS Douanes Nouakchott vs F.C. Nouadhibou",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/football/team/y0or5jhewd6qwzv/image/small
-#EXTINF:-1 tvg-logo="" group-title="Coleraine Reserves vs Ballymena Utd Reserves",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/football/team/6ypq3nh5ogdmd7o/image/small
-#EXTINF:-1 tvg-logo="" group-title="Limavady United Reserves vs Cliftonville (R)",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/football/team/k82rekh17wzrepz/image/small
-#EXTINF:-1 tvg-logo="" group-title="Dep. La Coruna vs Osasuna",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/football/team/kjw2r09hddyrz84/image/small
-#EXTINF:-1 tvg-logo="" group-title="Mallorca vs Cadiz",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/football/team/gpxwrxlhw6vryk0/image/small
-#EXTINF:-1 tvg-logo="" group-title="Nữ Tenerife Egatesa vs Nữ Athletic Club",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/football/team/965mkyh4ndnr1ge/image/small
-#EXTINF:-1 tvg-logo="" group-title="Newcastle vs Everton",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/football/team/8y39mp1h8dpmojx/image/small
-#EXTINF:-1 tvg-logo="" group-title="Linfield (R) vs Bangor U20",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/football/team/vjxm8ghg78jr6od/image/small
-#EXTINF:-1 tvg-logo="" group-title="Gil Vicente vs Vitoria Guimaraes",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/football/team/v2y8m4zho51ql07/image/small
-#EXTINF:-1 tvg-logo="" group-title="Portadown (R) vs Dungannon Swifts Reserves",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/football/team/ednm9wh9pw9ryox/image/small
-#EXTINF:-1 tvg-logo="" group-title="Benfica vs Alverca",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/football/team/z8yomo4hjyoq0j6/image/small
-#EXTINF:-1 tvg-logo="" group-title="Orense SC vs Tecnico Uni.",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/football/team/y0or5jhe1n0qwzv/image/small
-#EXTINF:-1 tvg-logo="" group-title="Sporting Cristal vs FC Cajamarca",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/football/team/3glrw7hww2gqdyj/image/small
-#EXTINF:-1 tvg-logo="" group-title="Deportes Limache vs Audax Italiano",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/football/team/4jwq2ghkn7km0ve/image/small
-#EXTINF:-1 tvg-logo="" group-title="Athletic Club vs Ceara",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/football/team/pxwrxlh9lo6ryk0/image/small
-#EXTINF:-1 tvg-logo="" group-title="Aguilas Doradas vs Fortaleza",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/football/team/ednm9whk1keryox/image/small
-#EXTINF:-1 tvg-logo="" group-title="Real Tomayapo vs Blooming",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/football/team/y0or5jhey0nqwzv/image/small
-#EXTINF:-1 tvg-logo="" group-title="Olancho FC (R) vs CD Platense Reserves",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/football/team/1l4rjnhkk0pm7vx/image/small
-#EXTINF:-1 tvg-logo="" group-title="Lobos UPNFM (R) vs Genesis Comayagua",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/football/team/dj2ryohnvw4q1zp/image/small
-#EXTINF:-1 tvg-logo="" group-title="Defensa Y Justicia vs CA Independiente",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/football/team/8y39mp1h8xnmojx/image/small
-#EXTINF:-1 tvg-logo="" group-title="CA Platense vs Central Cordoba SDE",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/football/team/318q66howpvqo9j/image/small
-#EXTINF:-1 tvg-logo="" group-title="Molynes United vs Mount Pleasant FA",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/football/team/l5ergphv19zr8k0/image/small
-#EXTINF:-1 tvg-logo="" group-title="Albion FC vs Dep. Maldonado",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/football/team/dn1m1ghno2vmoep/image/small
-#EXTINF:-1 tvg-logo="" group-title="RB Bragantino vs Santos",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/football/team/pxwrxlhg975ryk0/image/small
-#EXTINF:-1 tvg-logo="" group-title="Once Caldas U19 vs Aguilas Doradas U19",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/football/team/4wyrn4hegpkq86p/image/small
-#EXTINF:-1 tvg-logo="" group-title="Union Magdalena vs Envigado FC",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/football/team/dn1m1gh446pmoep/image/small
-#EXTINF:-1 tvg-logo="" group-title="Goiás - GO vs CRB",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/football/team/j1l4rjnhpp5m7vx/image/small
-#EXTINF:-1 tvg-logo="" group-title="D. Concepcion vs Palestino",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/football/team/gx7lm7ph1jem2wd/image/small
-#EXTINF:-1 tvg-logo="" group-title="Atletico Tucuman vs Argentinos Juniors",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/football/team/n54qllh2gjpqvy9/image/small
-#EXTINF:-1 tvg-logo="" group-title="Ind. Rivadavia vs Banfield",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/football/team/n54qllh2np4qvy9/image/small
-#EXTINF:-1 tvg-logo="" group-title="Bubali SC vs SV Caiquetio",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/football/team/4wyrn4hd407q86p/image/small
-#EXTINF:-1 tvg-logo="" group-title="Desamparados vs Union Villa Krause",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/football/team/vjxm8ghggkgr6od/image/small
-#EXTINF:-1 tvg-logo="" group-title="Waterhouse FC vs Cavalier FC",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/football/team/dn1m1gh4y2omoep/image/small
-#EXTINF:-1 tvg-logo="" group-title="Nữ Leon vs Nữ Louis Athletica",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/football/team/y0or5jh3062qwzv/image/small
-#EXTINF:-1 tvg-logo="" group-title="Atl. Bucaramanga vs Atl. Nacional",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/football/team/vl7oqdeh71er510/image/small
-#EXTINF:-1 tvg-logo="" group-title="Partizan Belgrade U15 vs Zhejiang Professional FC U15",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/football/team/jw2r09h18xprz84/image/small
-#EXTINF:-1 tvg-logo="" group-title="Zhejiang Football Administration Centre U15 vs Chiangmai U15",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/football/team/2y8m4zh1lgpql07/image/small
-#EXTINF:-1 tvg-logo="" group-title="Suchitepequez vs Malacateco",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/football/team/kjw2r09ho0jrz84/image/small
-#EXTINF:-1 tvg-logo="" group-title="Leones Negros FC vs Real Apodaca FC",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/football/team/318q66h4lx6qo9j/image/small
-#EXTINF:-1 tvg-logo="" group-title="Kataller Toyama vs Vegalta Sendai",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/football/team/l7oqdehn550r510/image/small
-#EXTINF:-1 tvg-logo="" group-title="Ventforet Kofu vs Albirex Niigata",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/football/team/p3glrw7h5xnqdyj/image/small
-#EXTINF:-1 tvg-logo="" group-title="Shonan Bellmare vs Sagan Tosu",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/football/team/kjw2r09hz1drz84/image/small
-#EXTINF:-1 tvg-logo="" group-title="RB Omiya Ardija vs Iwaki FC",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/football/team/p4jwq2ghle0m0ve/image/small
-#EXTINF:-1 tvg-logo="" group-title="Renofa Yamaguchi vs Kagoshima Utd",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/football/team/965mkyh7dpkr1ge/image/small
-#EXTINF:-1 tvg-logo="" group-title="Tochigi SC vs Fukushima FC",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/football/team/2y8m4zh3n80ql07/image/small
-#EXTINF:-1 tvg-logo="" group-title="Shanghai Shenhua U15 vs Hangzhou U15",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/football/team/l7oqdeh1lvvr510/image/small
-#EXTINF:-1 tvg-logo="" group-title="Kochi United vs Ehime FC",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/football/team/6ypq3nh5p88md7o/image/small
-#EXTINF:-1 tvg-logo="" group-title="Oita Trinita vs Vanraure Hachi",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/football/team/9k82rekhpx0repz/image/small
-#EXTINF:-1 tvg-logo="" group-title="Yokohama FC vs Blaublitz Akita",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/football/team/kdj2ryoh8zgq1zp/image/small
-#EXTINF:-1 tvg-logo="" group-title="Z. Kanazawa vs  Nagano Parceiro",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/football/team/2y8m4zh3wkxql07/image/small
-#EXTINF:-1 tvg-logo="" group-title="Nara Club vs Thespa Gunma",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/football/team/pxwrxlhgdg4ryk0/image/small
-#EXTINF:-1 tvg-logo="" group-title="Gainare Tottori vs SC Sagamihara",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/football/team/vjxm8ghgxp5r6od/image/small
-#EXTINF:-1 tvg-logo="" group-title="Kamatamare Sk vs Matsumoto FC",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/football/team/965mkyh4l65r1ge/image/small
-#EXTINF:-1 tvg-logo="" group-title="Fujieda MYFC vs Jubilo Iwata",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/football/team/965mkyh7967r1ge/image/small
-#EXTINF:-1 tvg-logo="" group-title="M. Yamagata vs Tokushima Vortis",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/football/team/56ypq3nho18md7o/image/small
-#EXTINF:-1 tvg-logo="" group-title="Jiangsu U15 vs Bournemouth FC U15",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/football/team/x7lm7phpl9vm2wd/image/small
-#EXTINF:-1 tvg-logo="" group-title="Miyazaki vs Tochigi City",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/football/team/8yomo4h7ep5q0j6/image/small
-#EXTINF:-1 tvg-logo="" group-title="Giravanz Kita vs Reilac Shiga FC",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/football/team/8yomo4h7gd4q0j6/image/small
-#EXTINF:-1 tvg-logo="" group-title="ASC vs Bengaluru Roots FC",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/football/team/k82rekh9k73repz/image/small
-#EXTINF:-1 tvg-logo="" group-title="FC Imabari vs Consadole Sapporo",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/football/team/1l4rjnh1xvem7vx/image/small
-#EXTINF:-1 tvg-logo="" group-title="Nữ Hebei Snow Ruyi  vs Nữ Qingdao Coast",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/football/team/k82rekhve2xrepz/image/small
-#EXTINF:-1 tvg-logo="" group-title="Nữ Shanghai Shenhua vs Nữ Wuhan ",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/football/team/pxwrxlhjz1pryk0/image/small
-#EXTINF:-1 tvg-logo="" group-title="FC Ryukyu vs FC Gifu",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/football/team/dj2ryohk9j5q1zp/image/small
-#EXTINF:-1 tvg-logo="" group-title="Nữ Fujian Nanan vs Nữ Shanghai Huilong",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/football/team/ednm9whgw64ryox/image/small
-#EXTINF:-1 tvg-logo="" group-title="Nữ Yongchuan  vs Nữ Henan",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/football/team/4wyrn4hvznzq86p/image/small
-#EXTINF:-1 tvg-logo="" group-title="Chongqing Youth Training U15 vs Racing Santander U15",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/football/team/vjxm8ghxnpkr6od/image/small
-#EXTINF:-1 tvg-logo="" group-title="Standard Liege U15 vs Tashkent Football Association U15",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/football/team/6ypq3nh1xz3md7o/image/small
-#EXTINF:-1 tvg-logo="" group-title="Samut Sakhon City vs Khonkaen United",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/football/team/y0or5jh40l9qwzv/image/small
-#EXTINF:-1 tvg-logo="" group-title="Fleet United FC vs Muang Thong Utd",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/football/team/ednm9wh99xgryox/image/small
-#EXTINF:-1 tvg-logo="" group-title="FC Agniputhra vs  Bengaluru Utd",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/football/team/l5ergphnnd9r8k0/image/small
-#EXTINF:-1 tvg-logo="" group-title="Henan FC U20 vs Wuhan Towns U21",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/football/team/1l4rjnhkl2zm7vx/image/small
-#EXTINF:-1 tvg-logo="" group-title="Rans Nusantara FC vs Arema",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/football/team/4wyrn4hewp7q86p/image/small
-#EXTINF:-1 tvg-logo="" group-title="De Red FC vs PSM Makassar",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/football/team/y0or5jhgjzwqwzv/image/small
-#EXTINF:-1 tvg-logo="" group-title="Ả Rập Xê Út U16 vs Switzerland U16",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/football/team/1l4rjnh60x2m7vx/image/small
-#EXTINF:-1 tvg-logo="" group-title="FC Zorya Luhansk U21 vs Epitsentr U21",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/football/team/jw2r09hn8ejrz84/image/small
-#EXTINF:-1 tvg-logo="" group-title="Scotland U16 vs Bồ Đào Nha U16",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/football/team/8yomo4hk74gq0j6/image/small
-#EXTINF:-1 tvg-logo="" group-title="Olympic MobiUz vs Pakhtakor II",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/football/team/zp5rzghx45jq82w/image/small
-#EXTINF:-1 tvg-logo="" group-title="Phetchaburi PBRU FC vs Mahasarakham Utd",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/football/team/l7oqdeh1vy5r510/image/small
-#EXTINF:-1 tvg-logo="" group-title="Vissel Kobe vs Ratchaburi",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/football/team/56ypq3nhd7kmd7o/image/small
-#EXTINF:-1 tvg-logo="" group-title="Burapha United vs Muang Loei United",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/football/team/vjxm8ghpnx4r6od/image/small
-#EXTINF:-1 tvg-logo="" group-title="Kashiwa Reysol vs Daejeon Citizen",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/football/team/d23xmvkhjv8qg8n/image/small
-#EXTINF:-1 tvg-logo="" group-title="Bodo Glimt U19 vs Lille U19",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/football/team/y0or5jhl2zeqwzv/image/small
-#EXTINF:-1 tvg-logo="" group-title="Kryvbas U21 vs Dinamo Kyiv U21",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/football/team/d23xmvkhn2nqg8n/image/small
-#EXTINF:-1 tvg-logo="" group-title="Karpaty U21 vs Kudrivka-Nyva U21",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/football/team/pxwrxlh1jp0ryk0/image/small
-#EXTINF:-1 tvg-logo="" group-title="Jeonbuk Hyundai vs Johor Darul Takzim",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/football/team/9k82rekhd42repz/image/small
-#EXTINF:-1 tvg-logo="" group-title="South United vs India Star aviation SC",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/football/team/6ypq3nh5998md7o/image/small
-#EXTINF:-1 tvg-logo="" group-title="Olympia Yerevan vs BKMA II",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/football/team/3glrw7ho893qdyj/image/small
-#EXTINF:-1 tvg-logo="" group-title="Estrela FC U23 vs Santa Clara U23",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/football/team/y0or5jhg362qwzv/image/small
-#EXTINF:-1 tvg-logo="" group-title="Khonkaen FC vs Kasetsart FC",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/football/team/zp5rzghjkj3q82w/image/small
-#EXTINF:-1 tvg-logo="" group-title="Shirak Gjumri B vs Ararat Armenia B",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/football/team/l5ergphodg0r8k0/image/small
-#EXTINF:-1 tvg-logo="" group-title="Galatasaray U19 vs VfB Stuttgart U19",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/football/team/l7oqdeh6lyzr510/image/small
-#EXTINF:-1 tvg-logo="" group-title="Jubail vs Al-Sharq",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/football/team/1l4rjnhzzpzm7vx/image/small
-#EXTINF:-1 tvg-logo="" group-title="Mudhar vs Baish",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/football/team/l7oqdehljgjr510/image/small
-#EXTINF:-1 tvg-logo="" group-title="PSMS Medan vs Persija Jakarta",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/football/team/4jwq2gh435nm0ve/image/small
-#EXTINF:-1 tvg-logo="" group-title="Shakhtar Donetsk U19 vs Sporting CP U19",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/football/team/k82rekh93v0repz/image/small
-#EXTINF:-1 tvg-logo="" group-title="Dewa United vs Persita",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/football/team/n54qllh8z1pqvy9/image/small
-#EXTINF:-1 tvg-logo="" group-title="PSPS Riau vs Bhayangkara Presisi",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/football/team/x7lm7phw49ym2wd/image/small
-#EXTINF:-1 tvg-logo="" group-title="FK Eskhata vs Regar-TadAZ",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/football/team/y39mp1hywv5mojx/image/small
-#EXTINF:-1 tvg-logo="" group-title="Persela Lamongan vs Persijap Jepara",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/football/team/8yomo4hk0ndq0j6/image/small
-#EXTINF:-1 tvg-logo="" group-title="Nữ Gornik Leczna vs Nữ Czarni Sosnowiec",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/football/team/4wyrn4h8p0dq86p/image/small
-#EXTINF:-1 tvg-logo="" group-title="Al Nojoom vs Al Shoalah",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/football/team/l7oqdehno9dr510/image/small
-#EXTINF:-1 tvg-logo="" group-title="Villarreal U19 vs PSG U19",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/football/team/e4wyrn4hjy0q86p/image/small
-#EXTINF:-1 tvg-logo="" group-title="Otrant vs Arsenal Tivat",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/football/team/vjxm8ghg8v6r6od/image/small
-#EXTINF:-1 tvg-logo="" group-title="Kendal Tornado FC vs Persebaya",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/football/team/dn1m1gh86z1moep/image/small
-#EXTINF:-1 tvg-logo="" group-title="Al Kawkab vs Jerash FC",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/football/team/jw2r09hnxowrz84/image/small
-#EXTINF:-1 tvg-logo="" group-title="Port FC vs Beijing Guoan",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/football/team/965mkyh7ykdr1ge/image/small
-#EXTINF:-1 tvg-logo="" group-title="Công An Hà Nội vs Kyoto Sanga",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/football/team/23xmvkho9w9qg8n/image/small
-#EXTINF:-1 tvg-logo="" group-title="Al Washm vs Al Hada",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/football/team/l7oqdeh6451r510/image/small
-#EXTINF:-1 tvg-logo="" group-title="Al Liwaa vs Qilwah",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/football/team/n54qllhxlyyqvy9/image/small
-#EXTINF:-1 tvg-logo="" group-title="Najran SC vs Jubbah",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/football/team/965mkyh7gnkr1ge/image/small
-#EXTINF:-1 tvg-logo="" group-title="Al Qous Club vs Al-Arabi",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/football/team/y39mp1h199zmojx/image/small
-#EXTINF:-1 tvg-logo="" group-title="Damac vs Al Okhdood",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/football/team/965mkyh78vyr1ge/image/small
-#EXTINF:-1 tvg-logo="" group-title="Al Entesar vs Al Rawdhah",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/football/team/zp5rzghjx27q82w/image/small
-#EXTINF:-1 tvg-logo="" group-title="Red Bull Salzburg U19 vs KRC Genk U19",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/football/team/ednm9whkn9lryox/image/small
-#EXTINF:-1 tvg-logo="" group-title="Feyenoord U19 vs Inter Milan U19",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/football/team/6ypq3nh0wjzmd7o/image/small
-#EXTINF:-1 tvg-logo="" group-title="Baia de Pemba F.C vs Ferroviario Maputo",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/football/team/ednm9whgx45ryox/image/small
-#EXTINF:-1 tvg-logo="" group-title="Barnsley U21 vs Millwall U21",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/football/team/2y8m4zhj1z1ql07/image/small
-#EXTINF:-1 tvg-logo="" group-title="Police FC vs Kitara FC",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/football/team/n54qllhewjpqvy9/image/small
-#EXTINF:-1 tvg-logo="" group-title="NEC FC Bugolobi vs UPDF",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/football/team/k82rekh3z11repz/image/small
-#EXTINF:-1 tvg-logo="" group-title="Muzinga FC vs Aigle Noir",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/football/team/318q66h0ypzqo9j/image/small
-#EXTINF:-1 tvg-logo="" group-title="Groningen (Youth) vs SC Cambuur Youth",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/football/team/965mkyh70lpr1ge/image/small
-#EXTINF:-1 tvg-logo="" group-title="Never Give Up Academy vs Kayanza Utd",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/football/team/zp5rzgh1lz0q82w/image/small
-#EXTINF:-1 tvg-logo="" group-title="Mladost Zdralovi vs Slaven Belupo",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/football/team/n54qllh2ewoqvy9/image/small
-#EXTINF:-1 tvg-logo="" group-title="BUL FC vs SC Villa",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/football/team/3glrw7h1golqdyj/image/small
-#EXTINF:-1 tvg-logo="" group-title="Wigan Athletic U21 vs Sheffield Utd U21",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/football/team/4jwq2gh4d76m0ve/image/small
-#EXTINF:-1 tvg-logo="" group-title="Manchester Utd U19 vs AS Roma U19",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/football/team/y0or5jhlnx2qwzv/image/small
-#EXTINF:-1 tvg-logo="" group-title="Stade tunisien vs Club Africain",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/football/team/x7lm7phk9plm2wd/image/small
-#EXTINF:-1 tvg-logo="" group-title="Zfk Istatov(w) vs Kocani(w)",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/football/team/2y8m4zhjd1xql07/image/small
-#EXTINF:-1 tvg-logo="" group-title="East Bengal  vs Al Seeb",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/football/team/4jwq2gh4g9om0ve/image/small
-#EXTINF:-1 tvg-logo="" group-title="AS Kigali vs Mukura Victory Sports",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/football/team/dn1m1ghevjlmoep/image/small
-#EXTINF:-1 tvg-logo="" group-title="FC Kattaqo  vs Qiziriq FC",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/football/team/k82rekh1n62repz/image/small
-#EXTINF:-1 tvg-logo="" group-title="Sua Flamingoes vs Tafic FC",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/football/team/pxwrxlhj6ogryk0/image/small
-#EXTINF:-1 tvg-logo="" group-title="LASK Linz U19 vs Slovan Bratislava U19",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/football/team/vjxm8ghxz76r6od/image/small
-#EXTINF:-1 tvg-logo="" group-title="Al Zawraa vs Al Riffa",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/football/team/965mkyh7zngr1ge/image/small
-#EXTINF:-1 tvg-logo="" group-title="Thổ Nhĩ Kỳ U16 vs Đan Mạch U16",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/football/team/zp5rzghjk4yq82w/image/small
-#EXTINF:-1 tvg-logo="" group-title="Al Shabab vs Shab Hadramawt",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/football/team/dn1m1gh4zojmoep/image/small
-#EXTINF:-1 tvg-logo="" group-title="Netherlands U16 vs Ukraine U16",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/football/team/dn1m1gh4d89moep/image/small
-#EXTINF:-1 tvg-logo="" group-title="Abu Qir Semad vs Ceramica Cleopatra",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/football/team/gpxwrxlh4k8ryk0/image/small
-#EXTINF:-1 tvg-logo="" group-title="Academico Viseu U23 vs Torreense U23",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/football/team/pxwrxlhz5w5ryk0/image/small
-#EXTINF:-1 tvg-logo="" group-title="Gil Vicente U23 vs Felgueiras U23",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/football/team/vjxm8ghp83dr6od/image/small
-#EXTINF:-1 tvg-logo="" group-title="Barcelona U19 vs Aston Villa U19",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/football/team/6ypq3nh0ngkmd7o/image/small
-#EXTINF:-1 tvg-logo="" group-title="Atletico Madrid U19 vs Bayern Munchen U19",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/football/team/2y8m4zhjxw0ql07/image/small
-#EXTINF:-1 tvg-logo="" group-title="Dundee United U20 vs Kilmarnock U20",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/football/team/y0or5jhl9x3qwzv/image/small
-#EXTINF:-1 tvg-logo="" group-title="Hapoel Rishon Lezion Yehuda U19 vs Hapoel Katamon U19",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/football/team/y0or5jhlk5yqwzv/image/small
-#EXTINF:-1 tvg-logo="" group-title="Vizela U23 vs Portimonense U23",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/football/team/3glrw7hy762qdyj/image/small
-#EXTINF:-1 tvg-logo="" group-title="Celtic U20 vs Motherwell FC U20",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/football/team/jw2r09hlv78rz84/image/small
-#EXTINF:-1 tvg-logo="" group-title="Maritimo U23 vs Moreirense U23",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/football/team/vjxm8ghjwy0r6od/image/small
-#EXTINF:-1 tvg-logo="" group-title="St. Mirren U20 vs Glasgow Rangers U20",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/football/team/dj2ryohkpyyq1zp/image/small
-#EXTINF:-1 tvg-logo="" group-title="Al Raed vs Al-Wehda FC",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/football/team/vjxm8gh47epr6od/image/small
-#EXTINF:-1 tvg-logo="" group-title="Alqana vs Future FC",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/football/team/z8yomo4hpdjq0j6/image/small
-#EXTINF:-1 tvg-logo="" group-title="Hearts U20 vs Hibernian U20",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/football/team/ednm9whk56nryox/image/small
-#EXTINF:-1 tvg-logo="" group-title="Maccabi Tel Aviv Shachar U19 vs FC Zurich U19",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/football/team/y0or5jh4xy4qwzv/image/small
-#EXTINF:-1 tvg-logo="" group-title="Esteghlal Tehran vs Al Shamal",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/football/team/l7oqdehn4y5r510/image/small
-#EXTINF:-1 tvg-logo="" group-title="Al Hussein vs Al Shorta",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/football/team/l5ergpho3v6r8k0/image/small
-#EXTINF:-1 tvg-logo="" group-title="Petro Atletico de Luanda vs Desportivo Huila",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/football/team/k82rekhv69drepz/image/small
-#EXTINF:-1 tvg-logo="" group-title="AEL Limassol vs Iraklis Yerolakkou",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/football/team/8y39mp1h78omojx/image/small
-#EXTINF:-1 tvg-logo="" group-title="Jezero Plav vs FK Dečić",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/football/team/y0or5jhlz4pqwzv/image/small
-#EXTINF:-1 tvg-logo="" group-title="NK Istra 1961 vs NK Neretva",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/football/team/dj2ryohkl0pq1zp/image/small
-#EXTINF:-1 tvg-logo="" group-title="ASC Snim vs Chemal FC",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/football/team/y39mp1hj6xdmojx/image/small
-#EXTINF:-1 tvg-logo="" group-title="Spartak Kostroma vs Volna Nizhegorodskaya",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/football/team/vjxm8gh4jp3r6od/image/small
-#EXTINF:-1 tvg-logo="" group-title="Chrobry Glogow vs Arka Gdynia",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/football/team/y0or5jhlg07qwzv/image/small
-#EXTINF:-1 tvg-logo="" group-title="Mamelodi Sundowns vs Golden Arrows",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/football/team/pxwrxlhggw3ryk0/image/small
-#EXTINF:-1 tvg-logo="" group-title="Goztepe U19 vs AZ Alkmaar U19",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/football/team/8yomo4h7lvvq0j6/image/small
-#EXTINF:-1 tvg-logo="" group-title="Asswehly SC vs Al Bashayir SC",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/football/team/23xmvkho6n1qg8n/image/small
-#EXTINF:-1 tvg-logo="" group-title="APR FC vs Gasogi Utd",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/football/team/y0or5jhll47qwzv/image/small
-#EXTINF:-1 tvg-logo="" group-title="Jwaneng Galaxy vs Matebele FC",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/football/team/n54qllhxd2lqvy9/image/small
-#EXTINF:-1 tvg-logo="" group-title="Midtjylland U19 vs Silkeborg U19",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/football/team/8yomo4h71jjq0j6/image/small
-#EXTINF:-1 tvg-logo="" group-title="Extension Gunners vs Prisons XI Gaborone",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/football/team/n54qllh2243qvy9/image/small
-#EXTINF:-1 tvg-logo="" group-title="Karmiotissa vs Ermis Aradippou",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/football/team/y39mp1h51jomojx/image/small
-#EXTINF:-1 tvg-logo="" group-title="Pogon Siedlce vs Ruch Chorzow",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/football/team/6ypq3nh09j5md7o/image/small
-#EXTINF:-1 tvg-logo="" group-title="Lyngby vs Randers FC",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/football/team/gx7lm7ph685m2wd/image/small
-#EXTINF:-1 tvg-logo="" group-title="AS Celtas (W) vs Nữ Espanyol",Trận đấu trực tiếp
-https://imgts.sportpulseapiz.com/football/team/1l4rjnhexoym7vx/image/small
-#EXTINF:-1 tvg-logo="" group-title="Gà Vàng 33 TV",Trận đấu trực tiếp
-https://gavang33.gg/
+https://img.sportbo.live/livescore-img/team/f26fb30a9c60dd634d8b2f36afe0e8f1.webp
+#EXTINF:-1 tvg-logo="" group-title="Vaasa VPS vs HJK Helsinki",Trận đấu trực tiếp
+https://img.sportbo.live/livescore-img/team/5df3cf66c96a43a08e06da83aeb2f7a8.webp
+#EXTINF:-1 tvg-logo="" group-title="Tractor S.C. vs Neftchi Fergana",Trận đấu trực tiếp
+https://img.sportbo.live/livescore-img/team/bf2316e90a47ed6d1181458350b0714b.webp
+#EXTINF:-1 tvg-logo="" group-title="Al-Wasl SC vs Al Quwa Al Jawiya",Trận đấu trực tiếp
+https://img.sportbo.live/livescore-img/team/17b767b98695df2fb512e992dd8a7af4.webp
+#EXTINF:-1 tvg-logo="" group-title="Al-Sadd vs Al Ahli SC",Trận đấu trực tiếp
+https://img.sportbo.live/livescore-img/team/5c794bfbf3227563c85323bb624721ec.webp
+#EXTINF:-1 tvg-logo="" group-title="Nhà đài",Trận đấu trực tiếp
+https://lilive1.eu.cc/live/74b2f838605c822f798b7527a714637a/playlist.m3u8
+#EXTINF:-1 tvg-logo="" group-title="Nhà đài",Trận đấu trực tiếp
+https://lilive1.eu.cc/live/33639ff6c70da0e56c992cb0c0424eda/playlist.m3u8
 #EXTINF:-1 tvg-logo="" group-title="Gà Siêu Son",Trận đấu trực tiếp
 https://live2.zktsva.app/live/306290.m3u8
 #EXTINF:-1 tvg-logo="" group-title="Gà Siêu Ngố",Trận đấu trực tiếp
@@ -1019,24 +285,20 @@ https://live2.zktsva.app/live/289650.m3u8
 https://live2.zktsva.app/live/301263.m3u8
 #EXTINF:-1 tvg-logo="" group-title="Gà Siêu Tồ",Trận đấu trực tiếp
 https://live2.zktsva.app/live/796315.m3u8
-#EXTINF:-1 tvg-logo="" group-title="Xôi Gấc TV",Trận đấu trực tiếp
-https://xoigac.top/
 #EXTINF:-1 tvg-logo="" group-title="Thanos",Trận đấu trực tiếp
-https://4ac07980a95d.ap-northeast-1.playback.live-video.net/api/video/v1/ap-northeast-1.256097482755.channel.aYZTCgPJcyaV.m3u8?expires=1793645311&signature=mK5GoI0l4zI2_PsFiF-SDytsiEc55Zl1lDvCOSiku3w
+https://4ac07980a95d.ap-northeast-1.playback.live-video.net/api/video/v1/ap-northeast-1.256097482755.channel.aYZTCgPJcyaV.m3u8?expires=1793645916&signature=go-k7flo9G2mRrqCd4UeYmxnbcY_kApg2Bgor5RPPbs
 #EXTINF:-1 tvg-logo="" group-title="Deal Pool",Trận đấu trực tiếp
-https://4ac07980a95d.ap-northeast-1.playback.live-video.net/api/video/v1/ap-northeast-1.256097482755.channel.4voi6teQ2EJS.m3u8?expires=1793645311&signature=pn5XKF55snPYWo6LnLvWkLpsGtQvmkICIrI6oyI9lpo
+https://4ac07980a95d.ap-northeast-1.playback.live-video.net/api/video/v1/ap-northeast-1.256097482755.channel.4voi6teQ2EJS.m3u8?expires=1793645914&signature=-rib1Vqm4ItClRNVAwwkqe0AyuFkcAIe46X8sR92u88
 #EXTINF:-1 tvg-logo="" group-title="Joker",Trận đấu trực tiếp
-https://4ac07980a95d.ap-northeast-1.playback.live-video.net/api/video/v1/ap-northeast-1.256097482755.channel.Oil6by6kPMWc.m3u8?expires=1793645303&signature=g1u7Ee0-Kj-wNchSZAjR3EEaOmOIfgRM2hAGRrgPN-Q
+https://4ac07980a95d.ap-northeast-1.playback.live-video.net/api/video/v1/ap-northeast-1.256097482755.channel.Oil6by6kPMWc.m3u8?expires=1793645919&signature=MqPfdI-o12Ah3URYfZZFhRowWv6W_-9motUGH5YIiLg
 #EXTINF:-1 tvg-logo="" group-title="Moon Kight",Trận đấu trực tiếp
-https://4ac07980a95d.ap-northeast-1.playback.live-video.net/api/video/v1/ap-northeast-1.256097482755.channel.AdmrFidkoulS.m3u8?expires=1793645311&signature=XP4Q__XkCXclZgUBWnZi40Gyv521kDiqc7jonLd9K4o
+https://4ac07980a95d.ap-northeast-1.playback.live-video.net/api/video/v1/ap-northeast-1.256097482755.channel.AdmrFidkoulS.m3u8?expires=1793645919&signature=l386JYLpOapu-MIcNnPZNs8OA_zwPR_yF3lGAf2TcQc
 #EXTINF:-1 tvg-logo="" group-title="Black Panther",Trận đấu trực tiếp
-https://4ac07980a95d.ap-northeast-1.playback.live-video.net/api/video/v1/ap-northeast-1.256097482755.channel.XBSqcvLtAsyj.m3u8?expires=1793645311&signature=dLK9hz6XK4_4_QpHP4_0JX-YgpCMu8WwZjb6rkjYyrU
-#EXTINF:-1 tvg-logo="" group-title="Gà Vàng 24H",Trận đấu trực tiếp
-https://gavangtv83.com/
-#EXTINF:-1 tvg-logo="" group-title="cố tư nghiêm tencent",Trận đấu trực tiếp
-https://playback.livetl002.com/live/69a1aaa7230584579e2d5ce1.m3u8
-#EXTINF:-1 tvg-logo="" group-title="cố tư nghiêm 2 alibaba",Trận đấu trực tiếp
-https://playback.livetl004.com/live/69a1aaa7230584579e2d5ce1.m3u8
+https://4ac07980a95d.ap-northeast-1.playback.live-video.net/api/video/v1/ap-northeast-1.256097482755.channel.XBSqcvLtAsyj.m3u8?expires=1793645919&signature=NIkYTeLNZNbLP7VwoMOpoEXeXTigUK9TsfzQDsZywks
+#EXTINF:-1 tvg-logo="" group-title="KAYTI tencent",Trận đấu trực tiếp
+https://playback.livetl002.com/live/69b8e6f43bcf2231c35d5144.m3u8
+#EXTINF:-1 tvg-logo="" group-title="KAYTI 2 alibaba",Trận đấu trực tiếp
+https://playback.livetl004.com/live/69b8e6f43bcf2231c35d5144.m3u8
 #EXTINF:-1 tvg-logo="" group-title="CRIS tencent",Trận đấu trực tiếp
 https://playback.livetl002.com/live/69aa9525f5ec459ae275b43f.m3u8
 #EXTINF:-1 tvg-logo="" group-title="CRIS 2 alibaba",Trận đấu trực tiếp
@@ -1053,10 +315,6 @@ https://playback.livetl004.com/live/6a9a5525864ea536c2577392.m3u8
 https://playback.livetl002.com/live/6a0c7c4b1ae4d6db02433c48.m3u8
 #EXTINF:-1 tvg-logo="" group-title="Cá MậP 2 alibaba",Trận đấu trực tiếp
 https://playback.livetl004.com/live/6a0c7c4b1ae4d6db02433c48.m3u8
-#EXTINF:-1 tvg-logo="" group-title="KAYTI tencent",Trận đấu trực tiếp
-https://playback.livetl002.com/live/69b8e6f43bcf2231c35d5144.m3u8
-#EXTINF:-1 tvg-logo="" group-title="KAYTI 2 alibaba",Trận đấu trực tiếp
-https://playback.livetl004.com/live/69b8e6f43bcf2231c35d5144.m3u8
 #EXTINF:-1 tvg-logo="" group-title="SimonZ tencent",Trận đấu trực tiếp
 https://playback.livetl002.com/live/6ad087284c3981dd68475913.m3u8
 #EXTINF:-1 tvg-logo="" group-title="SimonZ 2 alibaba",Trận đấu trực tiếp
@@ -1078,74 +336,38 @@ https://playback.livetl002.com/live/69ef10b47146e04fbe6d4363.m3u8
 #EXTINF:-1 tvg-logo="" group-title="A Long 2 alibaba",Trận đấu trực tiếp
 https://playback.livetl004.com/live/69ef10b47146e04fbe6d4363.m3u8
 #EXTINF:-1 tvg-logo="" group-title="S8 TV",Trận đấu trực tiếp
-https://s8tv012.com/
-#EXTINF:-1 tvg-logo="" group-title="Pakhtakor vs Al Nassr FC",Trận đấu trực tiếp
-https://s8tv012.com/api/assets/2430e514-a15f-47c4-ae3a-d33ccabeb055
-#EXTINF:-1 tvg-logo="" group-title="S8 TV",Trận đấu trực tiếp
 https://hls.lauthaitv.cc/live/pakh-nassr-afcc1-lb/index.m3u8
 #EXTINF:-1 tvg-logo="" group-title="S8 TV",Trận đấu trực tiếp
 https://hls.lauthaitv.cc/live/pakh-nassr-afcc1-ram/index.m3u8
-#EXTINF:-1 tvg-logo="" group-title="Krylya Sovetov vs Zenit St. Petersburg",Trận đấu trực tiếp
-https://s8tv012.com/api/assets/c35b538f-0853-4d43-b10b-f58ca3656595
 #EXTINF:-1 tvg-logo="" group-title="S8 TV",Trận đấu trực tiếp
 https://hls.lauthaitv.cc/live/kryly-zenit-rusprem/index.m3u8
-#EXTINF:-1 tvg-logo="" group-title="Real Oviedo vs UD Las Palmas",Trận đấu trực tiếp
-https://s8tv012.com/api/assets/2ff4d67a-e4ed-43f1-8e3b-439c2170378f
 #EXTINF:-1 tvg-logo="" group-title="S8 TV",Trận đấu trực tiếp
 https://hls.lauthaitv.cc/live/ovie-las-spa2nd/index.m3u8
-#EXTINF:-1 tvg-logo="" group-title="FC Voluntari vs Farul Constanta",Trận đấu trực tiếp
-https://s8tv012.com/api/assets/db246bed-2269-49b4-9325-eff394e67b89
 #EXTINF:-1 tvg-logo="" group-title="S8 TV",Trận đấu trực tiếp
 https://hls.lauthaitv.cc/live/volun-farul-romliga/index.m3u8
-#EXTINF:-1 tvg-logo="" group-title="Al Sadd vs Al Ahli",Trận đấu trực tiếp
-https://s8tv012.com/api/assets/18e4e273-ebe5-46aa-9fd9-ecb67b53689d
 #EXTINF:-1 tvg-logo="" group-title="S8 TV",Trận đấu trực tiếp
 https://hls.lauthaitv.cc/live/sadd-ahli-afcc1/index.m3u8
-#EXTINF:-1 tvg-logo="" group-title="Al Wasl SC vs Al Quwa Al Jawiya",Trận đấu trực tiếp
-https://s8tv012.com/api/assets/94d7c487-e591-47e8-b44c-ec7f2cc82799
 #EXTINF:-1 tvg-logo="" group-title="S8 TV",Trận đấu trực tiếp
 https://hls.lauthaitv.cc/live/wasl-quwa-afcc1/index.m3u8
-#EXTINF:-1 tvg-logo="" group-title="Genclerbirligi vs Alanyaspor",Trận đấu trực tiếp
-https://s8tv012.com/api/assets/b4938193-41cf-47d8-80e1-9e63470e7a25
 #EXTINF:-1 tvg-logo="" group-title="S8 TV",Trận đấu trực tiếp
 https://hls.lauthaitv.cc/live/gecle-alanya-tursup/index.m3u8
-#EXTINF:-1 tvg-logo="" group-title="Sassuolo vs Fiorentina",Trận đấu trực tiếp
-https://s8tv012.com/api/assets/9e22f469-4344-47d8-b686-f75bdb3943db
 #EXTINF:-1 tvg-logo="" group-title="S8 TV",Trận đấu trực tiếp
 https://hls.lauthaitv.cc/live/sassu-fio-seriea/index.m3u8
-#EXTINF:-1 tvg-logo="" group-title="Sonderjyske vs FC Copenhagen",Trận đấu trực tiếp
-https://s8tv012.com/api/assets/ffcc6ab1-159d-4025-b971-a3f049b20e31
 #EXTINF:-1 tvg-logo="" group-title="S8 TV",Trận đấu trực tiếp
 https://hls.lauthaitv.cc/live/sonder-copen-densup/index.m3u8
-#EXTINF:-1 tvg-logo="" group-title="Al Ittihad Club vs Al-Ain FC",Trận đấu trực tiếp
-https://s8tv012.com/api/assets/5a1ede96-098b-40db-96d3-c24f5ecbe50b
 #EXTINF:-1 tvg-logo="" group-title="S8 TV",Trận đấu trực tiếp
 https://hls.lauthaitv.cc/live/itti-ainfc-afcc1/index.m3u8
-#EXTINF:-1 tvg-logo="" group-title="Atalanta vs Parma",Trận đấu trực tiếp
-https://s8tv012.com/api/assets/f597e31d-b818-423f-bda1-ea978696619f
 #EXTINF:-1 tvg-logo="" group-title="S8 TV",Trận đấu trực tiếp
 https://hls.lauthaitv.cc/live/ata-parma-seriea/index.m3u8
-#EXTINF:-1 tvg-logo="" group-title="Lorient vs Stade Brestois 29",Trận đấu trực tiếp
-https://s8tv012.com/api/assets/177411ce-6ef4-48db-9191-51a92537cb13
 #EXTINF:-1 tvg-logo="" group-title="S8 TV",Trận đấu trực tiếp
 https://hls.lauthaitv.cc/live/lorient-stade29-ligue1/index.m3u8
-#EXTINF:-1 tvg-logo="" group-title="Newcastle United vs Everton",Trận đấu trực tiếp
-https://s8tv012.com/api/assets/7b9d9e2d-778e-4e46-97f9-33846ac12e38
 #EXTINF:-1 tvg-logo="" group-title="S8 TV",Trận đấu trực tiếp
 https://hls.lauthaitv.cc/live/new-eve-prem/index.m3u8
-#EXTINF:-1 tvg-logo="" group-title="Deportivo La Coruna vs CA Osasuna",Trận đấu trực tiếp
-https://s8tv012.com/api/assets/a60223e4-7630-4f5f-b452-15614174f92a
 #EXTINF:-1 tvg-logo="" group-title="S8 TV",Trận đấu trực tiếp
 https://hls.lauthaitv.cc/live/coruna-osasuna-laliga/index.m3u8
-#EXTINF:-1 tvg-logo="" group-title="CA Platense vs CA Central Cordoba SDE",Trận đấu trực tiếp
-https://s8tv012.com/api/assets/9279b8ad-614f-44f0-98ec-9a945c871f09
 #EXTINF:-1 tvg-logo="" group-title="S8 TV",Trận đấu trực tiếp
 https://hls.lauthaitv.cc/live/platense-centralcor-argdiv1/index.m3u8
-#EXTINF:-1 tvg-logo="" group-title="Red Bull Bragantino vs Santos FC",Trận đấu trực tiếp
-https://s8tv012.com/api/assets/1bedbf0c-4edf-4546-b96b-631738913ea5
 #EXTINF:-1 tvg-logo="" group-title="S8 TV",Trận đấu trực tiếp
 https://hls.lauthaitv.cc/live/rbbragan-santos-brasa/index.m3u8
-#EXTINF:-1 tvg-logo="" group-title="Atletico Bucaramanga vs Atletico Nacional Medellin",Trận đấu trực tiếp
-https://s8tv012.com/api/assets/2c9754e1-ff45-4ffc-9660-609ff70f490b
 #EXTINF:-1 tvg-logo="" group-title="S8 TV",Trận đấu trực tiếp
 https://hls.lauthaitv.cc/live/buca-mede-cate/index.m3u8
