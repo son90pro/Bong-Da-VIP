@@ -19,17 +19,14 @@ def generate_m3u_and_json():
                 json.dump(data, f, ensure_ascii=False, indent=2)
             print("Đã lưu file xoilac.json thành công!")
             
-            m3u_content = "#EXTM3U x-tvg-url=\"\"\n"
-            count = 0
-            seen_links = set()
+            extracted_items = []
 
             def recursive_parse(obj, current_group="Bóng Đá"):
-                nonlocal count
                 if isinstance(obj, list):
                     for item in obj:
                         recursive_parse(item, current_group)
                 elif isinstance(obj, dict):
-                    # Cập nhật tên nhóm/danh mục nếu tìm thấy tên nhà cung cấp hoặc group
+                    # Cập nhật tên nhóm/danh mục theo nhà cung cấp
                     group = obj.get("name") or obj.get("title") or obj.get("group") or obj.get("category") or current_group
                     if current_group != "Bóng Đá" and obj.get("name"):
                         group = obj.get("name")
@@ -57,21 +54,16 @@ def generate_m3u_and_json():
                         url_lower = url.lower()
                         is_root = (url.count('/') <= 3 and not any(kw in url_lower for kw in ['.m3u8', '.ts', 'playlist', 'live', 'play', 'stream', 'token', 'server', 'hls', 'index']))
                         
-                        if not is_root and url not in seen_links:
-                            seen_links.add(url)
+                        if not is_root:
                             display_title = title if title and title != group else "Trận đấu trực tiếp"
-                            
-                            # Ghi vào file m3u theo chuẩn nhóm của nhà cung cấp
-                            m3u_content += f"#EXTINF:-1 tvg-logo=\"{logo}\" group-title=\"{current_group}\",{display_title}\n"
-                            
-                            final_link = url
-                            if referer:
-                                final_link = f"{url}|User-Agent={ua}&Referer={referer}"
-                            elif ua != "Mozilla/5.0":
-                                final_link = f"{url}|User-Agent={ua}"
-                                
-                            m3u_content += f"{final_link}\n"
-                            count += 1
+                            extracted_items.append({
+                                "group": current_group,
+                                "title": display_title,
+                                "url": url,
+                                "logo": logo,
+                                "ua": ua,
+                                "referer": referer
+                            })
 
                     # Tiếp tục quét sâu vào các nhánh con trong JSON
                     for k, v in obj.items():
@@ -80,6 +72,26 @@ def generate_m3u_and_json():
                             recursive_parse(v, next_group)
 
             recursive_parse(data)
+
+            # Xây dựng nội dung file M3U từ danh sách đã thu thập
+            m3u_content = "#EXTM3U x-tvg-url=\"\"\n"
+            count = 0
+            seen_links = set()
+
+            for item in extracted_items:
+                url = item["url"]
+                if url not in seen_links:
+                    seen_links.add(url)
+                    m3u_content += f"#EXTINF:-1 tvg-logo=\"{item['logo']}\" group-title=\"{item['group']}\",{item['title']}\n"
+                    
+                    final_link = url
+                    if item["referer"]:
+                        final_link = f"{url}|User-Agent={item['ua']}&Referer={item['referer']}"
+                    elif item["ua"] != "Mozilla/5.0":
+                        final_link = f"{url}|User-Agent={item['ua']}"
+                        
+                    m3u_content += f"{final_link}\n"
+                    count += 1
 
             with open('playlist.m3u', 'w', encoding='utf-8') as f:
                 f.write(m3u_content)
