@@ -1,6 +1,8 @@
 #EXTM3U x-tvg-url=""
 #EXTINF:-1 tvg-logo="" group-title="Bóng Đá",Xôi Lạc TV
 https://almafestival.info/
+#EXTINF:-1 tvg-logo="" group-title="Bóng Đá",Giờ Vàng TV
+https://giovang.love
 #EXTINF:-1 tvg-logo="" group-title="Bóng Đá",Khô Gà TV
 https://khoga1.live/
 #EXTINF:-1 tvg-logo="" group-title="Bóng Đá",Chuối Chiên TV
