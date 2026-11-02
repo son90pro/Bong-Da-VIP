@@ -1,7 +1,7 @@
 name: Auto Update Xoilac Data
 
 on:
-  # Lên lịch chạy tự động (Ví dụ: Cứ mỗi 3 tiếng chạy 1 lần)
+  # Lên lịch chạy tự động (Cứ mỗi 3 tiếng chạy 1 lần)
   schedule:
     - cron: '0 */3 * * *'
   
@@ -24,7 +24,6 @@ jobs:
         uses: actions/setup-python@v5
         with:
           python-version: '3.10'
-          cache: 'pip'
 
       - name: Install dependencies
         run: |
@@ -42,4 +41,4 @@ jobs:
           git add .
           # Kiểm tra xem có thay đổi gì không, nếu có thì commit và push lên nhánh chính
           git diff --quiet && git diff --staged --quiet || (git commit -m "Auto-update sports data [skip ci]" && git push)
-
+          
