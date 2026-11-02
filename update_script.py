@@ -19,115 +19,101 @@ def generate_m3u_and_json():
                 json.dump(data, f, ensure_ascii=False, indent=2)
             print("Đã lưu file xoilac.json thành công!")
             
-            m3u_content = "#EXTM3U x-tvg-url=\"\"\n"
-            count = 0
+            extracted_items = []
             seen_links = set()
 
-            # Lấy danh sách providers từ JSON gốc
-            providers = data.get("providers", [])
-            if not isinstance(providers, list):
-                providers = []
+            def is_root_homepage(url):
+                if not url or not isinstance(url, str):
+                    return True
+                url_lower = url.lower()
+                has_stream = any(kw in url_lower for kw in ['.m3u8', '.ts', 'playlist', 'live', 'play', 'stream', 'token', 'server', 'hls'])
+                if url.count('/') <= 3 and not has_stream:
+                    return True
+                return False
 
-            for prov in providers:
-                if not isinstance(prov, dict):
-                    continue
-                
-                # Tên nhà cung cấp làm nhóm danh mục trên TV (VD: Xôi Lạc TV, Sao Kê TV...)
-                prov_name = prov.get("name") or prov.get("title") or "Kênh Trực Tiếp"
-                prov_logo = prov.get("logo") or prov.get("icon") or ""
-                
-                # Lấy danh sách các trận đấu bên trong provider
-                matches = []
-                for k in ["matches", "list", "items", "data", "match_list", "schedule"]:
-                    if k in prov and isinstance(prov[k], list):
-                        matches = prov[k]
-                        break
-                
-                if not matches:
-                    for val in prov.values():
-                        if isinstance(val, list):
-                            matches = val
-                            break
+            def parse_obj(obj, current_group="Bóng Đá"):
+                if isinstance(obj, list):
+                    for item in obj:
+                        parse_obj(item, current_group)
+                elif isinstance(obj, dict):
+                    # Cập nhật tên nhóm nếu object này đại diện cho provider hoặc group
+                    group = obj.get("name") or obj.get("title") or current_group
+                    if "providers" in obj or "matches" in obj or "list" in obj or "items" in obj:
+                        if obj.get("name"):
+                            group = obj.get("name")
 
-                for match in matches:
-                    if not isinstance(match, dict):
-                        continue
-                    
-                    # Bóc tách tên đội bóng chính xác
-                    home = match.get("home_team") or match.get("home") or match.get("team_home") or ""
-                    away = match.get("away_team") or match.get("away") or match.get("team_away") or ""
+                    # Lấy thông tin tên trận đấu
+                    home = obj.get("home_team") or obj.get("home") or obj.get("team_home") or ""
+                    away = obj.get("away_team") or obj.get("away") or obj.get("team_away") or ""
                     
                     match_title = ""
                     if home and away:
                         match_title = f"{home} vs {away}"
                     else:
-                        match_title = match.get("title") or match.get("name") or match.get("match_name") or match.get("match") or ""
+                        match_title = obj.get("match_name") or obj.get("title") or obj.get("name") or ""
+
+                    logo = obj.get("logo") or obj.get("icon") or ""
+                    ua = obj.get("user_agent", "Mozilla/5.0")
+                    referer = obj.get("referer", "")
+
+                    # Thu thập tất cả các link stream trong object này
+                    streams_to_check = []
                     
-                    if not match_title:
-                        match_title = "Trận đấu trực tiếp"
-                        
-                    league = match.get("league") or match.get("tournament") or match.get("category") or ""
-                    time_str = match.get("time") or match.get("date") or match.get("start_time") or ""
-                    logo = match.get("logo") or match.get("icon") or prov_logo
-
-                    # Định dạng hiển thị tên trận kèm giải đấu và thời gian nếu có
-                    display_title = match_title
-                    extra = []
-                    if league: extra.append(league)
-                    if time_str: extra.append(time_str)
-                    if extra:
-                        display_title += f" ({' • '.join(extra)})"
-
-                    # Lấy danh sách server/stream
-                    streams = []
-                    for sk in ["streams", "links", "servers", "sources", "playlist"]:
-                        if sk in match and isinstance(match[sk], list):
-                            streams = match[sk]
-                            break
+                    for k in ["stream_url", "url", "link", "m3u8", "source", "play_url"]:
+                        if k in obj and isinstance(obj[k], str):
+                            streams_to_check.append((obj[k], "Server chính"))
                     
-                    direct_url = match.get("stream_url") or match.get("url") or match.get("link") or match.get("m3u8") or ""
-                    if direct_url and isinstance(direct_url, str) and direct_url.startswith("http"):
-                        streams.append({"name": "Server chính", "url": direct_url})
+                    for k in ["streams", "links", "servers", "sources", "playlist"]:
+                        if k in obj and isinstance(obj[k], list):
+                            for s in obj[k]:
+                                if isinstance(s, str):
+                                    streams_to_check.append((s, "Server"))
+                                elif isinstance(s, dict):
+                                    s_url = s.get("url") or s.get("link") or s.get("stream_url") or ""
+                                    s_name = s.get("name") or s.get("server_name") or "Server"
+                                    if s_url:
+                                        streams_to_check.append((s_url, s_name))
 
-                    if not streams and direct_url and direct_url.startswith("http"):
-                        streams = [{"name": "Server chính", "url": direct_url}]
-
-                    for idx, stream in enumerate(streams, 1):
-                        s_url = ""
-                        s_name = f"Server {idx}"
-                        ua = match.get("user_agent", "Mozilla/5.0")
-                        referer = match.get("referer", "")
-
-                        if isinstance(stream, str):
-                            s_url = stream
-                        elif isinstance(stream, dict):
-                            s_url = stream.get("url") or stream.get("link") or stream.get("stream_url") or ""
-                            s_name = stream.get("name") or stream.get("server_name") or f"Server {idx}"
-                            ua = stream.get("user_agent", ua)
-                            referer = stream.get("referer", referer)
-
+                    for s_url, s_name in streams_to_check:
                         if s_url and isinstance(s_url, str) and s_url.startswith("http"):
-                            # Chặn hoàn toàn link trang chủ gốc
-                            url_lower = s_url.lower()
-                            is_homepage = (s_url.count('/') <= 3 and not any(kw in url_lower for kw in ['.m3u8', '.ts', 'playlist', 'live', 'play', 'stream', 'token', 'server']))
-                            if is_homepage:
-                                continue
-
-                            if s_url not in seen_links:
+                            if not is_root_homepage(s_url) and s_url not in seen_links:
                                 seen_links.add(s_url)
-                                item_title = f"{display_title} [{s_name}]" if len(streams) > 1 else display_title
+                                display_title = match_title if match_title and match_title != group else "Trận đấu trực tiếp"
+                                if len(streams_to_check) > 1 and s_name != "Server chính":
+                                    display_title += f" [{s_name}]"
                                 
-                                # Ghi chuẩn định dạng IPTV M3U
-                                m3u_content += f"#EXTINF:-1 tvg-logo=\"{logo}\" group-title=\"{prov_name}\",{item_title}\n"
-                                
-                                final_link = s_url
-                                if referer:
-                                    final_link = f"{s_url}|User-Agent={ua}&Referer={referer}"
-                                elif ua != "Mozilla/5.0":
-                                    final_link = f"{s_url}|User-Agent={ua}"
-                                    
-                                m3u_content += f"{final_link}\n"
-                                count += 1
+                                final_group = current_group if current_group != "Bóng Đá" else group
+                                extracted_items.append({
+                                    "group": final_group,
+                                    "title": display_title,
+                                    "url": s_url,
+                                    "logo": logo,
+                                    "ua": ua,
+                                    "referer": referer
+                                })
+
+                    # Quét sâu tiếp vào các nhánh con
+                    for k, v in obj.items():
+                        if isinstance(v, (list, dict)):
+                            next_grp = group if k in ["providers", "groups", "matches", "list", "items", "data", "servers", "streams"] else current_group
+                            parse_obj(v, next_grp)
+
+            parse_obj(data)
+
+            # Xây dựng nội dung file M3U
+            m3u_content = "#EXTM3U x-tvg-url=\"\"\n"
+            count = 0
+
+            for item in extracted_items:
+                m3u_content += f"#EXTINF:-1 tvg-logo=\"{item['logo']}\" group-title=\"{item['group']}\",{item['title']}\n"
+                final_link = item["url"]
+                if item["referer"]:
+                    final_link = f"{item['url']}|User-Agent={item['ua']}&Referer={item['referer']}"
+                elif item["ua"] != "Mozilla/5.0":
+                    final_link = f"{item['url']}|User-Agent={item['ua']}"
+                
+                m3u_content += f"{final_link}\n"
+                count += 1
 
             with open('playlist.m3u', 'w', encoding='utf-8') as f:
                 f.write(m3u_content)
