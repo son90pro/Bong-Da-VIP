@@ -2,12 +2,11 @@ import json
 import requests
 
 def find_items_recursive(data):
-    """Hàm đệ quy quét sâu vào bên trong JSON để tìm ra danh sách các trận đấu/kênh"""
+    """Hàm đệ quy quét sâu vào bên trong JSON để tìm ra các mục dữ liệu"""
     results = []
     if isinstance(data, list):
         for item in data:
             if isinstance(item, dict):
-                # Kiểm tra xem item này có chứa các dấu hiệu của trận đấu/kênh không
                 has_link = any(k in item for k in ["url", "link", "stream", "m3u8", "stream_url", "source"])
                 has_title = any(k in item for k in ["title", "name", "match", "match_name", "channel", "room_name"])
                 if has_link or has_title:
@@ -42,9 +41,8 @@ def generate_m3u_and_json():
                 json.dump(data, f, ensure_ascii=False, indent=2)
             print("Đã cập nhật file xoilac.json thành công!")
             
-            # 2. Quét tìm danh sách các trận đấu/kênh từ mọi ngóc ngách trong JSON
+            # 2. Quét dữ liệu
             raw_items = find_items_recursive(data)
-            # Nếu không quét được theo kiểu đệ quy thông minh, lấy luôn list cấp 1 nếu có
             if not raw_items and isinstance(data, list):
                 raw_items = data
 
@@ -55,7 +53,6 @@ def generate_m3u_and_json():
                 if not isinstance(item, dict):
                     continue
                 
-                # Quét tất cả các key có thể là Tên, Link, Nhóm, Logo
                 title = (item.get("title") or item.get("name") or item.get("match_name") or 
                          item.get("channel_name") or item.get("match") or "Trận đấu trực tiếp")
                 
@@ -67,7 +64,17 @@ def generate_m3u_and_json():
                 
                 logo = (item.get("logo") or item.get("icon") or item.get("thumb") or "")
                 
-                if stream_url and str(stream_url).startswith("http"):
+                # BỘ LỌC CHẶT CHẼ: Chỉ lấy link stream thực thụ (phải chứa .m3u8, .ts, hoặc các từ khóa luồng phát)
+                # Loại bỏ hoàn toàn các trang chủ/website chung chung (như .com, .love, .live trơn không có đuôi stream)
+                stream_url_lower = str(stream_url).lower()
+                is_valid_stream = (
+                    stream_url.startswith("http") and 
+                    not stream_url_lower.endswith(tuple([".com", ".love", ".live", ".me", ".top", ".gg", ".vn"])) or
+                    any(keyword in stream_url_lower for keyword in [".m3u8", ".ts", "playlist", "live/", "m3u", "stream", "hls"])
+                )
+
+                # Nếu là link stream hợp lệ thì mới đưa vào M3U
+                if is_valid_stream:
                     ua = item.get("user_agent", "Mozilla/5.0")
                     referer = item.get("referer", "")
                     
@@ -84,7 +91,7 @@ def generate_m3u_and_json():
             with open('playlist.m3u', 'w', encoding='utf-8') as f:
                 f.write(m3u_content)
                 
-            print(f"Đã tạo xong file playlist.m3u với {count} kênh/trận đấu!")
+            print(f"Đã tạo xong file playlist.m3u với {count} luồng trận đấu chuẩn!")
             
         else:
             print(f"Lỗi phản hồi từ server: {response.status_code}")
