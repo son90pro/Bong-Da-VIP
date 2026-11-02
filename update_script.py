@@ -1,27 +1,48 @@
 import json
 import requests
 
-def find_items_recursive(data):
-    """Hàm đệ quy quét sâu vào bên trong JSON để tìm ra các mục dữ liệu"""
-    results = []
+def extract_streams(data, group_name="Bóng Đá"):
+    """Hàm đệ quy quét toàn bộ các tầng trong JSON để tìm tên và link stream"""
+    streams = []
+    
     if isinstance(data, list):
         for item in data:
-            if isinstance(item, dict):
-                has_link = any(k in item for k in ["url", "link", "stream", "m3u8", "stream_url", "source"])
-                has_title = any(k in item for k in ["title", "name", "match", "match_name", "channel", "room_name"])
-                if has_link or has_title:
-                    results.append(item)
-                else:
-                    results.extend(find_items_recursive(item))
-            elif isinstance(item, list):
-                results.extend(find_items_recursive(item))
+            streams.extend(extract_streams(item, group_name))
+            
     elif isinstance(data, dict):
-        for key, value in data.items():
-            if isinstance(value, list):
-                results.extend(find_items_recursive(value))
-            elif isinstance(value, dict):
-                results.extend(find_items_recursive(value))
-    return results
+        # Lấy tiêu đề / tên trận / tên kênh
+        title = (data.get("title") or data.get("name") or data.get("match_name") or 
+                 data.get("channel_name") or data.get("match") or data.get("team"))
+        
+        # Lấy đường dẫn link (ưu tiên các trường stream, url, link, m3u8...)
+        url = (data.get("stream_url") or data.get("url") or data.get("link") or 
+               data.get("m3u8") or data.get("stream") or data.get("source") or data.get("play_url"))
+        
+        category = (data.get("category") or data.get("group") or data.get("league") or 
+                    data.get("sport") or data.get("type") or group_name)
+        
+        logo = data.get("logo") or data.get("icon") or data.get("thumb") or ""
+
+        # Nếu tìm thấy URL hợp lệ
+        if url and isinstance(url, str) and url.startswith("http"):
+            if not title:
+                title = "Trận đấu trực tiếp"
+            streams.append({
+                "title": title,
+                "group": category,
+                "url": url,
+                "logo": logo,
+                "ua": data.get("user_agent", "Mozilla/5.0"),
+                "referer": data.get("referer", "")
+            })
+        
+        # Tiếp tục quét sâu vào bên trong các nhánh con của từ điển này
+        for k, v in data.items():
+            if isinstance(v, (list, dict)):
+                sub_group = category if isinstance(category, str) else group_name
+                streams.extend(extract_streams(v, sub_group))
+                
+    return streams
 
 def generate_m3u_and_json():
     target_url = "https://tinyurl.com/xoilacz3" 
@@ -41,48 +62,38 @@ def generate_m3u_and_json():
                 json.dump(data, f, ensure_ascii=False, indent=2)
             print("Đã cập nhật file xoilac.json thành công!")
             
-            # 2. Quét dữ liệu
-            raw_items = find_items_recursive(data)
-            if not raw_items and isinstance(data, list):
-                raw_items = data
-
+            # 2. Bóc tách toàn bộ dữ liệu bên trong JSON
+            all_streams = extract_streams(data)
+            print(f"Quét được tổng cộng {len(all_streams)} mục chứa link.")
+            
             m3u_content = "#EXTM3U x-tvg-url=\"\"\n"
             count = 0
+            seen_urls = set()
 
-            for item in raw_items:
-                if not isinstance(item, dict):
-                    continue
+            for s in all_streams:
+                url = s["url"]
+                url_lower = url.lower()
                 
-                title = (item.get("title") or item.get("name") or item.get("match_name") or 
-                         item.get("channel_name") or item.get("match") or "Trận đấu trực tiếp")
+                # BỘ LỌC THÔNG MINH: 
+                # Loại bỏ các đường dẫn chỉ là trang chủ gốc (vd: https://khoga1.live/ có dưới 4 dấu / và không có đuôi stream)
+                is_root_domain = (url.count('/') <= 3 and not any(ext in url_lower for ext in ['.m3u8', '.ts', 'playlist', 'live', 'play', 'stream', 'hls', 'index', 'watch']))
                 
-                group = (item.get("category") or item.get("group") or item.get("league") or 
-                         item.get("sport") or item.get("type") or "Bóng Đá")
-                
-                stream_url = (item.get("stream_url") or item.get("url") or item.get("link") or 
-                              item.get("m3u8") or item.get("stream") or item.get("source") or "")
-                
-                logo = (item.get("logo") or item.get("icon") or item.get("thumb") or "")
-                
-                # BỘ LỌC CHẶT CHẼ: Chỉ lấy link stream thực thụ (phải chứa .m3u8, .ts, hoặc các từ khóa luồng phát)
-                # Loại bỏ hoàn toàn các trang chủ/website chung chung (như .com, .love, .live trơn không có đuôi stream)
-                stream_url_lower = str(stream_url).lower()
-                is_valid_stream = (
-                    stream_url.startswith("http") and 
-                    not stream_url_lower.endswith(tuple([".com", ".love", ".live", ".me", ".top", ".gg", ".vn"])) or
-                    any(keyword in stream_url_lower for keyword in [".m3u8", ".ts", "playlist", "live/", "m3u", "stream", "hls"])
-                )
-
-                # Nếu là link stream hợp lệ thì mới đưa vào M3U
-                if is_valid_stream:
-                    ua = item.get("user_agent", "Mozilla/5.0")
-                    referer = item.get("referer", "")
+                if is_root_domain:
+                    continue  # Bỏ qua trang chủ, chỉ giữ lại link chi tiết trận đấu
                     
-                    final_link = stream_url
+                if url not in seen_urls:
+                    seen_urls.add(url)
+                    title = s["title"]
+                    group = s["group"]
+                    logo = s["logo"]
+                    ua = s["ua"]
+                    referer = s["referer"]
+                    
+                    final_link = url
                     if referer:
-                        final_link = f"{stream_url}|User-Agent={ua}&Referer={referer}"
+                        final_link = f"{url}|User-Agent={ua}&Referer={referer}"
                     elif ua != "Mozilla/5.0":
-                        final_link = f"{stream_url}|User-Agent={ua}"
+                        final_link = f"{url}|User-Agent={ua}"
 
                     m3u_content += f"#EXTINF:-1 tvg-logo=\"{logo}\" group-title=\"{group}\",{title}\n"
                     m3u_content += f"{final_link}\n"
@@ -91,7 +102,7 @@ def generate_m3u_and_json():
             with open('playlist.m3u', 'w', encoding='utf-8') as f:
                 f.write(m3u_content)
                 
-            print(f"Đã tạo xong file playlist.m3u với {count} luồng trận đấu chuẩn!")
+            print(f"Đã lọc và tạo xong file playlist.m3u với {count} link phát thực tế!")
             
         else:
             print(f"Lỗi phản hồi từ server: {response.status_code}")
