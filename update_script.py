@@ -84,7 +84,6 @@ def generate_m3u_and_json():
                 if not matches:
                     matches = [prov]
 
-                # Bước 1: Quét toàn bộ danh sách để thu thập các trận đấu (có tên đội / slug)
                 match_pool = []
                 for match in matches:
                     if not isinstance(match, dict):
@@ -110,18 +109,15 @@ def generate_m3u_and_json():
                     if match_title and match_title != "Trận đấu trực tiếp":
                         match_pool.append({"title": match_title, "logo": logo})
 
-                # Bước 2: Quét toàn bộ để lấy các luồng stream và ghép cặp thông minh
                 match_idx = 0
                 for match in matches:
                     if not isinstance(match, dict):
                         continue
 
-                    # Lấy tên BLV hoặc tiêu đề hiển thị cho server phát
                     blv_name = match.get("title") or match.get("name") or match.get("match_name") or match.get("blv") or ""
                     if any(kw in blv_name.lower() for kw in ['url', 'href', 'logo', 'referer', 'http', 'truc-tiep']):
                         blv_name = ""
 
-                    # Thu thập các link stream (.m3u8)
                     streams = []
                     for dk in ["url", "stream_url", "m3u8", "source"]:
                         val = match.get(dk)
@@ -149,14 +145,12 @@ def generate_m3u_and_json():
 
                     for s_url in streams:
                         s_lower = s_url.lower()
-                        # Chặn tuyệt đối ảnh và link trang chủ rác
                         if any(ext in s_lower for ext in ['.png', '.jpg', '.jpeg', '.webp', '.gif']) or 'almafestival.info' in s_lower:
                             continue
 
                         if s_url not in seen_links:
                             seen_links.add(s_url.strip())
                             
-                            # Xác định tên trận đấu và logo tương ứng trong pool
                             current_match_title = f"{prov_name} Trực Tiếp"
                             current_logo = prov_logo
                             
@@ -165,7 +159,6 @@ def generate_m3u_and_json():
                                 current_logo = match_pool[match_idx % len(match_pool)]["logo"] or prov_logo
                                 match_idx += 1
 
-                            # Gắn tên BLV vào tiêu đề nếu có
                             display_title = current_match_title
                             if blv_name and blv_name not in display_title:
                                 display_title += f" [{blv_name}]"
@@ -191,16 +184,6 @@ def generate_m3u_and_json():
             
     except Exception as e:
         print(f"Lỗi: {e}")
-
-if __name__ == "__main__":
-    generate_m3u_and_json()
-    ạo xong file playlist.m3u với {count} luồng trận đấu đầy đủ thông tin!")
-            
-        else:
-            print(f"Lỗi HTTP: {response.status_code}")
-            
-    except Exception as e:
-        print(f"Đã xảy ra lỗi: {e}")
 
 if __name__ == "__main__":
     generate_m3u_and_json()
