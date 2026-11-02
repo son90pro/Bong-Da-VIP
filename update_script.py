@@ -14,7 +14,6 @@ def generate_m3u_and_json():
         if response.status_code == 200:
             data = response.json()
             
-            # Lưu file JSON gốc để kiểm tra cấu trúc
             with open('xoilac.json', 'w', encoding='utf-8') as f:
                 json.dump(data, f, ensure_ascii=False, indent=2)
             print("Đã lưu file xoilac.json thành công!")
@@ -22,148 +21,126 @@ def generate_m3u_and_json():
             valid_items = []
             seen_links = set()
 
-            providers = data.get("providers", [])
-            if not isinstance(providers, list):
-                if isinstance(data, dict):
-                    for k, v in data.items():
-                        if isinstance(v, list):
-                            providers = v
-                            break
-                if not isinstance(providers, list):
-                    providers = [data]
+            # Hàm tìm giá trị linh hoạt bằng cách quét các từ khóa trong key
+            def get_val(d, keywords):
+                if not isinstance(d, dict):
+                    return ""
+                for k, v in d.items():
+                    if any(kw in k.lower() for kw in keywords):
+                        if isinstance(v, (str, int, float)) and str(v).strip():
+                            val_str = str(v).strip()
+                            if val_str.lower() not in ["null", "undefined", "none"]:
+                                return val_str
+                return ""
 
-            for prov in providers:
-                if not isinstance(prov, dict):
-                    continue
-                
-                prov_name = prov.get("name") or prov.get("title") or prov.get("provider_name") or "Kênh Trực Tiếp"
-                prov_logo = prov.get("logo") or prov.get("icon") or ""
-
-                # Hàm quét đệ quy đa tầng tìm thông tin trận đấu và luồng phát
-                def find_matches(node, current_cat):
-                    if isinstance(node, list):
-                        for item in node:
-                            find_matches(item, current_cat)
-                    elif isinstance(node, dict):
-                        cat = node.get("name") or node.get("title") or current_cat
-                        
-                        # Trích xuất thông tin chi tiết trận đấu
-                        home = node.get("home_team") or node.get("home") or node.get("team_home") or node.get("home_name") or ""
-                        away = node.get("away_team") or node.get("away") or node.get("team_away") or node.get("away_name") or ""
-                        
+            def find_all_matches(node, current_group="Trực Tiếp"):
+                if isinstance(node, list):
+                    for item in node:
+                        find_all_matches(item, current_group)
+                elif isinstance(node, dict):
+                    group = get_val(node, ["provider", "group", "category_name", "channel_name", "name"]) or current_group
+                    
+                    # Dò tìm tên đội bóng qua nhiều biến thể key khác nhau
+                    home = get_val(node, ["home_name", "home_team", "team1", "home", "host", "t1", "h_name"])
+                    away = get_val(node, ["away_name", "away_team", "team2", "away", "guest", "visitor", "t2", "a_name"])
+                    match_name = get_val(node, ["match_name", "match_title", "title", "subject", "fullname"])
+                    
+                    if home and away:
+                        match_title = f"{home} vs {away}"
+                    elif match_name:
+                        match_title = match_name
+                    else:
                         match_title = ""
-                        if home and away:
-                            match_title = f"{home} vs {away}"
-                        else:
-                            t = node.get("match_name") or node.get("title") or node.get("name") or ""
-                            if t and not any(kw in t.lower() for kw in ["đang phát trực tiếp", "lịch thi đấu", "tất cả", "href", "url", "logo"]):
-                                match_title = t
 
-                        league = node.get("league") or node.get("tournament") or node.get("category") or node.get("competition") or ""
-                        time_str = node.get("time") or node.get("date") or node.get("start_time") or node.get("match_time") or ""
-                        blv = node.get("blv") or node.get("commentator") or node.get("caster") or node.get("bình luận viên") or ""
-                        logo = node.get("logo") or node.get("icon") or node.get("match_logo") or prov_logo
-                        ua = node.get("user_agent", "Mozilla/5.0")
-                        referer = node.get("referer", "")
+                    league = get_val(node, ["league", "tournament", "competition", "category", "giai", "cup"])
+                    time_str = get_val(node, ["time", "date", "start", "schedule", "hour", "gio"])
+                    blv = get_val(node, ["blv", "commentator", "caster", "binhluan", "speaker"])
+                    logo = get_val(node, ["logo", "icon", "thumb", "image", "avatar", "img"])
+                    ua = get_val(node, ["user_agent", "ua"]) or "Mozilla/5.0"
+                    referer = get_val(node, ["referer", "ref"]) or ""
 
-                        # Thu thập toàn bộ các luồng phát (stream links)
-                        streams = []
-                        for k in ["stream_url", "url", "link", "m3u8", "source", "play_url", "hls"]:
-                            val = node.get(k)
-                            if isinstance(val, str) and val.startswith("http") and not any(ext in val.lower() for ext in ['.png', '.jpg', '.jpeg', '.webp', '.gif']):
-                                streams.append((val, "Server chính"))
+                    # Quét tìm các luồng stream trong node hiện tại
+                    streams = []
+                    for k, v in node.items():
+                        if any(kw in k.lower() for kw in ["url", "link", "m3u8", "stream", "source", "play"]):
+                            if isinstance(v, str) and v.startswith("http"):
+                                streams.append((v, "Server chính"))
+                            elif isinstance(v, list):
+                                for item in v:
+                                    if isinstance(item, str) and item.startswith("http"):
+                                        streams.append((item, "Server"))
+                                    elif isinstance(item, dict):
+                                        u = get_val(item, ["url", "link", "stream", "m3u8", "src"])
+                                        nm = get_val(item, ["name", "title", "server"]) or "Server"
+                                        if u and u.startswith("http"):
+                                            streams.append((u, nm))
 
-                        for k in ["streams", "links", "servers", "sources", "playlist"]:
-                            arr = node.get(k)
-                            if isinstance(arr, list):
-                                for s in arr:
-                                    if isinstance(s, str) and s.startswith("http"):
-                                        streams.append((s, "Server"))
-                                    elif isinstance(s, dict):
-                                        s_url = s.get("url") or s.get("link") or s.get("stream_url") or s.get("m3u8") or ""
-                                        s_name = s.get("name") or s.get("server_name") or "Server"
-                                        if isinstance(s_url, str) and s_url.startswith("http"):
-                                            streams.append((s_url, s_name))
+                    # Nếu bắt được trận đấu và có luồng stream
+                    if streams and match_title:
+                        parts = []
+                        if time_str:
+                            parts.append(f"[{time_str}]")
+                        parts.append(match_title)
+                        if league:
+                            parts.append(f"({league})")
+                        if blv:
+                            parts.append(f"- BLV: {blv}")
+                        
+                        full_title = " ".join(parts)
 
-                        # Nếu tìm thấy luồng phát, tiến hành đóng gói thông tin đầy đủ
-                        if streams:
-                            title_parts = []
-                            if time_str:
-                                title_parts.append(f"[{time_str}]")
-                            
-                            if match_title:
-                                title_parts.append(match_title)
-                            else:
-                                title_parts.append(prov_name)
+                        for idx, (s_url, s_name) in enumerate(streams):
+                            s_lower = s_url.lower()
+                            if any(ext in s_lower for ext in ['.png', '.jpg', '.jpeg', '.webp', '.gif']):
+                                continue
+                            if s_url not in seen_links:
+                                seen_links.add(s_url)
+                                item_title = full_title
+                                if len(streams) > 1 and s_name != "Server chính":
+                                    item_title += f" [{s_name}]"
 
-                            if league:
-                                title_parts.append(f"({league})")
-                            
-                            if blv:
-                                title_parts.append(f"- BLV: {blv}")
+                                valid_items.append({
+                                    "group": group,
+                                    "title": item_title,
+                                    "url": s_url,
+                                    "logo": logo,
+                                    "ua": ua,
+                                    "referer": referer
+                                })
 
-                            base_title = " ".join(title_parts)
+                    # Tiếp tục đệ quy xuống các cấp con
+                    for k, v in node.items():
+                        if isinstance(v, (list, dict)):
+                            find_all_matches(v, group)
 
-                            for idx, (s_url, s_name) in enumerate(streams):
-                                if s_url not in seen_links:
-                                    seen_links.add(s_url)
-                                    
-                                    item_title = base_title
-                                    if len(streams) > 1 and s_name != "Server chính":
-                                        item_title += f" [{s_name}]"
+            find_all_matches(data)
 
-                                    valid_items.append({
-                                        "group": prov_name,
-                                        "title": item_title,
-                                        "url": s_url,
-                                        "logo": logo,
-                                        "ua": ua,
-                                        "referer": referer
-                                    })
-
-                        # Tiếp tục quét sâu vào các nhánh con
-                        for k, v in node.items():
-                            if isinstance(v, (list, dict)):
-                                find_matches(v, cat)
-
-                find_matches(prov, prov_name)
-
-            # Cơ chế quét mở rộng dự phòng nếu danh sách rỗng
-            if not valid_items:
-                print("Đang chạy quét mở rộng toàn bộ JSON...")
-                def broad_search(node):
+            # Cơ chế vét cạn dự phòng (Fallback) nếu cấu trúc phân cấp quá dị biệt
+            if len(valid_items) == 0:
+                print("Chạy quét vét cạn dự phòng...")
+                def fallback_search(node):
                     if isinstance(node, list):
                         for item in node:
-                            broad_search(item)
+                            fallback_search(item)
                     elif isinstance(node, dict):
-                        home = node.get("home_team") or node.get("home") or ""
-                        away = node.get("away_team") or node.get("away") or ""
-                        url = node.get("stream_url") or node.get("url") or node.get("m3u8") or ""
-                        if home and away and isinstance(url, str) and url.startswith("http"):
-                            time_str = node.get("time", "")
-                            league = node.get("league", "")
-                            blv = node.get("blv", "")
-                            logo = node.get("logo", "")
-                            title = f"[{time_str}] {home} vs {away}" if time_str else f"{home} vs {away}"
-                            if league: title += f" ({league})"
-                            if blv: title += f" - BLV: {blv}"
-                            
-                            if url not in seen_links:
-                                seen_links.add(url)
+                        t = get_val(node, ["title", "name", "match", "team", "home", "away"])
+                        u = get_val(node, ["url", "link", "m3u8", "stream"])
+                        if u and u.startswith("http") and not any(ext in u.lower() for ext in ['.png', '.jpg', '.webp']):
+                            if u not in seen_links:
+                                seen_links.add(u)
                                 valid_items.append({
                                     "group": "Trực Tiếp",
-                                    "title": title,
-                                    "url": url,
-                                    "logo": logo,
+                                    "title": t if t else "Trận đấu trực tiếp",
+                                    "url": u,
+                                    "logo": "",
                                     "ua": "Mozilla/5.0",
                                     "referer": ""
                                 })
                         for k, v in node.items():
                             if isinstance(v, (list, dict)):
-                                broad_search(v)
-                broad_search(data)
+                                fallback_search(v)
+                fallback_search(data)
 
-            # Xuất file playlist.m3u hoàn chỉnh
+            # Ghi file M3U chuẩn
             m3u_content = "#EXTM3U x-tvg-url=\"\"\n"
             for item in valid_items:
                 m3u_content += f"#EXTINF:-1 tvg-logo=\"{item['logo']}\" group-title=\"{item['group']}\",{item['title']}\n"
@@ -176,14 +153,12 @@ def generate_m3u_and_json():
 
             with open('playlist.m3u', 'w', encoding='utf-8') as f:
                 f.write(m3u_content)
-                
-            print(f"Đã tạo xong file playlist.m3u với {len(valid_items)} luồng đầy đủ thông tin chi tiết!")
+            print(f"Đã tạo xong playlist.m3u với {len(valid_items)} luồng đầy đủ!")
             
         else:
-            print(f"Lỗi phản hồi từ server: {response.status_code}")
-            
+            print(f"Lỗi HTTP: {response.status_code}")
     except Exception as e:
-        print(f"Đã xảy ra lỗi: {e}")
+        print(f"Lỗi: {e}")
 
 if __name__ == "__main__":
     generate_m3u_and_json()
