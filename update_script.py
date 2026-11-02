@@ -1,41 +1,6 @@
 import json
 import requests
 
-def parse_node(node, group_name="Bóng Đá"):
-    streams = []
-    if isinstance(node, list):
-        for item in node:
-            streams.extend(parse_node(item, group_name))
-    elif isinstance(node, dict):
-        # Lấy tên / tiêu đề
-        title = (node.get("title") or node.get("name") or node.get("match_name") or 
-                 node.get("channel_name") or node.get("match") or "")
-        
-        # Lấy link stream hoặc url
-        url = (node.get("stream_url") or node.get("url") or node.get("link") or 
-               node.get("m3u8") or node.get("stream") or node.get("source") or node.get("play_url"))
-        
-        category = (node.get("category") or node.get("group") or node.get("league") or 
-                    node.get("sport") or node.get("type") or group_name)
-        
-        logo = node.get("logo") or node.get("icon") or node.get("thumb") or ""
-
-        if url and isinstance(url, str) and url.startswith("http"):
-            if not title:
-                title = "Trận đấu trực tiếp"
-            streams.append({
-                "title": title,
-                "group": category,
-                "url": url,
-                "logo": logo,
-                "ua": node.get("user_agent", "Mozilla/5.0"),
-                "referer": node.get("referer", "")
-            })
-
-        # Đệ quy quét tất cả các key con (đặc biệt là các nhánh matches, channels, items bên trong groups/providers)
-import json
-import requests
-
 def extract_all_links(data):
     results = []
     
@@ -44,18 +9,30 @@ def extract_all_links(data):
             for item in obj:
                 recursive_search(item, current_group)
         elif isinstance(obj, dict):
-            # Cập nhật group nếu có
-            group = obj.get("category") or obj.get("group") or obj.get("league") or current_group
-            title = obj.get("title") or obj.get("name") or obj.get("match_name") or obj.get("channel_name") or ""
-            logo = obj.get("logo") or obj.get("icon") or ""
+            # Lấy nhóm giải đấu
+            group = (obj.get("category") or obj.get("group") or obj.get("league") or 
+                     obj.get("tournament") or current_group)
             
-            # Quét các trường chứa link
+            # Cố gắng lấy tên đội nhà và đội khách nếu có
+            home = obj.get("home_team") or obj.get("home") or obj.get("team_home") or ""
+            away = obj.get("away_team") or obj.get("away") or obj.get("team_away") or ""
+            
+            match_title = ""
+            if home and away:
+                match_title = f"{home} vs {away}"
+            else:
+                match_title = (obj.get("title") or obj.get("name") or obj.get("match_name") or 
+                               obj.get("channel_name") or obj.get("match") or "")
+            
+            logo = obj.get("logo") or obj.get("icon") or obj.get("team_logo") or ""
+            
+            # Quét các trường chứa link stream
             for k, v in obj.items():
                 if isinstance(v, str) and v.startswith("http"):
-                    # Nếu key mang ý nghĩa là link/stream/url
-                    if any(key_word in k.lower() for key_word in ["url", "link", "stream", "m3u8", "source", "play"]):
+                    if any(kw in k.lower() for kw in ["url", "link", "stream", "m3u8", "source", "play"]):
+                        final_title = match_title if match_title else "Trận đấu trực tiếp"
                         results.append({
-                            "title": title or f"Kênh {k}",
+                            "title": final_title,
                             "group": group,
                             "url": v,
                             "logo": logo,
@@ -81,14 +58,11 @@ def generate_m3u_and_json():
         if response.status_code == 200:
             data = response.json()
             
-            # 1. Lưu file JSON gốc
             with open('xoilac.json', 'w', encoding='utf-8') as f:
                 json.dump(data, f, ensure_ascii=False, indent=2)
-            print("Đã lưu file xoilac.json thành công!")
             
-            # 2. Trích xuất toàn bộ các link ẩn sâu bên trong các nhánh groups/providers
             all_links = extract_all_links(data)
-            print(f"Tổng số link tìm thấy trong mọi ngóc ngách: {len(all_links)}")
+            print(f"Tổng số link luồng stream tìm thấy: {len(all_links)}")
             
             m3u_content = "#EXTM3U x-tvg-url=\"\"\n"
             count = 0
@@ -99,7 +73,6 @@ def generate_m3u_and_json():
                 if url not in seen_urls:
                     seen_urls.add(url)
                     
-                    # Lọc bớt các link trang chủ nếu cần, nhưng giữ lại toàn bộ link có tiềm năng stream
                     m3u_content += f"#EXTINF:-1 tvg-logo=\"{item['logo']}\" group-title=\"{item['group']}\",{item['title']}\n"
                     
                     final_link = url
@@ -114,7 +87,7 @@ def generate_m3u_and_json():
             with open('playlist.m3u', 'w', encoding='utf-8') as f:
                 f.write(m3u_content)
                 
-            print(f"Đã tạo xong file playlist.m3u với {count} mục hoàn chỉnh!")
+            print(f"Đã tạo xong file playlist.m3u với {count} kênh chuẩn!")
             
         else:
             print(f"Lỗi server: {response.status_code}")
