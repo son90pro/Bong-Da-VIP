@@ -14,7 +14,6 @@ def generate_m3u_and_json():
         if response.status_code == 200:
             data = response.json()
             
-            # Lưu file JSON gốc để kiểm tra
             with open('xoilac.json', 'w', encoding='utf-8') as f:
                 json.dump(data, f, ensure_ascii=False, indent=2)
             print("Đã lưu file xoilac.json thành công!")
@@ -31,11 +30,11 @@ def generate_m3u_and_json():
                 if not isinstance(prov, dict):
                     continue
                 
-                # Giữ nguyên tên nhà cung cấp làm danh mục nhóm bên sidebar TV (Xôi Lạc TV, Khô Gà TV,...)
+                # Tên danh mục bên cột trái TV
                 prov_name = prov.get("name") or prov.get("title") or "Kênh Trực Tiếp"
                 prov_logo = prov.get("logo") or prov.get("icon") or ""
                 
-                # Lấy danh sách trận đấu bên trong provider
+                # Lấy danh sách các trận đấu bên trong mỗi provider
                 matches = []
                 for k in ["matches", "list", "items", "data", "match_list", "schedule", "channels", "matchs"]:
                     if k in prov and isinstance(prov[k], list):
@@ -48,23 +47,11 @@ def generate_m3u_and_json():
                             matches = val
                             break
 
-                # Quét đệ quy dự phòng nếu dữ liệu lồng sâu hơn
-                if not matches:
-                    def deep_find_list(obj):
-                        res = []
-                        if isinstance(obj, list):
-                            return obj
-                        elif isinstance(obj, dict):
-                            for v in obj.values():
-                                res.extend(deep_find_list(v))
-                        return res
-                    matches = deep_find_list(prov)
-
                 for match in matches:
                     if not isinstance(match, dict):
                         continue
                     
-                    # 1. Trích xuất tên đội bóng (Home vs Away)
+                    # 1. Trích xuất chuẩn tên đội bóng (Home vs Away) từ cấu trúc JSON
                     home = match.get("home_team") or match.get("home") or match.get("team_home") or match.get("home_name") or ""
                     away = match.get("away_team") or match.get("away") or match.get("team_away") or match.get("away_name") or ""
                     
@@ -72,20 +59,26 @@ def generate_m3u_and_json():
                     if home and away:
                         match_title = f"{home} vs {away}"
                     else:
-                        match_title = match.get("match_name") or match.get("title") or match.get("name") or ""
-                        if not match_title or any(kw in match_title.lower() for kw in ["đang phát trực tiếp", "lịch thi đấu", "tất cả", "href", "url"]):
-                            match_title = f"{prov_name} Live"
+                        # Fallback nếu không có cấu trúc home/away riêng biệt
+                        raw_t = match.get("match_name") or match.get("title") or match.get("name") or ""
+                        if raw_t and not any(kw in raw_t.lower() for kw in ["đang phát trực tiếp", "lịch thi đấu", "tất cả", "href", "url", "logo", "referer"]):
+                            match_title = raw_t
 
-                    # 2. Trích xuất thông tin chi tiết: Thời gian, Giải đấu, BLV, Logo
+                    if not match_title:
+                        match_title = f"{prov_name} Trực Tiếp"
+
+                    # 2. Lấy thông tin thời gian, giải đấu, BLV, logo
                     league = match.get("league") or match.get("tournament") or match.get("category") or match.get("competition") or ""
                     time_str = match.get("time") or match.get("date") or match.get("start_time") or match.get("match_time") or ""
                     blv = match.get("blv") or match.get("commentator") or match.get("caster") or match.get("bình luận viên") or ""
-                    logo = match.get("logo") or match.get("icon") or match.get("match_logo") or prov_logo
+                    
+                    # Lấy logo đội nhà hoặc logo trận đấu
+                    logo = match.get("logo") or match.get("home_logo") or match.get("icon") or prov_logo
                     
                     ua = match.get("user_agent", "Mozilla/5.0")
                     referer = match.get("referer", "")
 
-                    # Xây dựng tiêu đề hiển thị chuẩn trên TV: [Thời gian] Đội A vs Đội B (Giải đấu) - BLV: Tên
+                    # Xây dựng tiêu đề hiển thị hoàn chỉnh trên TV
                     title_parts = []
                     if time_str:
                         title_parts.append(f"[{time_str}]")
@@ -97,75 +90,70 @@ def generate_m3u_and_json():
 
                     display_title = " ".join(title_parts)
 
-                    # 3. Thu thập các luồng phát stream
+                    # 3. Thu thập các luồng phát stream chính xác (lọc bỏ tuyệt đối các key rác href, logo, referer)
                     streams = []
+                    
+                    # Kiểm tra các mảng chứa server stream
                     for sk in ["streams", "links", "servers", "sources", "playlist"]:
                         if sk in match and isinstance(match[sk], list):
-                            streams.extend(match[sk])
-                    
+                            for s in match[sk]:
+                                if isinstance(s, str) and s.startswith("http"):
+                                    streams.append({"name": "Server", "url": s})
+                                elif isinstance(s, dict):
+                                    s_url = s.get("url") or s.get("link") or s.get("stream_url") or s.get("m3u8") or ""
+                                    s_name = s.get("name") or s.get("server_name") or "Server"
+                                    if s_url:
+                                        streams.append({"name": s_name, "url": s_url})
+
+                    # Kiểm tra các trường link đơn trực tiếp
                     for dk in ["stream_url", "url", "link", "m3u8", "source", "play_url", "hls"]:
-                        if dk in match and isinstance(match[dk], str):
-                            streams.append({"name": "Server chính", "url": match[dk]})
+                        val = match.get(dk)
+                        if isinstance(val, str) and val.startswith("http"):
+                            # Đảm bảo không lấy nhầm link ảnh hoặc link trang chủ thông tin trận đấu
+                            val_lower = val.lower()
+                            if not any(ext in val_lower for ext in ['.png', '.jpg', '.jpeg', '.webp', '.gif', 'almafestival.info']):
+                                streams.append({"name": "Server chính", "url": val})
 
-                    if not streams:
-                        def find_urls_in_dict(d):
-                            found = []
-                            if isinstance(d, dict):
-                                for sub_k, sub_v in d.items():
-                                    if isinstance(sub_v, str) and sub_v.startswith("http"):
-                                        found.append((sub_v, sub_k))
-                                    elif isinstance(sub_v, (dict, list)):
-                                        found.extend(find_urls_in_dict(sub_v))
-                            elif isinstance(d, list):
-                                for item in d:
-                                    found.extend(find_urls_in_dict(item))
-                            return found
+                    # Loại bỏ các stream trùng lặp
+                    unique_streams = []
+                    seen_stream_urls = set()
+                    for st in streams:
+                        u = st["url"]
+                        if u not in seen_stream_urls and u.startswith("http"):
+                            seen_stream_urls.add(u)
+                            unique_streams.append(st)
+
+                    for idx, stream in enumerate(unique_streams, 1):
+                        s_url = stream["url"]
+                        s_name = stream["name"]
                         
-                        raw_urls = find_urls_in_dict(match)
-                        for r_url, r_name in raw_urls:
-                            streams.append({"name": r_name, "url": r_url})
+                        s_url_lower = s_url.lower()
+                        # Bộ lọc an toàn: Chặn đứng mọi loại ảnh và trang web tin tức/trang chủ
+                        is_image = any(ext in s_url_lower for ext in ['.png', '.jpg', '.jpeg', '.webp', '.gif', 'badge', 'logo', 'images/teams'])
+                        is_homepage = ('almafestival.info' in s_url_lower or (s_url.count('/') <= 3 and not any(kw in s_url_lower for kw in ['.m3u8', '.ts', 'playlist', 'live', 'play', 'stream', 'token', 'server', 'hls'])))
 
-                    for idx, stream in enumerate(streams, 1):
-                        s_url = ""
-                        s_name = f"Server {idx}"
-                        
-                        if isinstance(stream, str):
-                            s_url = stream
-                        elif isinstance(stream, dict):
-                            s_url = stream.get("url") or stream.get("link") or stream.get("stream_url") or stream.get("m3u8") or ""
-                            s_name = stream.get("name") or stream.get("server_name") or f"Server {idx}"
-                            ua = stream.get("user_agent", ua)
-                            referer = stream.get("referer", referer)
+                        if is_image or is_homepage:
+                            continue
 
-                        if s_url and isinstance(s_url, str) and s_url.startswith("http"):
-                            s_url_lower = s_url.lower()
+                        if s_url not in seen_links:
+                            seen_links.add(s_url)
+                            item_title = f"{display_title} [{s_name}]" if len(unique_streams) > 1 and s_name != "Server chính" else display_title
                             
-                            # Loại bỏ hình ảnh và link trang chủ gốc
-                            is_image = any(ext in s_url_lower for ext in ['.png', '.jpg', '.jpeg', '.webp', '.gif', 'badge', 'logo', 'images/teams'])
-                            is_homepage = (s_url.count('/') <= 3 and not any(kw in s_url_lower for kw in ['.m3u8', '.ts', 'playlist', 'live', 'play', 'stream', 'token', 'server', 'hls']))
-
-                            if is_image or is_homepage:
-                                continue
-
-                            if s_url not in seen_links:
-                                seen_links.add(s_url)
-                                item_title = f"{display_title} [{s_name}]" if len(streams) > 1 and s_name != "Server chính" else display_title
+                            m3u_content += f"#EXTINF:-1 tvg-logo=\"{logo}\" group-title=\"{prov_name}\",{item_title}\n"
+                            
+                            final_link = s_url
+                            if referer:
+                                final_link = f"{s_url}|User-Agent={ua}&Referer={referer}"
+                            elif ua != "Mozilla/5.0":
+                                final_link = f"{s_url}|User-Agent={ua}"
                                 
-                                m3u_content += f"#EXTINF:-1 tvg-logo=\"{logo}\" group-title=\"{prov_name}\",{item_title}\n"
-                                
-                                final_link = s_url
-                                if referer:
-                                    final_link = f"{s_url}|User-Agent={ua}&Referer={referer}"
-                                elif ua != "Mozilla/5.0":
-                                    final_link = f"{s_url}|User-Agent={ua}"
-                                    
-                                m3u_content += f"{final_link}\n"
-                                count += 1
+                            m3u_content += f"{final_link}\n"
+                            count += 1
 
             with open('playlist.m3u', 'w', encoding='utf-8') as f:
                 f.write(m3u_content)
                 
-            print(f"Đã tạo xong file playlist.m3u với {count} luồng trận đấu đầy đủ chi tiết!")
+            print(f"Đã tạo xong file playlist.m3u với {count} luồng trận đấu chuẩn xác tuyệt đối!")
             
         else:
             print(f"Lỗi phản hồi từ server: {response.status_code}")
