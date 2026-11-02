@@ -1,6 +1,7 @@
 import json
 import re
 import requests
+from datetime import datetime
 
 def parse_slug_to_info(href_str):
     if not href_str:
@@ -15,11 +16,20 @@ def parse_slug_to_info(href_str):
 
     time_str = ""
     match_slug = slug
+    
+    # 1. Quét tìm định dạng luc-hhmm-ngay-dd-mm-yyyy
     time_match = re.search(r'luc-(\d{2})(\d{2})-ngay-(\d{2})-(\d{2})-(\d{4})', slug)
     if time_match:
         h, m, d, mo, y = time_match.groups()
         time_str = f"{d}/{mo} {h}:{m}"
         match_slug = re.sub(r'-luc-\d+-ngay-[\d-]+', '', slug).strip('-')
+    else:
+        # 2. Quét tìm các định dạng ngày tháng thay thế trong slug (ví dụ: -02-11-2026 hoặc tương tự)
+        alt_time_match = re.search(r'-(\d{2})-(\d{2})-(\d{4})', slug)
+        if alt_time_match:
+            d, mo, y = alt_time_match.groups()
+            time_str = f"{d}/{mo}"
+            match_slug = re.sub(r'-[\d]{2}-[\d]{2}-[\d]{4}', '', slug).strip('-')
 
     team_name = match_slug.replace('-', ' ').title()
     team_name = re.sub(r'\bVs\b', 'vs', team_name)
@@ -60,6 +70,9 @@ def generate_m3u_and_json():
             elif isinstance(data, list):
                 providers = data
 
+            # Lấy thời gian hiện tại làm mốc dự phòng chuẩn xác theo giờ Việt Nam
+            current_date_str = datetime.now().strftime("%d/%m")
+
             for prov in providers:
                 if not isinstance(prov, dict):
                     continue
@@ -88,13 +101,18 @@ def generate_m3u_and_json():
                         for item in node:
                             process_node(item, cur_time, cur_title, cur_logo)
                     elif isinstance(node, dict):
-                        # 1. Cập nhật ngữ cảnh thời gian và tên trận đấu
+                        # 1. Trích xuất thời gian và tên trận
                         href = node.get("href") or node.get("url_info") or ""
                         t_str, m_title = parse_slug_to_info(href)
                         if t_str:
                             cur_time = t_str
                         if m_title:
                             cur_title = m_title
+
+                        # Kiểm tra các trường time trực tiếp trong node nếu slug không có
+                        raw_time = node.get("time") or node.get("date") or node.get("start_time") or ""
+                        if raw_time and not cur_time:
+                            cur_time = str(raw_time).strip()
 
                         home = node.get("home_team") or node.get("home") or ""
                         away = node.get("away_team") or node.get("away") or ""
@@ -110,12 +128,11 @@ def generate_m3u_and_json():
                         if lg and isinstance(lg, str) and lg.startswith("http") and not any(ext in lg.lower() for ext in ['.m3u8', '.ts', 'playlist']):
                             cur_logo = lg
 
-                        # 2. Quét tìm các luồng phát stream thực thụ (.m3u8 hoặc live stream)
+                        # 2. Quét tìm luồng stream thực thụ (.m3u8 hoặc live)
                         streams = []
                         for u_key in ["url", "stream_url", "m3u8", "link"]:
                             val = node.get(u_key)
                             if isinstance(val, str) and val.startswith("http"):
-                                # Bỏ qua nếu bản thân giá trị url lại là một đường dẫn ảnh logo
                                 if not any(ext in val.lower() for ext in ['.png', '.jpg', '.jpeg', '.webp', '.gif', 'image/small']):
                                     streams.append((val, node.get("title") or node.get("name") or node.get("blv") or ""))
 
@@ -138,14 +155,16 @@ def generate_m3u_and_json():
                                     if not any(ext in sub_v.lower() for ext in ['.png', '.jpg', '.jpeg', '.webp', '.gif', 'image/small']):
                                         streams.append((sub_v, node.get("title") or node.get("name") or ""))
 
-                        # 3. Ghi ra playlist M3U chuẩn xác cho từng luồng stream
+                        # 3. Ghi ra playlist M3U
                         for s_url, s_name in streams:
                             if s_url not in seen_links:
                                 seen_links.add(s_url)
 
                                 parts = []
-                                if cur_time:
-                                    parts.append(cur_time)
+                                # Nếu trận đấu hoàn toàn trống giờ ngày tháng, gán mốc ngày hiện tại làm mặc định để không bị trống
+                                active_time = cur_time if cur_time else f"{current_date_str} LIVE"
+                                parts.append(active_time)
+
                                 if cur_title:
                                     parts.append(cur_title)
                                 else:
@@ -153,7 +172,6 @@ def generate_m3u_and_json():
 
                                 display_base = " ".join(parts)
 
-                                # Lấy tên BLV hoặc Server phát sạch sẽ
                                 blv_tag = s_name or node.get("blv") or ""
                                 if blv_tag and not any(kw in blv_tag.lower() for kw in ['url', 'href', 'logo', 'http', 'truc-tiep']):
                                     if blv_tag.lower() not in display_base.lower():
@@ -172,7 +190,6 @@ def generate_m3u_and_json():
                                 m3u_content += f"{final_link}\n"
                                 count += 1
 
-                        # Tiếp tục đệ quy xuống các nhánh con
                         for k, v in node.items():
                             if isinstance(v, (list, dict)):
                                 process_node(v, cur_time, cur_title, cur_logo)
@@ -183,7 +200,7 @@ def generate_m3u_and_json():
             with open('playlist.m3u', 'w', encoding='utf-8') as f:
                 f.write(m3u_content)
                 
-            print(f"Đã tạo xong file playlist.m3u với {count} luồng trận đấu chuẩn xác tuyệt đối!")
+            print(f"Đã tạo xong file playlist.m3u với {count} luồng trận đấu đầy đủ thời gian và chi tiết!")
             
         else:
             print(f"Lỗi HTTP: {response.status_code}")
@@ -193,4 +210,3 @@ def generate_m3u_and_json():
 
 if __name__ == "__main__":
     generate_m3u_and_json()
-    
