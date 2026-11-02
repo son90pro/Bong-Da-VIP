@@ -1,1 +1,45 @@
+name: Auto Update Xoilac Data
+
+on:
+  # Lên lịch chạy tự động (Ví dụ: Cứ mỗi 3 tiếng chạy 1 lần)
+  schedule:
+    - cron: '0 */3 * * *'
+  
+  # Cho phép chạy thủ công trực tiếp từ giao diện GitHub (Tab Actions)
+  workflow_dispatch:
+
+jobs:
+  update-data:
+    runs-on: ubuntu-latest
+    
+    # Cấp quyền ghi (write) cho GITHUB_TOKEN để có thể push code ngược lại repo
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+          cache: 'pip'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install requests curl_cffi beautifulsoup4
+
+      - name: Run update script
+        run: |
+          python update_script.py
+
+      - name: Commit and push changes
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add .
+          # Kiểm tra xem có thay đổi gì không, nếu có thì commit và push lên nhánh chính
+          git diff --quiet && git diff --staged --quiet || (git commit -m "Auto-update sports data [skip ci]" && git push)
 
