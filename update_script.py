@@ -18,7 +18,7 @@ def parse_slug_to_info(href_str):
     time_match = re.search(r'luc-(\d{2})(\d{2})-ngay-(\d{2})-(\d{2})-(\d{4})', slug)
     if time_match:
         h, m, d, mo, y = time_match.groups()
-        time_str = f"{d}/{mo} {h}:{m}" # Dạng chuẩn: ngày/tháng giờ:phút
+        time_str = f"{d}/{mo} {h}:{m}"
         match_slug = re.sub(r'-luc-\d+-ngay-[\d-]+', '', slug).strip('-')
 
     team_name = match_slug.replace('-', ' ').title()
@@ -82,14 +82,13 @@ def generate_m3u_and_json():
                 if not matches:
                     matches = [prov]
 
-                # Hàm đệ quy truyền ngữ cảnh (thời gian, tên trận, logo) từ nhánh cha xuống nhánh con
                 def process_node(node, cur_time="", cur_title="", cur_logo=prov_logo):
                     nonlocal count, m3u_content, seen_links
                     if isinstance(node, list):
                         for item in node:
                             process_node(item, cur_time, cur_title, cur_logo)
                     elif isinstance(node, dict):
-                        # 1. Cập nhật ngữ cảnh nếu node hiện tại có chứa thông tin
+                        # 1. Cập nhật ngữ cảnh thời gian và tên trận đấu
                         href = node.get("href") or node.get("url_info") or ""
                         t_str, m_title = parse_slug_to_info(href)
                         if t_str:
@@ -108,39 +107,39 @@ def generate_m3u_and_json():
                                     cur_title = raw_t
 
                         lg = node.get("home_logo") or node.get("logo") or node.get("icon") or ""
-                        if lg and isinstance(lg, str) and lg.startswith("http") and not any(ext in lg.lower() for ext in ['.m3u8', '.ts']):
+                        if lg and isinstance(lg, str) and lg.startswith("http") and not any(ext in lg.lower() for ext in ['.m3u8', '.ts', 'playlist']):
                             cur_logo = lg
 
-                        # 2. Thu thập các luồng phát stream (.m3u8) trong node này
+                        # 2. Quét tìm các luồng phát stream thực thụ (.m3u8 hoặc live stream)
                         streams = []
                         for u_key in ["url", "stream_url", "m3u8", "link"]:
                             val = node.get(u_key)
                             if isinstance(val, str) and val.startswith("http"):
-                                streams.append((val, node.get("title") or node.get("name") or node.get("blv") or ""))
+                                # Bỏ qua nếu bản thân giá trị url lại là một đường dẫn ảnh logo
+                                if not any(ext in val.lower() for ext in ['.png', '.jpg', '.jpeg', '.webp', '.gif', 'image/small']):
+                                    streams.append((val, node.get("title") or node.get("name") or node.get("blv") or ""))
 
                         for sk in ["streams", "links", "servers", "sources"]:
                             arr = node.get(sk)
                             if isinstance(arr, list):
                                 for s in arr:
                                     if isinstance(s, str) and s.startswith("http"):
-                                        streams.append((s, ""))
+                                        if not any(ext in s.lower() for ext in ['.png', '.jpg', '.jpeg', '.webp', '.gif', 'image/small']):
+                                            streams.append((s, ""))
                                     elif isinstance(s, dict):
                                         s_url = s.get("url") or s.get("link") or s.get("m3u8") or ""
                                         s_name = s.get("name") or s.get("title") or ""
-                                        if s_url.startswith("http"):
+                                        if s_url.startswith("http") and not any(ext in s_url.lower() for ext in ['.png', '.jpg', '.jpeg', '.webp', '.gif', 'image/small']):
                                             streams.append((s_url, s_name))
 
                         if not streams:
                             for sub_k, sub_v in node.items():
                                 if isinstance(sub_v, str) and sub_v.startswith("http") and (".m3u8" in sub_v or ".ts" in sub_v or "live" in sub_v):
-                                    streams.append((sub_v, node.get("title") or node.get("name") or ""))
+                                    if not any(ext in sub_v.lower() for ext in ['.png', '.jpg', '.jpeg', '.webp', '.gif', 'image/small']):
+                                        streams.append((sub_v, node.get("title") or node.get("name") or ""))
 
-                        # 3. Ghi ra playlist M3U cho các luồng tìm thấy
+                        # 3. Ghi ra playlist M3U chuẩn xác cho từng luồng stream
                         for s_url, s_name in streams:
-                            s_lower = s_url.lower()
-                            if any(ext in s_lower for ext in ['.png', '.jpg', '.jpeg', '.webp', '.gif']) or 'almafestival.info' in s_lower:
-                                continue
-
                             if s_url not in seen_links:
                                 seen_links.add(s_url)
 
@@ -154,7 +153,7 @@ def generate_m3u_and_json():
 
                                 display_base = " ".join(parts)
 
-                                # Thêm tên BLV hoặc server phát
+                                # Lấy tên BLV hoặc Server phát sạch sẽ
                                 blv_tag = s_name or node.get("blv") or ""
                                 if blv_tag and not any(kw in blv_tag.lower() for kw in ['url', 'href', 'logo', 'http', 'truc-tiep']):
                                     if blv_tag.lower() not in display_base.lower():
@@ -173,7 +172,7 @@ def generate_m3u_and_json():
                                 m3u_content += f"{final_link}\n"
                                 count += 1
 
-                        # Tiếp tục đệ quy xuống các nhánh con với ngữ cảnh hiện tại
+                        # Tiếp tục đệ quy xuống các nhánh con
                         for k, v in node.items():
                             if isinstance(v, (list, dict)):
                                 process_node(v, cur_time, cur_title, cur_logo)
@@ -184,7 +183,7 @@ def generate_m3u_and_json():
             with open('playlist.m3u', 'w', encoding='utf-8') as f:
                 f.write(m3u_content)
                 
-            print(f"Đã tạo xong file playlist.m3u với {count} luồng trận đấu đầy đủ thông tin!")
+            print(f"Đã tạo xong file playlist.m3u với {count} luồng trận đấu chuẩn xác tuyệt đối!")
             
         else:
             print(f"Lỗi HTTP: {response.status_code}")
