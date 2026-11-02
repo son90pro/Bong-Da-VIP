@@ -51,14 +51,9 @@ def generate_m3u_and_json():
 
             providers = []
             if isinstance(data, dict):
-                if "providers" in data and isinstance(data["providers"], list):
-                    providers = data["providers"]
-                else:
-                    found_lists = [v for v in data.values() if isinstance(v, list)]
-                    if found_lists:
-                        providers = [{"name": k, "matches": v} for k, v in data.items() if isinstance(v, list)]
-                    else:
-                        providers = [data]
+                providers = data.get("providers", [])
+                if not providers:
+                    providers = [data]
             elif isinstance(data, list):
                 providers = data
 
@@ -66,113 +61,76 @@ def generate_m3u_and_json():
                 if not isinstance(prov, dict):
                     continue
                 
-                prov_name = prov.get("name") or prov.get("title") or prov.get("provider_name") or "Kênh Trực Tiếp"
+                prov_name = prov.get("name") or prov.get("title") or prov.get("provider_name") or "Trực Tiếp"
                 prov_logo = prov.get("logo") or prov.get("icon") or ""
                 
-                matches = []
-                for k in ["matches", "list", "items", "data", "match_list", "schedule", "channels", "matchs", "match", "content"]:
-                    if k in prov and isinstance(prov[k], list):
-                        matches = prov[k]
-                        break
-                
-                if not matches:
-                    for val in prov.values():
-                        if isinstance(val, list):
-                            matches = val
-                            break
+                # Hàm đệ quy thu thập tất cả các đối tượng (dictionary) chứa luồng phát bên trong provider
+                all_items = []
+                def collect_nodes(node):
+                    if isinstance(node, list):
+                        for sub in node:
+                            collect_nodes(sub)
+                    elif isinstance(node, dict):
+                        all_items.append(node)
+                        for val in node.values():
+                            if isinstance(val, (list, dict)):
+                                collect_nodes(val)
 
-                if not matches:
-                    matches = [prov]
+                collect_nodes(prov)
 
-                match_pool = []
-                for match in matches:
-                    if not isinstance(match, dict):
+                for item in all_items:
+                    if not isinstance(item, dict):
                         continue
                     
-                    home = match.get("home_team") or match.get("home") or ""
-                    away = match.get("away_team") or match.get("away") or ""
-                    match_title = ""
-                    
-                    if home and away:
-                        match_title = f"{home} vs {away}"
-                    else:
-                        raw_t = match.get("title") or match.get("name") or match.get("match_name") or ""
-                        if raw_t and not any(kw in raw_t.lower() for kw in ['url', 'href', 'logo', 'referer', 'http', 'live']):
-                            match_title = raw_t
-
-                    if not match_title:
-                        href = match.get("href") or match.get("url_info") or ""
-                        match_title = parse_slug_to_title(href)
-
-                    logo = match.get("home_logo") or match.get("logo") or match.get("icon") or prov_logo
-                    
-                    if match_title and match_title != "Trận đấu trực tiếp":
-                        match_pool.append({"title": match_title, "logo": logo})
-
-                match_idx = 0
-                for match in matches:
-                    if not isinstance(match, dict):
-                        continue
-
-                    blv_name = match.get("title") or match.get("name") or match.get("match_name") or match.get("blv") or ""
-                    if any(kw in blv_name.lower() for kw in ['url', 'href', 'logo', 'referer', 'http', 'truc-tiep']):
-                        blv_name = ""
-
-                    streams = []
-                    for dk in ["url", "stream_url", "m3u8", "source"]:
-                        val = match.get(dk)
+                    # Tìm link stream trực tiếp
+                    stream_url = ""
+                    for u_key in ["url", "stream_url", "m3u8", "link"]:
+                        val = item.get(u_key)
                         if isinstance(val, str) and val.startswith("http"):
-                            streams.append(val)
+                            stream_url = val
+                            break
+                    
+                    if not stream_url:
+                        continue
 
-                    for sk in ["streams", "links", "servers", "sources"]:
-                        arr = match.get(sk)
-                        if isinstance(arr, list):
-                            for s in arr:
-                                if isinstance(s, str) and s.startswith("http"):
-                                    streams.append(s)
-                                elif isinstance(s, dict):
-                                    s_url = s.get("url") or s.get("link") or s.get("m3u8") or ""
-                                    if s_url.startswith("http"):
-                                        streams.append(s_url)
+                    # Lọc bỏ ảnh và các link trang chủ trơn
+                    s_lower = stream_url.lower()
+                    if any(ext in s_lower for ext in ['.png', '.jpg', '.jpeg', '.webp', '.gif']):
+                        continue
 
-                    if not streams:
-                        for sub_k, sub_v in match.items():
-                            if isinstance(sub_v, str) and sub_v.startswith("http") and (".m3u8" in sub_v or ".ts" in sub_v or "live" in sub_v):
-                                streams.append(sub_v)
+                    # Bóc tách tên trận đấu từ href hoặc title
+                    href = item.get("href") or item.get("url_info") or ""
+                    match_title = parse_slug_to_title(href)
+                    
+                    if not match_title:
+                        t = item.get("title") or item.get("name") or item.get("match_name") or ""
+                        if t and not any(kw in t.lower() for kw in ['url', 'href', 'logo', 'referer', 'http']):
+                            match_title = t
+                        else:
+                            match_title = f"{prov_name} Trực Tiếp"
 
-                    referer = match.get("Referer") or match.get("referer") or ""
-                    ua = match.get("user_agent") or "Mozilla/5.0"
+                    logo = item.get("home_logo") or item.get("logo") or item.get("icon") or prov_logo
+                    referer = item.get("Referer") or item.get("referer") or ""
+                    ua = item.get("user_agent") or "Mozilla/5.0"
+                    
+                    # Gắn tên BLV nếu có trong item
+                    blv = item.get("blv") or ""
+                    if blv and blv not in match_title:
+                        match_title += f" [{blv}]"
 
-                    for s_url in streams:
-                        s_lower = s_url.lower()
-                        if any(ext in s_lower for ext in ['.png', '.jpg', '.jpeg', '.webp', '.gif']) or 'almafestival.info' in s_lower:
-                            continue
-
-                        if s_url not in seen_links:
-                            seen_links.add(s_url.strip())
+                    if stream_url not in seen_links:
+                        seen_links.add(stream_url)
+                        
+                        m3u_content += f"#EXTINF:-1 tvg-logo=\"{logo}\" group-title=\"{prov_name}\",{match_title}\n"
+                        
+                        final_link = stream_url
+                        if referer:
+                            final_link = f"{stream_url}|User-Agent={ua}&Referer={referer}"
+                        elif ua != "Mozilla/5.0":
+                            final_link = f"{stream_url}|User-Agent={ua}"
                             
-                            current_match_title = f"{prov_name} Trực Tiếp"
-                            current_logo = prov_logo
-                            
-                            if match_pool:
-                                current_match_title = match_pool[match_idx % len(match_pool)]["title"]
-                                current_logo = match_pool[match_idx % len(match_pool)]["logo"] or prov_logo
-                                match_idx += 1
-
-                            display_title = current_match_title
-                            if blv_name and blv_name not in display_title:
-                                display_title += f" [{blv_name}]"
-
-                            m3u_content += f"#EXTINF:-1 tvg-logo=\"{current_logo}\" group-title=\"{prov_name}\",{display_title}\n"
-                            
-                            final_link = s_url.strip()
-                            if referer:
-                                final_link = f"{s_url.strip()}|User-Agent={ua}&Referer={referer.strip()}"
-                            elif ua != "Mozilla/5.0":
-                                final_link = f"{s_url.strip()}|User-Agent={ua}"
-                                
-                            m3u_content += f"{final_link}\n"
-                            count += 1
+                        m3u_content += f"{final_link}\n"
+                        count += 1
 
             with open('playlist.m3u', 'w', encoding='utf-8') as f:
                 f.write(m3u_content)
