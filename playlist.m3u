@@ -1,70 +1,58 @@
 #EXTM3U x-tvg-url=""
-#EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/tennis/team/4jwq2pfx9x6m0ve/image/small" group-title="Xôi Lạc TV",02/11 19:20 Cameron Norrie vs Matteo Arnaldi
-https://imgts.sportpulseapiz.com/tennis/team/4jwq2pfx9x6m0ve/image/small
-#EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/tennis/team/4jwq2pfx9x6m0ve/image/small" group-title="Xôi Lạc TV",02/11 19:20 Cameron Norrie vs Matteo Arnaldi
-https://live2.jorvakstreamcache.com/live/channel32.m3u8
-#EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/tennis/team/4jwq2pfx9x6m0ve/image/small" group-title="Xôi Lạc TV",02/11 19:20 Cameron Norrie vs Matteo Arnaldi
-https://live2.domaincdn.cc/livecdn/channel-32.m3u8?auth_key=3000001793633600-0-0-edb2745aa8a595ccebb18bb591cf95de
-#EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/tennis/team/8yomojfzn5yq0j6/image/small" group-title="Xôi Lạc TV",02/11 20:30 Mattia Bellucci vs Lorenzo Sonego
-https://imgts.sportpulseapiz.com/tennis/team/8yomojfzn5yq0j6/image/small
-#EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/tennis/team/8yomojfzn5yq0j6/image/small" group-title="Xôi Lạc TV",02/11 20:30 Mattia Bellucci vs Lorenzo Sonego
-https://live1.quickscoreboardz.com/live/channel59/playlist.m3u8?wsSecret=12f99f759d0532541b626b201b557394&wsABSTime=1793676808
 #EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/y0or5jhlzl5qwzv/image/small" group-title="Xôi Lạc TV",02/11 21:00 Nữ ZFK Spartak Subotica vs Nữ ZFK TSC
 https://imgts.sportpulseapiz.com/football/team/y0or5jhlzl5qwzv/image/small
 #EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/y0or5jhlzl5qwzv/image/small" group-title="Xôi Lạc TV",02/11 21:00 Nữ ZFK Spartak Subotica vs Nữ ZFK TSC
-https://live1.quickscoreboardz.com/live/channel39/playlist.m3u8?wsSecret=633f620877dfa16891f15768b14a6adf&wsABSTime=1793676786
+https://live1.quickscoreboardz.com/live/channel39/playlist.m3u8?wsSecret=5cd6ef44f25a039ae145224afd627a67&wsABSTime=1793677385
+#EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/basketball/team/kdj2ry7t6j1r1zp/image/small" group-title="Xôi Lạc TV",02/11 21:00 Pinheiros Sao Paolo vs Caxias do Sul
+https://imgts.sportpulseapiz.com/basketball/team/kdj2ry7t6j1r1zp/image/small
+#EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/basketball/team/kdj2ry7t6j1r1zp/image/small" group-title="Xôi Lạc TV",02/11 21:00 Pinheiros Sao Paolo vs Caxias do Sul
+https://live1.quickscoreboardz.com/live/channel40/playlist.m3u8?wsSecret=5e47937ac83dc9e93b4fdae0cb381c8f&wsABSTime=1793677387
 #EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/basketball/team/e4wyrn1tpd0q86p/image/small" group-title="Xôi Lạc TV",02/11 21:15 Brasília vs Botafogo
 https://imgts.sportpulseapiz.com/basketball/team/e4wyrn1tpd0q86p/image/small
 #EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/basketball/team/e4wyrn1tpd0q86p/image/small" group-title="Xôi Lạc TV",02/11 21:15 Brasília vs Botafogo
-https://live1.quickscoreboardz.com/live/channel49/playlist.m3u8?wsSecret=289b7a6c2c8e4afcc83f7bc190761541&wsABSTime=1793676802
-#EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/l5ergphow7pr8k0/image/small" group-title="Xôi Lạc TV",02/11 21:40 Al Jeel vs Al Najma(KSA)
-https://imgts.sportpulseapiz.com/football/team/l5ergphow7pr8k0/image/small
-#EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/l5ergphow7pr8k0/image/small" group-title="Xôi Lạc TV",02/11 21:40 Al Jeel vs Al Najma(KSA)
-https://live2.jorvakstreamcache.com/live/channel10.m3u8
-#EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/l5ergphow7pr8k0/image/small" group-title="Xôi Lạc TV",02/11 21:40 Al Jeel vs Al Najma(KSA)
-https://live2.domaincdn.cc/livecdn/channel-10.m3u8?auth_key=3000001793633586-0-0-b4f5a54f41344df8c35291494a7c62cf
-#EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/l5ergphp3l7r8k0/image/small" group-title="Xôi Lạc TV",02/11 21:55 Al Zulfi vs Al-Jandal
-https://imgts.sportpulseapiz.com/football/team/l5ergphp3l7r8k0/image/small
-#EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/l5ergphp3l7r8k0/image/small" group-title="Xôi Lạc TV",02/11 21:55 Al Zulfi vs Al-Jandal
-https://live2.jorvakstreamcache.com/live/channel28.m3u8
-#EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/l5ergphp3l7r8k0/image/small" group-title="Xôi Lạc TV",02/11 21:55 Al Zulfi vs Al-Jandal
-https://live2.domaincdn.cc/livecdn/channel-28.m3u8?auth_key=3000001793633587-0-0-e2ec801506ac226c1e6546a61101f555
-#EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/2y8m4zhzze3ql07/image/small" group-title="Xôi Lạc TV",02/11 22:00 Um Alhassam vs Bahrain SC
-https://imgts.sportpulseapiz.com/football/team/2y8m4zhzze3ql07/image/small
-#EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/2y8m4zhzze3ql07/image/small" group-title="Xôi Lạc TV",02/11 22:00 Um Alhassam vs Bahrain SC
-https://live1.quickscoreboardz.com/live/channel13/playlist.m3u8?wsSecret=680d60cd4824b26a22dbf8d7e6a76a2c&wsABSTime=1793676786
+https://live1.quickscoreboardz.com/live/channel49/playlist.m3u8?wsSecret=6ce0f31a2da795864d4dd94998918600&wsABSTime=1793677394
+#EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/4wyrn4h8825q86p/image/small" group-title="Xôi Lạc TV",02/11 22:00 Torpedo Kutaisi vs Dila Gori
+https://imgts.sportpulseapiz.com/football/team/4wyrn4h8825q86p/image/small
+#EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/4wyrn4h8825q86p/image/small" group-title="Xôi Lạc TV",02/11 22:00 Torpedo Kutaisi vs Dila Gori
+https://live2.jorvakstreamcache.com/live/channel9.m3u8
+#EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/4wyrn4h8825q86p/image/small" group-title="Xôi Lạc TV",02/11 22:00 Torpedo Kutaisi vs Dila Gori
+https://live2.domaincdn.cc/livecdn/channel-9.m3u8?auth_key=3000001793634192-0-0-cadf3f7f98326395776dd6f5f7ce8ce2
 #EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/gpxwrxlhk33ryk0/image/small" group-title="Xôi Lạc TV",02/11 22:00 Sumgayit FK vs Safa Baku
 https://imgts.sportpulseapiz.com/football/team/gpxwrxlhk33ryk0/image/small
 #EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/gpxwrxlhk33ryk0/image/small" group-title="Xôi Lạc TV",02/11 22:00 Sumgayit FK vs Safa Baku
 https://live2.jorvakstreamcache.com/live/channel22.m3u8
 #EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/gpxwrxlhk33ryk0/image/small" group-title="Xôi Lạc TV",02/11 22:00 Sumgayit FK vs Safa Baku
-https://live2.domaincdn.cc/livecdn/channel-22.m3u8?auth_key=3000001793633594-0-0-aaecb9e86bf822ef9cbaa64eb8951afe
-#EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/y0or5jhlkkyqwzv/image/small" group-title="Xôi Lạc TV",02/11 22:00 Wadi Degla SC vs Zamalek
-https://imgts.sportpulseapiz.com/football/team/y0or5jhlkkyqwzv/image/small
-#EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/y0or5jhlkkyqwzv/image/small" group-title="Xôi Lạc TV",02/11 22:00 Wadi Degla SC vs Zamalek
-https://live2.jorvakstreamcache.com/live/channel14.m3u8
-#EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/y0or5jhlkkyqwzv/image/small" group-title="Xôi Lạc TV",02/11 22:00 Wadi Degla SC vs Zamalek
-https://live2.domaincdn.cc/livecdn/channel-14.m3u8?auth_key=3000001793633594-0-0-56817903db39c53bef5be31e30c952d0
+https://live2.domaincdn.cc/livecdn/channel-22.m3u8?auth_key=3000001793634185-0-0-bedad84ca5434d2edcf4fe2b22ad6a51
+#EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/dn1m1ghn2y1moep/image/small" group-title="Xôi Lạc TV",02/11 22:00 FK Dubocica vs Vozdovac Beograd
+https://imgts.sportpulseapiz.com/football/team/dn1m1ghn2y1moep/image/small
+#EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/dn1m1ghn2y1moep/image/small" group-title="Xôi Lạc TV",02/11 22:00 FK Dubocica vs Vozdovac Beograd
+https://live1.quickscoreboardz.com/live/channel15/playlist.m3u8?wsSecret=3d71cdc8733367dc8020dada947eead1&wsABSTime=1793677385
 #EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/ednm9whe5d6ryox/image/small" group-title="Xôi Lạc TV",02/11 22:00 Nữ USFAS Bamako vs Nữ Ampem Darkoa
 https://imgts.sportpulseapiz.com/football/team/ednm9whe5d6ryox/image/small
 #EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/ednm9whe5d6ryox/image/small" group-title="Xôi Lạc TV",02/11 22:00 Nữ USFAS Bamako vs Nữ Ampem Darkoa
-https://live1.quickscoreboardz.com/live/channel22/playlist.m3u8?wsSecret=77471315d258a8d9c7bf744b6098c770&wsABSTime=1793676787
+https://live1.quickscoreboardz.com/live/channel22/playlist.m3u8?wsSecret=5bffd3a3a080f5cc4614ee0bd2de0729&wsABSTime=1793677386
+#EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/basketball/team/v2y8m4pt266ml07/image/small" group-title="Xôi Lạc TV",02/11 22:00 Petkim Spor vs Anadolu Efes1976
+https://imgts.sportpulseapiz.com/basketball/team/v2y8m4pt266ml07/image/small
+#EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/basketball/team/v2y8m4pt266ml07/image/small" group-title="Xôi Lạc TV",02/11 22:00 Petkim Spor vs Anadolu Efes1976
+https://live2.jorvakstreamcache.com/live/channel25.m3u8
+#EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/basketball/team/v2y8m4pt266ml07/image/small" group-title="Xôi Lạc TV",02/11 22:00 Petkim Spor vs Anadolu Efes1976
+https://live2.domaincdn.cc/livecdn/channel-25.m3u8?auth_key=3000001793634196-0-0-f194ebc25ead59e80435782a16f91e5c
 #EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/csgo/team/4wyrnxzf82wlm86/image/small" group-title="Xôi Lạc TV",02/11 22:00 Misa vs Psychoface
 https://imgts.sportpulseapiz.com/csgo/team/4wyrnxzf82wlm86/image/small
 #EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/csgo/team/4wyrnxzf82wlm86/image/small" group-title="Xôi Lạc TV",02/11 22:00 Misa vs Psychoface
-https://live1.quickscoreboardz.com/live/channel71/playlist.m3u8?wsSecret=2650645530e91efacb5fdda55598d013&wsABSTime=1793676808
+https://live1.quickscoreboardz.com/live/channel71/playlist.m3u8?wsSecret=9242d76bb02af91768738c2e447f374d&wsABSTime=1793677395
 #EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/d23xmvkh562qg8n/image/small" group-title="Xôi Lạc TV",02/11 22:15 Real Oviedo vs Las Palmas
 https://imgts.sportpulseapiz.com/football/team/d23xmvkh562qg8n/image/small
 #EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/d23xmvkh562qg8n/image/small" group-title="Xôi Lạc TV",02/11 22:15 Real Oviedo vs Las Palmas
 https://live2.jorvakstreamcache.com/live/channel12.m3u8
 #EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/d23xmvkh562qg8n/image/small" group-title="Xôi Lạc TV",02/11 22:15 Real Oviedo vs Las Palmas
-https://live2.domaincdn.cc/livecdn/channel-12.m3u8?auth_key=3000001793633596-0-0-acee8d81811b9c70c2cd8a524f280d92
+https://live2.domaincdn.cc/livecdn/channel-12.m3u8?auth_key=3000001793634186-0-0-652b9804be38924b57d8186f0b759256
 #EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/1l4rjnh6pgpm7vx/image/small" group-title="Xôi Lạc TV",02/11 22:30 FC Voluntari vs Farul Constanta
 https://imgts.sportpulseapiz.com/football/team/1l4rjnh6pgpm7vx/image/small
 #EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/1l4rjnh6pgpm7vx/image/small" group-title="Xôi Lạc TV",02/11 22:30 FC Voluntari vs Farul Constanta
 https://live2.jorvakstreamcache.com/live/channel13.m3u8
 #EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/1l4rjnh6pgpm7vx/image/small" group-title="Xôi Lạc TV",02/11 22:30 FC Voluntari vs Farul Constanta
-https://live2.domaincdn.cc/livecdn/channel-13.m3u8?auth_key=3000001793633588-0-0-8183c2b71da2d32e2eadaf3c31563a82
+https://live2.domaincdn.cc/livecdn/channel-13.m3u8?auth_key=3000001793634186-0-0-99b893395299996bf80938dc9c06ab4b
 #EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/dota2/team/4wyrnxki82x2m86/image/small" group-title="Xôi Lạc TV",01/11 22:00 Hokori vs Team Synapse
 https://imgts.sportpulseapiz.com/dota2/team/4wyrnxki82x2m86/image/small
 #EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/volleyball/team/zp5rzdhjz82wq82/image/small" group-title="Xôi Lạc TV",02/11 19:30 Hà Nội vs LP Bank Ninh Bình
@@ -159,29 +147,29 @@ https://imgts.sportpulseapiz.com/lol/team/k82repjtvpxzqep/image/small
 https://imgts.sportpulseapiz.com/lol/team/23xmvxjt3nj2rg8/image/small
 #EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/lol/team/318q6g8to50vro9/image/small" group-title="Xôi Lạc TV",07/11 05:00 Karmine Corp vs T1
 https://imgts.sportpulseapiz.com/lol/team/318q6g8to50vro9/image/small
-#EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/dj2ryohk27yq1zp/image/small" group-title="Xôi Lạc TV",02/11 20:45 Pakhtakor vs Al Nassr
-https://imgts.sportpulseapiz.com/football/team/dj2ryohk27yq1zp/image/small
 #EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/dn1m1gh82gnmoep/image/small" group-title="Xôi Lạc TV",02/11 21:00 FC Noah B vs Pyunik B
 https://imgts.sportpulseapiz.com/football/team/dn1m1gh82gnmoep/image/small
+#EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/l5ergphow7pr8k0/image/small" group-title="Xôi Lạc TV",02/11 21:40 Al Jeel vs Al Najma(KSA)
+https://imgts.sportpulseapiz.com/football/team/l5ergphow7pr8k0/image/small
+#EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/l5ergphp3l7r8k0/image/small" group-title="Xôi Lạc TV",02/11 21:55 Al Zulfi vs Al-Jandal
+https://imgts.sportpulseapiz.com/football/team/l5ergphp3l7r8k0/image/small
 #EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/jednm9wh42dryox/image/small" group-title="Xôi Lạc TV",02/11 22:00 Krylya Sovetov vs Zenit St. Petersburg
 https://imgts.sportpulseapiz.com/football/team/jednm9wh42dryox/image/small
-#EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/4wyrn4h8825q86p/image/small" group-title="Xôi Lạc TV",02/11 22:00 Torpedo Kutaisi vs Dila Gori
-https://imgts.sportpulseapiz.com/football/team/4wyrn4h8825q86p/image/small
-#EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/dn1m1ghn2y1moep/image/small" group-title="Xôi Lạc TV",02/11 22:00 FK Dubocica vs Vozdovac Beograd
-https://imgts.sportpulseapiz.com/football/team/dn1m1ghn2y1moep/image/small
+#EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/2y8m4zhzze3ql07/image/small" group-title="Xôi Lạc TV",02/11 22:00 Um Alhassam vs Bahrain SC
+https://imgts.sportpulseapiz.com/football/team/2y8m4zhzze3ql07/image/small
+#EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/y0or5jhlkkyqwzv/image/small" group-title="Xôi Lạc TV",02/11 22:00 Wadi Degla SC vs Zamalek
+https://imgts.sportpulseapiz.com/football/team/y0or5jhlkkyqwzv/image/small
 #EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/l7oqdehn0yvr510/image/small" group-title="Xôi Lạc TV",02/11 22:30 PFK Montana vs Spartak Pleven
 https://imgts.sportpulseapiz.com/football/team/l7oqdehn0yvr510/image/small
-#EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/basketball/team/kdj2ry7t6j1r1zp/image/small" group-title="Xôi Lạc TV",02/11 21:00 Pinheiros Sao Paolo vs Caxias do Sul
-https://imgts.sportpulseapiz.com/basketball/team/kdj2ry7t6j1r1zp/image/small
-#EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/basketball/team/v2y8m4pt266ml07/image/small" group-title="Xôi Lạc TV",02/11 22:00 Petkim Spor vs Anadolu Efes1976
-https://imgts.sportpulseapiz.com/basketball/team/v2y8m4pt266ml07/image/small
-#EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/pakhtakor.png" group-title="Giờ Vàng TV",Pakhtakor Tashkent vs Al-Nassr FC
+#EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/tennis/team/8yomojfzn5yq0j6/image/small" group-title="Xôi Lạc TV",02/11 20:30 Mattia Bellucci vs Lorenzo Sonego
+https://imgts.sportpulseapiz.com/tennis/team/8yomojfzn5yq0j6/image/small
+#EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/pakhtakor.png" group-title="Giờ Vàng TV",Giờ Vàng TV
 https://pzhgifbkllliv.vcdn.cloud/1793446590_hd/1793446590_hd@720p.m3u8
-#EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/al-wasl.png" group-title="Giờ Vàng TV",Al Wasl FC vs Al Quwa Al Jawiya
+#EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/al-wasl.png" group-title="Giờ Vàng TV",Giờ Vàng TV
 https://pzhgifbkllliv.vcdn.cloud/1793515495_hd/1793515495_hd@720p.m3u8
-#EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/al-sadd.png" group-title="Giờ Vàng TV",Al-Sadd vs Al Ahli Jeddah
+#EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/al-sadd.png" group-title="Giờ Vàng TV",Giờ Vàng TV
 https://pzhgifbkllliv.vcdn.cloud/1793515474_hd/1793515474_hd@720p.m3u8
-#EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/tractor-sc.png" group-title="Giờ Vàng TV",Teraktor-Sazi vs Neftchi Fargona
+#EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/tractor-sc.png" group-title="Giờ Vàng TV",Giờ Vàng TV
 https://pzhgifbkllliv.vcdn.cloud/1793515455_hd/1793515455_hd@720p.m3u8
 #EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/fenerbahce.png" group-title="Giờ Vàng TV",Fenerbahce vs Liverpool
 https://giovang.love/truc-tiep-fenerbahce-vs-liverpool-05-11-6a94c4cd164566b7f70b4341
@@ -207,6 +195,10 @@ https://khoga1.live/truc-tiep/vps-vs-hjk-02-11-2026-854954
 https://livecdn321.cdnfastter.xyz/live/live_09982ecf49/index.m3u8?token=5VclvTpM2E-bfUL2cfww643kT_KZYDbKiUUT4C8ng8o&expires=1852800615
 #EXTINF:-1 tvg-logo="https://apiv3.apifootball.com/badges/7798_kryvbas-kr.jpg" group-title="Khô Gà TV",Kryvbas vs Dyn. Kyiv
 https://khoga1.live/truc-tiep/kryvbas-vs-dyn-kyiv-02-11-2026-795475
+#EXTINF:-1 tvg-logo="https://apiv3.apifootball.com/badges/372_al-sadd.jpg" group-title="Khô Gà TV",Al-Sadd vs Al Ahli SC
+https://khoga1.live/truc-tiep/al-sadd-vs-al-ahli-sc-02-11-2026-848553
+#EXTINF:-1 tvg-logo="https://apiv3.apifootball.com/badges/372_al-sadd.jpg" group-title="Khô Gà TV",Al-Sadd vs Al Ahli SC
+https://livecdn321.cdnfastter.xyz/live/live_b30ba5315c/index.m3u8?token=ZNaU8SPI--3-JASIZXv-JImAVGukJOEv6T9_GMWMfU0&expires=1852800615
 #EXTINF:-1 tvg-logo="https://apiv3.apifootball.com/badges/3542_inter-turku.jpg" group-title="Khô Gà TV",Inter Turku vs Gnistan
 https://khoga1.live/truc-tiep/inter-turku-vs-gnistan-02-11-2026-854953
 #EXTINF:-1 tvg-logo="https://apiv3.apifootball.com/badges/3542_inter-turku.jpg" group-title="Khô Gà TV",Inter Turku vs Gnistan
@@ -217,8 +209,6 @@ https://khoga1.live/truc-tiep/sassuolo-vs-fiorentina-03-11-2026-807951
 https://khoga1.live/truc-tiep/al-gharafa-vs-al-qadsiah-03-11-2026-848556
 #EXTINF:-1 tvg-logo="https://apiv3.apifootball.com/badges/6328_al-ittihad.jpg" group-title="Khô Gà TV",Al Ittihad vs Al Ain
 https://khoga1.live/truc-tiep/al-ittihad-vs-al-ain-03-11-2026-848557
-#EXTINF:-1 tvg-logo="https://apiv3.apifootball.com/badges/6328_al-ittihad.jpg" group-title="Khô Gà TV",Al Ittihad vs Al Ain
-https://livecdn321.cdnfastter.xyz/live/live_b30ba5315c/index.m3u8?token=ZNaU8SPI--3-JASIZXv-JImAVGukJOEv6T9_GMWMfU0&expires=1852800615
 #EXTINF:-1 tvg-logo="https://apiv3.apifootball.com/badges/85_atalanta.jpg" group-title="Khô Gà TV",Atalanta vs Parma
 https://khoga1.live/truc-tiep/atalanta-vs-parma-03-11-2026-807944
 #EXTINF:-1 tvg-logo="https://apiv3.apifootball.com/badges/3814_lorient.jpg" group-title="Khô Gà TV",Lorient vs Brest
@@ -245,16 +235,6 @@ https://khoga1.live/truc-tiep/cong-an-ha-noi-vs-kyoto-03-11-2026-848562
 https://khoga1.live/truc-tiep/port-mti-fc-vs-beijing-guoan-03-11-2026-848563
 #EXTINF:-1 tvg-logo="https://khoga1.live/media/teams/logos/ziraat-bankkart-vb.png" group-title="Khô Gà TV",Ziraat Bankkart vs Sungurlu Belediyesi Spor
 https://khoga1.live/truc-tiep/ziraat-bankkart-vs-sungurlu-belediyesi-spor-03-11-2026-2000
-#EXTINF:-1 tvg-logo="https://apiv3.apifootball.com/badges/31289_east-bengal-ii.jpg" group-title="Khô Gà TV",East Bengal vs Al Seeb
-https://khoga1.live/truc-tiep/east-bengal-vs-al-seeb-03-11-2026-848876
-#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_131727_f566ad07.png" group-title="Chuối Chiên TV",Pakhtakor vs Al-Nassr
-https://live11.chuoichientv.me/live/1629959
-#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_131727_f566ad07.png" group-title="Chuối Chiên TV",Pakhtakor vs Al-Nassr
-https://gckc0525.edgemaxcdn.org/live/chuoila/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_131727_f566ad07.png" group-title="Chuối Chiên TV",Pakhtakor vs Al-Nassr
-https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoilahd/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_131727_f566ad07.png" group-title="Chuối Chiên TV",Pakhtakor vs Al-Nassr
-https://gckc0525.edgemaxcdn.org/live/chuoilahd/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_133527_3dc5d829.png" group-title="Chuối Chiên TV",Krylia Sovetov vs Zenit
 https://live11.chuoichientv.me/live/1561430
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_133527_3dc5d829.png" group-title="Chuối Chiên TV",Krylia Sovetov vs Zenit
@@ -307,6 +287,12 @@ https://gckc0525.edgemaxcdn.org/live/chuoigiahd/playlist.m3u8
 https://live11.chuoichientv.me/live/1550178
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_125545_2cdfd5d4.png" group-title="Chuối Chiên TV",Newcastle vs Everton
 https://live11.chuoichientv.me/live/1557455
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_125545_2cdfd5d4.png" group-title="Chuối Chiên TV",Newcastle vs Everton
+https://gckc0525.edgemaxcdn.org/live/chuoila/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_125545_2cdfd5d4.png" group-title="Chuối Chiên TV",Newcastle vs Everton
+https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoilahd/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_125545_2cdfd5d4.png" group-title="Chuối Chiên TV",Newcastle vs Everton
+https://gckc0525.edgemaxcdn.org/live/chuoilahd/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_125541_3d20e7da.png" group-title="Chuối Chiên TV",RB Bragantino vs Santos
 https://live11.chuoichientv.me/live/1492442
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_133533_2eb7128c.png" group-title="Chuối Chiên TV",Bucaramanga vs Atletico Nacional
@@ -368,43 +354,43 @@ https://live05.miekgo.app/live/14830711.m3u8
 #EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/78dd333913352de8fc4e8b0834636245.png!w80" group-title="Sao Kê TV",02/11 20:45 CLB Pakhtakor vs Al-Nassr
 https://live05.yefpwmc.app/live/14830711_tsc.m3u8
 #EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/78dd333913352de8fc4e8b0834636245.png!w80" group-title="Sao Kê TV",02/11 20:45 CLB Pakhtakor vs Al-Nassr
-https://live.hztx2020.com/live/14338712_6c522cfd01e996ef8e822dcf7d779f8f_autoChange.m3u8?auth_key=1793647999-0-0-dd4a7ab6835d5ca338ca395f62801902
+https://live.hztx2020.com/live/14338712_6c522cfd01e996ef8e822dcf7d779f8f_autoChange.m3u8?auth_key=1793648429-0-0-0fb1853bc98d22fcb899d5cd8d252f40
 #EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/c263c2074d8bb88b9f85b0bd573f2d53.png!w80" group-title="Sao Kê TV",02/11 21:40 Al Jeel vs Al Najma
 https://live05.miekgo.app/live/87547578.m3u8
 #EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/c263c2074d8bb88b9f85b0bd573f2d53.png!w80" group-title="Sao Kê TV",02/11 21:40 Al Jeel vs Al Najma
 https://live05.yefpwmc.app/live/87547578_tsc.m3u8
 #EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/c263c2074d8bb88b9f85b0bd573f2d53.png!w80" group-title="Sao Kê TV",02/11 21:40 Al Jeel vs Al Najma
-https://live.hztx2020.com/live/14228443_4be4cc57faa6b23aacbcd12b789f405a_autoChange.m3u8?auth_key=1793647999-0-0-6833104f80afc86c9bac70f4b3ad2cb0
+https://live.hztx2020.com/live/14228443_4be4cc57faa6b23aacbcd12b789f405a_autoChange.m3u8?auth_key=1793648429-0-0-9f5627e1fe81e5ab2fddb86bcf65b55f
 #EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/13b5359a749536d5adb6ef17cd675219.png!w80" group-title="Sao Kê TV",02/11 21:55 Al Zulfi vs Al Jndal
 https://live05.miekgo.app/live/18812304.m3u8
 #EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/13b5359a749536d5adb6ef17cd675219.png!w80" group-title="Sao Kê TV",02/11 21:55 Al Zulfi vs Al Jndal
 https://live05.yefpwmc.app/live/18812304_tsc.m3u8
 #EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/13b5359a749536d5adb6ef17cd675219.png!w80" group-title="Sao Kê TV",02/11 21:55 Al Zulfi vs Al Jndal
-https://live.hztx2020.com/live/14228444_cadf268c6c087152d2d22d1e7d82e1bd_autoChange.m3u8?auth_key=1793647999-0-0-9a1091c19fe531b422d569c76b66b81e
+https://live.hztx2020.com/live/14228444_cadf268c6c087152d2d22d1e7d82e1bd_autoChange.m3u8?auth_key=1793648430-0-0-f61e87f5fbc378e780a4b465ed592d54
 #EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/b7782a595f2f82ed8daca72fd1f102de.png!w80" group-title="Sao Kê TV",02/11 22:00 CLB Krylya Sovetov vs Zenit
 https://live05.miekgo.app/live/78905744.m3u8
 #EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/b7782a595f2f82ed8daca72fd1f102de.png!w80" group-title="Sao Kê TV",02/11 22:00 CLB Krylya Sovetov vs Zenit
 https://live05.yefpwmc.app/live/78905744_tsc.m3u8
 #EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/b7782a595f2f82ed8daca72fd1f102de.png!w80" group-title="Sao Kê TV",02/11 22:00 CLB Krylya Sovetov vs Zenit
-https://live2.hztx2020.com/live/72334396_1991297cf7a25761d1d85e9da7b4c1a1_autoChange.m3u8?auth_key=1793648000-0-0-a48cbc054d5aeff9177e99336f09ccb8
+https://live2.hztx2020.com/live/72334396_1991297cf7a25761d1d85e9da7b4c1a1_autoChange.m3u8?auth_key=1793648430-0-0-5b3ea5a559471adacc9fe784926ca269
 #EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/46e02b8dea22b2951976d1262dd0279f.png!w80" group-title="Sao Kê TV",02/11 22:00 Sumgayit FK vs Safa Baku
 https://live05.miekgo.app/live/07808742.m3u8
 #EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/46e02b8dea22b2951976d1262dd0279f.png!w80" group-title="Sao Kê TV",02/11 22:00 Sumgayit FK vs Safa Baku
 https://live05.yefpwmc.app/live/07808742_tsc.m3u8
 #EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/46e02b8dea22b2951976d1262dd0279f.png!w80" group-title="Sao Kê TV",02/11 22:00 Sumgayit FK vs Safa Baku
-https://live.hztx2020.com/live/14215759_2f6015e3f03442c2f6d95ba2b0f49789_autoChange.m3u8?auth_key=1793648000-0-0-80218a252cd2e91294ae2dac08d543f8
+https://live.hztx2020.com/live/14215759_2f6015e3f03442c2f6d95ba2b0f49789_autoChange.m3u8?auth_key=1793648430-0-0-90a83bf18e23e91d2f8aded6234017df
 #EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/21551996567bcd206ee574043d509a84.png!w80" group-title="Sao Kê TV",02/11 22:15 R. Oviedo vs CLB Las Palmas
 https://live05.miekgo.app/live/02456966.m3u8
 #EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/21551996567bcd206ee574043d509a84.png!w80" group-title="Sao Kê TV",02/11 22:15 R. Oviedo vs CLB Las Palmas
 https://live05.yefpwmc.app/live/02456966_tsc.m3u8
 #EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/21551996567bcd206ee574043d509a84.png!w80" group-title="Sao Kê TV",02/11 22:15 R. Oviedo vs CLB Las Palmas
-https://live.hztx2020.com/live/14091274_f4c6843d219842d080b3af7daa9d11fc_autoChange.m3u8?auth_key=1793647999-0-0-de93afab06c8645056515492f8a2d6f3
+https://live.hztx2020.com/live/14091274_f4c6843d219842d080b3af7daa9d11fc_autoChange.m3u8?auth_key=1793648427-0-0-cc7357dcf97918b38793a19b415f4c13
 #EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/f105da768299b0eece32a15bb3c30574.png!w80" group-title="Sao Kê TV",02/11 22:30 CS Voluntari vs F. Constanta
 https://live05.miekgo.app/live/19919577.m3u8
 #EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/f105da768299b0eece32a15bb3c30574.png!w80" group-title="Sao Kê TV",02/11 22:30 CS Voluntari vs F. Constanta
 https://live05.yefpwmc.app/live/19919577_tsc.m3u8
 #EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/f105da768299b0eece32a15bb3c30574.png!w80" group-title="Sao Kê TV",02/11 22:30 CS Voluntari vs F. Constanta
-https://live3.hztx2020.com/live/14574470_74d2dbcd9d894f05d906586f44a75e85_autoChange.m3u8?auth_key=1793647999-0-0-a90400a97df27e70cfdd42f9515f7679
+https://live3.hztx2020.com/live/14574470_74d2dbcd9d894f05d906586f44a75e85_autoChange.m3u8?auth_key=1793648428-0-0-05749a5b72eaf69422b2469bb619600b
 #EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/17b767b98695df2fb512e992dd8a7af4.png!w80" group-title="Sao Kê TV",02/11 23:00 Al Wasl vs CLB Al Quwa Al Jawiya
 https://live05.miekgo.app/live/07428422.m3u8
 #EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/17b767b98695df2fb512e992dd8a7af4.png!w80" group-title="Sao Kê TV",02/11 23:00 Al Wasl vs CLB Al Quwa Al Jawiya
@@ -459,86 +445,106 @@ https://live05.yefpwmc.app/live/75915087_tsc.m3u8
 https://live05.miekgo.app/live/97885009.m3u8
 #EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/d272859d78eb8ca7a14753f4293fbf45.png!w80" group-title="Sao Kê TV",03/11 17:00 Kashiwa Reysol vs Daejeon
 https://live05.yefpwmc.app/live/97885009_tsc.m3u8
+#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20261029/c3ffdd994e4d9bce63d30332747ce967.png" group-title="Sút Bóng TV",TẠ BIÊN GIỚI
+https://pull.niues.live/live/stream-9912144_lhd.m3u8?auth_key=1793637814-0-0-6ae5096902776d7921d56610b95be69c
 #EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20261029/c3ffdd994e4d9bce63d30332747ce967.png" group-title="Sút Bóng TV",Pakhtakor vs Al Nassr
-https://pull.niues.live/live/stream-9912144_lhd.m3u8?auth_key=1793637219-0-0-b83224ffcf02e45d0c8458053a3a48bf
+https://pull.niues.live/live/stream-9912122_lhd.m3u8?auth_key=1793637814-0-0-11c4f52ea50dd7200797f7a7b220aa7a
 #EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20261029/c3ffdd994e4d9bce63d30332747ce967.png" group-title="Sút Bóng TV",Pakhtakor vs Al Nassr
-https://pull.niues.live/live/stream-9912122_lhd.m3u8?auth_key=1793637219-0-0-e647e2b5948eb6282e4fa60e18a456c3
+https://pull.niur.live/live/stream-9912041_lhd.m3u8?txSecret=7f6769b91bb7c72c9a0baab8da30656b&txTime=6ae90406
 #EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20261029/c3ffdd994e4d9bce63d30332747ce967.png" group-title="Sút Bóng TV",Pakhtakor vs Al Nassr
-https://pull.niur.live/live/stream-9912041_lhd.m3u8?txSecret=6640232c0caa26d61408331702955daf&txTime=6ae901b3
+https://pull.niues.live/live/stream-9912145_lhd.m3u8?auth_key=1793637814-0-0-fc633bb4c0775fb1435bdc0c38812282
 #EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20261029/c3ffdd994e4d9bce63d30332747ce967.png" group-title="Sút Bóng TV",Pakhtakor vs Al Nassr
-https://pull.niues.live/live/stream-9912145_lhd.m3u8?auth_key=1793637219-0-0-d625c41446313b186f9d9e52a84e44b6
+https://pull.niues.live/live/stream-9912146_lhd.m3u8?auth_key=1793637814-0-0-a05ef74c410094997dae521403db2c74
 #EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20261029/c3ffdd994e4d9bce63d30332747ce967.png" group-title="Sút Bóng TV",Pakhtakor vs Al Nassr
-https://pull.niues.live/live/stream-9912146_lhd.m3u8?auth_key=1793637219-0-0-7a9eff455969ad22a5b2d0f3fedce086
-#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20261029/c3ffdd994e4d9bce63d30332747ce967.png" group-title="Sút Bóng TV",Pakhtakor vs Al Nassr
-https://pull.niues.live/live/stream-9912091_lhd.m3u8?auth_key=1793637219-0-0-77c354ef3fbd5af1ed0e89e413dba5fd
+https://pull.niues.live/live/stream-9912091_lhd.m3u8?auth_key=1793637814-0-0-105fc62e683061af961299f737f222e9
 #EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20261029/13bef61ab289539ec18479004f515a30.png" group-title="Sút Bóng TV",Al Jeel vs Al Najma(KSA)
-https://pull.niues.live/live/stream-9912135_lhd.m3u8?auth_key=1793637219-0-0-0a0767d67d8b01ed9241fce41a80a0b9
+https://pull.niues.live/live/stream-9912135_lhd.m3u8?auth_key=1793637814-0-0-ac975b35ee86810665888024d9fa6fa9
 #EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20261029/13bef61ab289539ec18479004f515a30.png" group-title="Sút Bóng TV",Al Jeel vs Al Najma(KSA)
-https://pull.niues.live/live/stream-9912131_lhd.m3u8?auth_key=1793637219-0-0-d76c9f1a8b572381dc131602d18455d7
+https://pull.niues.live/live/stream-9912131_lhd.m3u8?auth_key=1793637814-0-0-02e8149e6083be22b59bf69dc6b265a1
 #EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20261029/9843cad45192e400e02136ce7e6e70f3.png" group-title="Sút Bóng TV",Al Zulfi vs Al-Jandal
-https://pull.niur.live/live/stream-321443_lhd.m3u8?txSecret=e86708234e3446c7618d05131f13f8dc&txTime=6ae901b3
+https://pull.niur.live/live/stream-321443_lhd.m3u8?txSecret=a5c3ab8f994c107bcde263643b76bff7&txTime=6ae90406
 #EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20261029/9843cad45192e400e02136ce7e6e70f3.png" group-title="Sút Bóng TV",Al Zulfi vs Al-Jandal
-https://pull.niur.live/live/stream-9912129_lhd.m3u8?txSecret=d7e7367bca002389879f1f22d8871f8a&txTime=6ae901b3
+https://pull.niur.live/live/stream-9912129_lhd.m3u8?txSecret=89a5085aa6556fa83c1038c0bdf183b6&txTime=6ae90406
 #EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20261029/2ef139a1f61fef7b0fc88656e815db84.png" group-title="Sút Bóng TV",Krylya Sovetov vs Zenit St. Petersburg
-https://pull.niur.live/live/stream-9912102_lhd.m3u8?txSecret=c74848e33ce6f0eaeea9636cb29f4d1d&txTime=6ae901b3
+https://pull.niur.live/live/stream-9912102_lhd.m3u8?txSecret=a4c2815dcd90b7e00a99df93f7b6648a&txTime=6ae90406
 #EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20261029/2ef139a1f61fef7b0fc88656e815db84.png" group-title="Sút Bóng TV",Krylya Sovetov vs Zenit St. Petersburg
-https://pull.niues.live/live/stream-9912009_lhd.m3u8?auth_key=1793637219-0-0-c8bfa74dc93a10c85d193fc9709b0bf8
+https://pull.niues.live/live/stream-9912009_lhd.m3u8?auth_key=1793637814-0-0-e638aec20d763d9c52016c566f5d44c3
 #EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20261029/2ef139a1f61fef7b0fc88656e815db84.png" group-title="Sút Bóng TV",Krylya Sovetov vs Zenit St. Petersburg
-https://pull.niues.live/live/stream-9912008_lhd.m3u8?auth_key=1793637219-0-0-f2166ad2c1fcfa9e5e35c6bd2a7d18fd
+https://pull.niues.live/live/stream-9912008_lhd.m3u8?auth_key=1793637814-0-0-3a0ed6ff6da07acf86092960ac404f6e
 #EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20261029/2ef139a1f61fef7b0fc88656e815db84.png" group-title="Sút Bóng TV",Krylya Sovetov vs Zenit St. Petersburg
-https://pull.niues.live/live/stream-235232_lhd.m3u8?auth_key=1793637219-0-0-f9a891c9f1c4d4994fa08ee2f570a49a
+https://pull.niues.live/live/stream-235232_lhd.m3u8?auth_key=1793637814-0-0-96aa8964f0a6a3d2a3a67d72e3171712
 #EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20261029/2ef139a1f61fef7b0fc88656e815db84.png" group-title="Sút Bóng TV",Krylya Sovetov vs Zenit St. Petersburg
-https://pull.niur.live/live/stream-283501_lhd.m3u8?txSecret=13a0fecb28233f83cbb688f84382c02b&txTime=6ae901b3
+https://pull.niur.live/live/stream-283501_lhd.m3u8?txSecret=4256e0e69417b29cb578642d54e9bce7&txTime=6ae90406
 #EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20261029/2ef139a1f61fef7b0fc88656e815db84.png" group-title="Sút Bóng TV",Krylya Sovetov vs Zenit St. Petersburg
-https://pull.niues.live/live/stream-380460_lhd.m3u8?auth_key=1793637219-0-0-5545eb1a998739b73eb630ab2c792c55
+https://pull.niues.live/live/stream-380460_lhd.m3u8?auth_key=1793637814-0-0-6807b480511d49a027fa4432bcaacd1d
 #EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20261029/1b85f428ebae974cbe98e998f68d52fb.png" group-title="Sút Bóng TV",Real Oviedo vs UD Las Palmas
-https://pull.niur.live/live/stream-9912116_lhd.m3u8?txSecret=8eb85086f38b155f8a1cdd56f83ca52c&txTime=6ae901b3
+https://pull.niur.live/live/stream-9912116_lhd.m3u8?txSecret=9fb8d4be80ba446ce40322847ea9da66&txTime=6ae90406
 #EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20261029/1b85f428ebae974cbe98e998f68d52fb.png" group-title="Sút Bóng TV",Real Oviedo vs UD Las Palmas
-https://pull.niur.live/live/stream-9912127_lhd.m3u8?txSecret=edf6febe773b4b31cc4a0b4c32f953b4&txTime=6ae901b3
+https://pull.niur.live/live/stream-9912127_lhd.m3u8?txSecret=7121848ce42cf9e667cee2e1a6f8a450&txTime=6ae90406
 #EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20261029/1b85f428ebae974cbe98e998f68d52fb.png" group-title="Sút Bóng TV",Real Oviedo vs UD Las Palmas
-https://pull.niur.live/live/stream-387694_lhd.m3u8?txSecret=6dc4805395bcec1fcd2fee139764462f&txTime=6ae901b3
+https://pull.niur.live/live/stream-387694_lhd.m3u8?txSecret=c8fe59447f66676dda46805d832c53fb&txTime=6ae90406
 #EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20261029/1b85f428ebae974cbe98e998f68d52fb.png" group-title="Sút Bóng TV",Real Oviedo vs UD Las Palmas
-https://pull.niur.live/live/stream-459401_lhd.m3u8?txSecret=536bb6dda014f93049b57af3465aa524&txTime=6ae901b3
+https://pull.niur.live/live/stream-459401_lhd.m3u8?txSecret=b9453d526bae9bc713550018e487f12a&txTime=6ae90406
 #EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20261029/1b85f428ebae974cbe98e998f68d52fb.png" group-title="Sút Bóng TV",Real Oviedo vs UD Las Palmas
-https://pull.niues.live/live/stream-9912142_lhd.m3u8?auth_key=1793637219-0-0-ca455bd6c6bd53fcdcf2003941230ac8
+https://pull.niues.live/live/stream-9912142_lhd.m3u8?auth_key=1793637814-0-0-fc0ae8329224a0b79d56a15b4ad2be12
 #EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20261029/1b85f428ebae974cbe98e998f68d52fb.png" group-title="Sút Bóng TV",Real Oviedo vs UD Las Palmas
-https://pull.niues.live/live/stream-622241_lhd.m3u8?auth_key=1793637219-0-0-efdcc84b02ab99450e7bb59db31f1f0c
+https://pull.niues.live/live/stream-622241_lhd.m3u8?auth_key=1793637814-0-0-d4b1a5a8606a019b950ab60f22874935
+#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20261029/38779ad5d21fde5e1aaec22eb854b761.png" group-title="Sút Bóng TV",XUÂN TÓC ĐỎ
+https://pull.niur.live/live/stream-610518_lhd.m3u8?txSecret=bce5296e6d0ed01f873dc75d4eb1c8b6&txTime=6ae90406
 #EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20261029/38779ad5d21fde5e1aaec22eb854b761.png" group-title="Sút Bóng TV",FC Voluntari vs Farul Constanta
-https://pull.niur.live/live/stream-610518_lhd.m3u8?txSecret=160a884827415de5345cedbed74feef6&txTime=6ae901b3
-#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20261029/38779ad5d21fde5e1aaec22eb854b761.png" group-title="Sút Bóng TV",FC Voluntari vs Farul Constanta
-https://pull.niur.live/live/stream-621840_lhd.m3u8?txSecret=48405c092cd27c9b08f958c66a83d2e8&txTime=6ae901b3
+https://pull.niur.live/live/stream-621840_lhd.m3u8?txSecret=15e80b7711dd6afed9a15543fd569bf9&txTime=6ae90406
 #EXTINF:-1 tvg-logo="https://img.sportbo.live/livescore-img/team/f26fb30a9c60dd634d8b2f36afe0e8f1.webp" group-title="Sút Bóng TV",Inter Turku vs Gnistan Helsinki
-https://pull.niur.live/live/stream-9912136_lhd.m3u8?txSecret=a2e7ca966a1272174d4ead18888b6efc&txTime=6ae901b3
+https://pull.niur.live/live/stream-9912136_lhd.m3u8?txSecret=3f5630fef444b12b7b9a906c5e253cd2&txTime=6ae90406
 #EXTINF:-1 tvg-logo="https://img.sportbo.live/livescore-img/team/f26fb30a9c60dd634d8b2f36afe0e8f1.webp" group-title="Sút Bóng TV",Inter Turku vs Gnistan Helsinki
-https://pull.niues.live/live/stream-9912110_lhd.m3u8?auth_key=1793637219-0-0-7dbd4c184ab6eac87b800aee942053d4
+https://pull.niues.live/live/stream-9912110_lhd.m3u8?auth_key=1793637814-0-0-812b73224bb7a8e5a810e2ea297a1fd3
 #EXTINF:-1 tvg-logo="https://img.sportbo.live/livescore-img/team/f26fb30a9c60dd634d8b2f36afe0e8f1.webp" group-title="Sút Bóng TV",Inter Turku vs Gnistan Helsinki
-https://pull.niur.live/live/stream-501412_lhd.m3u8?txSecret=ffe7b86caf8b7ba358b761e3b4391b36&txTime=6ae901b3
+https://pull.niur.live/live/stream-501412_lhd.m3u8?txSecret=c44eae1d9f627fcf2c9b6ecd790b7ed5&txTime=6ae90406
 #EXTINF:-1 tvg-logo="https://img.sportbo.live/livescore-img/team/f26fb30a9c60dd634d8b2f36afe0e8f1.webp" group-title="Sút Bóng TV",Inter Turku vs Gnistan Helsinki
-https://pull.niur.live/live/stream-602019_lhd.m3u8?txSecret=ec046eafd74cf6090f256b555523a32b&txTime=6ae901b3
+https://pull.niur.live/live/stream-602019_lhd.m3u8?txSecret=0fb32588187d7699ecb875e7d30e991a&txTime=6ae90406
 #EXTINF:-1 tvg-logo="https://img.sportbo.live/livescore-img/team/5df3cf66c96a43a08e06da83aeb2f7a8.webp" group-title="Sút Bóng TV",Vaasa VPS vs HJK Helsinki
-https://pull.niues.live/live/stream-536185_lhd.m3u8?auth_key=1793637219-0-0-0aede80b8d74fb256f44939cb40bafa7
+https://pull.niues.live/live/stream-991140_lhd.m3u8?auth_key=1793637814-0-0-2544695d6b12972fec6067c2e7b1d47c
 #EXTINF:-1 tvg-logo="https://img.sportbo.live/livescore-img/team/5df3cf66c96a43a08e06da83aeb2f7a8.webp" group-title="Sút Bóng TV",Vaasa VPS vs HJK Helsinki
-https://pull.niues.live/live/stream-9912130_lhd.m3u8?auth_key=1793637219-0-0-dbd411b9546d87a0a426b90bc077dfe7
+https://pull.niues.live/live/stream-536185_lhd.m3u8?auth_key=1793637814-0-0-3ca82cc9dff6bd76c7a6beed238533bf
 #EXTINF:-1 tvg-logo="https://img.sportbo.live/livescore-img/team/5df3cf66c96a43a08e06da83aeb2f7a8.webp" group-title="Sút Bóng TV",Vaasa VPS vs HJK Helsinki
-https://pull.niues.live/live/stream-607552_lhd.m3u8?auth_key=1793637219-0-0-844aa4fb8b3106cc2c7ad16fdf81479b
+https://pull.niues.live/live/stream-9912130_lhd.m3u8?auth_key=1793637814-0-0-0e621a28994d98742b7eb237fb807b88
+#EXTINF:-1 tvg-logo="https://img.sportbo.live/livescore-img/team/5df3cf66c96a43a08e06da83aeb2f7a8.webp" group-title="Sút Bóng TV",ĐỖ TÚ TÀI
+https://pull.niues.live/live/stream-607552_lhd.m3u8?auth_key=1793637814-0-0-dd208a9d610a8eb7b9c53662912fb7a2
 #EXTINF:-1 tvg-logo="https://img.sportbo.live/livescore-img/team/bf2316e90a47ed6d1181458350b0714b.webp" group-title="Sút Bóng TV",Tractor S.C. vs Neftchi Fergana
-https://pull.niues.live/live/stream-9912138_lhd.m3u8?auth_key=1793637219-0-0-9a27f45b9a65dee91891a847fb0fb49c
+https://pull.niues.live/live/stream-9912138_lhd.m3u8?auth_key=1793637814-0-0-356358a8dfc059f1f3c47b52b4007b38
 #EXTINF:-1 tvg-logo="https://img.sportbo.live/livescore-img/team/bf2316e90a47ed6d1181458350b0714b.webp" group-title="Sút Bóng TV",Tractor S.C. vs Neftchi Fergana
-https://pull.niur.live/live/stream-9912132_lhd.m3u8?txSecret=723c85cc03112f964466844953eebdef&txTime=6ae901b3
+https://pull.niur.live/live/stream-9912132_lhd.m3u8?txSecret=1034670c7e751b0285293ef7ff7244ca&txTime=6ae90406
 #EXTINF:-1 tvg-logo="https://img.sportbo.live/livescore-img/team/17b767b98695df2fb512e992dd8a7af4.webp" group-title="Sút Bóng TV",Al-Wasl SC vs Al Quwa Al Jawiya
-https://pull.niues.live/live/stream-511367_lhd.m3u8?auth_key=1793637219-0-0-3bfa40cf88efd5bd3911facccfe1ae83
+https://pull.niues.live/live/stream-511367_lhd.m3u8?auth_key=1793637814-0-0-7a233dbfab1e241bd78ff5f1b504145e
 #EXTINF:-1 tvg-logo="https://img.sportbo.live/livescore-img/team/17b767b98695df2fb512e992dd8a7af4.webp" group-title="Sút Bóng TV",Al-Wasl SC vs Al Quwa Al Jawiya
-https://pull.niues.live/live/stream-621843_lhd.m3u8?auth_key=1793637219-0-0-716a41a3cfcaf81423949e6e33d05db2
+https://pull.niues.live/live/stream-621843_lhd.m3u8?auth_key=1793637814-0-0-b4f95e740e93bfe3d53ac6b964881481
 #EXTINF:-1 tvg-logo="https://img.sportbo.live/livescore-img/team/5c794bfbf3227563c85323bb624721ec.webp" group-title="Sút Bóng TV",Al-Sadd vs Al Ahli SC
-https://pull.niues.live/live/stream-527384_lhd.m3u8?auth_key=1793637219-0-0-f38d5e970cbdac9d5135d2828d0f56e8
+https://pull.niues.live/live/stream-527384_lhd.m3u8?auth_key=1793637814-0-0-b5ac33a300d197816f8227030ca41d50
 #EXTINF:-1 tvg-logo="https://img.sportbo.live/livescore-img/team/5c794bfbf3227563c85323bb624721ec.webp" group-title="Sút Bóng TV",Al-Sadd vs Al Ahli SC
-https://pull.niues.live/live/stream-532081_lhd.m3u8?auth_key=1793637219-0-0-3d209a52bdf497e0e6c5c5d3f491c219
+https://pull.niues.live/live/stream-532081_lhd.m3u8?auth_key=1793637814-0-0-c91719931142770b5eefac4378d7c766
 #EXTINF:-1 tvg-logo="https://img.sportbo.live/livescore-img/team/5c794bfbf3227563c85323bb624721ec.webp" group-title="Sút Bóng TV",Al-Sadd vs Al Ahli SC
-https://pull.niues.live/live/stream-9912133_lhd.m3u8?auth_key=1793637219-0-0-39b091e05f87eb19767678200513ec7b
+https://pull.niues.live/live/stream-9912133_lhd.m3u8?auth_key=1793637814-0-0-b895c51dd7d2240e7a4738978733427e
 #EXTINF:-1 tvg-logo="https://img.sportbo.live/livescore-img/team/5c794bfbf3227563c85323bb624721ec.webp" group-title="Sút Bóng TV",Al-Sadd vs Al Ahli SC
-https://pull.niues.live/live/stream-622240_lhd.m3u8?auth_key=1793637219-0-0-40dc5c95f604edb3ba8d46bc777391fb
+https://pull.niues.live/live/stream-9912143_lhd.m3u8?auth_key=1793637814-0-0-8b52cd85a4b99727fb128f62b48174e0
+#EXTINF:-1 tvg-logo="https://img.sportbo.live/livescore-img/team/5c794bfbf3227563c85323bb624721ec.webp" group-title="Sút Bóng TV",Al-Sadd vs Al Ahli SC
+https://pull.niues.live/live/stream-622240_lhd.m3u8?auth_key=1793637814-0-0-dcad2d03bdb9d95440107d0367677e8c
+#EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/dj2ryohk27yq1zp/image/small" group-title="Phá Làng TV",Pakhtakor vs Al Nassr
+https://imgts.sportpulseapiz.com/football/team/dj2ryohk27yq1zp/image/small
+#EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/l5ergphow7pr8k0/image/small" group-title="Phá Làng TV",Al Jeel vs Al Najma(KSA)
+https://lilive1.eu.cc/live/33639ff6c70da0e56c992cb0c0424eda/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/4wyrn4h8825q86p/image/small" group-title="Phá Làng TV",Torpedo Kutaisi vs Dila Gori
+https://lilive1.eu.cc/live/b48ace75b53144aa05bd73741a58e5d7/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/jednm9wh42dryox/image/small" group-title="Phá Làng TV",Krylya Sovetov vs Zenit StPetersburg
+https://lilive1.eu.cc/live/e75b04e99408685e62ed1f920cd2384b/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/y0or5jhlkkyqwzv/image/small" group-title="Phá Làng TV",Wadi Degla SC vs Zamalek
+https://lilive1.eu.cc/live/333107192eee4212629d48867c75bd4b/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/p4jwq2ghyddm0ve/image/small" group-title="Phá Làng TV",Cherno More Varna vs Botev Vratsa
 https://imgts.sportpulseapiz.com/football/team/p4jwq2ghyddm0ve/image/small
+#EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/gpxwrxlhk33ryk0/image/small" group-title="Phá Làng TV",Sumgayit FK vs Safa Baku
+https://lilive1.eu.cc/live/fbca1fe8486b1639a4597e28148f8979/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/d23xmvkh562qg8n/image/small" group-title="Phá Làng TV",Real Oviedo vs Las Palmas
+https://lilive1.eu.cc/live/8090bcb82e50920318597218be877dce/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/1l4rjnh6pgpm7vx/image/small" group-title="Phá Làng TV",CS Voluntari vs Farul Constanta
+https://lilive1.eu.cc/live/21c33ee8368a2f9361e0026774aba309/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/e4wyrn4hp84q86p/image/small" group-title="Phá Làng TV",Vaasa VPS vs HJK Helsinki
 https://imgts.sportpulseapiz.com/football/team/e4wyrn4hp84q86p/image/small
 #EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/p4jwq2ghl9km0ve/image/small" group-title="Phá Làng TV",FC Karpaty Lviv vs Kudrivka
@@ -1125,91 +1131,91 @@ https://imgts.sportpulseapiz.com/football/team/6ypq3nh09j5md7o/image/small
 https://imgts.sportpulseapiz.com/football/team/gx7lm7ph685m2wd/image/small
 #EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/1l4rjnhexoym7vx/image/small" group-title="Phá Làng TV",AS Celtas (W) vs Nữ Espanyol
 https://imgts.sportpulseapiz.com/football/team/1l4rjnhexoym7vx/image/small
-#EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/78dd333913352de8fc4e8b0834636245.png" group-title="Gà Vàng 33 TV",02/11 20:45 Pakhtakor vs Al Nassr
+#EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/78dd333913352de8fc4e8b0834636245.png" group-title="Gà Vàng 33 TV",02/11 20:45 Gà Siêu Son
 https://live2.zktsva.app/live/306290.m3u8
-#EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/78dd333913352de8fc4e8b0834636245.png" group-title="Gà Vàng 33 TV",02/11 20:45 Pakhtakor vs Al Nassr
+#EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/78dd333913352de8fc4e8b0834636245.png" group-title="Gà Vàng 33 TV",02/11 20:45 Gà Siêu Ngố
 https://live2.zktsva.app/live/301238.m3u8
-#EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/c263c2074d8bb88b9f85b0bd573f2d53.png" group-title="Gà Vàng 33 TV",02/11 21:40 Al Jeel vs Al Najma(KSA)
+#EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/c263c2074d8bb88b9f85b0bd573f2d53.png" group-title="Gà Vàng 33 TV",02/11 21:40 Gà Siêu Tốc
 https://live2.zktsva.app/live/307240.m3u8
-#EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/13b5359a749536d5adb6ef17cd675219.png" group-title="Gà Vàng 33 TV",02/11 21:55 Al Zulfi vs Al-Jandal
+#EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/13b5359a749536d5adb6ef17cd675219.png" group-title="Gà Vàng 33 TV",02/11 21:55 Gà Siêu Mõm
 https://live2.zktsva.app/live/300523.m3u8
-#EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/340d41d735133c7d7ed375b9a4a18d3f.png" group-title="Gà Vàng 33 TV",02/11 22:00 Krylya Sovetov vs Zenit St. Petersburg
+#EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/340d41d735133c7d7ed375b9a4a18d3f.png" group-title="Gà Vàng 33 TV",02/11 22:00 Gà Siêu Péo
 https://live2.zktsva.app/live/303098.m3u8
-#EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/5c794bfbf3227563c85323bb624721ec.png" group-title="Gà Vàng 33 TV",02/11 23:00 Al-Sadd Sports Club vs Al Ahli SC
+#EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/5c794bfbf3227563c85323bb624721ec.png" group-title="Gà Vàng 33 TV",02/11 23:00 Gà Ô Long
 https://live2.zktsva.app/live/432017.m3u8
-#EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/bf2316e90a47ed6d1181458350b0714b.png" group-title="Gà Vàng 33 TV",02/11 23:00 Tractor S.C. vs Neftchi Fergana
+#EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/bf2316e90a47ed6d1181458350b0714b.png" group-title="Gà Vàng 33 TV",02/11 23:00 Gà Siêu Gáy
 https://live2.zktsva.app/live/294335.m3u8
-#EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/17b767b98695df2fb512e992dd8a7af4.png" group-title="Gà Vàng 33 TV",02/11 23:00 Al-Wasl SC vs Al Quwa Al Jawiya
+#EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/17b767b98695df2fb512e992dd8a7af4.png" group-title="Gà Vàng 33 TV",02/11 23:00 Gà Siêu Quỷ
 https://live2.zktsva.app/live/304565.m3u8
-#EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/f26fb30a9c60dd634d8b2f36afe0e8f1.png" group-title="Gà Vàng 33 TV",02/11 23:00 Inter Turku vs Gnistan Helsinki
+#EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/f26fb30a9c60dd634d8b2f36afe0e8f1.png" group-title="Gà Vàng 33 TV",02/11 23:00 Gà Siêu Bệu
 https://live2.zktsva.app/live/289650.m3u8
-#EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/5df3cf66c96a43a08e06da83aeb2f7a8.png" group-title="Gà Vàng 33 TV",02/11 23:00 Vaasa VPS vs HJK Helsinki
+#EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/5df3cf66c96a43a08e06da83aeb2f7a8.png" group-title="Gà Vàng 33 TV",02/11 23:00 Gà Siêu Nhí
 https://live2.zktsva.app/live/301263.m3u8
-#EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/abe34d42a932576163d32843f1e38e01.png" group-title="Gà Vàng 33 TV",03/11 01:00 GAIS vs AIK
+#EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/abe34d42a932576163d32843f1e38e01.png" group-title="Gà Vàng 33 TV",03/11 01:00 Gà Siêu Kiêu
 https://live2.zktsva.app/live/741294.m3u8
-#EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/b593727321793084b1f7804aebedc31a.png" group-title="Gà Vàng 33 TV",03/11 02:45 Lorient vs Stade Brestois 29
+#EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/b593727321793084b1f7804aebedc31a.png" group-title="Gà Vàng 33 TV",03/11 02:45 Gà Siêu Tồ
 https://live2.zktsva.app/live/796315.m3u8
 #EXTINF:-1 tvg-logo="https://img.cltvap.cc/football/team/9e2514c2828c85ec2cf59483cb919be4.png" group-title="Gà Vàng 33 TV",04/11 18:00 Fenerbahce U19 vs Liverpool U19
 https://gavang33.gg/truc-tiep/fenerbahce-u19-vs-liverpool-u19-luc-1800-ngay-04-11-2026-n54qllhnvn76qvy
-#EXTINF:-1 tvg-logo="https://xoigac.top/images/football/teams/4220.webp" group-title="Xôi Gấc TV",Pakhtakor vs Al-Nassr
-https://4ac07980a95d.ap-northeast-1.playback.live-video.net/api/video/v1/ap-northeast-1.256097482755.channel.Oil6by6kPMWc.m3u8?expires=1793648020&signature=sxXWL8MXeLS0X4vcRmX_Ib7aHTOz1VwwXwRqq4Z-nrw
-#EXTINF:-1 tvg-logo="https://xoigac.top/images/football/teams/4220.webp" group-title="Xôi Gấc TV",Pakhtakor vs Al-Nassr
-https://4ac07980a95d.ap-northeast-1.playback.live-video.net/api/video/v1/ap-northeast-1.256097482755.channel.aYZTCgPJcyaV.m3u8?expires=1793648020&signature=X5U-PMfh3H2lEfUvJzcJRqsPP3sUoCbT5h0T53FX2vU
-#EXTINF:-1 tvg-logo="https://xoigac.top/images/football/teams/4220.webp" group-title="Xôi Gấc TV",Pakhtakor vs Al-Nassr
-https://4ac07980a95d.ap-northeast-1.playback.live-video.net/api/video/v1/ap-northeast-1.256097482755.channel.4voi6teQ2EJS.m3u8?expires=1793648020&signature=W5Jv8JXPcCkRpnx_yc3XMKqxT79tQiuWIOkPanXIS5Y
 #EXTINF:-1 tvg-logo="https://xoigac.top/images/football/teams/1079.webp" group-title="Xôi Gấc TV",Krylia Sovetov vs Zenit
-https://4ac07980a95d.ap-northeast-1.playback.live-video.net/api/video/v1/ap-northeast-1.256097482755.channel.AdmrFidkoulS.m3u8?expires=1793648020&signature=8h_8QVjRf_9uoLAf7f5Fn4pmxXPWmvfBbanSjBF2F8Q
+https://4ac07980a95d.ap-northeast-1.playback.live-video.net/api/video/v1/ap-northeast-1.256097482755.channel.AdmrFidkoulS.m3u8?expires=1793648610&signature=w7sSTL9ruqnApISWuXyx0G3A_518uu17sGEP4eF-nHI
 #EXTINF:-1 tvg-logo="https://xoigac.top/images/football/teams/718.webp" group-title="Xôi Gấc TV",Oviedo vs Las Palmas
-https://4ac07980a95d.ap-northeast-1.playback.live-video.net/api/video/v1/ap-northeast-1.256097482755.channel.XBSqcvLtAsyj.m3u8?expires=1793648020&signature=Tr_QJgkm18wBdU2PZSZkNgVxYGRjmQJDwaa_E7f2OS0
+https://4ac07980a95d.ap-northeast-1.playback.live-video.net/api/video/v1/ap-northeast-1.256097482755.channel.XBSqcvLtAsyj.m3u8?expires=1793648610&signature=e0SAMl9-_NIZ9cKA7n9iMUQSQZIYVuRFSrJ2ISNrnbU
+#EXTINF:-1 tvg-logo="https://xoigac.top/images/football/teams/2895.webp" group-title="Xôi Gấc TV",Al Sadd vs Al-Ahli Jeddah
+https://4ac07980a95d.ap-northeast-1.playback.live-video.net/api/video/v1/ap-northeast-1.256097482755.channel.X2m6FDUZUEsV.m3u8?expires=1793648610&signature=WevSdPCkw4hvQdCa-R3yCi87er6Gc80tqMYASrkaTrQ
 #EXTINF:-1 tvg-logo="https://xoigac.top/images/football/teams/2872.webp" group-title="Xôi Gấc TV",Al-Wasl FC vs Al Quwa Al Jawiya
-https://4ac07980a95d.ap-northeast-1.playback.live-video.net/api/video/v1/ap-northeast-1.256097482755.channel.qFaTaKzv0BcY.m3u8?expires=1793648020&signature=ZAUjOwVG6WcshqteRN8yMc0inXOW_L4ijDb5mAhnRv0
+https://4ac07980a95d.ap-northeast-1.playback.live-video.net/api/video/v1/ap-northeast-1.256097482755.channel.qFaTaKzv0BcY.m3u8?expires=1793648610&signature=1qfZuP_CtukEunHxDt1fF9uKx3NQZEW91KAMro2adL8
+#EXTINF:-1 tvg-logo="https://xoigac.top/images/football/teams/2737.webp" group-title="Xôi Gấc TV",Tractor Sazi vs Neftchi
+https://4ac07980a95d.ap-northeast-1.playback.live-video.net/api/video/v1/ap-northeast-1.256097482755.channel.isk3kPjI9pFL.m3u8?expires=1793648610&signature=4hQ3MMCnkOFobcHNrufZAlrm5aB8XbyYhzxfYdOs0o4
 #EXTINF:-1 tvg-logo="https://xoigac.top/uploads/stream-logos/2026-11/5be4bcd328ae44449d27a3396a8a1b29.webp" group-title="Xôi Gấc TV",Fleet United vs Muang Thong United
 https://xoigac.top/live/football/6202/black-panther
 #EXTINF:-1 tvg-logo="https://xoigac.top/uploads/stream-logos/2026-11/919968f310314c40b933780784f0b729.webp" group-title="Xôi Gấc TV",Khonkaen FC vs Kasetsart FC
 https://xoigac.top/live/football/6204/moon-kight
 #EXTINF:-1 tvg-logo="https://xoigac.top/uploads/stream-logos/2026-11/c2ecb31873f8450ea7b1c58976aea17f.webp" group-title="Xôi Gấc TV",Khonkaen FC vs Kasetsart FC
 https://xoigac.top/live/football/6207/moon-kight
+#EXTINF:-1 tvg-logo="https://xoigac.top/uploads/stream-logos/2026-11/b53bafb1a6ce4e26bb4c858504d24c1d.png" group-title="Xôi Gấc TV",UE Red Warriors vs FEU Tamaraws
+https://xoigac.top/live/football/6222/the-flash
 #EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/1cce63f2bab329f5f017123ada9f8565.png" group-title="Gà Vàng 24H",Pakhtakor vs Al Nassr
 https://playback.livetl002.com/live/69b8e6f43bcf2231c35d5144.m3u8
-#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/1cce63f2bab329f5f017123ada9f8565.png" group-title="Gà Vàng 24H",Pakhtakor vs Al Nassr
+#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/1cce63f2bab329f5f017123ada9f8565.png" group-title="Gà Vàng 24H",KAYTI 2 alibaba
 https://playback.livetl004.com/live/69b8e6f43bcf2231c35d5144.m3u8
 #EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/7b718a991c4fa943440aefbde4267a4c.jfif" group-title="Gà Vàng 24H",Al-Ramtha SC U20 vs Madaris AL Khader U20
 https://static.sportsfeed.pro/football/team/7b718a991c4fa943440aefbde4267a4c.jfif
 #EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/5dbe320855e3ba772dbce54f940c6fa5.png" group-title="Gà Vàng 24H",Newcastle vs Everton
 https://playback.livetl002.com/live/69aa9525f5ec459ae275b43f.m3u8
-#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/5dbe320855e3ba772dbce54f940c6fa5.png" group-title="Gà Vàng 24H",Newcastle vs Everton
+#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/5dbe320855e3ba772dbce54f940c6fa5.png" group-title="Gà Vàng 24H",CRIS 2 alibaba
 https://playback.livetl004.com/live/69aa9525f5ec459ae275b43f.m3u8
-#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/5dbe320855e3ba772dbce54f940c6fa5.png" group-title="Gà Vàng 24H",Newcastle vs Everton
+#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/5dbe320855e3ba772dbce54f940c6fa5.png" group-title="Gà Vàng 24H",GIàng A Dân tencent
 https://playback.livetl002.com/live/6a5b13ceb36a14387baeddaa.m3u8
-#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/5dbe320855e3ba772dbce54f940c6fa5.png" group-title="Gà Vàng 24H",Newcastle vs Everton
+#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/5dbe320855e3ba772dbce54f940c6fa5.png" group-title="Gà Vàng 24H",GIàng A Dân 2 alibaba
 https://playback.livetl004.com/live/6a5b13ceb36a14387baeddaa.m3u8
-#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/5dbe320855e3ba772dbce54f940c6fa5.png" group-title="Gà Vàng 24H",Newcastle vs Everton
+#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/5dbe320855e3ba772dbce54f940c6fa5.png" group-title="Gà Vàng 24H",SÚP LƠ tencent
 https://playback.livetl002.com/live/6a9a5525864ea536c2577392.m3u8
-#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/5dbe320855e3ba772dbce54f940c6fa5.png" group-title="Gà Vàng 24H",Newcastle vs Everton
+#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/5dbe320855e3ba772dbce54f940c6fa5.png" group-title="Gà Vàng 24H",SÚP LƠ 2 alibaba
 https://playback.livetl004.com/live/6a9a5525864ea536c2577392.m3u8
-#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/45c9647899b8bf2fb6f988c6c33b964c.png" group-title="Gà Vàng 24H",Atalanta vs Parma
+#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/45c9647899b8bf2fb6f988c6c33b964c.png" group-title="Gà Vàng 24H",Cá MậP tencent
 https://playback.livetl002.com/live/6a0c7c4b1ae4d6db02433c48.m3u8
-#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/45c9647899b8bf2fb6f988c6c33b964c.png" group-title="Gà Vàng 24H",Atalanta vs Parma
+#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/45c9647899b8bf2fb6f988c6c33b964c.png" group-title="Gà Vàng 24H",Cá MậP 2 alibaba
 https://playback.livetl004.com/live/6a0c7c4b1ae4d6db02433c48.m3u8
 #EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/5c794bfbf3227563c85323bb624721ec.png" group-title="Gà Vàng 24H",Al Sadd vs Al-Ahli SFC
 https://playback.livetl002.com/live/6ad087284c3981dd68475913.m3u8
-#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/5c794bfbf3227563c85323bb624721ec.png" group-title="Gà Vàng 24H",Al Sadd vs Al-Ahli SFC
+#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/5c794bfbf3227563c85323bb624721ec.png" group-title="Gà Vàng 24H",SimonZ 2 alibaba
 https://playback.livetl004.com/live/6ad087284c3981dd68475913.m3u8
-#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/bf2316e90a47ed6d1181458350b0714b.png" group-title="Gà Vàng 24H",Tractor vs Neftchi Fargona
+#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/bf2316e90a47ed6d1181458350b0714b.png" group-title="Gà Vàng 24H",MáN NúI tencent
 https://playback.livetl002.com/live/69cf6331585c5992182f4160.m3u8
-#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/bf2316e90a47ed6d1181458350b0714b.png" group-title="Gà Vàng 24H",Tractor vs Neftchi Fargona
+#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/bf2316e90a47ed6d1181458350b0714b.png" group-title="Gà Vàng 24H",MáN NúI 2 alibaba
 https://playback.livetl004.com/live/69cf6331585c5992182f4160.m3u8
 #EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/17b767b98695df2fb512e992dd8a7af4.png" group-title="Gà Vàng 24H",Al-Wasl SC vs Al Quwa Al Jawiya
 https://playback.livetl002.com/live/69be75e0a0a45974afb67776.m3u8
-#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/17b767b98695df2fb512e992dd8a7af4.png" group-title="Gà Vàng 24H",Al-Wasl SC vs Al Quwa Al Jawiya
+#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/17b767b98695df2fb512e992dd8a7af4.png" group-title="Gà Vàng 24H",MeoMeo 2 alibaba
 https://playback.livetl004.com/live/69be75e0a0a45974afb67776.m3u8
-#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/6356dcedfefdbc98de34cce75214de28.png" group-title="Gà Vàng 24H",Cherno More Varna vs Botev Vratsa
+#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/6356dcedfefdbc98de34cce75214de28.png" group-title="Gà Vàng 24H",khang hi tencent
 https://playback.livetl002.com/live/6a7c0d8f65997681f18cacc4.m3u8
-#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/6356dcedfefdbc98de34cce75214de28.png" group-title="Gà Vàng 24H",Cherno More Varna vs Botev Vratsa
+#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/6356dcedfefdbc98de34cce75214de28.png" group-title="Gà Vàng 24H",khang hi 2 alibaba
 https://playback.livetl004.com/live/6a7c0d8f65997681f18cacc4.m3u8
-#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/21551996567bcd206ee574043d509a84.png" group-title="Gà Vàng 24H",Real Oviedo vs Las Palmas
+#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/21551996567bcd206ee574043d509a84.png" group-title="Gà Vàng 24H",A Long tencent
 https://playback.livetl002.com/live/69ef10b47146e04fbe6d4363.m3u8
-#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/21551996567bcd206ee574043d509a84.png" group-title="Gà Vàng 24H",Real Oviedo vs Las Palmas
+#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/21551996567bcd206ee574043d509a84.png" group-title="Gà Vàng 24H",A Long 2 alibaba
 https://playback.livetl004.com/live/69ef10b47146e04fbe6d4363.m3u8
 #EXTINF:-1 tvg-logo="https://s8tv012.com/api/assets/2430e514-a15f-47c4-ae3a-d33ccabeb055" group-title="S8 TV",Pakhtakor vs Al Nassr FC
 https://s8tv012.com/api/assets/2430e514-a15f-47c4-ae3a-d33ccabeb055
@@ -1229,14 +1235,14 @@ https://hls.lauthaitv.cc/live/ovie-las-spa2nd/index.m3u8
 https://s8tv012.com/api/assets/db246bed-2269-49b4-9325-eff394e67b89
 #EXTINF:-1 tvg-logo="https://s8tv012.com/api/assets/db246bed-2269-49b4-9325-eff394e67b89" group-title="S8 TV",FC Voluntari vs Farul Constanta
 https://hls.lauthaitv.cc/live/volun-farul-romliga/index.m3u8
-#EXTINF:-1 tvg-logo="https://s8tv012.com/api/assets/18e4e273-ebe5-46aa-9fd9-ecb67b53689d" group-title="S8 TV",Al Sadd vs Al Ahli
-https://s8tv012.com/api/assets/18e4e273-ebe5-46aa-9fd9-ecb67b53689d
-#EXTINF:-1 tvg-logo="https://s8tv012.com/api/assets/18e4e273-ebe5-46aa-9fd9-ecb67b53689d" group-title="S8 TV",Al Sadd vs Al Ahli
-https://hls.lauthaitv.cc/live/sadd-ahli-afcc1/index.m3u8
 #EXTINF:-1 tvg-logo="https://s8tv012.com/api/assets/94d7c487-e591-47e8-b44c-ec7f2cc82799" group-title="S8 TV",Al Wasl SC vs Al Quwa Al Jawiya
 https://s8tv012.com/api/assets/94d7c487-e591-47e8-b44c-ec7f2cc82799
 #EXTINF:-1 tvg-logo="https://s8tv012.com/api/assets/94d7c487-e591-47e8-b44c-ec7f2cc82799" group-title="S8 TV",Al Wasl SC vs Al Quwa Al Jawiya
 https://hls.lauthaitv.cc/live/wasl-quwa-afcc1/index.m3u8
+#EXTINF:-1 tvg-logo="https://s8tv012.com/api/assets/18e4e273-ebe5-46aa-9fd9-ecb67b53689d" group-title="S8 TV",Al Sadd vs Al Ahli
+https://s8tv012.com/api/assets/18e4e273-ebe5-46aa-9fd9-ecb67b53689d
+#EXTINF:-1 tvg-logo="https://s8tv012.com/api/assets/18e4e273-ebe5-46aa-9fd9-ecb67b53689d" group-title="S8 TV",Al Sadd vs Al Ahli
+https://hls.lauthaitv.cc/live/sadd-ahli-afcc1/index.m3u8
 #EXTINF:-1 tvg-logo="https://s8tv012.com/api/assets/b4938193-41cf-47d8-80e1-9e63470e7a25" group-title="S8 TV",Genclerbirligi vs Alanyaspor
 https://s8tv012.com/api/assets/b4938193-41cf-47d8-80e1-9e63470e7a25
 #EXTINF:-1 tvg-logo="https://s8tv012.com/api/assets/b4938193-41cf-47d8-80e1-9e63470e7a25" group-title="S8 TV",Genclerbirligi vs Alanyaspor
