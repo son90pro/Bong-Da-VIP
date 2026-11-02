@@ -30,19 +30,6 @@ def parse_slug_to_title(href_str):
         return f"[{time_str}] {team_name}"
     return team_name
 
-def is_valid_stream_url(url):
-    if not url or not isinstance(url, str) or not url.startswith("http"):
-        return False
-    u_lower = url.lower()
-    if any(ext in u_lower for ext in ['.png', '.jpg', '.jpeg', '.webp', '.gif']):
-        return False
-    # Chặn tuyệt đối link trang chủ (homepage) như https://almafestival.info/
-    clean_url = url.replace("https://", "").replace("http://", "")
-    parts = [p for p in clean_url.split("/") if p]
-    if len(parts) <= 1:
-        return False
-    return True
-
 def generate_m3u_and_json():
     target_url = "https://tinyurl.com/xoilacz3" 
     headers = {
@@ -64,9 +51,13 @@ def generate_m3u_and_json():
             count = 0
             seen_links = set()
 
-            providers = data.get("providers", [])
-            if not isinstance(providers, list):
-                providers = [data] if isinstance(data, dict) else []
+            providers = []
+            if isinstance(data, dict):
+                providers = data.get("providers", [])
+                if not providers:
+                    providers = [data]
+            elif isinstance(data, list):
+                providers = data
 
             for prov in providers:
                 if not isinstance(prov, dict):
@@ -75,9 +66,9 @@ def generate_m3u_and_json():
                 prov_name = prov.get("name") or prov.get("title") or prov.get("provider_name") or "Kênh Trực Tiếp"
                 prov_logo = prov.get("logo") or prov.get("icon") or ""
                 
-                # Tìm danh sách trận đấu bên trong provider
+                # Lấy danh sách trận đấu bên trong provider
                 matches = []
-                for k in ["matches", "list", "items", "data", "match_list", "schedule", "channels", "matchs"]:
+                for k in ["matches", "list", "items", "data", "match_list", "schedule", "channels", "matchs", "match"]:
                     if k in prov and isinstance(prov[k], list):
                         matches = prov[k]
                         break
@@ -88,16 +79,13 @@ def generate_m3u_and_json():
                             matches = val
                             break
 
-                if not matches:
+                if not matches and ("url" in prov or "href" in prov):
                     matches = [prov]
 
                 for match in matches:
                     if not isinstance(match, dict):
                         continue
                     
-                    if "providers" in match or "provider_name" in match and len(match) < 3:
-                        continue
-
                     href = match.get("href") or match.get("url_info") or ""
                     match_title = parse_slug_to_title(href)
                     
@@ -106,25 +94,31 @@ def generate_m3u_and_json():
                         if alt_title and not any(kw in alt_title.lower() for kw in ['url', 'href', 'logo', 'referer']):
                             match_title = alt_title
 
+                    # Lấy logo ưu tiên home_logo
                     logo = match.get("home_logo") or match.get("logo") or match.get("icon") or prov_logo
+                    
                     stream_url = match.get("url") or match.get("stream_url") or match.get("m3u8") or ""
                     referer = match.get("Referer") or match.get("referer") or ""
                     ua = match.get("user_agent") or "Mozilla/5.0"
 
-                    if is_valid_stream_url(stream_url):
-                        if stream_url not in seen_links:
-                            seen_links.add(stream_url)
-                            
-                            m3u_content += f"#EXTINF:-1 tvg-logo=\"{logo}\" group-title=\"{prov_name}\",{match_title}\n"
-                            
-                            final_link = stream_url
-                            if referer:
-                                final_link = f"{stream_url}|User-Agent={ua}&Referer={referer}"
-                            elif ua != "Mozilla/5.0":
-                                final_link = f"{stream_url}|User-Agent={ua}"
+                    if stream_url and isinstance(stream_url, str) and stream_url.startswith("http"):
+                        s_lower = stream_url.lower()
+                        is_image = any(ext in s_lower for ext in ['.png', '.jpg', '.jpeg', '.webp', '.gif'])
+                        
+                        if not is_image:
+                            if stream_url not in seen_links:
+                                seen_links.add(stream_url.strip())
                                 
-                            m3u_content += f"{final_link}\n"
-                            count += 1
+                                m3u_content += f"#EXTINF:-1 tvg-logo=\"{logo}\" group-title=\"{prov_name}\",{match_title}\n"
+                                
+                                final_link = stream_url.strip()
+                                if referer:
+                                    final_link = f"{stream_url.strip()}|User-Agent={ua}&Referer={referer.strip()}"
+                                elif ua != "Mozilla/5.0":
+                                    final_link = f"{stream_url.strip()}|User-Agent={ua}"
+                                    
+                                m3u_content += f"{final_link}\n"
+                                count += 1
 
             with open('playlist.m3u', 'w', encoding='utf-8') as f:
                 f.write(m3u_content)
