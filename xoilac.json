@@ -1,11 +1,11 @@
 {
   "id": "kienplayer",
   "name": "Kienplayer",
-  "generated_at": "2026-11-02T20:33:46.404987+07:00",
+  "generated_at": "2026-11-02T20:38:53.466740+07:00",
   "groups": [],
   "providers": [
     {
-      "generated_at": "2026-11-02T20:33:21.131093+07:00",
+      "generated_at": "2026-11-02T20:38:21.864211+07:00",
       "id": "xoilac",
       "url": "https://almafestival.info/",
       "name": "Xôi Lạc TV",
@@ -17,155 +17,9 @@
       "groups": [
         {
           "id": "live-matches",
-          "name": "🔥 Đang Phát Trực Tiếp (16 trận)",
+          "name": "🔥 Đang Phát Trực Tiếp (22 trận)",
           "display": "vertical",
           "channels": [
-            {
-              "id": "kienplay-kryvbas-vs-dynamo-kyiv-luc-1800-ngay-02-11-2026",
-              "name": "Kryvbas vs Dynamo Kyiv",
-              "subtitle": "Ngoại Hạng Ukraina • 18:00 - 02/11",
-              "sport": "football",
-              "is_live": true,
-              "href": "https://almafestival.info/truc-tiep/kryvbas-vs-dynamo-kyiv-luc-1800-ngay-02-11-2026/",
-              "home_team": "Kryvbas",
-              "away_team": "Dynamo Kyiv",
-              "home_logo": "https://imgts.sportpulseapiz.com/football/team/gpxwrxlhoo1ryk0/image/small",
-              "away_logo": "https://imgts.sportpulseapiz.com/football/team/d23xmvkh1o7qg8n/image/small",
-              "labels": [
-                {
-                  "position": "top-left",
-                  "text": "Live",
-                  "color": "#EF4444",
-                  "text_color": "#FFFFFF"
-                },
-                {
-                  "position": "bottom-right",
-                  "text": "BLV ZANE",
-                  "color": "#E97519",
-                  "text_color": "#FFFFFF"
-                }
-              ],
-              "image": {
-                "url": "https://imgts.sportpulseapiz.com/football/team/gpxwrxlhoo1ryk0/image/small",
-                "height": 480,
-                "width": 640,
-                "display": "cover",
-                "shape": "square"
-              },
-              "type": "single",
-              "display": "thumbnail-only",
-              "sources": [
-                {
-                  "id": "source-kryvbas-vs-dynamo-kyiv-luc-1800-ngay-02-11-2026",
-                  "name": "Kienplayer",
-                  "contents": [
-                    {
-                      "id": "content-kryvbas-vs-dynamo-kyiv-luc-1800-ngay-02-11-2026",
-                      "name": "Kryvbas vs Dynamo Kyiv",
-                      "streams": [
-                        {
-                          "id": "kryvbas-vs-dynamo-kyiv-luc-1800-ngay-02-11-2026-stream-0",
-                          "name": "BLV ZANE",
-                          "remote_data": {
-                            "url": "https://live2.jorvakstreamcache.com/live/channel22.m3u8",
-                            "headers": {
-                              "User-Agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.5 Mobile/15E148 Safari/604.1",
-                              "Referer": "https://xlz.domainkqt.cc/ajax/chanel/type/8/link/channel22",
-                              "Origin": "https://xlz.domainkqt.cc"
-                            }
-                          }
-                        },
-                        {
-                          "id": "kryvbas-vs-dynamo-kyiv-luc-1800-ngay-02-11-2026-stream-1",
-                          "name": "BLV ZANE (HD)",
-                          "remote_data": {
-                            "url": "https://live2.domaincdn.cc/livecdn/channel-22.m3u8?auth_key=3000001793626381-0-0-08c26f6faa292c4fadb3ab7c715dcb63",
-                            "headers": {
-                              "User-Agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.5 Mobile/15E148 Safari/604.1",
-                              "Referer": "https://xlz.domainkqt.cc/ajax/chanel/type/5/link/channel-22",
-                              "Origin": "https://xlz.domainkqt.cc"
-                            }
-                          }
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "kienplay-alejandro-tabilo-vs-rafael-jodar-luc-1810-ngay-02-11-2026",
-              "name": "Alejandro Tabilo vs Rafael Jodar",
-              "subtitle": "ATP Paris, France Men Singles • 18:10 - 02/11",
-              "sport": "tennis",
-              "is_live": true,
-              "href": "https://almafestival.info/truc-tiep/alejandro-tabilo-vs-rafael-jodar-luc-1810-ngay-02-11-2026/",
-              "home_team": "Alejandro Tabilo",
-              "away_team": "Rafael Jodar",
-              "home_logo": "https://imgts.sportpulseapiz.com/tennis/team/4wyrnjf4ylwq86p/image/small",
-              "away_logo": "https://imgts.sportpulseapiz.com/tennis/team/pxwrxjf8wg8myk0/image/small",
-              "labels": [
-                {
-                  "position": "top-left",
-                  "text": "Live",
-                  "color": "#EF4444",
-                  "text_color": "#FFFFFF"
-                },
-                {
-                  "position": "bottom-right",
-                  "text": "BLV LUCAS",
-                  "color": "#E97519",
-                  "text_color": "#FFFFFF"
-                }
-              ],
-              "image": {
-                "url": "https://imgts.sportpulseapiz.com/tennis/team/4wyrnjf4ylwq86p/image/small",
-                "height": 480,
-                "width": 640,
-                "display": "cover",
-                "shape": "square"
-              },
-              "type": "single",
-              "display": "thumbnail-only",
-              "sources": [
-                {
-                  "id": "source-alejandro-tabilo-vs-rafael-jodar-luc-1810-ngay-02-11-2026",
-                  "name": "Kienplayer",
-                  "contents": [
-                    {
-                      "id": "content-alejandro-tabilo-vs-rafael-jodar-luc-1810-ngay-02-11-2026",
-                      "name": "Alejandro Tabilo vs Rafael Jodar",
-                      "streams": [
-                        {
-                          "id": "alejandro-tabilo-vs-rafael-jodar-luc-1810-ngay-02-11-2026-stream-0",
-                          "name": "BLV LUCAS",
-                          "remote_data": {
-                            "url": "https://live2.jorvakstreamcache.com/live/channel31.m3u8",
-                            "headers": {
-                              "User-Agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.5 Mobile/15E148 Safari/604.1",
-                              "Referer": "https://xlz.domainkqt.cc/ajax/chanel/type/8/link/channel31",
-                              "Origin": "https://xlz.domainkqt.cc"
-                            }
-                          }
-                        },
-                        {
-                          "id": "alejandro-tabilo-vs-rafael-jodar-luc-1810-ngay-02-11-2026-stream-1",
-                          "name": "BLV LUCAS (HD)",
-                          "remote_data": {
-                            "url": "https://live2.domaincdn.cc/livecdn/channel-31.m3u8?auth_key=3000001793626383-0-0-293ceed96749199376d0a1d8add772e9",
-                            "headers": {
-                              "User-Agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.5 Mobile/15E148 Safari/604.1",
-                              "Referer": "https://xlz.domainkqt.cc/ajax/chanel/type/5/link/channel-31",
-                              "Origin": "https://xlz.domainkqt.cc"
-                            }
-                          }
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
             {
               "id": "kienplay-shandong-hi-speed-vs-beijing-royal-luc-1835-ngay-02-11-2026",
               "name": "Shandong Hi-Speed vs Beijing Royal",
@@ -225,10 +79,83 @@
                           "id": "shandong-hi-speed-vs-beijing-royal-luc-1835-ngay-02-11-2026-stream-1",
                           "name": "BLV TOMMY (HD)",
                           "remote_data": {
-                            "url": "https://live2.domaincdn.cc/livecdn/channel-29.m3u8?auth_key=3000001793626382-0-0-a8052707cf2682749b4533b215214a68",
+                            "url": "https://live2.domaincdn.cc/livecdn/channel-29.m3u8?auth_key=3000001793626696-0-0-07e608fe4c9fa8f4a88d70994ebe0d67",
                             "headers": {
                               "User-Agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.5 Mobile/15E148 Safari/604.1",
                               "Referer": "https://xlz.domainkqt.cc/ajax/chanel/type/5/link/channel-29",
+                              "Origin": "https://xlz.domainkqt.cc"
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "kienplay-guangdong-sunshine-vs-qingdao-guoxin-luc-1835-ngay-02-11-2026",
+              "name": "Guangdong Sunshine vs Qingdao Guoxin",
+              "subtitle": "CBA • 18:35 - 02/11",
+              "sport": "basketball",
+              "is_live": true,
+              "href": "https://almafestival.info/truc-tiep/guangdong-sunshine-vs-qingdao-guoxin-luc-1835-ngay-02-11-2026/",
+              "home_team": "Guangdong Sunshine",
+              "away_team": "Qingdao Guoxin",
+              "home_logo": "https://imgts.sportpulseapiz.com/basketball/team/p3glrwyte8wqdyj/image/small",
+              "away_logo": "https://imgts.sportpulseapiz.com/basketball/team/8y39mp4t878mojx/image/small",
+              "labels": [
+                {
+                  "position": "top-left",
+                  "text": "Live",
+                  "color": "#EF4444",
+                  "text_color": "#FFFFFF"
+                },
+                {
+                  "position": "bottom-right",
+                  "text": "BLV ALAN",
+                  "color": "#E97519",
+                  "text_color": "#FFFFFF"
+                }
+              ],
+              "image": {
+                "url": "https://imgts.sportpulseapiz.com/basketball/team/p3glrwyte8wqdyj/image/small",
+                "height": 480,
+                "width": 640,
+                "display": "cover",
+                "shape": "square"
+              },
+              "type": "single",
+              "display": "thumbnail-only",
+              "sources": [
+                {
+                  "id": "source-guangdong-sunshine-vs-qingdao-guoxin-luc-1835-ngay-02-11-2026",
+                  "name": "Kienplayer",
+                  "contents": [
+                    {
+                      "id": "content-guangdong-sunshine-vs-qingdao-guoxin-luc-1835-ngay-02-11-2026",
+                      "name": "Guangdong Sunshine vs Qingdao Guoxin",
+                      "streams": [
+                        {
+                          "id": "guangdong-sunshine-vs-qingdao-guoxin-luc-1835-ngay-02-11-2026-stream-0",
+                          "name": "BLV ALAN",
+                          "remote_data": {
+                            "url": "https://live2.jorvakstreamcache.com/live/channel25.m3u8",
+                            "headers": {
+                              "User-Agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.5 Mobile/15E148 Safari/604.1",
+                              "Referer": "https://xlz.domainkqt.cc/ajax/chanel/type/8/link/channel25",
+                              "Origin": "https://xlz.domainkqt.cc"
+                            }
+                          }
+                        },
+                        {
+                          "id": "guangdong-sunshine-vs-qingdao-guoxin-luc-1835-ngay-02-11-2026-stream-1",
+                          "name": "BLV ALAN (HD)",
+                          "remote_data": {
+                            "url": "https://live2.domaincdn.cc/livecdn/channel-25.m3u8?auth_key=3000001793626695-0-0-a436b7468efad7b909e066eaeb882d48",
+                            "headers": {
+                              "User-Agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.5 Mobile/15E148 Safari/604.1",
+                              "Referer": "https://xlz.domainkqt.cc/ajax/chanel/type/5/link/channel-25",
                               "Origin": "https://xlz.domainkqt.cc"
                             }
                           }
@@ -298,7 +225,7 @@
                           "id": "fk-graficar-beograd-vs-fk-napredak-luc-1900-ngay-02-11-2026-stream-1",
                           "name": "BLV KEN (HD)",
                           "remote_data": {
-                            "url": "https://live2.domaincdn.cc/livecdn/channel-18.m3u8?auth_key=3000001793626380-0-0-bf6a4c24fa1ee8746d49679c2368540c",
+                            "url": "https://live2.domaincdn.cc/livecdn/channel-18.m3u8?auth_key=3000001793626693-0-0-d9ec8c664bc2fa56e17b3c53564794e7",
                             "headers": {
                               "User-Agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.5 Mobile/15E148 Safari/604.1",
                               "Referer": "https://xlz.domainkqt.cc/ajax/chanel/type/5/link/channel-18",
@@ -359,10 +286,71 @@
                           "id": "teleoptik-vs-fk-javor-ivanjica-luc-1900-ngay-02-11-2026-stream-0",
                           "name": "BLV Server 1 (HD)",
                           "remote_data": {
-                            "url": "https://live1.quickscoreboardz.com/live/channel13/playlist.m3u8?wsSecret=02c15fc89eb716e8997bf1c431b87942&wsABSTime=1793669579",
+                            "url": "https://live1.quickscoreboardz.com/live/channel13/playlist.m3u8?wsSecret=c24916b50cba902fe36dabe2d17f84c8&wsABSTime=1793669886",
                             "headers": {
                               "User-Agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.5 Mobile/15E148 Safari/604.1",
                               "Referer": "https://xlz.domainkqt.cc/ajax/chanel/type/7/link/channel13",
+                              "Origin": "https://xlz.domainkqt.cc"
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "kienplay-bor-1919-vs-fk-spartak-voda-luc-1900-ngay-02-11-2026",
+              "name": "Bor 1919 vs FK Spartak Voda",
+              "subtitle": "Hạng Nhất Serbia • 19:00 - 02/11",
+              "sport": "football",
+              "is_live": true,
+              "href": "https://almafestival.info/truc-tiep/bor-1919-vs-fk-spartak-voda-luc-1900-ngay-02-11-2026/",
+              "home_team": "Bor 1919",
+              "away_team": "FK Spartak Voda",
+              "home_logo": "https://imgts.sportpulseapiz.com/football/team/k82rekh1kx4repz/image/small",
+              "away_logo": "https://imgts.sportpulseapiz.com/football/team/8yomo4h7zxnq0j6/image/small",
+              "labels": [
+                {
+                  "position": "top-left",
+                  "text": "Live",
+                  "color": "#EF4444",
+                  "text_color": "#FFFFFF"
+                },
+                {
+                  "position": "bottom-left",
+                  "text": "19:00 - 02/11",
+                  "color": "#334155",
+                  "text_color": "#FFFFFF"
+                }
+              ],
+              "image": {
+                "url": "https://imgts.sportpulseapiz.com/football/team/k82rekh1kx4repz/image/small",
+                "height": 480,
+                "width": 640,
+                "display": "cover",
+                "shape": "square"
+              },
+              "type": "single",
+              "display": "thumbnail-only",
+              "sources": [
+                {
+                  "id": "source-bor-1919-vs-fk-spartak-voda-luc-1900-ngay-02-11-2026",
+                  "name": "Kienplayer",
+                  "contents": [
+                    {
+                      "id": "content-bor-1919-vs-fk-spartak-voda-luc-1900-ngay-02-11-2026",
+                      "name": "Bor 1919 vs FK Spartak Voda",
+                      "streams": [
+                        {
+                          "id": "bor-1919-vs-fk-spartak-voda-luc-1900-ngay-02-11-2026-stream-0",
+                          "name": "BLV Server 1 (HD)",
+                          "remote_data": {
+                            "url": "https://live1.quickscoreboardz.com/live/channel14/playlist.m3u8?wsSecret=16d3e26c0f0fec50b783f3f5799883e7&wsABSTime=1793669886",
+                            "headers": {
+                              "User-Agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.5 Mobile/15E148 Safari/604.1",
+                              "Referer": "https://xlz.domainkqt.cc/ajax/chanel/type/7/link/channel14",
                               "Origin": "https://xlz.domainkqt.cc"
                             }
                           }
@@ -432,7 +420,7 @@
                           "id": "fc-molodechno-vs-osipovichy-luc-1900-ngay-02-11-2026-stream-1",
                           "name": "BLV XMEN (HD)",
                           "remote_data": {
-                            "url": "https://live2.domaincdn.cc/livecdn/channel-13.m3u8?auth_key=3000001793626380-0-0-36709e6dc6c19d211322d5e8b7ba2de1",
+                            "url": "https://live2.domaincdn.cc/livecdn/channel-13.m3u8?auth_key=3000001793626686-0-0-9ad4c4ad527e2c564e18cd5062ab086c",
                             "headers": {
                               "User-Agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.5 Mobile/15E148 Safari/604.1",
                               "Referer": "https://xlz.domainkqt.cc/ajax/chanel/type/5/link/channel-13",
@@ -493,7 +481,7 @@
                           "id": "ethiopia-nigd-bank-vs-ethiopian-insurance-luc-1900-ngay-02-11-2026-stream-0",
                           "name": "BLV Server 1 (HD)",
                           "remote_data": {
-                            "url": "https://live1.quickscoreboardz.com/live/channel16/playlist.m3u8?wsSecret=adeead6c5d2f99b9f7bf577a9d14c117&wsABSTime=1793669586",
+                            "url": "https://live1.quickscoreboardz.com/live/channel16/playlist.m3u8?wsSecret=1f2882cc4d28a9cd17a6bd4933963689&wsABSTime=1793669886",
                             "headers": {
                               "User-Agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.5 Mobile/15E148 Safari/604.1",
                               "Referer": "https://xlz.domainkqt.cc/ajax/chanel/type/7/link/channel16",
@@ -554,10 +542,327 @@
                           "id": "nu-far-rabat-vs-nu-kawempe-muslim-luc-1900-ngay-02-11-2026-stream-0",
                           "name": "BLV Server 1 (HD)",
                           "remote_data": {
-                            "url": "https://live1.quickscoreboardz.com/live/channel17/playlist.m3u8?wsSecret=5fe1700be9cca69cbf5cc1f7622de35b&wsABSTime=1793669579",
+                            "url": "https://live1.quickscoreboardz.com/live/channel17/playlist.m3u8?wsSecret=c064a4d2a910ba9a698b1f32f9e30893&wsABSTime=1793669886",
                             "headers": {
                               "User-Agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.5 Mobile/15E148 Safari/604.1",
                               "Referer": "https://xlz.domainkqt.cc/ajax/chanel/type/7/link/channel17",
+                              "Origin": "https://xlz.domainkqt.cc"
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "kienplay-bc-barnaul-altayskiy-kray-vs-tambov-luc-1900-ngay-02-11-2026",
+              "name": "BC Barnaul Altayskiy Kray vs Tambov",
+              "subtitle": "Basketball Super League 1 • 19:00 - 02/11",
+              "sport": "basketball",
+              "is_live": true,
+              "href": "https://almafestival.info/truc-tiep/bc-barnaul-altayskiy-kray-vs-tambov-luc-1900-ngay-02-11-2026/",
+              "home_team": "BC Barnaul Altayskiy Kray",
+              "away_team": "Tambov",
+              "home_logo": "https://imgts.sportpulseapiz.com/basketball/team/9k82re8t5d6repz/image/small",
+              "away_logo": "https://imgts.sportpulseapiz.com/basketball/team/6ypq3kt00xomd7o/image/small",
+              "labels": [
+                {
+                  "position": "top-left",
+                  "text": "Live",
+                  "color": "#EF4444",
+                  "text_color": "#FFFFFF"
+                },
+                {
+                  "position": "bottom-left",
+                  "text": "19:00 - 02/11",
+                  "color": "#334155",
+                  "text_color": "#FFFFFF"
+                }
+              ],
+              "image": {
+                "url": "https://imgts.sportpulseapiz.com/basketball/team/9k82re8t5d6repz/image/small",
+                "height": 480,
+                "width": 640,
+                "display": "cover",
+                "shape": "square"
+              },
+              "type": "single",
+              "display": "thumbnail-only",
+              "sources": [
+                {
+                  "id": "source-bc-barnaul-altayskiy-kray-vs-tambov-luc-1900-ngay-02-11-2026",
+                  "name": "Kienplayer",
+                  "contents": [
+                    {
+                      "id": "content-bc-barnaul-altayskiy-kray-vs-tambov-luc-1900-ngay-02-11-2026",
+                      "name": "BC Barnaul Altayskiy Kray vs Tambov",
+                      "streams": [
+                        {
+                          "id": "bc-barnaul-altayskiy-kray-vs-tambov-luc-1900-ngay-02-11-2026-stream-0",
+                          "name": "BLV Server 1 (HD)",
+                          "remote_data": {
+                            "url": "https://live1.quickscoreboardz.com/live/channel48/playlist.m3u8?wsSecret=a122ee37819488a83e08ada928c24b28&wsABSTime=1793669887",
+                            "headers": {
+                              "User-Agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.5 Mobile/15E148 Safari/604.1",
+                              "Referer": "https://xlz.domainkqt.cc/ajax/chanel/type/7/link/channel48",
+                              "Origin": "https://xlz.domainkqt.cc"
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "kienplay-falcons-force-vs-megoshort-luc-1900-ngay-02-11-2026",
+              "name": "Falcons Force vs megoshort",
+              "subtitle": "CCT 2026 Europe Series 13 Closed Qualifier • 19:00 - 02/11",
+              "sport": "csgo",
+              "is_live": true,
+              "href": "https://almafestival.info/truc-tiep/falcons-force-vs-megoshort-luc-1900-ngay-02-11-2026/",
+              "home_team": "Falcons Force",
+              "away_team": "megoshort",
+              "home_logo": "https://imgts.sportpulseapiz.com/csgo/team/x7lm79xuk8x1r2w/image/small",
+              "away_logo": "https://imgts.sportpulseapiz.com/csgo/team/jw2r086hd1xqz84/image/small",
+              "labels": [
+                {
+                  "position": "top-left",
+                  "text": "Live",
+                  "color": "#EF4444",
+                  "text_color": "#FFFFFF"
+                },
+                {
+                  "position": "bottom-left",
+                  "text": "19:00 - 02/11",
+                  "color": "#334155",
+                  "text_color": "#FFFFFF"
+                }
+              ],
+              "image": {
+                "url": "https://imgts.sportpulseapiz.com/csgo/team/x7lm79xuk8x1r2w/image/small",
+                "height": 480,
+                "width": 640,
+                "display": "cover",
+                "shape": "square"
+              },
+              "type": "single",
+              "display": "thumbnail-only",
+              "sources": [
+                {
+                  "id": "source-falcons-force-vs-megoshort-luc-1900-ngay-02-11-2026",
+                  "name": "Kienplayer",
+                  "contents": [
+                    {
+                      "id": "content-falcons-force-vs-megoshort-luc-1900-ngay-02-11-2026",
+                      "name": "Falcons Force vs megoshort",
+                      "streams": [
+                        {
+                          "id": "falcons-force-vs-megoshort-luc-1900-ngay-02-11-2026-stream-0",
+                          "name": "BLV Server 1 (HD)",
+                          "remote_data": {
+                            "url": "https://live1.quickscoreboardz.com/live/channel70/playlist.m3u8?wsSecret=47fdfb85eb7289bd096ec42d9c03f50c&wsABSTime=1793669894",
+                            "headers": {
+                              "User-Agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.5 Mobile/15E148 Safari/604.1",
+                              "Referer": "https://xlz.domainkqt.cc/ajax/chanel/type/7/link/channel70",
+                              "Origin": "https://xlz.domainkqt.cc"
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "kienplay-al-jabalain-vs-al-bukayriyah-luc-1930-ngay-02-11-2026",
+              "name": "Al-Jabalain vs Al Bukayriyah",
+              "subtitle": "Hạng Nhất Saudi Arabia • 19:30 - 02/11",
+              "sport": "football",
+              "is_live": true,
+              "href": "https://almafestival.info/truc-tiep/al-jabalain-vs-al-bukayriyah-luc-1930-ngay-02-11-2026/",
+              "home_team": "Al-Jabalain",
+              "away_team": "Al Bukayriyah",
+              "home_logo": "https://imgts.sportpulseapiz.com/football/team/965mkyh7kzwr1ge/image/small",
+              "away_logo": "https://imgts.sportpulseapiz.com/football/team/y0or5jhenvxqwzv/image/small",
+              "labels": [
+                {
+                  "position": "top-left",
+                  "text": "Live",
+                  "color": "#EF4444",
+                  "text_color": "#FFFFFF"
+                },
+                {
+                  "position": "bottom-right",
+                  "text": "BLV NEMO",
+                  "color": "#E97519",
+                  "text_color": "#FFFFFF"
+                }
+              ],
+              "image": {
+                "url": "https://imgts.sportpulseapiz.com/football/team/965mkyh7kzwr1ge/image/small",
+                "height": 480,
+                "width": 640,
+                "display": "cover",
+                "shape": "square"
+              },
+              "type": "single",
+              "display": "thumbnail-only",
+              "sources": [
+                {
+                  "id": "source-al-jabalain-vs-al-bukayriyah-luc-1930-ngay-02-11-2026",
+                  "name": "Kienplayer",
+                  "contents": [
+                    {
+                      "id": "content-al-jabalain-vs-al-bukayriyah-luc-1930-ngay-02-11-2026",
+                      "name": "Al-Jabalain vs Al Bukayriyah",
+                      "streams": [
+                        {
+                          "id": "al-jabalain-vs-al-bukayriyah-luc-1930-ngay-02-11-2026-stream-0",
+                          "name": "BLV NEMO",
+                          "remote_data": {
+                            "url": "https://live2.jorvakstreamcache.com/live/channel17.m3u8",
+                            "headers": {
+                              "User-Agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.5 Mobile/15E148 Safari/604.1",
+                              "Referer": "https://xlz.domainkqt.cc/ajax/chanel/type/8/link/channel17",
+                              "Origin": "https://xlz.domainkqt.cc"
+                            }
+                          }
+                        },
+                        {
+                          "id": "al-jabalain-vs-al-bukayriyah-luc-1930-ngay-02-11-2026-stream-1",
+                          "name": "BLV NEMO (HD)",
+                          "remote_data": {
+                            "url": "https://live2.domaincdn.cc/livecdn/channel-17.m3u8?auth_key=3000001793626693-0-0-057c7472da12688ab0fcc88e498a4d74",
+                            "headers": {
+                              "User-Agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.5 Mobile/15E148 Safari/604.1",
+                              "Referer": "https://xlz.domainkqt.cc/ajax/chanel/type/5/link/channel-17",
+                              "Origin": "https://xlz.domainkqt.cc"
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "kienplay-fk-vora-vs-fc-dinamo-city-luc-1930-ngay-02-11-2026",
+              "name": "FK Vora vs FC Dinamo City",
+              "subtitle": "Albanian Super league • 19:30 - 02/11",
+              "sport": "football",
+              "is_live": true,
+              "href": "https://almafestival.info/truc-tiep/fk-vora-vs-fc-dinamo-city-luc-1930-ngay-02-11-2026/",
+              "home_team": "FK Vora",
+              "away_team": "FC Dinamo City",
+              "home_logo": "https://imgts.sportpulseapiz.com/football/team/4jwq2ghkvgwm0ve/image/small",
+              "away_logo": "https://imgts.sportpulseapiz.com/football/team/9dn1m1ghz6nmoep/image/small",
+              "labels": [
+                {
+                  "position": "top-left",
+                  "text": "Live",
+                  "color": "#EF4444",
+                  "text_color": "#FFFFFF"
+                },
+                {
+                  "position": "bottom-left",
+                  "text": "19:30 - 02/11",
+                  "color": "#334155",
+                  "text_color": "#FFFFFF"
+                }
+              ],
+              "image": {
+                "url": "https://imgts.sportpulseapiz.com/football/team/4jwq2ghkvgwm0ve/image/small",
+                "height": 480,
+                "width": 640,
+                "display": "cover",
+                "shape": "square"
+              },
+              "type": "single",
+              "display": "thumbnail-only",
+              "sources": [
+                {
+                  "id": "source-fk-vora-vs-fc-dinamo-city-luc-1930-ngay-02-11-2026",
+                  "name": "Kienplayer",
+                  "contents": [
+                    {
+                      "id": "content-fk-vora-vs-fc-dinamo-city-luc-1930-ngay-02-11-2026",
+                      "name": "FK Vora vs FC Dinamo City",
+                      "streams": [
+                        {
+                          "id": "fk-vora-vs-fc-dinamo-city-luc-1930-ngay-02-11-2026-stream-0",
+                          "name": "BLV Server 1 (HD)",
+                          "remote_data": {
+                            "url": "https://live1.quickscoreboardz.com/live/channel3/playlist.m3u8?wsSecret=213742b350cdbbd144620e3b01855493&wsABSTime=1793669886",
+                            "headers": {
+                              "User-Agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.5 Mobile/15E148 Safari/604.1",
+                              "Referer": "https://xlz.domainkqt.cc/ajax/chanel/type/7/link/channel3",
+                              "Origin": "https://xlz.domainkqt.cc"
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "kienplay-sportist-svoge-vs-ludogorets-ii-luc-1930-ngay-02-11-2026",
+              "name": "Sportist Svoge vs Ludogorets II",
+              "subtitle": "Hạng 2 Bulgaria • 19:30 - 02/11",
+              "sport": "football",
+              "is_live": true,
+              "href": "https://almafestival.info/truc-tiep/sportist-svoge-vs-ludogorets-ii-luc-1930-ngay-02-11-2026/",
+              "home_team": "Sportist Svoge",
+              "away_team": "Ludogorets II",
+              "home_logo": "https://imgts.sportpulseapiz.com/football/team/dn1m1gh4yxomoep/image/small",
+              "away_logo": "https://imgts.sportpulseapiz.com/football/team/4jwq2gh4y2zm0ve/image/small",
+              "labels": [
+                {
+                  "position": "top-left",
+                  "text": "Live",
+                  "color": "#EF4444",
+                  "text_color": "#FFFFFF"
+                },
+                {
+                  "position": "bottom-left",
+                  "text": "19:30 - 02/11",
+                  "color": "#334155",
+                  "text_color": "#FFFFFF"
+                }
+              ],
+              "image": {
+                "url": "https://imgts.sportpulseapiz.com/football/team/dn1m1gh4yxomoep/image/small",
+                "height": 480,
+                "width": 640,
+                "display": "cover",
+                "shape": "square"
+              },
+              "type": "single",
+              "display": "thumbnail-only",
+              "sources": [
+                {
+                  "id": "source-sportist-svoge-vs-ludogorets-ii-luc-1930-ngay-02-11-2026",
+                  "name": "Kienplayer",
+                  "contents": [
+                    {
+                      "id": "content-sportist-svoge-vs-ludogorets-ii-luc-1930-ngay-02-11-2026",
+                      "name": "Sportist Svoge vs Ludogorets II",
+                      "streams": [
+                        {
+                          "id": "sportist-svoge-vs-ludogorets-ii-luc-1930-ngay-02-11-2026-stream-0",
+                          "name": "BLV Server 1 (HD)",
+                          "remote_data": {
+                            "url": "https://live1.quickscoreboardz.com/live/channel4/playlist.m3u8?wsSecret=205b236158aaae2910078bf401d2e26c&wsABSTime=1793669893",
+                            "headers": {
+                              "User-Agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.5 Mobile/15E148 Safari/604.1",
+                              "Referer": "https://xlz.domainkqt.cc/ajax/chanel/type/7/link/channel4",
                               "Origin": "https://xlz.domainkqt.cc"
                             }
                           }
@@ -615,10 +920,71 @@
                           "id": "al-orobah-fc-vs-al-anwar-club-luc-1930-ngay-02-11-2026-stream-0",
                           "name": "BLV Server 1 (HD)",
                           "remote_data": {
-                            "url": "https://live1.quickscoreboardz.com/live/channel37/playlist.m3u8?wsSecret=1703bafac672963d661b43b23909b1b0&wsABSTime=1793669588",
+                            "url": "https://live1.quickscoreboardz.com/live/channel37/playlist.m3u8?wsSecret=6ab6ac924e8b65c2472c27c7534ea1fa&wsABSTime=1793669886",
                             "headers": {
                               "User-Agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.5 Mobile/15E148 Safari/604.1",
                               "Referer": "https://xlz.domainkqt.cc/ajax/chanel/type/7/link/channel37",
+                              "Origin": "https://xlz.domainkqt.cc"
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "kienplay-daniel-merida-aguilar-vs-sebastian-baez-luc-1940-ngay-02-11-2026",
+              "name": "Daniel Merida Aguilar vs Sebastian Baez",
+              "subtitle": "ATP Paris, France Men Singles • 19:40 - 02/11",
+              "sport": "tennis",
+              "is_live": true,
+              "href": "https://almafestival.info/truc-tiep/daniel-merida-aguilar-vs-sebastian-baez-luc-1940-ngay-02-11-2026/",
+              "home_team": "Daniel Merida Aguilar",
+              "away_team": "Sebastian Baez",
+              "home_logo": "https://imgts.sportpulseapiz.com/tennis/team/vjxm85fp698m6od/image/small",
+              "away_logo": "https://imgts.sportpulseapiz.com/tennis/team/3glrw2fl588rdyj/image/small",
+              "labels": [
+                {
+                  "position": "top-left",
+                  "text": "Live",
+                  "color": "#EF4444",
+                  "text_color": "#FFFFFF"
+                },
+                {
+                  "position": "bottom-left",
+                  "text": "19:40 - 02/11",
+                  "color": "#334155",
+                  "text_color": "#FFFFFF"
+                }
+              ],
+              "image": {
+                "url": "https://imgts.sportpulseapiz.com/tennis/team/vjxm85fp698m6od/image/small",
+                "height": 480,
+                "width": 640,
+                "display": "cover",
+                "shape": "square"
+              },
+              "type": "single",
+              "display": "thumbnail-only",
+              "sources": [
+                {
+                  "id": "source-daniel-merida-aguilar-vs-sebastian-baez-luc-1940-ngay-02-11-2026",
+                  "name": "Kienplayer",
+                  "contents": [
+                    {
+                      "id": "content-daniel-merida-aguilar-vs-sebastian-baez-luc-1940-ngay-02-11-2026",
+                      "name": "Daniel Merida Aguilar vs Sebastian Baez",
+                      "streams": [
+                        {
+                          "id": "daniel-merida-aguilar-vs-sebastian-baez-luc-1940-ngay-02-11-2026-stream-0",
+                          "name": "BLV Server 1 (HD)",
+                          "remote_data": {
+                            "url": "https://live1.quickscoreboardz.com/live/channel58/playlist.m3u8?wsSecret=71432e6ef113803468de4b1e8b54e7a0&wsABSTime=1793669895",
+                            "headers": {
+                              "User-Agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.5 Mobile/15E148 Safari/604.1",
+                              "Referer": "https://xlz.domainkqt.cc/ajax/chanel/type/7/link/channel58",
                               "Origin": "https://xlz.domainkqt.cc"
                             }
                           }
@@ -676,71 +1042,10 @@
                           "id": "fortaleza-u19-vs-vila-real-ce-u19-luc-1950-ngay-02-11-2026-stream-0",
                           "name": "BLV Server 1 (HD)",
                           "remote_data": {
-                            "url": "https://live1.quickscoreboardz.com/live/channel7/playlist.m3u8?wsSecret=c7bc516afb7ff2c969647831079a64cc&wsABSTime=1793669580",
+                            "url": "https://live1.quickscoreboardz.com/live/channel7/playlist.m3u8?wsSecret=d942a24a6dee9e12591d17e30f8d95f8&wsABSTime=1793669886",
                             "headers": {
                               "User-Agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.5 Mobile/15E148 Safari/604.1",
                               "Referer": "https://xlz.domainkqt.cc/ajax/chanel/type/7/link/channel7",
-                              "Origin": "https://xlz.domainkqt.cc"
-                            }
-                          }
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "kienplay-tenerife-vs-andorra-cf-luc-0300-ngay-02-11-2026",
-              "name": "Tenerife vs Andorra CF",
-              "subtitle": "La Liga 2 • 20:00 - 02/11",
-              "sport": "football",
-              "is_live": true,
-              "href": "https://almafestival.info/truc-tiep/tenerife-vs-andorra-cf-luc-0300-ngay-02-11-2026/",
-              "home_team": "Tenerife",
-              "away_team": "Andorra CF",
-              "home_logo": "https://imgts.sportpulseapiz.com/football/team/z8yomo4hj41q0j6/image/small",
-              "away_logo": "https://imgts.sportpulseapiz.com/football/team/l7oqdeh6463r510/image/small",
-              "labels": [
-                {
-                  "position": "top-left",
-                  "text": "Live",
-                  "color": "#EF4444",
-                  "text_color": "#FFFFFF"
-                },
-                {
-                  "position": "bottom-left",
-                  "text": "20:00 - 02/11",
-                  "color": "#334155",
-                  "text_color": "#FFFFFF"
-                }
-              ],
-              "image": {
-                "url": "https://imgts.sportpulseapiz.com/football/team/z8yomo4hj41q0j6/image/small",
-                "height": 480,
-                "width": 640,
-                "display": "cover",
-                "shape": "square"
-              },
-              "type": "single",
-              "display": "thumbnail-only",
-              "sources": [
-                {
-                  "id": "source-tenerife-vs-andorra-cf-luc-0300-ngay-02-11-2026",
-                  "name": "Kienplayer",
-                  "contents": [
-                    {
-                      "id": "content-tenerife-vs-andorra-cf-luc-0300-ngay-02-11-2026",
-                      "name": "Tenerife vs Andorra CF",
-                      "streams": [
-                        {
-                          "id": "tenerife-vs-andorra-cf-luc-0300-ngay-02-11-2026-stream-0",
-                          "name": "BLV Server 1 (HD)",
-                          "remote_data": {
-                            "url": "https://live1.quickscoreboardz.com/live/channel30/playlist.m3u8?wsSecret=86b68ca152ce09a31a94cdfffcf52e24&wsABSTime=1793669581",
-                            "headers": {
-                              "User-Agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.5 Mobile/15E148 Safari/604.1",
-                              "Referer": "https://xlz.domainkqt.cc/ajax/chanel/type/7/link/channel30",
                               "Origin": "https://xlz.domainkqt.cc"
                             }
                           }
@@ -798,7 +1103,7 @@
                           "id": "fc-vardar-skopje-vs-vlazrimi-struga-luc-2000-ngay-02-11-2026-stream-0",
                           "name": "BLV Server 1 (HD)",
                           "remote_data": {
-                            "url": "https://live1.quickscoreboardz.com/live/channel6/playlist.m3u8?wsSecret=c3d3455f5a8c838c85f04fb654d50309&wsABSTime=1793669588",
+                            "url": "https://live1.quickscoreboardz.com/live/channel6/playlist.m3u8?wsSecret=e311f4da75144a2777842565651ab22f&wsABSTime=1793669886",
                             "headers": {
                               "User-Agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.5 Mobile/15E148 Safari/604.1",
                               "Referer": "https://xlz.domainkqt.cc/ajax/chanel/type/7/link/channel6",
@@ -859,7 +1164,7 @@
                           "id": "bokelj-kotor-vs-fk-buducnost-podgorica-luc-2000-ngay-02-11-2026-stream-0",
                           "name": "BLV Server 1 (HD)",
                           "remote_data": {
-                            "url": "https://live1.quickscoreboardz.com/live/channel38/playlist.m3u8?wsSecret=6d0adecc3531ea202e45c8fde87909dd&wsABSTime=1793669581",
+                            "url": "https://live1.quickscoreboardz.com/live/channel38/playlist.m3u8?wsSecret=08cd8ce9d93d6959f5e12115092fc7d3&wsABSTime=1793669886",
                             "headers": {
                               "User-Agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.5 Mobile/15E148 Safari/604.1",
                               "Referer": "https://xlz.domainkqt.cc/ajax/chanel/type/7/link/channel38",
@@ -920,7 +1225,7 @@
                           "id": "marko-vs-apollon-kalamarias-f-c-luc-2000-ngay-02-11-2026-stream-0",
                           "name": "BLV Server 1 (HD)",
                           "remote_data": {
-                            "url": "https://live1.quickscoreboardz.com/live/channel20/playlist.m3u8?wsSecret=f659633ebca942059c203e8901fdb982&wsABSTime=1793669581",
+                            "url": "https://live1.quickscoreboardz.com/live/channel20/playlist.m3u8?wsSecret=65c2446a56c443bc8725578a3fbc7781&wsABSTime=1793669887",
                             "headers": {
                               "User-Agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.5 Mobile/15E148 Safari/604.1",
                               "Referer": "https://xlz.domainkqt.cc/ajax/chanel/type/7/link/channel20",
@@ -981,7 +1286,7 @@
                           "id": "police-club-vs-al-ahli-luc-2000-ngay-02-11-2026-stream-0",
                           "name": "BLV Server 1 (HD)",
                           "remote_data": {
-                            "url": "https://live1.quickscoreboardz.com/live/channel80/playlist.m3u8?wsSecret=a54f3faeae9f570b55628f67f3fa90af&wsABSTime=1793669592",
+                            "url": "https://live1.quickscoreboardz.com/live/channel80/playlist.m3u8?wsSecret=427379690c029f408dc636d2f9a3358a&wsABSTime=1793669888",
                             "headers": {
                               "User-Agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.5 Mobile/15E148 Safari/604.1",
                               "Referer": "https://xlz.domainkqt.cc/ajax/chanel/type/7/link/channel80",
@@ -1042,10 +1347,71 @@
                           "id": "og-vs-yellow-submarine-luc-2000-ngay-02-11-2026-stream-0",
                           "name": "BLV Server 1 (HD)",
                           "remote_data": {
-                            "url": "https://live1.quickscoreboardz.com/live/channel74/playlist.m3u8?wsSecret=4222f525377fd2b66325852fed351c34&wsABSTime=1793669589",
+                            "url": "https://live1.quickscoreboardz.com/live/channel74/playlist.m3u8?wsSecret=669dfba77a8d27cf914fc19c533b004f&wsABSTime=1793669902",
                             "headers": {
                               "User-Agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.5 Mobile/15E148 Safari/604.1",
                               "Referer": "https://xlz.domainkqt.cc/ajax/chanel/type/7/link/channel74",
+                              "Origin": "https://xlz.domainkqt.cc"
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "kienplay-mashujaa-fc-vs-pamba-jiji-luc-2015-ngay-02-11-2026",
+              "name": "Mashujaa FC vs Pamba Jiji",
+              "subtitle": "Tanzanian Premier League • 20:15 - 02/11",
+              "sport": "football",
+              "is_live": true,
+              "href": "https://almafestival.info/truc-tiep/mashujaa-fc-vs-pamba-jiji-luc-2015-ngay-02-11-2026/",
+              "home_team": "Mashujaa FC",
+              "away_team": "Pamba Jiji",
+              "home_logo": "https://imgts.sportpulseapiz.com/football/team/ednm9whvx4kryox/image/small",
+              "away_logo": "https://imgts.sportpulseapiz.com/football/team/y39mp1hj8lymojx/image/small",
+              "labels": [
+                {
+                  "position": "top-left",
+                  "text": "Live",
+                  "color": "#EF4444",
+                  "text_color": "#FFFFFF"
+                },
+                {
+                  "position": "bottom-left",
+                  "text": "20:15 - 02/11",
+                  "color": "#334155",
+                  "text_color": "#FFFFFF"
+                }
+              ],
+              "image": {
+                "url": "https://imgts.sportpulseapiz.com/football/team/ednm9whvx4kryox/image/small",
+                "height": 480,
+                "width": 640,
+                "display": "cover",
+                "shape": "square"
+              },
+              "type": "single",
+              "display": "thumbnail-only",
+              "sources": [
+                {
+                  "id": "source-mashujaa-fc-vs-pamba-jiji-luc-2015-ngay-02-11-2026",
+                  "name": "Kienplayer",
+                  "contents": [
+                    {
+                      "id": "content-mashujaa-fc-vs-pamba-jiji-luc-2015-ngay-02-11-2026",
+                      "name": "Mashujaa FC vs Pamba Jiji",
+                      "streams": [
+                        {
+                          "id": "mashujaa-fc-vs-pamba-jiji-luc-2015-ngay-02-11-2026-stream-0",
+                          "name": "BLV Server 1 (HD)",
+                          "remote_data": {
+                            "url": "https://live1.quickscoreboardz.com/live/channel21/playlist.m3u8?wsSecret=d8ef0faf533737ef43a1031073ef64bf&wsABSTime=1793669894",
+                            "headers": {
+                              "User-Agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.5 Mobile/15E148 Safari/604.1",
+                              "Referer": "https://xlz.domainkqt.cc/ajax/chanel/type/7/link/channel21",
                               "Origin": "https://xlz.domainkqt.cc"
                             }
                           }
@@ -1060,7 +1426,7 @@
         },
         {
           "id": "upcoming-matches",
-          "name": "⏰ Lịch Thi Đấu Sắp Tới (51 trận)",
+          "name": "⏰ Lịch Thi Đấu Sắp Tới (49 trận)",
           "display": "vertical",
           "channels": [
             {
@@ -1090,42 +1456,6 @@
               ],
               "image": {
                 "url": "https://imgts.sportpulseapiz.com/dota2/team/4wyrnxki82x2m86/image/small",
-                "height": 480,
-                "width": 640,
-                "display": "cover",
-                "shape": "square"
-              },
-              "type": "single",
-              "display": "thumbnail-only",
-              "sources": []
-            },
-            {
-              "id": "kienplay-chonburi-fc-vs-bg-pathum-united-luc-1900-ngay-02-11-2026",
-              "name": "Chonburi FC vs BG Pathum United",
-              "subtitle": "Hilux Revo Thai League • 19:00 - 02/11",
-              "sport": "football",
-              "is_live": false,
-              "href": "https://almafestival.info/truc-tiep/chonburi-fc-vs-bg-pathum-united-luc-1900-ngay-02-11-2026/",
-              "home_team": "Chonburi FC",
-              "away_team": "BG Pathum United",
-              "home_logo": "https://imgts.sportpulseapiz.com/football/team/1l4rjnh61z5m7vx/image/small",
-              "away_logo": "https://imgts.sportpulseapiz.com/football/team/k82rekhvp7erepz/image/small",
-              "labels": [
-                {
-                  "position": "top-left",
-                  "text": "Sắp Live",
-                  "color": "#0284C7",
-                  "text_color": "#FFFFFF"
-                },
-                {
-                  "position": "bottom-right",
-                  "text": "BLV FABIO",
-                  "color": "#E97519",
-                  "text_color": "#FFFFFF"
-                }
-              ],
-              "image": {
-                "url": "https://imgts.sportpulseapiz.com/football/team/1l4rjnh61z5m7vx/image/small",
                 "height": 480,
                 "width": 640,
                 "display": "cover",
@@ -1234,42 +1564,6 @@
               ],
               "image": {
                 "url": "https://imgts.sportpulseapiz.com/volleyball/team/zp5rzdhjz82wq82/image/small",
-                "height": 480,
-                "width": 640,
-                "display": "cover",
-                "shape": "square"
-              },
-              "type": "single",
-              "display": "thumbnail-only",
-              "sources": []
-            },
-            {
-              "id": "kienplay-daniel-merida-aguilar-vs-sebastian-baez-luc-1940-ngay-02-11-2026",
-              "name": "Daniel Merida Aguilar vs Sebastian Baez",
-              "subtitle": "ATP Paris, France Men Singles • 19:40 - 02/11",
-              "sport": "tennis",
-              "is_live": false,
-              "href": "https://almafestival.info/truc-tiep/daniel-merida-aguilar-vs-sebastian-baez-luc-1940-ngay-02-11-2026/",
-              "home_team": "Daniel Merida Aguilar",
-              "away_team": "Sebastian Baez",
-              "home_logo": "https://imgts.sportpulseapiz.com/tennis/team/vjxm85fp698m6od/image/small",
-              "away_logo": "https://imgts.sportpulseapiz.com/tennis/team/3glrw2fl588rdyj/image/small",
-              "labels": [
-                {
-                  "position": "top-left",
-                  "text": "Sắp Live",
-                  "color": "#0284C7",
-                  "text_color": "#FFFFFF"
-                },
-                {
-                  "position": "bottom-left",
-                  "text": "19:40 - 02/11",
-                  "color": "#334155",
-                  "text_color": "#FFFFFF"
-                }
-              ],
-              "image": {
-                "url": "https://imgts.sportpulseapiz.com/tennis/team/vjxm85fp698m6od/image/small",
                 "height": 480,
                 "width": 640,
                 "display": "cover",
@@ -2940,44 +3234,7 @@
               },
               "type": "single",
               "display": "thumbnail-only",
-              "sources": [
-                {
-                  "id": "source-kryvbas-vs-dynamo-kyiv-luc-1800-ngay-02-11-2026",
-                  "name": "Kienplayer",
-                  "contents": [
-                    {
-                      "id": "content-kryvbas-vs-dynamo-kyiv-luc-1800-ngay-02-11-2026",
-                      "name": "Kryvbas vs Dynamo Kyiv",
-                      "streams": [
-                        {
-                          "id": "kryvbas-vs-dynamo-kyiv-luc-1800-ngay-02-11-2026-stream-0",
-                          "name": "BLV ZANE",
-                          "remote_data": {
-                            "url": "https://live2.jorvakstreamcache.com/live/channel22.m3u8",
-                            "headers": {
-                              "User-Agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.5 Mobile/15E148 Safari/604.1",
-                              "Referer": "https://xlz.domainkqt.cc/ajax/chanel/type/8/link/channel22",
-                              "Origin": "https://xlz.domainkqt.cc"
-                            }
-                          }
-                        },
-                        {
-                          "id": "kryvbas-vs-dynamo-kyiv-luc-1800-ngay-02-11-2026-stream-1",
-                          "name": "BLV ZANE (HD)",
-                          "remote_data": {
-                            "url": "https://live2.domaincdn.cc/livecdn/channel-22.m3u8?auth_key=3000001793626381-0-0-08c26f6faa292c4fadb3ab7c715dcb63",
-                            "headers": {
-                              "User-Agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.5 Mobile/15E148 Safari/604.1",
-                              "Referer": "https://xlz.domainkqt.cc/ajax/chanel/type/5/link/channel-22",
-                              "Origin": "https://xlz.domainkqt.cc"
-                            }
-                          }
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
+              "sources": []
             },
             {
               "id": "kienplay-fk-graficar-beograd-vs-fk-napredak-luc-1900-ngay-02-11-2026",
@@ -3038,7 +3295,7 @@
                           "id": "fk-graficar-beograd-vs-fk-napredak-luc-1900-ngay-02-11-2026-stream-1",
                           "name": "BLV KEN (HD)",
                           "remote_data": {
-                            "url": "https://live2.domaincdn.cc/livecdn/channel-18.m3u8?auth_key=3000001793626380-0-0-bf6a4c24fa1ee8746d49679c2368540c",
+                            "url": "https://live2.domaincdn.cc/livecdn/channel-18.m3u8?auth_key=3000001793626693-0-0-d9ec8c664bc2fa56e17b3c53564794e7",
                             "headers": {
                               "User-Agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.5 Mobile/15E148 Safari/604.1",
                               "Referer": "https://xlz.domainkqt.cc/ajax/chanel/type/5/link/channel-18",
@@ -3099,7 +3356,7 @@
                           "id": "teleoptik-vs-fk-javor-ivanjica-luc-1900-ngay-02-11-2026-stream-0",
                           "name": "BLV Server 1 (HD)",
                           "remote_data": {
-                            "url": "https://live1.quickscoreboardz.com/live/channel13/playlist.m3u8?wsSecret=02c15fc89eb716e8997bf1c431b87942&wsABSTime=1793669579",
+                            "url": "https://live1.quickscoreboardz.com/live/channel13/playlist.m3u8?wsSecret=c24916b50cba902fe36dabe2d17f84c8&wsABSTime=1793669886",
                             "headers": {
                               "User-Agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.5 Mobile/15E148 Safari/604.1",
                               "Referer": "https://xlz.domainkqt.cc/ajax/chanel/type/7/link/channel13",
@@ -3147,7 +3404,32 @@
               },
               "type": "single",
               "display": "thumbnail-only",
-              "sources": []
+              "sources": [
+                {
+                  "id": "source-bor-1919-vs-fk-spartak-voda-luc-1900-ngay-02-11-2026",
+                  "name": "Kienplayer",
+                  "contents": [
+                    {
+                      "id": "content-bor-1919-vs-fk-spartak-voda-luc-1900-ngay-02-11-2026",
+                      "name": "Bor 1919 vs FK Spartak Voda",
+                      "streams": [
+                        {
+                          "id": "bor-1919-vs-fk-spartak-voda-luc-1900-ngay-02-11-2026-stream-0",
+                          "name": "BLV Server 1 (HD)",
+                          "remote_data": {
+                            "url": "https://live1.quickscoreboardz.com/live/channel14/playlist.m3u8?wsSecret=16d3e26c0f0fec50b783f3f5799883e7&wsABSTime=1793669886",
+                            "headers": {
+                              "User-Agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.5 Mobile/15E148 Safari/604.1",
+                              "Referer": "https://xlz.domainkqt.cc/ajax/chanel/type/7/link/channel14",
+                              "Origin": "https://xlz.domainkqt.cc"
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
             },
             {
               "id": "kienplay-fc-molodechno-vs-osipovichy-luc-1900-ngay-02-11-2026",
@@ -3208,7 +3490,7 @@
                           "id": "fc-molodechno-vs-osipovichy-luc-1900-ngay-02-11-2026-stream-1",
                           "name": "BLV XMEN (HD)",
                           "remote_data": {
-                            "url": "https://live2.domaincdn.cc/livecdn/channel-13.m3u8?auth_key=3000001793626380-0-0-36709e6dc6c19d211322d5e8b7ba2de1",
+                            "url": "https://live2.domaincdn.cc/livecdn/channel-13.m3u8?auth_key=3000001793626686-0-0-9ad4c4ad527e2c564e18cd5062ab086c",
                             "headers": {
                               "User-Agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.5 Mobile/15E148 Safari/604.1",
                               "Referer": "https://xlz.domainkqt.cc/ajax/chanel/type/5/link/channel-13",
@@ -3269,7 +3551,7 @@
                           "id": "ethiopia-nigd-bank-vs-ethiopian-insurance-luc-1900-ngay-02-11-2026-stream-0",
                           "name": "BLV Server 1 (HD)",
                           "remote_data": {
-                            "url": "https://live1.quickscoreboardz.com/live/channel16/playlist.m3u8?wsSecret=adeead6c5d2f99b9f7bf577a9d14c117&wsABSTime=1793669586",
+                            "url": "https://live1.quickscoreboardz.com/live/channel16/playlist.m3u8?wsSecret=1f2882cc4d28a9cd17a6bd4933963689&wsABSTime=1793669886",
                             "headers": {
                               "User-Agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.5 Mobile/15E148 Safari/604.1",
                               "Referer": "https://xlz.domainkqt.cc/ajax/chanel/type/7/link/channel16",
@@ -3330,7 +3612,7 @@
                           "id": "nu-far-rabat-vs-nu-kawempe-muslim-luc-1900-ngay-02-11-2026-stream-0",
                           "name": "BLV Server 1 (HD)",
                           "remote_data": {
-                            "url": "https://live1.quickscoreboardz.com/live/channel17/playlist.m3u8?wsSecret=5fe1700be9cca69cbf5cc1f7622de35b&wsABSTime=1793669579",
+                            "url": "https://live1.quickscoreboardz.com/live/channel17/playlist.m3u8?wsSecret=c064a4d2a910ba9a698b1f32f9e30893&wsABSTime=1793669886",
                             "headers": {
                               "User-Agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.5 Mobile/15E148 Safari/604.1",
                               "Referer": "https://xlz.domainkqt.cc/ajax/chanel/type/7/link/channel17",
@@ -3378,7 +3660,44 @@
               },
               "type": "single",
               "display": "thumbnail-only",
-              "sources": []
+              "sources": [
+                {
+                  "id": "source-al-jabalain-vs-al-bukayriyah-luc-1930-ngay-02-11-2026",
+                  "name": "Kienplayer",
+                  "contents": [
+                    {
+                      "id": "content-al-jabalain-vs-al-bukayriyah-luc-1930-ngay-02-11-2026",
+                      "name": "Al-Jabalain vs Al Bukayriyah",
+                      "streams": [
+                        {
+                          "id": "al-jabalain-vs-al-bukayriyah-luc-1930-ngay-02-11-2026-stream-0",
+                          "name": "BLV NEMO",
+                          "remote_data": {
+                            "url": "https://live2.jorvakstreamcache.com/live/channel17.m3u8",
+                            "headers": {
+                              "User-Agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.5 Mobile/15E148 Safari/604.1",
+                              "Referer": "https://xlz.domainkqt.cc/ajax/chanel/type/8/link/channel17",
+                              "Origin": "https://xlz.domainkqt.cc"
+                            }
+                          }
+                        },
+                        {
+                          "id": "al-jabalain-vs-al-bukayriyah-luc-1930-ngay-02-11-2026-stream-1",
+                          "name": "BLV NEMO (HD)",
+                          "remote_data": {
+                            "url": "https://live2.domaincdn.cc/livecdn/channel-17.m3u8?auth_key=3000001793626693-0-0-057c7472da12688ab0fcc88e498a4d74",
+                            "headers": {
+                              "User-Agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.5 Mobile/15E148 Safari/604.1",
+                              "Referer": "https://xlz.domainkqt.cc/ajax/chanel/type/5/link/channel-17",
+                              "Origin": "https://xlz.domainkqt.cc"
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
             },
             {
               "id": "kienplay-fk-vora-vs-fc-dinamo-city-luc-1930-ngay-02-11-2026",
@@ -3414,7 +3733,32 @@
               },
               "type": "single",
               "display": "thumbnail-only",
-              "sources": []
+              "sources": [
+                {
+                  "id": "source-fk-vora-vs-fc-dinamo-city-luc-1930-ngay-02-11-2026",
+                  "name": "Kienplayer",
+                  "contents": [
+                    {
+                      "id": "content-fk-vora-vs-fc-dinamo-city-luc-1930-ngay-02-11-2026",
+                      "name": "FK Vora vs FC Dinamo City",
+                      "streams": [
+                        {
+                          "id": "fk-vora-vs-fc-dinamo-city-luc-1930-ngay-02-11-2026-stream-0",
+                          "name": "BLV Server 1 (HD)",
+                          "remote_data": {
+                            "url": "https://live1.quickscoreboardz.com/live/channel3/playlist.m3u8?wsSecret=213742b350cdbbd144620e3b01855493&wsABSTime=1793669886",
+                            "headers": {
+                              "User-Agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.5 Mobile/15E148 Safari/604.1",
+                              "Referer": "https://xlz.domainkqt.cc/ajax/chanel/type/7/link/channel3",
+                              "Origin": "https://xlz.domainkqt.cc"
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
             },
             {
               "id": "kienplay-sportist-svoge-vs-ludogorets-ii-luc-1930-ngay-02-11-2026",
@@ -3450,7 +3794,32 @@
               },
               "type": "single",
               "display": "thumbnail-only",
-              "sources": []
+              "sources": [
+                {
+                  "id": "source-sportist-svoge-vs-ludogorets-ii-luc-1930-ngay-02-11-2026",
+                  "name": "Kienplayer",
+                  "contents": [
+                    {
+                      "id": "content-sportist-svoge-vs-ludogorets-ii-luc-1930-ngay-02-11-2026",
+                      "name": "Sportist Svoge vs Ludogorets II",
+                      "streams": [
+                        {
+                          "id": "sportist-svoge-vs-ludogorets-ii-luc-1930-ngay-02-11-2026-stream-0",
+                          "name": "BLV Server 1 (HD)",
+                          "remote_data": {
+                            "url": "https://live1.quickscoreboardz.com/live/channel4/playlist.m3u8?wsSecret=205b236158aaae2910078bf401d2e26c&wsABSTime=1793669893",
+                            "headers": {
+                              "User-Agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.5 Mobile/15E148 Safari/604.1",
+                              "Referer": "https://xlz.domainkqt.cc/ajax/chanel/type/7/link/channel4",
+                              "Origin": "https://xlz.domainkqt.cc"
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
             },
             {
               "id": "kienplay-al-orobah-fc-vs-al-anwar-club-luc-1930-ngay-02-11-2026",
@@ -3499,7 +3868,7 @@
                           "id": "al-orobah-fc-vs-al-anwar-club-luc-1930-ngay-02-11-2026-stream-0",
                           "name": "BLV Server 1 (HD)",
                           "remote_data": {
-                            "url": "https://live1.quickscoreboardz.com/live/channel37/playlist.m3u8?wsSecret=1703bafac672963d661b43b23909b1b0&wsABSTime=1793669588",
+                            "url": "https://live1.quickscoreboardz.com/live/channel37/playlist.m3u8?wsSecret=6ab6ac924e8b65c2472c27c7534ea1fa&wsABSTime=1793669886",
                             "headers": {
                               "User-Agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.5 Mobile/15E148 Safari/604.1",
                               "Referer": "https://xlz.domainkqt.cc/ajax/chanel/type/7/link/channel37",
@@ -3560,7 +3929,7 @@
                           "id": "fortaleza-u19-vs-vila-real-ce-u19-luc-1950-ngay-02-11-2026-stream-0",
                           "name": "BLV Server 1 (HD)",
                           "remote_data": {
-                            "url": "https://live1.quickscoreboardz.com/live/channel7/playlist.m3u8?wsSecret=c7bc516afb7ff2c969647831079a64cc&wsABSTime=1793669580",
+                            "url": "https://live1.quickscoreboardz.com/live/channel7/playlist.m3u8?wsSecret=d942a24a6dee9e12591d17e30f8d95f8&wsABSTime=1793669886",
                             "headers": {
                               "User-Agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.5 Mobile/15E148 Safari/604.1",
                               "Referer": "https://xlz.domainkqt.cc/ajax/chanel/type/7/link/channel7",
@@ -3608,32 +3977,7 @@
               },
               "type": "single",
               "display": "thumbnail-only",
-              "sources": [
-                {
-                  "id": "source-tenerife-vs-andorra-cf-luc-0300-ngay-02-11-2026",
-                  "name": "Kienplayer",
-                  "contents": [
-                    {
-                      "id": "content-tenerife-vs-andorra-cf-luc-0300-ngay-02-11-2026",
-                      "name": "Tenerife vs Andorra CF",
-                      "streams": [
-                        {
-                          "id": "tenerife-vs-andorra-cf-luc-0300-ngay-02-11-2026-stream-0",
-                          "name": "BLV Server 1 (HD)",
-                          "remote_data": {
-                            "url": "https://live1.quickscoreboardz.com/live/channel30/playlist.m3u8?wsSecret=86b68ca152ce09a31a94cdfffcf52e24&wsABSTime=1793669581",
-                            "headers": {
-                              "User-Agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.5 Mobile/15E148 Safari/604.1",
-                              "Referer": "https://xlz.domainkqt.cc/ajax/chanel/type/7/link/channel30",
-                              "Origin": "https://xlz.domainkqt.cc"
-                            }
-                          }
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
+              "sources": []
             },
             {
               "id": "kienplay-fc-vardar-skopje-vs-vlazrimi-struga-luc-2000-ngay-02-11-2026",
@@ -3682,7 +4026,7 @@
                           "id": "fc-vardar-skopje-vs-vlazrimi-struga-luc-2000-ngay-02-11-2026-stream-0",
                           "name": "BLV Server 1 (HD)",
                           "remote_data": {
-                            "url": "https://live1.quickscoreboardz.com/live/channel6/playlist.m3u8?wsSecret=c3d3455f5a8c838c85f04fb654d50309&wsABSTime=1793669588",
+                            "url": "https://live1.quickscoreboardz.com/live/channel6/playlist.m3u8?wsSecret=e311f4da75144a2777842565651ab22f&wsABSTime=1793669886",
                             "headers": {
                               "User-Agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.5 Mobile/15E148 Safari/604.1",
                               "Referer": "https://xlz.domainkqt.cc/ajax/chanel/type/7/link/channel6",
@@ -3743,7 +4087,7 @@
                           "id": "bokelj-kotor-vs-fk-buducnost-podgorica-luc-2000-ngay-02-11-2026-stream-0",
                           "name": "BLV Server 1 (HD)",
                           "remote_data": {
-                            "url": "https://live1.quickscoreboardz.com/live/channel38/playlist.m3u8?wsSecret=6d0adecc3531ea202e45c8fde87909dd&wsABSTime=1793669581",
+                            "url": "https://live1.quickscoreboardz.com/live/channel38/playlist.m3u8?wsSecret=08cd8ce9d93d6959f5e12115092fc7d3&wsABSTime=1793669886",
                             "headers": {
                               "User-Agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.5 Mobile/15E148 Safari/604.1",
                               "Referer": "https://xlz.domainkqt.cc/ajax/chanel/type/7/link/channel38",
@@ -3804,7 +4148,7 @@
                           "id": "marko-vs-apollon-kalamarias-f-c-luc-2000-ngay-02-11-2026-stream-0",
                           "name": "BLV Server 1 (HD)",
                           "remote_data": {
-                            "url": "https://live1.quickscoreboardz.com/live/channel20/playlist.m3u8?wsSecret=f659633ebca942059c203e8901fdb982&wsABSTime=1793669581",
+                            "url": "https://live1.quickscoreboardz.com/live/channel20/playlist.m3u8?wsSecret=65c2446a56c443bc8725578a3fbc7781&wsABSTime=1793669887",
                             "headers": {
                               "User-Agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.5 Mobile/15E148 Safari/604.1",
                               "Referer": "https://xlz.domainkqt.cc/ajax/chanel/type/7/link/channel20",
@@ -3819,32 +4163,32 @@
               ]
             },
             {
-              "id": "kienplay-chonburi-fc-vs-bg-pathum-united-luc-1900-ngay-02-11-2026",
-              "name": "Chonburi FC vs BG Pathum United",
-              "subtitle": "Hilux Revo Thai League • 19:00 - 02/11",
+              "id": "kienplay-mashujaa-fc-vs-pamba-jiji-luc-2015-ngay-02-11-2026",
+              "name": "Mashujaa FC vs Pamba Jiji",
+              "subtitle": "Tanzanian Premier League • 20:15 - 02/11",
               "sport": "football",
-              "is_live": false,
-              "href": "https://almafestival.info/truc-tiep/chonburi-fc-vs-bg-pathum-united-luc-1900-ngay-02-11-2026/",
-              "home_team": "Chonburi FC",
-              "away_team": "BG Pathum United",
-              "home_logo": "https://imgts.sportpulseapiz.com/football/team/1l4rjnh61z5m7vx/image/small",
-              "away_logo": "https://imgts.sportpulseapiz.com/football/team/k82rekhvp7erepz/image/small",
+              "is_live": true,
+              "href": "https://almafestival.info/truc-tiep/mashujaa-fc-vs-pamba-jiji-luc-2015-ngay-02-11-2026/",
+              "home_team": "Mashujaa FC",
+              "away_team": "Pamba Jiji",
+              "home_logo": "https://imgts.sportpulseapiz.com/football/team/ednm9whvx4kryox/image/small",
+              "away_logo": "https://imgts.sportpulseapiz.com/football/team/y39mp1hj8lymojx/image/small",
               "labels": [
                 {
                   "position": "top-left",
-                  "text": "Sắp Live",
-                  "color": "#0284C7",
+                  "text": "Live",
+                  "color": "#EF4444",
                   "text_color": "#FFFFFF"
                 },
                 {
-                  "position": "bottom-right",
-                  "text": "BLV FABIO",
-                  "color": "#E97519",
+                  "position": "bottom-left",
+                  "text": "20:15 - 02/11",
+                  "color": "#334155",
                   "text_color": "#FFFFFF"
                 }
               ],
               "image": {
-                "url": "https://imgts.sportpulseapiz.com/football/team/1l4rjnh61z5m7vx/image/small",
+                "url": "https://imgts.sportpulseapiz.com/football/team/ednm9whvx4kryox/image/small",
                 "height": 480,
                 "width": 640,
                 "display": "cover",
@@ -3852,7 +4196,32 @@
               },
               "type": "single",
               "display": "thumbnail-only",
-              "sources": []
+              "sources": [
+                {
+                  "id": "source-mashujaa-fc-vs-pamba-jiji-luc-2015-ngay-02-11-2026",
+                  "name": "Kienplayer",
+                  "contents": [
+                    {
+                      "id": "content-mashujaa-fc-vs-pamba-jiji-luc-2015-ngay-02-11-2026",
+                      "name": "Mashujaa FC vs Pamba Jiji",
+                      "streams": [
+                        {
+                          "id": "mashujaa-fc-vs-pamba-jiji-luc-2015-ngay-02-11-2026-stream-0",
+                          "name": "BLV Server 1 (HD)",
+                          "remote_data": {
+                            "url": "https://live1.quickscoreboardz.com/live/channel21/playlist.m3u8?wsSecret=d8ef0faf533737ef43a1031073ef64bf&wsABSTime=1793669894",
+                            "headers": {
+                              "User-Agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.5 Mobile/15E148 Safari/604.1",
+                              "Referer": "https://xlz.domainkqt.cc/ajax/chanel/type/7/link/channel21",
+                              "Origin": "https://xlz.domainkqt.cc"
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
             },
             {
               "id": "kienplay-dao-sip-u17-vs-romania-u17-luc-2000-ngay-02-11-2026",
@@ -3992,7 +4361,7 @@
                           "id": "shandong-hi-speed-vs-beijing-royal-luc-1835-ngay-02-11-2026-stream-1",
                           "name": "BLV TOMMY (HD)",
                           "remote_data": {
-                            "url": "https://live2.domaincdn.cc/livecdn/channel-29.m3u8?auth_key=3000001793626382-0-0-a8052707cf2682749b4533b215214a68",
+                            "url": "https://live2.domaincdn.cc/livecdn/channel-29.m3u8?auth_key=3000001793626696-0-0-07e608fe4c9fa8f4a88d70994ebe0d67",
                             "headers": {
                               "User-Agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.5 Mobile/15E148 Safari/604.1",
                               "Referer": "https://xlz.domainkqt.cc/ajax/chanel/type/5/link/channel-29",
@@ -4040,7 +4409,44 @@
               },
               "type": "single",
               "display": "thumbnail-only",
-              "sources": []
+              "sources": [
+                {
+                  "id": "source-guangdong-sunshine-vs-qingdao-guoxin-luc-1835-ngay-02-11-2026",
+                  "name": "Kienplayer",
+                  "contents": [
+                    {
+                      "id": "content-guangdong-sunshine-vs-qingdao-guoxin-luc-1835-ngay-02-11-2026",
+                      "name": "Guangdong Sunshine vs Qingdao Guoxin",
+                      "streams": [
+                        {
+                          "id": "guangdong-sunshine-vs-qingdao-guoxin-luc-1835-ngay-02-11-2026-stream-0",
+                          "name": "BLV ALAN",
+                          "remote_data": {
+                            "url": "https://live2.jorvakstreamcache.com/live/channel25.m3u8",
+                            "headers": {
+                              "User-Agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.5 Mobile/15E148 Safari/604.1",
+                              "Referer": "https://xlz.domainkqt.cc/ajax/chanel/type/8/link/channel25",
+                              "Origin": "https://xlz.domainkqt.cc"
+                            }
+                          }
+                        },
+                        {
+                          "id": "guangdong-sunshine-vs-qingdao-guoxin-luc-1835-ngay-02-11-2026-stream-1",
+                          "name": "BLV ALAN (HD)",
+                          "remote_data": {
+                            "url": "https://live2.domaincdn.cc/livecdn/channel-25.m3u8?auth_key=3000001793626695-0-0-a436b7468efad7b909e066eaeb882d48",
+                            "headers": {
+                              "User-Agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.5 Mobile/15E148 Safari/604.1",
+                              "Referer": "https://xlz.domainkqt.cc/ajax/chanel/type/5/link/channel-25",
+                              "Origin": "https://xlz.domainkqt.cc"
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
             },
             {
               "id": "kienplay-bc-barnaul-altayskiy-kray-vs-tambov-luc-1900-ngay-02-11-2026",
@@ -4076,7 +4482,32 @@
               },
               "type": "single",
               "display": "thumbnail-only",
-              "sources": []
+              "sources": [
+                {
+                  "id": "source-bc-barnaul-altayskiy-kray-vs-tambov-luc-1900-ngay-02-11-2026",
+                  "name": "Kienplayer",
+                  "contents": [
+                    {
+                      "id": "content-bc-barnaul-altayskiy-kray-vs-tambov-luc-1900-ngay-02-11-2026",
+                      "name": "BC Barnaul Altayskiy Kray vs Tambov",
+                      "streams": [
+                        {
+                          "id": "bc-barnaul-altayskiy-kray-vs-tambov-luc-1900-ngay-02-11-2026-stream-0",
+                          "name": "BLV Server 1 (HD)",
+                          "remote_data": {
+                            "url": "https://live1.quickscoreboardz.com/live/channel48/playlist.m3u8?wsSecret=a122ee37819488a83e08ada928c24b28&wsABSTime=1793669887",
+                            "headers": {
+                              "User-Agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.5 Mobile/15E148 Safari/604.1",
+                              "Referer": "https://xlz.domainkqt.cc/ajax/chanel/type/7/link/channel48",
+                              "Origin": "https://xlz.domainkqt.cc"
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
             },
             {
               "id": "kienplay-pinheiros-sao-paolo-vs-caxias-do-sul-luc-2100-ngay-02-11-2026",
@@ -4694,20 +5125,20 @@
         },
         {
           "id": "sport-tennis",
-          "name": "🎾 Quần Vợt (10 trận)",
+          "name": "🎾 Quần Vợt (9 trận)",
           "display": "vertical",
           "channels": [
             {
-              "id": "kienplay-alejandro-tabilo-vs-rafael-jodar-luc-1810-ngay-02-11-2026",
-              "name": "Alejandro Tabilo vs Rafael Jodar",
-              "subtitle": "ATP Paris, France Men Singles • 18:10 - 02/11",
+              "id": "kienplay-daniel-merida-aguilar-vs-sebastian-baez-luc-1940-ngay-02-11-2026",
+              "name": "Daniel Merida Aguilar vs Sebastian Baez",
+              "subtitle": "ATP Paris, France Men Singles • 19:40 - 02/11",
               "sport": "tennis",
               "is_live": true,
-              "href": "https://almafestival.info/truc-tiep/alejandro-tabilo-vs-rafael-jodar-luc-1810-ngay-02-11-2026/",
-              "home_team": "Alejandro Tabilo",
-              "away_team": "Rafael Jodar",
-              "home_logo": "https://imgts.sportpulseapiz.com/tennis/team/4wyrnjf4ylwq86p/image/small",
-              "away_logo": "https://imgts.sportpulseapiz.com/tennis/team/pxwrxjf8wg8myk0/image/small",
+              "href": "https://almafestival.info/truc-tiep/daniel-merida-aguilar-vs-sebastian-baez-luc-1940-ngay-02-11-2026/",
+              "home_team": "Daniel Merida Aguilar",
+              "away_team": "Sebastian Baez",
+              "home_logo": "https://imgts.sportpulseapiz.com/tennis/team/vjxm85fp698m6od/image/small",
+              "away_logo": "https://imgts.sportpulseapiz.com/tennis/team/3glrw2fl588rdyj/image/small",
               "labels": [
                 {
                   "position": "top-left",
@@ -4716,14 +5147,14 @@
                   "text_color": "#FFFFFF"
                 },
                 {
-                  "position": "bottom-right",
-                  "text": "BLV LUCAS",
-                  "color": "#E97519",
+                  "position": "bottom-left",
+                  "text": "19:40 - 02/11",
+                  "color": "#334155",
                   "text_color": "#FFFFFF"
                 }
               ],
               "image": {
-                "url": "https://imgts.sportpulseapiz.com/tennis/team/4wyrnjf4ylwq86p/image/small",
+                "url": "https://imgts.sportpulseapiz.com/tennis/team/vjxm85fp698m6od/image/small",
                 "height": 480,
                 "width": 640,
                 "display": "cover",
@@ -4733,33 +5164,21 @@
               "display": "thumbnail-only",
               "sources": [
                 {
-                  "id": "source-alejandro-tabilo-vs-rafael-jodar-luc-1810-ngay-02-11-2026",
+                  "id": "source-daniel-merida-aguilar-vs-sebastian-baez-luc-1940-ngay-02-11-2026",
                   "name": "Kienplayer",
                   "contents": [
                     {
-                      "id": "content-alejandro-tabilo-vs-rafael-jodar-luc-1810-ngay-02-11-2026",
-                      "name": "Alejandro Tabilo vs Rafael Jodar",
+                      "id": "content-daniel-merida-aguilar-vs-sebastian-baez-luc-1940-ngay-02-11-2026",
+                      "name": "Daniel Merida Aguilar vs Sebastian Baez",
                       "streams": [
                         {
-                          "id": "alejandro-tabilo-vs-rafael-jodar-luc-1810-ngay-02-11-2026-stream-0",
-                          "name": "BLV LUCAS",
+                          "id": "daniel-merida-aguilar-vs-sebastian-baez-luc-1940-ngay-02-11-2026-stream-0",
+                          "name": "BLV Server 1 (HD)",
                           "remote_data": {
-                            "url": "https://live2.jorvakstreamcache.com/live/channel31.m3u8",
+                            "url": "https://live1.quickscoreboardz.com/live/channel58/playlist.m3u8?wsSecret=71432e6ef113803468de4b1e8b54e7a0&wsABSTime=1793669895",
                             "headers": {
                               "User-Agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.5 Mobile/15E148 Safari/604.1",
-                              "Referer": "https://xlz.domainkqt.cc/ajax/chanel/type/8/link/channel31",
-                              "Origin": "https://xlz.domainkqt.cc"
-                            }
-                          }
-                        },
-                        {
-                          "id": "alejandro-tabilo-vs-rafael-jodar-luc-1810-ngay-02-11-2026-stream-1",
-                          "name": "BLV LUCAS (HD)",
-                          "remote_data": {
-                            "url": "https://live2.domaincdn.cc/livecdn/channel-31.m3u8?auth_key=3000001793626383-0-0-293ceed96749199376d0a1d8add772e9",
-                            "headers": {
-                              "User-Agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.5 Mobile/15E148 Safari/604.1",
-                              "Referer": "https://xlz.domainkqt.cc/ajax/chanel/type/5/link/channel-31",
+                              "Referer": "https://xlz.domainkqt.cc/ajax/chanel/type/7/link/channel58",
                               "Origin": "https://xlz.domainkqt.cc"
                             }
                           }
@@ -4833,42 +5252,6 @@
               ],
               "image": {
                 "url": "https://imgts.sportpulseapiz.com/tennis/team/4jwq2pfx9x6m0ve/image/small",
-                "height": 480,
-                "width": 640,
-                "display": "cover",
-                "shape": "square"
-              },
-              "type": "single",
-              "display": "thumbnail-only",
-              "sources": []
-            },
-            {
-              "id": "kienplay-daniel-merida-aguilar-vs-sebastian-baez-luc-1940-ngay-02-11-2026",
-              "name": "Daniel Merida Aguilar vs Sebastian Baez",
-              "subtitle": "ATP Paris, France Men Singles • 19:40 - 02/11",
-              "sport": "tennis",
-              "is_live": false,
-              "href": "https://almafestival.info/truc-tiep/daniel-merida-aguilar-vs-sebastian-baez-luc-1940-ngay-02-11-2026/",
-              "home_team": "Daniel Merida Aguilar",
-              "away_team": "Sebastian Baez",
-              "home_logo": "https://imgts.sportpulseapiz.com/tennis/team/vjxm85fp698m6od/image/small",
-              "away_logo": "https://imgts.sportpulseapiz.com/tennis/team/3glrw2fl588rdyj/image/small",
-              "labels": [
-                {
-                  "position": "top-left",
-                  "text": "Sắp Live",
-                  "color": "#0284C7",
-                  "text_color": "#FFFFFF"
-                },
-                {
-                  "position": "bottom-left",
-                  "text": "19:40 - 02/11",
-                  "color": "#334155",
-                  "text_color": "#FFFFFF"
-                }
-              ],
-              "image": {
-                "url": "https://imgts.sportpulseapiz.com/tennis/team/vjxm85fp698m6od/image/small",
                 "height": 480,
                 "width": 640,
                 "display": "cover",
@@ -5148,7 +5531,7 @@
                           "id": "police-club-vs-al-ahli-luc-2000-ngay-02-11-2026-stream-0",
                           "name": "BLV Server 1 (HD)",
                           "remote_data": {
-                            "url": "https://live1.quickscoreboardz.com/live/channel80/playlist.m3u8?wsSecret=a54f3faeae9f570b55628f67f3fa90af&wsABSTime=1793669592",
+                            "url": "https://live1.quickscoreboardz.com/live/channel80/playlist.m3u8?wsSecret=427379690c029f408dc636d2f9a3358a&wsABSTime=1793669888",
                             "headers": {
                               "User-Agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.5 Mobile/15E148 Safari/604.1",
                               "Referer": "https://xlz.domainkqt.cc/ajax/chanel/type/7/link/channel80",
@@ -5858,7 +6241,32 @@
               },
               "type": "single",
               "display": "thumbnail-only",
-              "sources": []
+              "sources": [
+                {
+                  "id": "source-falcons-force-vs-megoshort-luc-1900-ngay-02-11-2026",
+                  "name": "Kienplayer",
+                  "contents": [
+                    {
+                      "id": "content-falcons-force-vs-megoshort-luc-1900-ngay-02-11-2026",
+                      "name": "Falcons Force vs megoshort",
+                      "streams": [
+                        {
+                          "id": "falcons-force-vs-megoshort-luc-1900-ngay-02-11-2026-stream-0",
+                          "name": "BLV Server 1 (HD)",
+                          "remote_data": {
+                            "url": "https://live1.quickscoreboardz.com/live/channel70/playlist.m3u8?wsSecret=47fdfb85eb7289bd096ec42d9c03f50c&wsABSTime=1793669894",
+                            "headers": {
+                              "User-Agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.5 Mobile/15E148 Safari/604.1",
+                              "Referer": "https://xlz.domainkqt.cc/ajax/chanel/type/7/link/channel70",
+                              "Origin": "https://xlz.domainkqt.cc"
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
             },
             {
               "id": "kienplay-misa-vs-psychoface-luc-2200-ngay-02-11-2026",
@@ -5986,7 +6394,7 @@
                           "id": "og-vs-yellow-submarine-luc-2000-ngay-02-11-2026-stream-0",
                           "name": "BLV Server 1 (HD)",
                           "remote_data": {
-                            "url": "https://live1.quickscoreboardz.com/live/channel74/playlist.m3u8?wsSecret=4222f525377fd2b66325852fed351c34&wsABSTime=1793669589",
+                            "url": "https://live1.quickscoreboardz.com/live/channel74/playlist.m3u8?wsSecret=669dfba77a8d27cf914fc19c533b004f&wsABSTime=1793669902",
                             "headers": {
                               "User-Agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.5 Mobile/15E148 Safari/604.1",
                               "Referer": "https://xlz.domainkqt.cc/ajax/chanel/type/7/link/channel74",
@@ -6196,7 +6604,7 @@
       "id": "giovang",
       "name": "Giờ Vàng TV",
       "url": "https://giovang.love",
-      "generated_at": "2026-11-02T20:33:22.432286+07:00",
+      "generated_at": "2026-11-02T20:38:23.195448+07:00",
       "groups": [
         {
           "id": "live-matches",
@@ -8486,7 +8894,7 @@
           ]
         }
       ],
-      "generated_at": "2026-11-02T20:33:22.967567+07:00",
+      "generated_at": "2026-11-02T20:38:23.766855+07:00",
       "crawl_status": "ok"
     },
     {
@@ -8494,6 +8902,11 @@
       "name": "Chuối Chiên TV",
       "url": "https://live11.chuoichientv.me/",
       "groups": [
+        {
+          "id": "chuoichien-stale-warning",
+          "name": "Lỗi tải mới — dữ liệu lưu lúc 20:33 02/11",
+          "channels": []
+        },
         {
           "id": "live-matches",
           "name": "Đang Phát Trực Tiếp (1 trận)",
@@ -9865,7 +10278,9 @@
         }
       ],
       "generated_at": "2026-11-02T20:33:23.932340+07:00",
-      "crawl_status": "ok"
+      "crawl_status": "stale",
+      "crawl_error": "URLError",
+      "last_attempt_at": "2026-11-02T20:38:53.466740+07:00"
     },
     {
       "id": "saoke",
@@ -10042,7 +10457,7 @@
                           "id": "saoke-o17p8syxy6mfykj-stream-2",
                           "name": "Server gốc",
                           "remote_data": {
-                            "url": "https://live1.hztx2020.com/live/14472839_c01f73107a5ad977ab43afbc60c197e4_autoChange.m3u8?auth_key=1793640792-0-0-0dc85f7dabbad7bd904dd60bbacc962d"
+                            "url": "https://live1.hztx2020.com/live/14472839_c01f73107a5ad977ab43afbc60c197e4_autoChange.m3u8?auth_key=1793641083-0-0-a653947276c7e4fd1190efa46a9e58ed"
                           }
                         }
                       ]
@@ -10098,7 +10513,7 @@
                           "id": "saoke-ndkzysnwnmpbx73-stream-2",
                           "name": "Server gốc",
                           "remote_data": {
-                            "url": "https://live.hztx2020.com/live/14472840_9eabf5797bbbb653088188a382fafc20_autoChange.m3u8?auth_key=1793640792-0-0-950c4642e35ff6563513735e6422bdff"
+                            "url": "https://live.hztx2020.com/live/14472840_9eabf5797bbbb653088188a382fafc20_autoChange.m3u8?auth_key=1793641083-0-0-da8a28ed1bceb0870fd54f036152b289"
                           }
                         }
                       ]
@@ -14890,7 +15305,7 @@
           ]
         }
       ],
-      "generated_at": "2026-11-02T20:33:24.652702+07:00",
+      "generated_at": "2026-11-02T20:38:25.358143+07:00",
       "crawl_status": "ok"
     },
     {
@@ -14935,7 +15350,7 @@
                           "id": "sutbong-n54qllhno5e3qvy-stream-0",
                           "name": "BLV LONG",
                           "remote_data": {
-                            "url": "https://pull.niur.live/live/stream-9912136_lhd.m3u8?txSecret=22284c4734142fd3d36f6ee95f11a349&txTime=6ae8e585",
+                            "url": "https://pull.niur.live/live/stream-9912136_lhd.m3u8?txSecret=ec233661134c2a5394e2a41d5362fa17&txTime=6ae8e6b1",
                             "headers": {
                               "Referer": "https://sutbongtv.my/",
                               "User-Agent": "Mozilla/5.0"
@@ -14946,7 +15361,7 @@
                           "id": "sutbong-n54qllhno5e3qvy-stream-1",
                           "name": "BLV CHIVAS",
                           "remote_data": {
-                            "url": "https://pull.niur.live/live/stream-485739_lhd.m3u8?txSecret=0a74b234a9831788caa1af6460337149&txTime=6ae8e585",
+                            "url": "https://pull.niur.live/live/stream-485739_lhd.m3u8?txSecret=d5beddb81f634bca9dcef5fdc57ffd53&txTime=6ae8e6b1",
                             "headers": {
                               "Referer": "https://sutbongtv.my/",
                               "User-Agent": "Mozilla/5.0"
@@ -14992,7 +15407,7 @@
                           "id": "sutbong-1l4rjnh9wy10m7v-stream-0",
                           "name": "BLV ANH TÀI",
                           "remote_data": {
-                            "url": "https://pull.niues.live/live/stream-406865_lhd.m3u8?auth_key=1793630005-0-0-482a4eb2fe40a031c950f084fd83be6d",
+                            "url": "https://pull.niues.live/live/stream-406865_lhd.m3u8?auth_key=1793630305-0-0-3d81db3d5a567ec73451fd64a839e55b",
                             "headers": {
                               "Referer": "https://sutbongtv.my/",
                               "User-Agent": "Mozilla/5.0"
@@ -15003,7 +15418,7 @@
                           "id": "sutbong-1l4rjnh9wy10m7v-stream-1",
                           "name": "BLV ALEX",
                           "remote_data": {
-                            "url": "https://pull.niues.live/live/stream-532081_lhd.m3u8?auth_key=1793630005-0-0-ee145723f179fccabac70173a3591af5",
+                            "url": "https://pull.niues.live/live/stream-532081_lhd.m3u8?auth_key=1793630305-0-0-1d0db96d3ef5556197bfe37ac6e46f74",
                             "headers": {
                               "Referer": "https://sutbongtv.my/",
                               "User-Agent": "Mozilla/5.0"
@@ -15049,7 +15464,7 @@
                           "id": "sutbong-965mkyhk6l46r1g-stream-0",
                           "name": "5 LỬA",
                           "remote_data": {
-                            "url": "https://pull.niues.live/live/stream-991140_lhd.m3u8?auth_key=1793630005-0-0-a4a072fd2ba578e34a75dc99ec98caea",
+                            "url": "https://pull.niues.live/live/stream-991140_lhd.m3u8?auth_key=1793630305-0-0-52c4470a999ea8587fae2aa72e874458",
                             "headers": {
                               "Referer": "https://sutbongtv.my/",
                               "User-Agent": "Mozilla/5.0"
@@ -15060,7 +15475,7 @@
                           "id": "sutbong-965mkyhk6l46r1g-stream-1",
                           "name": "PEANUT",
                           "remote_data": {
-                            "url": "https://pull.niues.live/live/stream-620084_lhd.m3u8?auth_key=1793630005-0-0-936b4fd801e81c656989290e4972924f",
+                            "url": "https://pull.niues.live/live/stream-620084_lhd.m3u8?auth_key=1793630305-0-0-2b51c223c3a5e1be36f8b115de7fa0c2",
                             "headers": {
                               "Referer": "https://sutbongtv.my/",
                               "User-Agent": "Mozilla/5.0"
@@ -15106,7 +15521,7 @@
                           "id": "sutbong-4jwq2ghn23w3m0v-stream-0",
                           "name": "BLV XO",
                           "remote_data": {
-                            "url": "https://pull.niur.live/live/stream-9912132_lhd.m3u8?txSecret=710b3ce3a821c2b2a18861c79908c5a2&txTime=6ae8e585",
+                            "url": "https://pull.niur.live/live/stream-9912132_lhd.m3u8?txSecret=510f6f211de8abccf93144b0a528f017&txTime=6ae8e6b1",
                             "headers": {
                               "Referer": "https://sutbongtv.my/",
                               "User-Agent": "Mozilla/5.0"
@@ -15117,7 +15532,7 @@
                           "id": "sutbong-4jwq2ghn23w3m0v-stream-1",
                           "name": "TRÀ ĐÁ",
                           "remote_data": {
-                            "url": "https://pull.niues.live/live/stream-603914_lhd.m3u8?auth_key=1793630005-0-0-6a76dba03d8715d41000f61a801d0321",
+                            "url": "https://pull.niues.live/live/stream-603914_lhd.m3u8?auth_key=1793630305-0-0-71c2db6351d76bcc26d73ed9431bd959",
                             "headers": {
                               "Referer": "https://sutbongtv.my/",
                               "User-Agent": "Mozilla/5.0"
@@ -15128,7 +15543,7 @@
                           "id": "sutbong-4jwq2ghn23w3m0v-stream-2",
                           "name": "VINFAST",
                           "remote_data": {
-                            "url": "https://pull.niues.live/live/stream-617313_lhd.m3u8?auth_key=1793630005-0-0-cc825328e8eb52c08b5842b5dc881719",
+                            "url": "https://pull.niues.live/live/stream-617313_lhd.m3u8?auth_key=1793630305-0-0-f299739c6ad67624e3c24c6578d25d36",
                             "headers": {
                               "Referer": "https://sutbongtv.my/",
                               "User-Agent": "Mozilla/5.0"
@@ -15139,7 +15554,7 @@
                           "id": "sutbong-4jwq2ghn23w3m0v-stream-3",
                           "name": "KINH VÂN",
                           "remote_data": {
-                            "url": "https://pull.niues.live/live/stream-623743_lhd.m3u8?auth_key=1793630005-0-0-b1e2057dfb3c4f034e618ab4c730b88f",
+                            "url": "https://pull.niues.live/live/stream-623743_lhd.m3u8?auth_key=1793630305-0-0-d3d1d7e0bba84ea1d2db0019a9922017",
                             "headers": {
                               "Referer": "https://sutbongtv.my/",
                               "User-Agent": "Mozilla/5.0"
@@ -15263,7 +15678,7 @@
                           "id": "sutbong-y39mp1h6xkpvmoj-stream-0",
                           "name": "TẠ BIÊN GIỚI",
                           "remote_data": {
-                            "url": "https://pull.niues.live/live/stream-9912144_lhd.m3u8?auth_key=1793630005-0-0-dc73b4243409de819311fbc1f3f2fac5",
+                            "url": "https://pull.niues.live/live/stream-9912144_lhd.m3u8?auth_key=1793630305-0-0-a9d91fe59746c86ae500f9bfd9c519e8",
                             "headers": {
                               "Referer": "https://sutbongtv.my/",
                               "User-Agent": "Mozilla/5.0"
@@ -15274,7 +15689,7 @@
                           "id": "sutbong-y39mp1h6xkpvmoj-stream-1",
                           "name": "RICKHANTER",
                           "remote_data": {
-                            "url": "https://pull.niues.live/live/stream-9912122_lhd.m3u8?auth_key=1793630005-0-0-45e299b2f5963266d71511906f3a9fc1",
+                            "url": "https://pull.niues.live/live/stream-9912122_lhd.m3u8?auth_key=1793630305-0-0-02a65676142ab3171f32ad9d0bba18c2",
                             "headers": {
                               "Referer": "https://sutbongtv.my/",
                               "User-Agent": "Mozilla/5.0"
@@ -15285,7 +15700,7 @@
                           "id": "sutbong-y39mp1h6xkpvmoj-stream-2",
                           "name": "BLV TAP",
                           "remote_data": {
-                            "url": "https://pull.niur.live/live/stream-9912041_lhd.m3u8?txSecret=4cfd4e0e318f8428c2d6363ec2c9742f&txTime=6ae8e585",
+                            "url": "https://pull.niur.live/live/stream-9912041_lhd.m3u8?txSecret=8a527ec7d93f825e08a29f2bee7090f8&txTime=6ae8e6b1",
                             "headers": {
                               "Referer": "https://sutbongtv.my/",
                               "User-Agent": "Mozilla/5.0"
@@ -15296,7 +15711,7 @@
                           "id": "sutbong-y39mp1h6xkpvmoj-stream-3",
                           "name": "ZIZOU",
                           "remote_data": {
-                            "url": "https://pull.niues.live/live/stream-9912145_lhd.m3u8?auth_key=1793630005-0-0-da783f8254f3b588acfce355f6db17e3",
+                            "url": "https://pull.niues.live/live/stream-9912145_lhd.m3u8?auth_key=1793630305-0-0-bbd4e0c0f85238d015983572bc2bab82",
                             "headers": {
                               "Referer": "https://sutbongtv.my/",
                               "User-Agent": "Mozilla/5.0"
@@ -15307,7 +15722,7 @@
                           "id": "sutbong-y39mp1h6xkpvmoj-stream-4",
                           "name": "BLV CUỘI",
                           "remote_data": {
-                            "url": "https://pull.niues.live/live/stream-9912146_lhd.m3u8?auth_key=1793630005-0-0-fac8e6513017b23a9ba74bb1b4e69a78",
+                            "url": "https://pull.niues.live/live/stream-9912146_lhd.m3u8?auth_key=1793630305-0-0-fd2fe51cd9d5437a9c59f9e36c8d7809",
                             "headers": {
                               "Referer": "https://sutbongtv.my/",
                               "User-Agent": "Mozilla/5.0"
@@ -15318,7 +15733,7 @@
                           "id": "sutbong-y39mp1h6xkpvmoj-stream-5",
                           "name": "BLV Củ Cải",
                           "remote_data": {
-                            "url": "https://pull.niues.live/live/stream-9912091_lhd.m3u8?auth_key=1793630005-0-0-e1067bfee4d6a468f64815ce5e22705b",
+                            "url": "https://pull.niues.live/live/stream-9912091_lhd.m3u8?auth_key=1793630305-0-0-65acb296849b36792b36b5df8dcb4ee0",
                             "headers": {
                               "Referer": "https://sutbongtv.my/",
                               "User-Agent": "Mozilla/5.0"
@@ -15436,7 +15851,7 @@
                           "id": "sutbong-x7lm7phjd731m2w-stream-0",
                           "name": "TRÀ ĐÁ",
                           "remote_data": {
-                            "url": "https://pull.niues.live/live/stream-603914_lhd.m3u8?auth_key=1793630005-0-0-6a76dba03d8715d41000f61a801d0321",
+                            "url": "https://pull.niues.live/live/stream-603914_lhd.m3u8?auth_key=1793630305-0-0-71c2db6351d76bcc26d73ed9431bd959",
                             "headers": {
                               "Referer": "https://sutbongtv.my/",
                               "User-Agent": "Mozilla/5.0"
@@ -15482,7 +15897,7 @@
                           "id": "sutbong-2y8m4zh59xx2ql0-stream-0",
                           "name": "CR Bưởi",
                           "remote_data": {
-                            "url": "https://pull.niues.live/live/stream-387694_lhd.m3u8?auth_key=1793630005-0-0-d638287effe2b3e33136391b33bedc78",
+                            "url": "https://pull.niues.live/live/stream-387694_lhd.m3u8?auth_key=1793630305-0-0-1def7ce14e34b100e2acb8bdac5eb535",
                             "headers": {
                               "Referer": "https://sutbongtv.my/",
                               "User-Agent": "Mozilla/5.0"
@@ -15552,7 +15967,7 @@
                           "id": "sutbong-jw2r09hkep71rz8-stream-0",
                           "name": "BLV XO",
                           "remote_data": {
-                            "url": "https://pull.niur.live/live/stream-9912132_lhd.m3u8?txSecret=710b3ce3a821c2b2a18861c79908c5a2&txTime=6ae8e585",
+                            "url": "https://pull.niur.live/live/stream-9912132_lhd.m3u8?txSecret=510f6f211de8abccf93144b0a528f017&txTime=6ae8e6b1",
                             "headers": {
                               "Referer": "https://sutbongtv.my/",
                               "User-Agent": "Mozilla/5.0"
@@ -15622,7 +16037,7 @@
                           "id": "sutbong-zp5rzghgn21vq82-stream-0",
                           "name": "TẠ BIÊN GIỚI",
                           "remote_data": {
-                            "url": "https://pull.niues.live/live/stream-9912144_lhd.m3u8?auth_key=1793630005-0-0-dc73b4243409de819311fbc1f3f2fac5",
+                            "url": "https://pull.niues.live/live/stream-9912144_lhd.m3u8?auth_key=1793630305-0-0-a9d91fe59746c86ae500f9bfd9c519e8",
                             "headers": {
                               "Referer": "https://sutbongtv.my/",
                               "User-Agent": "Mozilla/5.0"
@@ -15633,7 +16048,7 @@
                           "id": "sutbong-zp5rzghgn21vq82-stream-1",
                           "name": "BLV ALEX",
                           "remote_data": {
-                            "url": "https://pull.niues.live/live/stream-532081_lhd.m3u8?auth_key=1793630005-0-0-ee145723f179fccabac70173a3591af5",
+                            "url": "https://pull.niues.live/live/stream-532081_lhd.m3u8?auth_key=1793630305-0-0-1d0db96d3ef5556197bfe37ac6e46f74",
                             "headers": {
                               "Referer": "https://sutbongtv.my/",
                               "User-Agent": "Mozilla/5.0"
@@ -15644,7 +16059,7 @@
                           "id": "sutbong-zp5rzghgn21vq82-stream-2",
                           "name": "CURRY",
                           "remote_data": {
-                            "url": "https://pull.niues.live/live/stream-622240_lhd.m3u8?auth_key=1793630005-0-0-86314273e089e639527cfea82b09cffd",
+                            "url": "https://pull.niues.live/live/stream-622240_lhd.m3u8?auth_key=1793630305-0-0-3ba8bbe1d47cab75cdc57f6450338d09",
                             "headers": {
                               "Referer": "https://sutbongtv.my/",
                               "User-Agent": "Mozilla/5.0"
@@ -15690,7 +16105,7 @@
                           "id": "sutbong-n54qllhnv383qvy-stream-0",
                           "name": "BLV LONG",
                           "remote_data": {
-                            "url": "https://pull.niur.live/live/stream-9912136_lhd.m3u8?txSecret=22284c4734142fd3d36f6ee95f11a349&txTime=6ae8e585",
+                            "url": "https://pull.niur.live/live/stream-9912136_lhd.m3u8?txSecret=ec233661134c2a5394e2a41d5362fa17&txTime=6ae8e6b1",
                             "headers": {
                               "Referer": "https://sutbongtv.my/",
                               "User-Agent": "Mozilla/5.0"
@@ -15701,7 +16116,7 @@
                           "id": "sutbong-n54qllhnv383qvy-stream-1",
                           "name": "BLV ĐỐM",
                           "remote_data": {
-                            "url": "https://pull.niues.live/live/stream-9912110_lhd.m3u8?auth_key=1793630005-0-0-404f16c8124dfa9d88606de8bbc2947e",
+                            "url": "https://pull.niues.live/live/stream-9912110_lhd.m3u8?auth_key=1793630305-0-0-e674467a1760f14c2a29bad73dd63496",
                             "headers": {
                               "Referer": "https://sutbongtv.my/",
                               "User-Agent": "Mozilla/5.0"
@@ -15747,7 +16162,7 @@
                           "id": "sutbong-23xmvkh672klqg8-stream-0",
                           "name": "5 LỬA",
                           "remote_data": {
-                            "url": "https://pull.niues.live/live/stream-991140_lhd.m3u8?auth_key=1793630005-0-0-a4a072fd2ba578e34a75dc99ec98caea",
+                            "url": "https://pull.niues.live/live/stream-991140_lhd.m3u8?auth_key=1793630305-0-0-52c4470a999ea8587fae2aa72e874458",
                             "headers": {
                               "Referer": "https://sutbongtv.my/",
                               "User-Agent": "Mozilla/5.0"
@@ -15793,7 +16208,7 @@
                           "id": "sutbong-6ypq3nhvyedomd7-stream-0",
                           "name": "HẢI THANH",
                           "remote_data": {
-                            "url": "https://pull.niues.live/live/stream-9912119_lhd.m3u8?auth_key=1793630005-0-0-a046ecaaa131d56882bee711ca56f50a",
+                            "url": "https://pull.niues.live/live/stream-9912119_lhd.m3u8?auth_key=1793630305-0-0-3382b1957d77b2990a95a7fcb599a752",
                             "headers": {
                               "Referer": "https://sutbongtv.my/",
                               "User-Agent": "Mozilla/5.0"
@@ -15804,7 +16219,7 @@
                           "id": "sutbong-6ypq3nhvyedomd7-stream-1",
                           "name": "TRÀ ĐÁ",
                           "remote_data": {
-                            "url": "https://pull.niues.live/live/stream-603914_lhd.m3u8?auth_key=1793630005-0-0-6a76dba03d8715d41000f61a801d0321",
+                            "url": "https://pull.niues.live/live/stream-603914_lhd.m3u8?auth_key=1793630305-0-0-71c2db6351d76bcc26d73ed9431bd959",
                             "headers": {
                               "Referer": "https://sutbongtv.my/",
                               "User-Agent": "Mozilla/5.0"
@@ -15850,7 +16265,7 @@
                           "id": "sutbong-dn1m1ghld4j3moe-stream-0",
                           "name": "CR Bưởi",
                           "remote_data": {
-                            "url": "https://pull.niues.live/live/stream-387694_lhd.m3u8?auth_key=1793630005-0-0-d638287effe2b3e33136391b33bedc78",
+                            "url": "https://pull.niues.live/live/stream-387694_lhd.m3u8?auth_key=1793630305-0-0-1def7ce14e34b100e2acb8bdac5eb535",
                             "headers": {
                               "Referer": "https://sutbongtv.my/",
                               "User-Agent": "Mozilla/5.0"
@@ -15890,7 +16305,7 @@
           ]
         }
       ],
-      "generated_at": "2026-11-02T20:33:41.934319+07:00",
+      "generated_at": "2026-11-02T20:38:27.123607+07:00",
       "crawl_status": "ok"
     },
     {
@@ -23980,7 +24395,7 @@
           ]
         }
       ],
-      "generated_at": "2026-11-02T20:33:46.404650+07:00",
+      "generated_at": "2026-11-02T20:38:31.774775+07:00",
       "crawl_status": "ok",
       "playback_status": "unavailable"
     },
@@ -26746,7 +27161,7 @@
           ]
         }
       ],
-      "generated_at": "2026-11-02T20:33:24.527697+07:00",
+      "generated_at": "2026-11-02T20:38:24.976880+07:00",
       "crawl_status": "ok"
     },
     {
@@ -26791,7 +27206,7 @@
                           "id": "xoigac-355436_6158-stream-0",
                           "name": "Hawkeye",
                           "remote_data": {
-                            "url": "https://4ac07980a95d.ap-northeast-1.playback.live-video.net/api/video/v1/ap-northeast-1.256097482755.channel.DunS33rAnWPP.m3u8?expires=1793640805&signature=xHgil_Eahon9LnhYCqWyOBOzpC44gOt8b152GFkfw-Y"
+                            "url": "https://4ac07980a95d.ap-northeast-1.playback.live-video.net/api/video/v1/ap-northeast-1.256097482755.channel.DunS33rAnWPP.m3u8?expires=1793641106&signature=JNCQ2l3I4FQiPiGeFobmwZm88Z7eOYG9xhMff8T-roc"
                           }
                         }
                       ]
@@ -26833,7 +27248,7 @@
                           "id": "xoigac-357305_6159-stream-0",
                           "name": "Super Man",
                           "remote_data": {
-                            "url": "https://4ac07980a95d.ap-northeast-1.playback.live-video.net/api/video/v1/ap-northeast-1.256097482755.channel.WX2xzdmyNOXi.m3u8?expires=1793640805&signature=tQIASqNzm7zVwSdf0RnLN_S1B8lndjpu9GjBeo2Z3v8"
+                            "url": "https://4ac07980a95d.ap-northeast-1.playback.live-video.net/api/video/v1/ap-northeast-1.256097482755.channel.WX2xzdmyNOXi.m3u8?expires=1793641106&signature=ipgdpdN26IWjEJk81-OgUWg5NzLJIHi4TOZB852IyXA"
                           }
                         }
                       ]
@@ -26875,7 +27290,7 @@
                           "id": "xoigac-355458_6160-stream-0",
                           "name": "Thanos",
                           "remote_data": {
-                            "url": "https://4ac07980a95d.ap-northeast-1.playback.live-video.net/api/video/v1/ap-northeast-1.256097482755.channel.aYZTCgPJcyaV.m3u8?expires=1793640805&signature=764AKnF_LbcfVZb75QfBzEABZxMJ9FU9MLbRCn2rYHU"
+                            "url": "https://4ac07980a95d.ap-northeast-1.playback.live-video.net/api/video/v1/ap-northeast-1.256097482755.channel.aYZTCgPJcyaV.m3u8?expires=1793641106&signature=toIOvCii5RkaBH6VXQysbCZ0yoltgVXJg-hhN9MxznI"
                           }
                         }
                       ]
@@ -26917,7 +27332,7 @@
                           "id": "xoigac-355458_6195-stream-0",
                           "name": "Deal Pool",
                           "remote_data": {
-                            "url": "https://4ac07980a95d.ap-northeast-1.playback.live-video.net/api/video/v1/ap-northeast-1.256097482755.channel.4voi6teQ2EJS.m3u8?expires=1793640805&signature=gN4fDH-6UO2O888pEbOh8oDJukhKV8Z8i3nEXMc4PeA"
+                            "url": "https://4ac07980a95d.ap-northeast-1.playback.live-video.net/api/video/v1/ap-northeast-1.256097482755.channel.4voi6teQ2EJS.m3u8?expires=1793641106&signature=6u5dZUHSZKGUEYR8qagz828zCTeHu9lE8f5tmwxZJ_4"
                           }
                         }
                       ]
@@ -26959,7 +27374,7 @@
                           "id": "xoigac-355458_6198-stream-0",
                           "name": "Joker",
                           "remote_data": {
-                            "url": "https://4ac07980a95d.ap-northeast-1.playback.live-video.net/api/video/v1/ap-northeast-1.256097482755.channel.Oil6by6kPMWc.m3u8?expires=1793640805&signature=jfSMPJboqE0rPIXNCpElZWsBUE_r1w2I3RSr4SUg_vM"
+                            "url": "https://4ac07980a95d.ap-northeast-1.playback.live-video.net/api/video/v1/ap-northeast-1.256097482755.channel.Oil6by6kPMWc.m3u8?expires=1793641106&signature=sXunyEuEgHeGC55e4Aw5ducBLJHewMpN9VmFNO-ElV4"
                           }
                         }
                       ]
@@ -27601,7 +28016,7 @@
           ]
         }
       ],
-      "generated_at": "2026-11-02T20:33:24.227129+07:00",
+      "generated_at": "2026-11-02T20:38:25.250491+07:00",
       "crawl_status": "ok"
     },
     {
@@ -28598,7 +29013,7 @@
           ]
         }
       ],
-      "generated_at": "2026-11-02T20:33:28.663409+07:00",
+      "generated_at": "2026-11-02T20:38:30.467570+07:00",
       "crawl_status": "ok"
     },
     {
@@ -29477,7 +29892,7 @@
           ]
         }
       ],
-      "generated_at": "2026-11-02T20:33:30.997465+07:00",
+      "generated_at": "2026-11-02T20:38:30.676000+07:00",
       "crawl_status": "ok"
     }
   ]
