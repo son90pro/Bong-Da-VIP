@@ -53,59 +53,58 @@ def generate_m3u_and_json():
 
             providers = data.get("providers", [])
             if not isinstance(providers, list):
-                providers = [providers] if isinstance(providers, dict) else []
+                providers = [{"name": "Trực Tiếp", "items": data}]
 
             for prov in providers:
                 if not isinstance(prov, dict):
                     continue
                 
-                # Tên nhà cung cấp chuẩn làm danh mục sidebar bên trái TV
                 prov_name = prov.get("name") or prov.get("title") or prov.get("provider_name") or "Kênh Trực Tiếp"
                 prov_logo = prov.get("logo") or prov.get("icon") or ""
-                
-                # Lấy danh sách trận đấu bên trong provider
-                matches = []
-                for k in ["matches", "list", "items", "data", "match_list", "schedule", "channels", "matchs"]:
-                    if k in prov and isinstance(prov[k], list):
-                        matches = prov[k]
-                        break
-                
-                if not matches:
-                    for val in prov.values():
-                        if isinstance(val, list):
-                            matches = val
-                            break
 
-                if not matches:
-                    matches = [prov]
+                # Hàm đệ quy quét mọi ngóc ngách trong JSON để tìm các object chứa link stream url
+                def extract_match_nodes(node, current_group):
+                    nodes_found = []
+                    if isinstance(node, list):
+                        for sub in node:
+                            nodes_found.extend(extract_match_nodes(sub, current_group))
+                    elif isinstance(node, dict):
+                        # Cập nhật tên nhóm nếu node hiện tại khai báo tên nhà cung cấp/kênh
+                        grp = node.get("name") or node.get("title") or node.get("provider_name") or current_group
+                        
+                        stream_url = node.get("url") or node.get("stream_url") or node.get("m3u8")
+                        if stream_url and isinstance(stream_url, str) and stream_url.startswith("http"):
+                            nodes_found.append((node, grp))
+                        else:
+                            for k, v in node.items():
+                                nodes_found.extend(extract_match_nodes(v, grp))
+                    return nodes_found
 
-                for match in matches:
-                    if not isinstance(match, dict):
-                        continue
-                    
-                    # 1. Lấy thông tin tiêu đề, thời gian, tên đội từ slug href
+                match_nodes = extract_match_nodes(prov, prov_name)
+
+                for match, group_name in match_nodes:
                     href = match.get("href") or match.get("url_info") or ""
                     match_title = parse_slug_to_title(href)
-
-                    # 2. Lấy logo đội bóng
-                    logo = match.get("home_logo") or match.get("logo") or match.get("icon") or prov_logo
                     
-                    # 3. Lấy link stream (.m3u8) và Referer
+                    if match_title == "Trận đấu trực tiếp":
+                        alt_title = match.get("title") or match.get("name") or match.get("match_name")
+                        if alt_title and not any(kw in alt_title.lower() for kw in ['url', 'href', 'logo', 'referer']):
+                            match_title = alt_title
+
+                    logo = match.get("home_logo") or match.get("logo") or match.get("icon") or prov_logo
                     stream_url = match.get("url") or match.get("stream_url") or match.get("m3u8") or ""
                     referer = match.get("Referer") or match.get("referer") or ""
                     ua = match.get("user_agent") or "Mozilla/5.0"
 
                     if stream_url and isinstance(stream_url, str) and stream_url.startswith("http"):
                         s_lower = stream_url.lower()
-                        # Loại bỏ tuyệt đối các file ảnh
                         is_image = any(ext in s_lower for ext in ['.png', '.jpg', '.jpeg', '.webp', '.gif'])
                         
                         if not is_image:
                             if stream_url not in seen_links:
                                 seen_links.add(stream_url)
                                 
-                                # Ghi EXTINF chuẩn với logo và tên nhóm danh mục
-                                m3u_content += f"#EXTINF:-1 tvg-logo=\"{logo}\" group-title=\"{prov_name}\",{match_title}\n"
+                                m3u_content += f"#EXTINF:-1 tvg-logo=\"{logo}\" group-title=\"{group_name}\",{match_title}\n"
                                 
                                 final_link = stream_url
                                 if referer:
