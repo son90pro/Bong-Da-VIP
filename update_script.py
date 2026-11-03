@@ -33,10 +33,8 @@ def parse_xoilac_node(node):
     date_str = ""
     match_title = ""
 
-    # 1. Quét giờ và ngày từ slug hoặc title
     combined = f"{href} {raw_title}"
     
-    # Tìm giờ phút dạng hh:mm hoặc luc-hhmm
     time_match = re.search(r'(?:luc-)?(\d{2})[:h](\d{2})', combined.lower())
     if time_match:
         h, m = time_match.groups()
@@ -47,13 +45,11 @@ def parse_xoilac_node(node):
             h, m = luc_match.groups()
             time_str = f"{h}:{m}"
 
-    # Tìm ngày tháng dạng dd-mm hoặc dd/mm
     date_match = re.search(r'(?:ngay-)?(\d{2})[-/](\d{2})', combined)
     if date_match:
         d, mo = date_match.groups()
         date_str = f"{d}/{mo}"
 
-    # 2. Lấy tên cặp đấu từ href slug
     if href:
         parts = [p for p in href.strip('/').split('/') if p]
         slug = parts[-1] if parts else ""
@@ -66,7 +62,6 @@ def parse_xoilac_node(node):
             if ' vs ' in slug_title.lower() or len(slug_title.split()) >= 3:
                 match_title = slug_title
 
-    # 3. Lấy từ home/away nếu có
     home = node.get("home_team") or node.get("home") or ""
     away = node.get("away_team") or node.get("away") or ""
     if home and away:
@@ -79,7 +74,6 @@ def parse_xoilac_node(node):
 
     match_title = re.sub(r'\b(live|trực tiếp)\b', '', match_title, flags=re.IGNORECASE).strip(' -')
 
-    # Tổng hợp thời gian hiển thị theo đúng mẫu hình: 🟢 14:00 03/11 ⚽ Tên cặp đấu
     time_prefix = ""
     if date_str and time_str:
         time_prefix = f"🟢 {date_str} {time_str}"
@@ -125,10 +119,9 @@ def generate_m3u_and_json():
                 if not isinstance(prov, dict):
                     continue
                 
-                # Chỉ lọc và xử lý riêng nhóm Xôi Lạc TV / Xôi Lạc Z
                 prov_name = prov.get("name") or prov.get("title") or prov.get("provider_name") or "Xôi Lạc Z TV"
                 if "xôi lạc" not in prov_name.lower():
-                    continue  # Tạm thời chỉ làm riêng Xôi Lạc Z TV theo đúng yêu cầu làm từng nguồn 1
+                    continue
 
                 prov_logo = prov.get("logo") or prov.get("icon") or ""
                 
@@ -202,7 +195,6 @@ def generate_m3u_and_json():
                                 title_out = cur_title if cur_title else "Trực Tiếp"
                                 display_line = f"{t_out} {sport_icon} {title_out}"
 
-                                # Xử lý tên BLV/Server sạch sẽ trong ngoặc đơn
                                 blv_tag = clean_text(s_name) or clean_text(node.get("blv", ""))
                                 if blv_tag and blv_tag.lower() not in display_line.lower():
                                     if len(blv_tag.split()) <= 2:
@@ -242,39 +234,4 @@ def generate_m3u_and_json():
 
 if __name__ == "__main__":
     generate_m3u_and_json()
-    display_base += f" ({blv_tag})"
-
-                                final_logo = cur_logo if cur_logo else prov_logo
-                                m3u_content += f"#EXTINF:-1 tvg-logo=\"{final_logo}\" group-title=\"{prov_name}\",{display_base}\n"
-
-                                referer = node.get("Referer") or node.get("referer") or ""
-                                ua = node.get("user_agent") or "Mozilla/5.0"
-                                final_link = s_url
-                                if referer:
-                                    final_link = f"{s_url}|User-Agent={ua}&Referer={referer}"
-                                elif ua != "Mozilla/5.0":
-                                    final_link = f"{s_url}|User-Agent={ua}"
-                                m3u_content += f"{final_link}\n"
-                                count += 1
-
-                        for k, v in node.items():
-                            if isinstance(v, (list, dict)):
-                                process_node(v, cur_time, cur_title, cur_logo)
-
-                for m in matches:
-                    process_node(m, "", "", prov_logo)
-
-            with open('playlist.m3u', 'w', encoding='utf-8') as f:
-                f.write(m3u_content)
-                
-            print(f"Đã tạo xong file playlist.m3u với {count} luồng sạch sẽ!")
-            
-        else:
-            print(f"Lỗi HTTP: {response.status_code}")
-            
-    except Exception as e:
-        print(f"Lỗi: {e}")
-
-if __name__ == "__main__":
-    generate_m3u_and_json()
-                                
+    
