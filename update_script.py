@@ -2,20 +2,32 @@ import json
 import re
 import requests
 
-def get_sport_icon(sport_type=""):
-    s = str(sport_type).lower()
-    if 'tennis' in s or 'quần vợt' in s:
+def get_sport_icon(text=""):
+    t = str(text).lower()
+    if any(k in t for k in ['tennis', 'quần vợt']):
         return "🥎"
-    elif 'basketball' in s or 'bóng rổ' in s:
+    elif any(k in t for k in ['basketball', 'bóng rổ']):
         return "🏀"
-    elif 'volleyball' in s or 'bóng chuyền' in s:
+    elif any(k in t for k in ['volleyball', 'bóng chuyền']):
         return "🏐"
-    elif 'lol' in s or 'game' in s or 'esports' in s:
+    elif any(k in t for k in ['lol', 'game', 'esports', 'dota', 'csgo']):
         return "🎮"
-    elif 'badminton' in s or 'cầu lông' in s:
+    elif any(k in t for k in ['badminton', 'cầu lông']):
         return "🏸"
     else:
         return "⚽"
+
+def find_all_matches(node, matches_out):
+    if isinstance(node, list):
+        for item in node:
+            find_all_matches(item, matches_out)
+    elif isinstance(node, dict):
+        # Nếu dict này có chứa thông tin trận đấu (có team hoặc title hoặc streams/url)
+        if any(k in node for k in ['home_team', 'away_team', 'streams', 'links', 'servers', 'm3u8', 'url', 'flv']):
+            matches_out.append(node)
+        for k, v in node.items():
+            if isinstance(v, (list, dict)):
+                find_all_matches(v, matches_out)
 
 def generate_m3u_and_json():
     target_url = "https://tinyurl.com/xoilacz3" 
@@ -37,58 +49,25 @@ def generate_m3u_and_json():
             count = 0
             seen_links = set()
 
-            # Tìm đến đúng node chứa danh sách trận đấu của Xôi Lạc Z TV
-            providers = []
-            if isinstance(data, dict):
-                if "providers" in data and isinstance(data["providers"], list):
-                    providers = data["providers"]
-                else:
-                    providers = [data]
-            elif isinstance(data, list):
-                providers = data
-
             matches_list = []
-            for prov in providers:
-                if not isinstance(prov, dict):
-                    continue
-                p_name = prov.get("name") or prov.get("title") or ""
-                if "xôi lạc" in p_name.lower() or "xoilac" in p_name.lower() or "z" in p_name.lower():
-                    for k in ["matches", "list", "items", "data", "match_list", "schedule", "channels", "matchs", "match"]:
-                        if k in prov and isinstance(prov[k], list):
-                            matches_list = prov[k]
-                            break
-                    if not matches_list:
-                        # Lấy danh sách đầu tiên tìm thấy
-                        for v in prov.values():
-                            if isinstance(v, list) and len(v) > 0:
-                                matches_list = v
-                                break
-
-            # Nếu không tìm thấy qua provider, quét toàn bộ dict
-            if not matches_list and isinstance(data, dict):
-                for k, v in data.items():
-                    if isinstance(v, list):
-                        matches_list = v
-                        break
-
-            print(f"Tìm thấy {len(matches_list)} trận đấu từ nguồn.")
+            find_all_matches(data, matches_list)
+            print(f"Tìm thấy tổng cộng {len(matches_list)} mục dữ liệu trận đấu.")
 
             for match in matches_list:
                 if not isinstance(match, dict):
                     continue
 
-                # Trích xuất tên đội nhà / đội khách hoặc tiêu đề trận
+                # 1. Trích xuất tên đội hoặc tiêu đề trận
                 home = match.get("home_team") or match.get("home") or ""
                 away = match.get("away_team") or match.get("away") or ""
                 raw_title = match.get("title") or match.get("name") or match.get("match_name") or ""
-
+                
                 teams_str = ""
                 if home and away:
                     teams_str = f"{home} vs {away}"
                 elif " vs " in raw_title.lower():
                     teams_str = raw_title
                 else:
-                    # Lấy từ href slug nếu có
                     href = match.get("href") or match.get("url_info") or ""
                     if href:
                         parts = [p for p in href.strip('/').split('/') if p]
@@ -98,11 +77,11 @@ def generate_m3u_and_json():
                         slug_title = slug_clean.replace('-', ' ').title()
                         if ' vs ' in slug_title.lower():
                             teams_str = slug_title
-                    
+                
                 if not teams_str:
-                    teams_str = raw_title if raw_title else "Trực Tiếp"
+                    teams_str = raw_title if raw_title and len(raw_title) > 3 else "Trực Tiếp"
 
-                # Lấy thời gian
+                # 2. Thời gian (Giờ & Ngày)
                 time_val = match.get("time") or match.get("start_time") or match.get("hour") or ""
                 combined_txt = f"{match.get('href', '')} {raw_title} {time_val}"
                 
@@ -112,24 +91,23 @@ def generate_m3u_and_json():
                 date_match = re.search(r'(\d{2}[-/]\d{2})', combined_txt)
                 date_str = date_match.group(1).replace('-', '/') if date_match else "03/11"
 
-                # Logo môn thể thao / đội bóng
-                sport_type = match.get("sport") or match.get("category") or match.get("type") or ""
+                # 3. Logo & Icon thể thao
+                sport_type = match.get("sport") or match.get("category") or match.get("type") or teams_str
                 sport_icon = get_sport_icon(sport_type)
+                
                 logo = match.get("home_logo") or match.get("logo") or match.get("icon") or ""
-                if not logo or not logo.startswith("http"):
+                if not logo or not str(logo).startswith("http") or any(ext in str(logo).lower() for ext in ['.png', '.jpg', '.jpeg', '.webp']):
                     logo = "https://imgts.sportpulseapiz.com/football/team/default/image/small"
 
-                # Lọc danh sách luồng phát (streams) hợp lệ, loại bỏ các link ảnh rác (.png, .jpg, v.v.)
+                # 4. Thu thập các luồng stream (loại bỏ link ảnh)
                 streams = []
                 
-                # Kiểm tra các khóa URL đơn lẻ
                 for u_key in ["url", "stream_url", "m3u8", "link", "flv"]:
                     val = match.get(u_key)
                     if isinstance(val, str) and val.startswith("http"):
                         if not any(ext in val.lower() for ext in ['.png', '.jpg', '.jpeg', '.webp', '.gif', 'image/small']):
                             streams.append((val, "VIC"))
 
-                # Kiểm tra các mảng streams/links/servers
                 for sk in ["streams", "links", "servers", "sources"]:
                     arr = match.get(sk)
                     if isinstance(arr, list):
@@ -143,14 +121,7 @@ def generate_m3u_and_json():
                                 if s_url.startswith("http") and not any(ext in s_url.lower() for ext in ['.png', '.jpg', '.jpeg', '.webp', '.gif', 'image/small']):
                                     streams.append((s_url, s_name))
 
-                # Nếu vẫn chưa có stream, quét các giá trị bên trong dict
-                if not streams:
-                    for sub_k, sub_v in match.items():
-                        if isinstance(sub_v, str) and sub_v.startswith("http") and not any(ext in sub_v.lower() for ext in ['.png', '.jpg', '.jpeg', '.webp', '.gif', 'image/small']):
-                            if any(ext in sub_v.lower() for ext in ['.m3u8', '.flv', 'live', 'playlist', 'channel']):
-                                streams.append((sub_v, ""))
-
-                # Ghi ra file M3U theo đúng mẫu chuẩn
+                # Nếu tìm thấy stream hợp lệ, ghi vào playlist
                 for idx, (s_url, s_name) in enumerate(streams):
                     if s_url not in seen_links:
                         seen_links.add(s_url)
