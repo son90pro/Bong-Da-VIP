@@ -1,47 +1,672 @@
-#EXTM3U x-tvg-url=""
-#EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/csgo/team/1l4rje7h675m7vx/image/small" group-title="Xôi Lạc Z TV",🟢 03/11 11:30 ⚽ MOUZ vs BETBOOM
-https://live1.quickscoreboardz.com/live/channel72/playlist.m3u8?wsSecret=a7cc1e3fb0ebdb2265fc9235ef4d0b09&wsABSTime=1793733182
-#EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/tennis/team/l7oqdwf1vo3r510/image/small" group-title="Xôi Lạc Z TV",🟢 03/11 11:40 ⚽ Masamichi Imamura vs Leong Mitsuki Wei Kang
-https://live1.quickscoreboardz.com/live/channel57/playlist.m3u8?wsSecret=780a133fc5ac150957e73df592155bc4&wsABSTime=1793733181
-#EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/basketball/team/z8yomovtn0xq0j6/image/small" group-title="Xôi Lạc Z TV",🟢 03/11 12:00 ⚽ Hawaii vs Seattle
-https://live1.quickscoreboardz.com/live/channel42/playlist.m3u8?wsSecret=b19b34f2fa19f46730a9bef6542b6156&wsABSTime=1793733181
-#EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/volleyball/team/2y8m4wh3gj40ql0/image/small" group-title="Xôi Lạc Z TV",🟢 03/11 12:00 ⚽ Nữ Galeries Highrisers vs Nữ Akari Chargers
-https://live1.quickscoreboardz.com/live/channel80/playlist.m3u8?wsSecret=d4ef8b01162aa59e2fa4a23d1de0749d&wsABSTime=1793733182
-#EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/k82rekh9k73repz/image/small" group-title="Xôi Lạc Z TV",🟢 03/11 12:30 ⚽ ASC vs Bengaluru Roots FC
-https://live1.quickscoreboardz.com/live/channel18/playlist.m3u8?wsSecret=bb3ab38924532cfe3fd0022d8fa651b5&wsABSTime=1793733181
-#EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/tennis/team/4jwq2pf05d5m0ve/image/small" group-title="Xôi Lạc Z TV",🟢 03/11 12:30 ⚽ Panna Udvardy vs Robin Montgomery
-https://live1.quickscoreboardz.com/live/channel50/playlist.m3u8?wsSecret=ef7fd5a2ea8ac459a01c5b4325009979&wsABSTime=1793733180
-#EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/1l4rjnh1xvem7vx/image/small" group-title="Xôi Lạc Z TV",🟢 03/11 12:50 ⚽ BLV BEE
+#EXTM3U
+
+#EXTINF:-1 tvg-logo="" group-title="Xôi Lạc Z TV" , 🟢 14:00 03/11 ⚽ Trực Tiếp (VIC)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.domainkqt.cc/
+https://imgts.sportpulseapiz.com/csgo/team/1l4rje7h675m7vx/image/small
+
+#EXTINF:-1 tvg-logo="" group-title="Xôi Lạc Z TV" , 🟢 14:00 03/11 ⚽ Trực Tiếp (VIC)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.domainkqt.cc/
+https://live1.quickscoreboardz.com/live/channel72/playlist.m3u8?wsSecret=6f64e43c0a93ee6f97983856ef412e1f&wsABSTime=1793733781
+
+#EXTINF:-1 tvg-logo="" group-title="Xôi Lạc Z TV" , 🟢 14:00 03/11 ⚽ Trực Tiếp (VIC)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.domainkqt.cc/
+https://imgts.sportpulseapiz.com/tennis/team/l7oqdwf1vo3r510/image/small
+
+#EXTINF:-1 tvg-logo="" group-title="Xôi Lạc Z TV" , 🟢 14:00 03/11 ⚽ Trực Tiếp (VIC)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.domainkqt.cc/
+https://live1.quickscoreboardz.com/live/channel57/playlist.m3u8?wsSecret=fc5164cc7b86f01e1ad09968e15de24a&wsABSTime=1793733780
+
+#EXTINF:-1 tvg-logo="" group-title="Xôi Lạc Z TV" , 🟢 14:00 03/11 ⚽ Trực Tiếp (VIC)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.domainkqt.cc/
+https://imgts.sportpulseapiz.com/volleyball/team/2y8m4wh3gj40ql0/image/small
+
+#EXTINF:-1 tvg-logo="" group-title="Xôi Lạc Z TV" , 🟢 14:00 03/11 ⚽ Trực Tiếp (VIC)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.domainkqt.cc/
+https://live1.quickscoreboardz.com/live/channel80/playlist.m3u8?wsSecret=00cb14d91bfb03b1231470378db2ff46&wsABSTime=1793733781
+
+#EXTINF:-1 tvg-logo="" group-title="Xôi Lạc Z TV" , 🟢 14:00 03/11 ⚽ Trực Tiếp (VIC)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.domainkqt.cc/
+https://imgts.sportpulseapiz.com/football/team/k82rekh9k73repz/image/small
+
+#EXTINF:-1 tvg-logo="" group-title="Xôi Lạc Z TV" , 🟢 14:00 03/11 ⚽ Trực Tiếp (VIC)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.domainkqt.cc/
+https://live1.quickscoreboardz.com/live/channel18/playlist.m3u8?wsSecret=3a12211fc5daf02ba00fae3b17bc69d2&wsABSTime=1793733780
+
+#EXTINF:-1 tvg-logo="" group-title="Xôi Lạc Z TV" , 🟢 14:00 03/11 ⚽ Trực Tiếp (VIC)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.domainkqt.cc/
+https://imgts.sportpulseapiz.com/tennis/team/4jwq2pf05d5m0ve/image/small
+
+#EXTINF:-1 tvg-logo="" group-title="Xôi Lạc Z TV" , 🟢 14:00 03/11 ⚽ Trực Tiếp (VIC)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.domainkqt.cc/
+https://live1.quickscoreboardz.com/live/channel50/playlist.m3u8?wsSecret=bfad011d4f53ba5f33ed1c9d21524440&wsABSTime=1793733780
+
+#EXTINF:-1 tvg-logo="" group-title="Xôi Lạc Z TV" , 🟢 14:00 03/11 ⚽ Trực Tiếp (VIC)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.domainkqt.cc/
+https://imgts.sportpulseapiz.com/football/team/1l4rjnh1xvem7vx/image/small
+
+#EXTINF:-1 tvg-logo="" group-title="Xôi Lạc Z TV" , 🟢 14:00 03/11 ⚽ Trực Tiếp (VIC)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.domainkqt.cc/
 https://live2.jorvakstreamcache.com/live/channel8.m3u8
-#EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/1l4rjnh1xvem7vx/image/small" group-title="Xôi Lạc Z TV",🟢 03/11 12:50 ⚽ BLV BEE (HD)
-https://live2.domaincdn.cc/livecdn/channel-8.m3u8?auth_key=3000001793689981-0-0-784be5de6d28ba19cc732f9df01eaf56
-#EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/tennis/team/318q6jf0overo9j/image/small" group-title="Xôi Lạc Z TV",🟢 03/11 13:00 ⚽ BLV VIC
+
+#EXTINF:-1 tvg-logo="" group-title="Xôi Lạc Z TV" , 🟢 14:00 03/11 ⚽ Trực Tiếp (VIC)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.domainkqt.cc/
+https://live2.domaincdn.cc/livecdn/channel-8.m3u8?auth_key=3000001793690581-0-0-63a3480bf7d8d2cbf6fbda9d6bbaed4b
+
+#EXTINF:-1 tvg-logo="" group-title="Xôi Lạc Z TV" , 🟢 14:00 03/11 ⚽ Trực Tiếp (VIC)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.domainkqt.cc/
+https://imgts.sportpulseapiz.com/tennis/team/318q6jf0overo9j/image/small
+
+#EXTINF:-1 tvg-logo="" group-title="Xôi Lạc Z TV" , 🟢 14:00 03/11 ⚽ Trực Tiếp (VIC)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.domainkqt.cc/
 https://live2.jorvakstreamcache.com/live/channel32.m3u8
-#EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/tennis/team/318q6jf0overo9j/image/small" group-title="Xôi Lạc Z TV",🟢 03/11 13:00 ⚽ BLV VIC (HD)
-https://live2.domaincdn.cc/livecdn/channel-32.m3u8?auth_key=3000001793689982-0-0-6c2b276f1bb6d26c48c85a3c42090c07
-#EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/tennis/team/k82re9f1exkmepz/image/small" group-title="Xôi Lạc Z TV",🟢 03/11 13:00 ⚽ Dayana Yastremska vs Zeynep Sonmez
-https://live1.quickscoreboardz.com/live/channel52/playlist.m3u8?wsSecret=05de421f56187e7782995c639a0c5eb7&wsABSTime=1793733181
-#EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/dj2ryohk9j5q1zp/image/small" group-title="Xôi Lạc Z TV",🟢 03/11 14:00 ⚽ BLV LOGAN
+
+#EXTINF:-1 tvg-logo="" group-title="Xôi Lạc Z TV" , 🟢 14:00 03/11 ⚽ Trực Tiếp (VIC)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.domainkqt.cc/
+https://live2.domaincdn.cc/livecdn/channel-32.m3u8?auth_key=3000001793690581-0-0-d2438a3a0e410679b2d55e3306c71a66
+
+#EXTINF:-1 tvg-logo="" group-title="Xôi Lạc Z TV" , 🟢 14:00 03/11 ⚽ Trực Tiếp (VIC)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.domainkqt.cc/
+https://imgts.sportpulseapiz.com/tennis/team/k82re9f1exkmepz/image/small
+
+#EXTINF:-1 tvg-logo="" group-title="Xôi Lạc Z TV" , 🟢 14:00 03/11 ⚽ Trực Tiếp (VIC)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.domainkqt.cc/
+https://live1.quickscoreboardz.com/live/channel52/playlist.m3u8?wsSecret=b9212281092fd1f6f49f445a5b80cece&wsABSTime=1793733780
+
+#EXTINF:-1 tvg-logo="" group-title="Xôi Lạc Z TV" , 🟢 14:00 03/11 ⚽ Trực Tiếp (VIC)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.domainkqt.cc/
+https://imgts.sportpulseapiz.com/football/team/dj2ryohk9j5q1zp/image/small
+
+#EXTINF:-1 tvg-logo="" group-title="Xôi Lạc Z TV" , 🟢 14:00 03/11 ⚽ Trực Tiếp (VIC)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.domainkqt.cc/
 https://live2.jorvakstreamcache.com/live/channel23.m3u8
-#EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/dj2ryohk9j5q1zp/image/small" group-title="Xôi Lạc Z TV",🟢 03/11 14:00 ⚽ BLV LOGAN (HD)
-https://live2.domaincdn.cc/livecdn/channel-23.m3u8?auth_key=3000001793689981-0-0-a98bb6eff5e69ad21bc12459a7462c22
-#EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/k82rekhve2xrepz/image/small" group-title="Xôi Lạc Z TV",🟢 03/11 14:00 ⚽ Nữ Hebei Snow Ruyi vs Nữ Qingdao Coast
-https://live1.quickscoreboardz.com/live/channel21/playlist.m3u8?wsSecret=43d287328cf837c126e241bb6f239295&wsABSTime=1793733181
-#EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/pxwrxlhjz1pryk0/image/small" group-title="Xôi Lạc Z TV",🟢 03/11 14:00 ⚽ BLV NEMO
+
+#EXTINF:-1 tvg-logo="" group-title="Xôi Lạc Z TV" , 🟢 14:00 03/11 ⚽ Trực Tiếp (VIC)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.domainkqt.cc/
+https://live2.domaincdn.cc/livecdn/channel-23.m3u8?auth_key=3000001793690581-0-0-80bf5091299dfdf0ebb06867526455cc
+
+#EXTINF:-1 tvg-logo="" group-title="Xôi Lạc Z TV" , 🟢 14:00 03/11 ⚽ Trực Tiếp (VIC)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.domainkqt.cc/
+https://imgts.sportpulseapiz.com/football/team/k82rekhve2xrepz/image/small
+
+#EXTINF:-1 tvg-logo="" group-title="Xôi Lạc Z TV" , 🟢 14:00 03/11 ⚽ Trực Tiếp (VIC)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.domainkqt.cc/
+https://live1.quickscoreboardz.com/live/channel21/playlist.m3u8?wsSecret=d5ae180decd761b590489a0ecc849b48&wsABSTime=1793733780
+
+#EXTINF:-1 tvg-logo="" group-title="Xôi Lạc Z TV" , 🟢 14:00 03/11 ⚽ Trực Tiếp (VIC)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.domainkqt.cc/
+https://imgts.sportpulseapiz.com/football/team/pxwrxlhjz1pryk0/image/small
+
+#EXTINF:-1 tvg-logo="" group-title="Xôi Lạc Z TV" , 🟢 14:00 03/11 ⚽ Trực Tiếp (VIC)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.domainkqt.cc/
 https://live2.jorvakstreamcache.com/live/channel17.m3u8
-#EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/pxwrxlhjz1pryk0/image/small" group-title="Xôi Lạc Z TV",🟢 03/11 14:00 ⚽ BLV NEMO (HD)
-https://live2.domaincdn.cc/livecdn/channel-17.m3u8?auth_key=3000001793689982-0-0-ec5945f344b7ae5d5c9c040c1f3c4d6e
-#EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/ednm9whgw64ryox/image/small" group-title="Xôi Lạc Z TV",🟢 03/11 14:00 ⚽ Nữ Fujian Nanan vs Nữ Shanghai Huilong
-https://live1.quickscoreboardz.com/live/channel23/playlist.m3u8?wsSecret=25b526ccf76597b73771339a423b82bf&wsABSTime=1793733181
-#EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/4wyrn4hvznzq86p/image/small" group-title="Xôi Lạc Z TV",🟢 03/11 14:00 ⚽ Nữ Yongchuan vs Nữ Henan
-https://live1.quickscoreboardz.com/live/channel24/playlist.m3u8?wsSecret=73be44d95b180c844de0cf950cb995c9&wsABSTime=1793733181
-#EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/basketball/team/318q6nto22vmo9j/image/small" group-title="Xôi Lạc Z TV",🟢 03/11 14:00 ⚽ SSC-R Stags vs Arellano University Chiefs
-https://live1.quickscoreboardz.com/live/channel40/playlist.m3u8?wsSecret=30b02327f6d370d8d0278d437183c7f5&wsABSTime=1793733181
-#EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/badminton/team/965mkyjsknvlr1g/image/small" group-title="Xôi Lạc Z TV",🟢 03/11 14:00 ⚽ Wang CXie H N vs Bryan Jeremy GoontingMuhammad Haikal
-https://live1.quickscoreboardz.com/live/channel61/playlist.m3u8?wsSecret=073434efaa56633bec4a4c480e6bce8c&wsABSTime=1793733181
-#EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/badminton/team/yomo40s7kegpq0j/image/small" group-title="Xôi Lạc Z TV",🟢 03/11 14:00 ⚽ Isyana Syahira MeidaRinjani Kwinara Nastine vs Moon In SeoPark Seul
-https://live1.quickscoreboardz.com/live/channel60/playlist.m3u8?wsSecret=17714bad2ee2f957944e222fcd7b8e80&wsABSTime=1793733182
-#EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/csgo/team/ednm928tgxoryox/image/small" group-title="Xôi Lạc Z TV",🟢 03/11 14:00 ⚽ FaZe vs Falcons
-https://live1.quickscoreboardz.com/live/channel71/playlist.m3u8?wsSecret=fa77ab944594490e96ea92d9dd7f900f&wsABSTime=1793733182
-#EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/dota2/team/dn1m1ept4d95qoe/image/small" group-title="Xôi Lạc Z TV",🟢 03/11 14:00 ⚽ Direborn vs Yangon Galacticos
-https://live1.quickscoreboardz.com/live/channel75/playlist.m3u8?wsSecret=4cf4195df35b23fbf07530d925c50131&wsABSTime=1793733182
+
+#EXTINF:-1 tvg-logo="" group-title="Xôi Lạc Z TV" , 🟢 14:00 03/11 ⚽ Trực Tiếp (VIC)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.domainkqt.cc/
+https://live2.domaincdn.cc/livecdn/channel-17.m3u8?auth_key=3000001793690581-0-0-60e8ba6494639f41fd03639956a54c6c
+
+#EXTINF:-1 tvg-logo="" group-title="Xôi Lạc Z TV" , 🟢 14:00 03/11 ⚽ Trực Tiếp (VIC)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.domainkqt.cc/
+https://imgts.sportpulseapiz.com/football/team/ednm9whgw64ryox/image/small
+
+#EXTINF:-1 tvg-logo="" group-title="Xôi Lạc Z TV" , 🟢 14:00 03/11 ⚽ Trực Tiếp (VIC)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.domainkqt.cc/
+https://live1.quickscoreboardz.com/live/channel23/playlist.m3u8?wsSecret=c365abf69ddac9bf4e5afc2f3abcbdcf&wsABSTime=1793733780
+
+#EXTINF:-1 tvg-logo="" group-title="Xôi Lạc Z TV" , 🟢 14:00 03/11 ⚽ Trực Tiếp (VIC)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.domainkqt.cc/
+https://imgts.sportpulseapiz.com/football/team/4wyrn4hvznzq86p/image/small
+
+#EXTINF:-1 tvg-logo="" group-title="Xôi Lạc Z TV" , 🟢 14:00 03/11 ⚽ Trực Tiếp (VIC)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.domainkqt.cc/
+https://live1.quickscoreboardz.com/live/channel24/playlist.m3u8?wsSecret=710829196885976c8d0eabff2ade7b74&wsABSTime=1793733780
+
+#EXTINF:-1 tvg-logo="" group-title="Xôi Lạc Z TV" , 🟢 14:00 03/11 ⚽ Trực Tiếp (VIC)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.domainkqt.cc/
+https://imgts.sportpulseapiz.com/basketball/team/318q6nto22vmo9j/image/small
+
+#EXTINF:-1 tvg-logo="" group-title="Xôi Lạc Z TV" , 🟢 14:00 03/11 ⚽ Trực Tiếp (VIC)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.domainkqt.cc/
+https://live1.quickscoreboardz.com/live/channel40/playlist.m3u8?wsSecret=77f146943f6b07ce218024294c673df7&wsABSTime=1793733780
+
+#EXTINF:-1 tvg-logo="" group-title="Xôi Lạc Z TV" , 🟢 14:00 03/11 ⚽ Trực Tiếp (VIC)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.domainkqt.cc/
+https://imgts.sportpulseapiz.com/badminton/team/965mkyjsknvlr1g/image/small
+
+#EXTINF:-1 tvg-logo="" group-title="Xôi Lạc Z TV" , 🟢 14:00 03/11 ⚽ Trực Tiếp (VIC)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.domainkqt.cc/
+https://live1.quickscoreboardz.com/live/channel61/playlist.m3u8?wsSecret=73f30f2017a5675051aa0ac01d731a2e&wsABSTime=1793733781
+
+#EXTINF:-1 tvg-logo="" group-title="Xôi Lạc Z TV" , 🟢 14:00 03/11 ⚽ Trực Tiếp (VIC)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.domainkqt.cc/
+https://imgts.sportpulseapiz.com/badminton/team/yomo40s7kegpq0j/image/small
+
+#EXTINF:-1 tvg-logo="" group-title="Xôi Lạc Z TV" , 🟢 14:00 03/11 ⚽ Trực Tiếp (VIC)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.domainkqt.cc/
+https://live1.quickscoreboardz.com/live/channel60/playlist.m3u8?wsSecret=441594d072dc9fdf34ab913d68f44582&wsABSTime=1793733781
+
+#EXTINF:-1 tvg-logo="" group-title="Xôi Lạc Z TV" , 🟢 14:00 03/11 ⚽ Trực Tiếp (VIC)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.domainkqt.cc/
+https://imgts.sportpulseapiz.com/csgo/team/ednm928tgxoryox/image/small
+
+#EXTINF:-1 tvg-logo="" group-title="Xôi Lạc Z TV" , 🟢 14:00 03/11 ⚽ Trực Tiếp (VIC)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.domainkqt.cc/
+https://live1.quickscoreboardz.com/live/channel71/playlist.m3u8?wsSecret=bdf789b183b359c5acca4d36983b774b&wsABSTime=1793733781
+
+#EXTINF:-1 tvg-logo="" group-title="Xôi Lạc Z TV" , 🟢 14:00 03/11 ⚽ Trực Tiếp (VIC)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.domainkqt.cc/
+https://imgts.sportpulseapiz.com/dota2/team/dn1m1ept4d95qoe/image/small
+
+#EXTINF:-1 tvg-logo="" group-title="Xôi Lạc Z TV" , 🟢 14:00 03/11 ⚽ Trực Tiếp (VIC)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.domainkqt.cc/
+https://live1.quickscoreboardz.com/live/channel75/playlist.m3u8?wsSecret=f11cf58b84ee8aa35d75eb709fc57218&wsABSTime=1793733781
+
+#EXTINF:-1 tvg-logo="" group-title="Xôi Lạc Z TV" , 🟢 14:00 03/11 ⚽ Trực Tiếp (VIC)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.domainkqt.cc/
+https://imgts.sportpulseapiz.com/badminton/team/n54qllys0w23qvy/image/small
+
+#EXTINF:-1 tvg-logo="" group-title="Xôi Lạc Z TV" , 🟢 14:00 03/11 ⚽ Trực Tiếp (VIC)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.domainkqt.cc/
+https://live1.quickscoreboardz.com/live/channel62/playlist.m3u8?wsSecret=f1eb9d883440e34f7249e99d30c68eba&wsABSTime=1793733781
+
+#EXTINF:-1 tvg-logo="" group-title="Xôi Lạc Z TV" , 🟢 14:00 03/11 ⚽ Trực Tiếp (VIC)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.domainkqt.cc/
+https://imgts.sportpulseapiz.com/badminton/team/x7lm7posdjgwm2w/image/small
+
+#EXTINF:-1 tvg-logo="" group-title="Xôi Lạc Z TV" , 🟢 14:00 03/11 ⚽ Trực Tiếp (VIC)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.domainkqt.cc/
+https://live1.quickscoreboardz.com/live/channel63/playlist.m3u8?wsSecret=7baddbd30835624d126734e5129c5fc6&wsABSTime=1793733781
+
+#EXTINF:-1 tvg-logo="" group-title="Xôi Lạc Z TV" , 🟢 14:00 03/11 ⚽ Trực Tiếp (VIC)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.domainkqt.cc/
+https://imgts.sportpulseapiz.com/tennis/team/23xmvvf41xymg8n/image/small
+
+#EXTINF:-1 tvg-logo="" group-title="Xôi Lạc Z TV" , 🟢 14:00 03/11 ⚽ Trực Tiếp (VIC)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.domainkqt.cc/
+https://imgts.sportpulseapiz.com/tennis/team/1l4rjwfz87vm7vx/image/small
+
+#EXTINF:-1 tvg-logo="" group-title="Xôi Lạc Z TV" , 🟢 14:00 03/11 ⚽ Trực Tiếp (VIC)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.domainkqt.cc/
+https://imgts.sportpulseapiz.com/tennis/team/x7lm7nf94v2q2wd/image/small
+
+#EXTINF:-1 tvg-logo="" group-title="Xôi Lạc Z TV" , 🟢 14:00 03/11 ⚽ Trực Tiếp (VIC)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.domainkqt.cc/
+https://imgts.sportpulseapiz.com/csgo/team/n54qle2h8y4mvy9/image/small
+
+#EXTINF:-1 tvg-logo="" group-title="Xôi Lạc Z TV" , 🟢 14:00 03/11 ⚽ Trực Tiếp (VIC)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.domainkqt.cc/
+https://imgts.sportpulseapiz.com/tennis/team/6ypq3pf5gxerd7o/image/small
+
+#EXTINF:-1 tvg-logo="" group-title="Xôi Lạc Z TV" , 🟢 14:00 03/11 ⚽ Trực Tiếp (VIC)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.domainkqt.cc/
+https://imgts.sportpulseapiz.com/football/team/6ypq3nh1xz3md7o/image/small
+
+#EXTINF:-1 tvg-logo="" group-title="Xôi Lạc Z TV" , 🟢 14:00 03/11 ⚽ Trực Tiếp (VIC)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.domainkqt.cc/
+https://imgts.sportpulseapiz.com/football/team/vjxm8ghxnpkr6od/image/small
+
+#EXTINF:-1 tvg-logo="" group-title="Xôi Lạc Z TV" , 🟢 14:00 03/11 ⚽ Trực Tiếp (VIC)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.domainkqt.cc/
+https://imgts.sportpulseapiz.com/football/team/3glrw7hwzkpqdyj/image/small
+
+#EXTINF:-1 tvg-logo="" group-title="Xôi Lạc Z TV" , 🟢 14:00 03/11 ⚽ Trực Tiếp (VIC)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.domainkqt.cc/
+https://imgts.sportpulseapiz.com/badminton/team/dj2ryolsl27nq1z/image/small
+
+#EXTINF:-1 tvg-logo="" group-title="Xôi Lạc Z TV" , 🟢 14:00 03/11 ⚽ Trực Tiếp (VIC)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.domainkqt.cc/
+https://imgts.sportpulseapiz.com/badminton/team/ypq3nls006w2md7/image/small
+
+#EXTINF:-1 tvg-logo="" group-title="Xôi Lạc Z TV" , 🟢 14:00 03/11 ⚽ Trực Tiếp (VIC)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.domainkqt.cc/
+https://imgts.sportpulseapiz.com/football/team/1l4rjnhkl2zm7vx/image/small
+
+#EXTINF:-1 tvg-logo="" group-title="Xôi Lạc Z TV" , 🟢 14:00 03/11 ⚽ Trực Tiếp (VIC)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.domainkqt.cc/
+https://imgts.sportpulseapiz.com/football/team/l5ergphnnd9r8k0/image/small
+
+#EXTINF:-1 tvg-logo="" group-title="Xôi Lạc Z TV" , 🟢 14:00 03/11 ⚽ Trực Tiếp (VIC)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.domainkqt.cc/
+https://imgts.sportpulseapiz.com/football/team/y0or5jh40l9qwzv/image/small
+
+#EXTINF:-1 tvg-logo="" group-title="Xôi Lạc Z TV" , 🟢 14:00 03/11 ⚽ Trực Tiếp (VIC)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.domainkqt.cc/
+https://imgts.sportpulseapiz.com/football/team/ednm9wh99xgryox/image/small
+
+#EXTINF:-1 tvg-logo="" group-title="Xôi Lạc Z TV" , 🟢 14:00 03/11 ⚽ Trực Tiếp (VIC)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.domainkqt.cc/
+https://imgts.sportpulseapiz.com/basketball/team/9dn1m17tzwwmoep/image/small
+
+#EXTINF:-1 tvg-logo="" group-title="Xôi Lạc Z TV" , 🟢 14:00 03/11 ⚽ Trực Tiếp (VIC)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.domainkqt.cc/
+https://imgts.sportpulseapiz.com/badminton/team/pxwrxl4sno8gryk/image/small
+
+#EXTINF:-1 tvg-logo="" group-title="Xôi Lạc Z TV" , 🟢 14:00 03/11 ⚽ Trực Tiếp (VIC)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.domainkqt.cc/
+https://imgts.sportpulseapiz.com/badminton/team/y0or5jzs8o6eqwz/image/small
+
+#EXTINF:-1 tvg-logo="" group-title="Xôi Lạc Z TV" , 🟢 14:00 03/11 ⚽ Trực Tiếp (VIC)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.domainkqt.cc/
+https://imgts.sportpulseapiz.com/badminton/team/y0or5jzsdzp7qwz/image/small
+
+#EXTINF:-1 tvg-logo="" group-title="Xôi Lạc Z TV" , 🟢 14:00 03/11 ⚽ Trực Tiếp (VIC)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.domainkqt.cc/
+https://imgts.sportpulseapiz.com/badminton/team/3xmvk8s33g97qg8/image/small
+
+#EXTINF:-1 tvg-logo="" group-title="Xôi Lạc Z TV" , 🟢 14:00 03/11 ⚽ Trực Tiếp (VIC)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.domainkqt.cc/
+https://imgts.sportpulseapiz.com/badminton/team/dj2ryolslg7wq1z/image/small
+
+#EXTINF:-1 tvg-logo="" group-title="Xôi Lạc Z TV" , 🟢 14:00 03/11 ⚽ Trực Tiếp (VIC)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.domainkqt.cc/
+https://imgts.sportpulseapiz.com/badminton/team/y0or5jzs88d4qwz/image/small
+
+#EXTINF:-1 tvg-logo="" group-title="Xôi Lạc Z TV" , 🟢 14:00 03/11 ⚽ Trực Tiếp (VIC)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.domainkqt.cc/
+https://imgts.sportpulseapiz.com/football/team/4wyrn4hewp7q86p/image/small
+
+#EXTINF:-1 tvg-logo="" group-title="Xôi Lạc Z TV" , 🟢 14:00 03/11 ⚽ Trực Tiếp (VIC)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.domainkqt.cc/
+https://imgts.sportpulseapiz.com/football/team/y0or5jhgjzwqwzv/image/small
+
+#EXTINF:-1 tvg-logo="" group-title="Xôi Lạc Z TV" , 🟢 14:00 03/11 ⚽ Trực Tiếp (VIC)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.domainkqt.cc/
+https://imgts.sportpulseapiz.com/basketball/team/k82re8tv8zorepz/image/small
+
+#EXTINF:-1 tvg-logo="" group-title="Xôi Lạc Z TV" , 🟢 14:00 03/11 ⚽ Trực Tiếp (VIC)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.domainkqt.cc/
+https://imgts.sportpulseapiz.com/csgo/team/dn1m1e6h49zxqoe/image/small
+
+#EXTINF:-1 tvg-logo="" group-title="Xôi Lạc Z TV" , 🟢 14:00 03/11 ⚽ Trực Tiếp (VIC)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.domainkqt.cc/
+https://imgts.sportpulseapiz.com/dota2/team/jw2r08etld86qz8/image/small
+
+#EXTINF:-1 tvg-logo="" group-title="Xôi Lạc Z TV" , 🟢 14:00 03/11 ⚽ Trực Tiếp (VIC)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.domainkqt.cc/
+https://imgts.sportpulseapiz.com/football/team/zp5rzghx45jq82w/image/small
+
+#EXTINF:-1 tvg-logo="" group-title="Xôi Lạc Z TV" , 🟢 14:00 03/11 ⚽ Trực Tiếp (VIC)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.domainkqt.cc/
+https://imgts.sportpulseapiz.com/badminton/team/6ypq3nls810ymd7/image/small
+
+#EXTINF:-1 tvg-logo="" group-title="Xôi Lạc Z TV" , 🟢 14:00 03/11 ⚽ Trực Tiếp (VIC)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.domainkqt.cc/
+https://imgts.sportpulseapiz.com/badminton/team/54qllys2x5yoqvy/image/small
+
+#EXTINF:-1 tvg-logo="" group-title="Xôi Lạc Z TV" , 🟢 14:00 03/11 ⚽ Trực Tiếp (VIC)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.domainkqt.cc/
+https://imgts.sportpulseapiz.com/csgo/team/l5erg5xi2oom8k0/image/small
+
+#EXTINF:-1 tvg-logo="" group-title="Xôi Lạc Z TV" , 🟢 14:00 03/11 ⚽ Trực Tiếp (VIC)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.domainkqt.cc/
+https://imgts.sportpulseapiz.com/badminton/team/zp5rzgzskg24q82/image/small
+
+#EXTINF:-1 tvg-logo="" group-title="Xôi Lạc Z TV" , 🟢 14:00 03/11 ⚽ Trực Tiếp (VIC)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.domainkqt.cc/
+https://imgts.sportpulseapiz.com/badminton/team/glrw74swwd6eqdy/image/small
+
+#EXTINF:-1 tvg-logo="" group-title="Xôi Lạc Z TV" , 🟢 14:00 03/11 ⚽ Trực Tiếp (VIC)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.domainkqt.cc/
+https://imgts.sportpulseapiz.com/football/team/56ypq3nhd7kmd7o/image/small
+
+#EXTINF:-1 tvg-logo="" group-title="Xôi Lạc Z TV" , 🟢 14:00 03/11 ⚽ Trực Tiếp (VIC)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.domainkqt.cc/
+https://imgts.sportpulseapiz.com/football/team/d23xmvkhjv8qg8n/image/small
+
+#EXTINF:-1 tvg-logo="" group-title="Xôi Lạc Z TV" , 🟢 14:00 03/11 ⚽ Trực Tiếp (VIC)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.domainkqt.cc/
+https://imgts.sportpulseapiz.com/football/team/9k82rekhd42repz/image/small
+
+#EXTINF:-1 tvg-logo="" group-title="Xôi Lạc Z TV" , 🟢 14:00 03/11 ⚽ Trực Tiếp (VIC)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.domainkqt.cc/
+https://imgts.sportpulseapiz.com/basketball/team/1l4rjzt177vm7vx/image/small
+
+#EXTINF:-1 tvg-logo="" group-title="Xôi Lạc Z TV" , 🟢 14:00 03/11 ⚽ Trực Tiếp (VIC)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.domainkqt.cc/
+https://imgts.sportpulseapiz.com/basketball/team/yl5ergytjdwr8k0/image/small
+
+#EXTINF:-1 tvg-logo="" group-title="Xôi Lạc Z TV" , 🟢 14:00 03/11 ⚽ Trực Tiếp (VIC)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.domainkqt.cc/
+https://imgts.sportpulseapiz.com/volleyball/team/9k82redh51eqepz/image/small
+
+#EXTINF:-1 tvg-logo="" group-title="Xôi Lạc Z TV" , 🟢 14:00 03/11 ⚽ Trực Tiếp (VIC)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.domainkqt.cc/
+https://imgts.sportpulseapiz.com/volleyball/team/pxwrxdhg9129myk/image/small
+
+#EXTINF:-1 tvg-logo="" group-title="Xôi Lạc Z TV" , 🟢 14:00 03/11 ⚽ Trực Tiếp (VIC)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.domainkqt.cc/
+https://imgts.sportpulseapiz.com/dota2/team/x7lm792hkjzvr2w/image/small
+
+#EXTINF:-1 tvg-logo="" group-title="Xôi Lạc Z TV" , 🟢 14:00 03/11 ⚽ Trực Tiếp (VIC)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.domainkqt.cc/
+https://imgts.sportpulseapiz.com/badminton/team/4wyrn4ls343nq86/image/small
+
+#EXTINF:-1 tvg-logo="" group-title="Xôi Lạc Z TV" , 🟢 14:00 03/11 ⚽ Trực Tiếp (VIC)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.domainkqt.cc/
+https://imgts.sportpulseapiz.com/dota2/team/x7lm792hkvjlr2w/image/small
+
+#EXTINF:-1 tvg-logo="" group-title="Xôi Lạc Z TV" , 🟢 14:00 03/11 ⚽ Trực Tiếp (VIC)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.domainkqt.cc/
+https://imgts.sportpulseapiz.com/tennis/team/pxwrxjfz14omyk0/image/small
+
+#EXTINF:-1 tvg-logo="" group-title="Xôi Lạc Z TV" , 🟢 14:00 03/11 ⚽ Trực Tiếp (VIC)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.domainkqt.cc/
+https://imgts.sportpulseapiz.com/tennis/team/k82re9f3lw7mepz/image/small
+
+#EXTINF:-1 tvg-logo="" group-title="Xôi Lạc Z TV" , 🟢 14:00 03/11 ⚽ Trực Tiếp (VIC)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.domainkqt.cc/
+https://imgts.sportpulseapiz.com/basketball/team/e4wyrn1tn11q86p/image/small
+
+#EXTINF:-1 tvg-logo="" group-title="Xôi Lạc Z TV" , 🟢 14:00 03/11 ⚽ Trực Tiếp (VIC)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.domainkqt.cc/
+https://imgts.sportpulseapiz.com/basketball/team/v2y8m4pty98ml07/image/small
+
+#EXTINF:-1 tvg-logo="" group-title="Xôi Lạc Z TV" , 🟢 14:00 03/11 ⚽ Trực Tiếp (VIC)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.domainkqt.cc/
+https://imgts.sportpulseapiz.com/basketball/team/9vjxm8xt60jq6od/image/small
+
+#EXTINF:-1 tvg-logo="" group-title="Xôi Lạc Z TV" , 🟢 14:00 03/11 ⚽ Trực Tiếp (VIC)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.domainkqt.cc/
+https://imgts.sportpulseapiz.com/basketball/team/kn54ql7t63drvy9/image/small
+
+#EXTINF:-1 tvg-logo="" group-title="Xôi Lạc Z TV" , 🟢 14:00 03/11 ⚽ Trực Tiếp (VIC)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.domainkqt.cc/
+https://imgts.sportpulseapiz.com/basketball/team/v2y8m4pt9v2ml07/image/small
+
+#EXTINF:-1 tvg-logo="" group-title="Xôi Lạc Z TV" , 🟢 14:00 03/11 ⚽ Trực Tiếp (VIC)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.domainkqt.cc/
+https://imgts.sportpulseapiz.com/basketball/team/l965mk8t9p0m1ge/image/small
+
+#EXTINF:-1 tvg-logo="" group-title="Xôi Lạc Z TV" , 🟢 14:00 03/11 ⚽ Trực Tiếp (VIC)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.domainkqt.cc/
+https://imgts.sportpulseapiz.com/basketball/team/56ypq3kto86md7o/image/small
+
+#EXTINF:-1 tvg-logo="" group-title="Xôi Lạc Z TV" , 🟢 14:00 03/11 ⚽ Trực Tiếp (VIC)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.domainkqt.cc/
+https://imgts.sportpulseapiz.com/volleyball/team/dj2rydhe362r1zp/image/small
+
+#EXTINF:-1 tvg-logo="" group-title="Xôi Lạc Z TV" , 🟢 14:00 03/11 ⚽ Trực Tiếp (VIC)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.domainkqt.cc/
+https://imgts.sportpulseapiz.com/tennis/team/k82re9f3welmepz/image/small
+
+#EXTINF:-1 tvg-logo="" group-title="Xôi Lạc Z TV" , 🟢 14:00 03/11 ⚽ Trực Tiếp (VIC)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.domainkqt.cc/
+https://imgts.sportpulseapiz.com/tennis/team/y39mpyf5jx5mojx/image/small
+
+#EXTINF:-1 tvg-logo="" group-title="Xôi Lạc Z TV" , 🟢 14:00 03/11 ⚽ Trực Tiếp (VIC)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.domainkqt.cc/
+https://imgts.sportpulseapiz.com/volleyball/team/jw2r0nh6dyjqz84/image/small
+
+#EXTINF:-1 tvg-logo="" group-title="Xôi Lạc Z TV" , 🟢 14:00 03/11 ⚽ Trực Tiếp (VIC)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.domainkqt.cc/
+https://imgts.sportpulseapiz.com/csgo/team/ednm928t4weryox/image/small
+
+#EXTINF:-1 tvg-logo="" group-title="Xôi Lạc Z TV" , 🟢 14:00 03/11 ⚽ Trực Tiếp (VIC)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.domainkqt.cc/
+https://imgts.sportpulseapiz.com/dota2/team/1l4rjektedxm7vx/image/small
+
+#EXTINF:-1 tvg-logo="" group-title="Xôi Lạc Z TV" , 🟢 14:00 03/11 ⚽ Trực Tiếp (VIC)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.domainkqt.cc/
+https://imgts.sportpulseapiz.com/volleyball/team/dn1m1nh4ekk2qoe/image/small
+
+#EXTINF:-1 tvg-logo="" group-title="Xôi Lạc Z TV" , 🟢 14:00 03/11 ⚽ Trực Tiếp (VIC)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.domainkqt.cc/
+https://imgts.sportpulseapiz.com/csgo/team/x7lm79xuk8x1r2w/image/small
+
+#EXTINF:-1 tvg-logo="" group-title="Xôi Lạc Z TV" , 🟢 14:00 03/11 ⚽ Trực Tiếp (VIC)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.domainkqt.cc/
+https://imgts.sportpulseapiz.com/basketball/team/j1l4rjztw5pm7vx/image/small
+
+#EXTINF:-1 tvg-logo="" group-title="Xôi Lạc Z TV" , 🟢 14:00 03/11 ⚽ Trực Tiếp (VIC)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.domainkqt.cc/
+https://imgts.sportpulseapiz.com/dota2/team/6ypq3egt0vk7md7/image/small
+
+#EXTINF:-1 tvg-logo="" group-title="Xôi Lạc Z TV" , 🟢 14:00 03/11 ⚽ Trực Tiếp (VIC)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.domainkqt.cc/
+https://imgts.sportpulseapiz.com/csgo/team/l5erg5xi6l4m8k0/image/small
+
+#EXTINF:-1 tvg-logo="" group-title="Xôi Lạc Z TV" , 🟢 14:00 03/11 ⚽ Trực Tiếp (VIC)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.domainkqt.cc/
+https://imgts.sportpulseapiz.com/volleyball/team/j1l4rjdh7e8r7vx/image/small
+
+#EXTINF:-1 tvg-logo="" group-title="Xôi Lạc Z TV" , 🟢 14:00 03/11 ⚽ Trực Tiếp (VIC)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.domainkqt.cc/
+https://imgts.sportpulseapiz.com/dota2/team/dj2ryy2ik75gr1z/image/small
+
+#EXTINF:-1 tvg-logo="" group-title="Xôi Lạc Z TV" , 🟢 14:00 03/11 ⚽ Trực Tiếp (VIC)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.domainkqt.cc/
+https://imgts.sportpulseapiz.com/volleyball/team/gy0or58hyenrwzv/image/small
+
+#EXTINF:-1 tvg-logo="" group-title="Xôi Lạc Z TV" , 🟢 14:00 03/11 ⚽ Trực Tiếp (VIC)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.domainkqt.cc/
+https://imgts.sportpulseapiz.com/basketball/team/kdj2ry7t6x3r1zp/image/small
+
+#EXTINF:-1 tvg-logo="" group-title="Xôi Lạc Z TV" , 🟢 14:00 03/11 ⚽ Trực Tiếp (VIC)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.domainkqt.cc/
+https://imgts.sportpulseapiz.com/volleyball/team/z8yomoxhl77m0j6/image/small
+
+#EXTINF:-1 tvg-logo="" group-title="Xôi Lạc Z TV" , 🟢 14:00 03/11 ⚽ Trực Tiếp (VIC)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.domainkqt.cc/
+https://imgts.sportpulseapiz.com/basketball/team/9vjxm8xto6gq6od/image/small
+
+#EXTINF:-1 tvg-logo="" group-title="Xôi Lạc Z TV" , 🟢 14:00 03/11 ⚽ Trực Tiếp (VIC)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.domainkqt.cc/
+https://imgts.sportpulseapiz.com/tennis/team/k82re9f2wyzmepz/image/small
+
+#EXTINF:-1 tvg-logo="" group-title="Xôi Lạc Z TV" , 🟢 14:00 03/11 ⚽ Trực Tiếp (VIC)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.domainkqt.cc/
+https://imgts.sportpulseapiz.com/volleyball/team/z8yomoxhl36m0j6/image/small
+
+#EXTINF:-1 tvg-logo="" group-title="Xôi Lạc Z TV" , 🟢 14:00 03/11 ⚽ Trực Tiếp (VIC)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.domainkqt.cc/
+https://imgts.sportpulseapiz.com/csgo/team/4wyrnxzf8owjm86/image/small
+
+#EXTINF:-1 tvg-logo="" group-title="Xôi Lạc Z TV" , 🟢 14:00 03/11 ⚽ Trực Tiếp (VIC)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.domainkqt.cc/
+https://imgts.sportpulseapiz.com/dota2/team/4wyrnxki82x2m86/image/small
+
+#EXTINF:-1 tvg-logo="" group-title="Xôi Lạc Z TV" , 🟢 14:00 03/11 ⚽ Trực Tiếp (VIC)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.domainkqt.cc/
+https://imgts.sportpulseapiz.com/basketball/team/d23xmv1tzzxmg8n/image/small
+
+#EXTINF:-1 tvg-logo="" group-title="Xôi Lạc Z TV" , 🟢 14:00 03/11 ⚽ Trực Tiếp (VIC)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.domainkqt.cc/
+https://imgts.sportpulseapiz.com/basketball/team/gx7lm73t6x3r2wd/image/small
+
+#EXTINF:-1 tvg-logo="" group-title="Xôi Lạc Z TV" , 🟢 14:00 03/11 ⚽ Trực Tiếp (VIC)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.domainkqt.cc/
+https://imgts.sportpulseapiz.com/volleyball/team/jednm9vhykwqyox/image/small
+
+#EXTINF:-1 tvg-logo="" group-title="Xôi Lạc Z TV" , 🟢 14:00 03/11 ⚽ Trực Tiếp (VIC)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.domainkqt.cc/
+https://imgts.sportpulseapiz.com/csgo/team/3glrww5fw7v5rdy/image/small
+
+#EXTINF:-1 tvg-logo="" group-title="Xôi Lạc Z TV" , 🟢 14:00 03/11 ⚽ Trực Tiếp (VIC)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.domainkqt.cc/
+https://imgts.sportpulseapiz.com/dota2/team/1l4rjektez9m7vx/image/small
+
+#EXTINF:-1 tvg-logo="" group-title="Xôi Lạc Z TV" , 🟢 14:00 03/11 ⚽ Trực Tiếp (VIC)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.domainkqt.cc/
+https://imgts.sportpulseapiz.com/basketball/team/j1l4rjztoeym7vx/image/small
+
+#EXTINF:-1 tvg-logo="" group-title="Xôi Lạc Z TV" , 🟢 14:00 03/11 ⚽ Trực Tiếp (VIC)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.domainkqt.cc/
+https://imgts.sportpulseapiz.com/volleyball/team/9vjxm8lhn98q6od/image/small
+
+#EXTINF:-1 tvg-logo="" group-title="Xôi Lạc Z TV" , 🟢 14:00 03/11 ⚽ Trực Tiếp (VIC)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.domainkqt.cc/
+https://imgts.sportpulseapiz.com/volleyball/team/4zp5rzdhn44q82w/image/small
+
+#EXTINF:-1 tvg-logo="" group-title="Xôi Lạc Z TV" , 🟢 14:00 03/11 ⚽ Trực Tiếp (VIC)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.domainkqt.cc/
+https://imgts.sportpulseapiz.com/lol/team/965mk6zt7d83q1g/image/small
+
+#EXTINF:-1 tvg-logo="" group-title="Xôi Lạc Z TV" , 🟢 14:00 03/11 ⚽ Trực Tiếp (VIC)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.domainkqt.cc/
+https://imgts.sportpulseapiz.com/csgo/team/n54qle2h281ymvy/image/small
+
+#EXTINF:-1 tvg-logo="" group-title="Xôi Lạc Z TV" , 🟢 14:00 03/11 ⚽ Trực Tiếp (VIC)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.domainkqt.cc/
+https://imgts.sportpulseapiz.com/basketball/team/kn54ql7tgxorvy9/image/small
+
+#EXTINF:-1 tvg-logo="" group-title="Xôi Lạc Z TV" , 🟢 14:00 03/11 ⚽ Trực Tiếp (VIC)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.domainkqt.cc/
+https://imgts.sportpulseapiz.com/lol/team/k82repjtvpxzqep/image/small
+
+#EXTINF:-1 tvg-logo="" group-title="Xôi Lạc Z TV" , 🟢 14:00 03/11 ⚽ Trực Tiếp (VIC)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.domainkqt.cc/
+https://imgts.sportpulseapiz.com/lol/team/23xmvxjt3nj2rg8/image/small
+
+#EXTINF:-1 tvg-logo="" group-title="Xôi Lạc Z TV" , 🟢 14:00 03/11 ⚽ Trực Tiếp (VIC)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.domainkqt.cc/
+https://imgts.sportpulseapiz.com/lol/team/318q6g8to50vro9/image/small
+
+#EXTINF:-1 tvg-logo="" group-title="Xôi Lạc Z TV" , 🟢 14:00 03/11 ⚽ Trực Tiếp (VIC)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.domainkqt.cc/
+https://thapcamiptv.com/10cam-logo-app-light.jpg
+
+#EXTINF:-1 tvg-logo="" group-title="Xôi Lạc Z TV" , 🟢 14:00 03/11 ⚽ Trực Tiếp (VIC)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.domainkqt.cc/
+https://vebo.thethaoiptv.com/vebo-icon.png
+
+#EXTINF:-1 tvg-logo="" group-title="Xôi Lạc Z TV" , 🟢 14:00 03/11 ⚽ Trực Tiếp (VIC)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.domainkqt.cc/
+https://cktv.pro/logo-cakhia.png
+
+#EXTINF:-1 tvg-logo="" group-title="Xôi Lạc Z TV" , 🟢 14:00 03/11 ⚽ Trực Tiếp (VIC)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.domainkqt.cc/
+https://op.hdpe.pro/images/logo.png
+
