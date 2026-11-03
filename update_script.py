@@ -2,92 +2,95 @@ import json
 import re
 import requests
 
-def clean_team_name(name):
-    if not name:
+def clean_text(text):
+    if not text:
         return ""
-    # Loại bỏ các từ khóa rác hoặc tên blv/server hay bị lẫn lộn
-    garbage_keywords = [
-        'bee', 'hấu', 'tỵ', 'redbull', 'quốc khánh', 'typn', 'a páo', 'thạch tú', 
-        'cr bưởi', 'a bệu', 'xuân tóc đỏ', 'mp3', 'xuân son', '5 lửa', 'tuấn cùi', 
-        'tạ biên giới', 'lão lâm', 'loka', 'người cá', 'curry', 'kenchu', 'nhà đài',
-        'gà siêu quỷ', 'gà ô long', 'gà siêu tốc', 'gà siêu mõm', 'gà siêu péo', 
-        'gà siêu gáy', 'gà siêu bệu', 'gà siêu nhí', 'gà siêu ngố', 'gà siêu tồ', 
-        'gà siêu son', 'gà siêu kiêu', 'tencent', 'alibaba'
-    ]
-    cleaned = name.strip()
-    if cleaned.lower() in garbage_keywords:
-        return ""
-    if len(cleaned) <= 3 and not any(c.isdigit() for c in cleaned):
+    garbage = ['bee', 'hấu', 'tỵ', 'redbull', 'quốc khánh', 'typn', 'a páo', 'thạch tú', 
+               'cr bưởi', 'a bệu', 'xuân tóc đỏ', 'mp3', 'xuân son', '5 lửa', 'tuấn cùi', 
+               'tạ biên giới', 'lão lâm', 'loka', 'người cá', 'curry', 'kenchu', 'nhà đài',
+               'tencent', 'alibaba']
+    cleaned = text.strip()
+    if cleaned.lower() in garbage or (len(cleaned) <= 3 and not any(c.isdigit() for c in cleaned)):
         return ""
     return cleaned
 
-def parse_match_info(href_str, raw_title="", node_data=None):
+def get_sport_icon(category_name, team_or_title=""):
+    text = f"{category_name} {team_or_title}".lower()
+    if any(k in text for k in ['tennis', 'quần vợt', 'bellucci', 'sonego']):
+        return "🎾"
+    elif any(k in text for k in ['basketball', 'bóng rổ', 'nba', 'cavaliers', 'pacers', 'celtics', 'lakers', 'denver']):
+        return "🏀"
+    elif any(k in text for k in ['volleyball', 'bóng chuyền', 'ziraat']):
+        return "🏐"
+    else:
+        return "⚽"
+
+def parse_xoilac_node(node):
+    href = node.get("href") or node.get("url_info") or ""
+    raw_title = node.get("title") or node.get("name") or node.get("match_name") or ""
+    
     time_str = ""
-    match_title = ""
-    
-    # 1. Kiểm tra thời gian từ trường JSON nếu có
-    if node_data:
-        for t_key in ['time', 'start_time', 'hour', 'match_time', 'schedule_time']:
-            val = node_data.get(t_key)
-            if val and isinstance(val, str) and ':' in val:
-                time_str = val.strip()
-                break
-
-    combined_text = f"{href_str} {raw_title}"
-    
-    # 2. Quét tìm giờ phút chuẩn (hh:mm)
-    if not time_str:
-        time_match = re.search(r'(?:luc-)?(\d{2})[:h](\d{2})', combined_text.lower())
-        if time_match:
-            h, m = time_match.groups()
-            time_str = f"{h}:{m}"
-        else:
-            luc_match = re.search(r'luc-(\d{2})(\d{2})', combined_text.lower())
-            if luc_match:
-                h, m = luc_match.groups()
-                time_str = f"{h}:{m}"
-
-    # 3. Quét tìm ngày tháng (dd/mm)
     date_str = ""
-    date_match = re.search(r'(?:ngay-)?(\d{2})[-/](\d{2})(?:[-/](\d{4}))?', combined_text)
+    match_title = ""
+
+    # 1. Quét giờ và ngày từ slug hoặc title
+    combined = f"{href} {raw_title}"
+    
+    # Tìm giờ phút dạng hh:mm hoặc luc-hhmm
+    time_match = re.search(r'(?:luc-)?(\d{2})[:h](\d{2})', combined.lower())
+    if time_match:
+        h, m = time_match.groups()
+        time_str = f"{h}:{m}"
+    else:
+        luc_match = re.search(r'luc-(\d{2})(\d{2})', combined.lower())
+        if luc_match:
+            h, m = luc_match.groups()
+            time_str = f"{h}:{m}"
+
+    # Tìm ngày tháng dạng dd-mm hoặc dd/mm
+    date_match = re.search(r'(?:ngay-)?(\d{2})[-/](\d{2})', combined)
     if date_match:
-        d, mo, y = date_match.groups()
+        d, mo = date_match.groups()
         date_str = f"{d}/{mo}"
 
-    # 4. Trích xuất tên cặp đấu từ href slug
-    if href_str:
-        parts = [p for p in href_str.strip('/').split('/') if p]
+    # 2. Lấy tên cặp đấu từ href slug
+    if href:
+        parts = [p for p in href.strip('/').split('/') if p]
         slug = parts[-1] if parts else ""
         if slug and not slug.startswith('channel') and not slug.isdigit():
-            match_slug = re.sub(r'-luc-\d+-ngay-[\d-]+', '', slug).strip('-')
-            match_slug = re.sub(r'-[\d]{2}-[\d]{2}-[\d]{4}', '', match_slug).strip('-')
-            match_slug = re.sub(r'-id\d+', '', match_slug)
-            slug_title = match_slug.replace('-', ' ').title()
+            slug_clean = re.sub(r'-luc-\d+-ngay-[\d-]+', '', slug).strip('-')
+            slug_clean = re.sub(r'-[\d]{2}-[\d]{2}-[\d]{4}', '', slug_clean).strip('-')
+            slug_clean = re.sub(r'-id\d+', '', slug_clean)
+            slug_title = slug_clean.replace('-', ' ').title()
             slug_title = re.sub(r'\bVs\b', 'vs', slug_title)
-            
-            if ' vs ' in slug_title.lower():
+            if ' vs ' in slug_title.lower() or len(slug_title.split()) >= 3:
                 match_title = slug_title
 
-    # 5. Nếu chưa có từ href, lọc từ raw_title
+    # 3. Lấy từ home/away nếu có
+    home = node.get("home_team") or node.get("home") or ""
+    away = node.get("away_team") or node.get("away") or ""
+    if home and away:
+        match_title = f"{home} vs {away}"
+
     if not match_title and raw_title:
-        cleaned_raw = clean_team_name(raw_title)
-        if cleaned_raw and (' vs ' in cleaned_raw.lower() or len(cleaned_raw.split()) >= 3):
-            if not any(kw in cleaned_raw.lower() for kw in ['live', 'trực tiếp', 'channel', 'server']):
-                match_title = cleaned_raw
+        ct = clean_text(raw_title)
+        if ct and not any(kw in ct.lower() for kw in ['live', 'trực tiếp', 'channel', 'server']):
+            match_title = ct
 
-    # Loại bỏ chữ live/trực tiếp thừa
-    if match_title:
-        match_title = re.sub(r'\b(live|trực tiếp)\b', '', match_title, flags=re.IGNORECASE).strip(' -')
+    match_title = re.sub(r'\b(live|trực tiếp)\b', '', match_title, flags=re.IGNORECASE).strip(' -')
 
-    final_time = ""
+    # Tổng hợp thời gian hiển thị theo đúng mẫu hình: 🟢 14:00 03/11 ⚽ Tên cặp đấu
+    time_prefix = ""
     if date_str and time_str:
-        final_time = f"{date_str} {time_str}"
+        time_prefix = f"🟢 {date_str} {time_str}"
     elif time_str:
-        final_time = time_str
+        time_prefix = f"🟢 {time_str}"
     elif date_str:
-        final_time = date_str
+        time_prefix = f"🟢 {date_str}"
+    else:
+        time_prefix = "🟢 LIVE"
 
-    return final_time, match_title
+    return time_prefix, match_title
 
 def generate_m3u_and_json():
     target_url = "https://tinyurl.com/xoilacz3" 
@@ -96,16 +99,11 @@ def generate_m3u_and_json():
     }
 
     try:
-        print("Đang kết nối lấy dữ liệu...")
+        print("Đang kết nối lấy dữ liệu Xôi Lạc Z...")
         response = requests.get(target_url, headers=headers, timeout=30, allow_redirects=True)
         
         if response.status_code == 200:
             data = response.json()
-            
-            with open('xoilac.json', 'w', encoding='utf-8') as f:
-                json.dump(data, f, ensure_ascii=False, indent=2)
-            print("Đã lưu file xoilac.json thành công!")
-            
             m3u_content = "#EXTM3U x-tvg-url=\"\"\n"
             count = 0
             seen_links = set()
@@ -127,7 +125,11 @@ def generate_m3u_and_json():
                 if not isinstance(prov, dict):
                     continue
                 
-                prov_name = prov.get("name") or prov.get("title") or prov.get("provider_name") or "Trực Tiếp"
+                # Chỉ lọc và xử lý riêng nhóm Xôi Lạc TV / Xôi Lạc Z
+                prov_name = prov.get("name") or prov.get("title") or prov.get("provider_name") or "Xôi Lạc Z TV"
+                if "xôi lạc" not in prov_name.lower():
+                    continue  # Tạm thời chỉ làm riêng Xôi Lạc Z TV theo đúng yêu cầu làm từng nguồn 1
+
                 prov_logo = prov.get("logo") or prov.get("icon") or ""
                 
                 matches = []
@@ -145,25 +147,20 @@ def generate_m3u_and_json():
                 if not matches:
                     matches = [prov]
 
-                def process_node(node, cur_time="", cur_title="", cur_logo=prov_logo):
+                def process_node(node, cur_time_prefix="", cur_title="", cur_logo=prov_logo):
                     nonlocal count, m3u_content, seen_links
                     if isinstance(node, list):
                         for item in node:
-                            process_node(item, cur_time, cur_title, cur_logo)
+                            process_node(item, cur_time_prefix, cur_title, cur_logo)
                     elif isinstance(node, dict):
                         href = node.get("href") or node.get("url_info") or ""
                         raw_t = node.get("title") or node.get("name") or node.get("match_name") or ""
                         
-                        t_str, m_title = parse_match_info(href, raw_t, node)
-                        if t_str:
-                            cur_time = t_str
+                        t_prefix, m_title = parse_xoilac_node(node)
+                        if t_prefix and t_prefix != "🟢 LIVE":
+                            cur_time_prefix = t_prefix
                         if m_title:
                             cur_title = m_title
-
-                        home = node.get("home_team") or node.get("home") or ""
-                        away = node.get("away_team") or node.get("away") or ""
-                        if home and away:
-                            cur_title = f"{home} vs {away}"
 
                         lg = node.get("home_logo") or node.get("logo") or node.get("icon") or ""
                         if lg and isinstance(lg, str) and lg.startswith("http") and not any(ext in lg.lower() for ext in ['.m3u8', '.ts', 'playlist']):
@@ -199,22 +196,53 @@ def generate_m3u_and_json():
                             if s_url not in seen_links:
                                 seen_links.add(s_url)
 
-                                parts = []
-                                if cur_time:
-                                    parts.append(cur_time)
+                                t_out = cur_time_prefix if cur_time_prefix else "🟢 LIVE"
+                                sport_icon = get_sport_icon(prov_name, cur_title)
+                                
+                                title_out = cur_title if cur_title else "Trực Tiếp"
+                                display_line = f"{t_out} {sport_icon} {title_out}"
 
-                                if cur_title:
-                                    parts.append(cur_title)
-                                else:
-                                    parts.append(f"{prov_name} Trực Tiếp")
-
-                                display_base = " ".join(parts)
-
-                                # Xử lý tên BLV/Server sạch sẽ phía sau nếu có
-                                blv_tag = clean_team_name(s_name) or clean_team_name(node.get("blv", ""))
-                                if blv_tag and blv_tag.lower() not in display_base.lower():
+                                # Xử lý tên BLV/Server sạch sẽ trong ngoặc đơn
+                                blv_tag = clean_text(s_name) or clean_text(node.get("blv", ""))
+                                if blv_tag and blv_tag.lower() not in display_line.lower():
                                     if len(blv_tag.split()) <= 2:
-                                        display_base += f" ({blv_tag})"
+                                        display_line += f" ({blv_tag.upper()})"
+
+                                final_logo = cur_logo if cur_logo else prov_logo
+                                group_title_name = "Xôi Lạc Z TV"
+                                m3u_content += f"#EXTINF:-1 tvg-logo=\"{final_logo}\" group-title=\"{group_title_name}\",{display_line}\n"
+
+                                referer = node.get("Referer") or node.get("referer") or ""
+                                ua = node.get("user_agent") or "Mozilla/5.0"
+                                final_link = s_url
+                                if referer:
+                                    final_link = f"{s_url}|User-Agent={ua}&Referer={referer}"
+                                elif ua != "Mozilla/5.0":
+                                    final_link = f"{s_url}|User-Agent={ua}"
+                                m3u_content += f"{final_link}\n"
+                                count += 1
+
+                        for k, v in node.items():
+                            if isinstance(v, (list, dict)):
+                                process_node(v, cur_time_prefix, cur_title, cur_logo)
+
+                for m in matches:
+                    process_node(m, "", "", prov_logo)
+
+            with open('playlist.m3u', 'w', encoding='utf-8') as f:
+                f.write(m3u_content)
+                
+            print(f"Đã tạo xong Xôi Lạc Z TV với {count} luồng chuẩn mẫu hình ảnh!")
+            
+        else:
+            print(f"Lỗi HTTP: {response.status_code}")
+            
+    except Exception as e:
+        print(f"Lỗi: {e}")
+
+if __name__ == "__main__":
+    generate_m3u_and_json()
+    display_base += f" ({blv_tag})"
 
                                 final_logo = cur_logo if cur_logo else prov_logo
                                 m3u_content += f"#EXTINF:-1 tvg-logo=\"{final_logo}\" group-title=\"{prov_name}\",{display_base}\n"
