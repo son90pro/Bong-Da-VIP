@@ -1,44 +1,36 @@
-name: Auto Update Xoilac Data
+name: Auto Generate M3U Playlist
 
 on:
-  # Lên lịch chạy tự động (Cứ mỗi 3 tiếng chạy 1 lần)
   schedule:
-    - cron: '0 */3 * * *'
-  
-  # Cho phép chạy thủ công trực tiếp từ giao diện GitHub (Tab Actions)
-  workflow_dispatch:
+    # Chạy tự động mỗi 2 giờ một lần (Bạn có thể đổi lịch cron tùy ý)
+    - cron: '0 */2 * * *'
+  workflow_dispatch: # Cho phép chạy thủ công (Manual Trigger) trên giao diện GitHub
 
 jobs:
-  update-data:
-    runs-on: ubuntu-latest
-    
-    # Cấp quyền ghi (write) cho GITHUB_TOKEN để có thể push code ngược lại repo
-    permissions:
-      contents: write
+  build:
+  runs-on: ubuntu-latest
 
-    steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
+  steps:
+    - name: Checkout repository
+    uses: actions/checkout@v4
 
-      - name: Set up Python
-        uses: actions/setup-python@v5
-        with:
-          python-version: '3.10'
+    - name: Set up Python
+    uses: actions/setup-python@v5
+    with:
+      python-version: '3.10'
 
-      - name: Install dependencies
-        run: |
-          python -m pip install --upgrade pip
-          pip install requests curl_cffi beautifulsoup4
+    - name: Install dependencies (nếu có thêm thư viện ngoài)
+    run: |
+      python -m pip install --upgrade pip
 
-      - name: Run update script
-        run: |
-          python update_script.py
+    - name: Run M3U Generator script
+    run: |
+      python generate_m3u.py
 
-      - name: Commit and push changes
-        run: |
-          git config --global user.name "github-actions[bot]"
-          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add .
-          # Kiểm tra xem có thay đổi gì không, nếu có thì commit và push lên nhánh chính
-          git diff --quiet && git diff --staged --quiet || (git commit -m "Auto-update sports data [skip ci]" && git push)
-          
+    - name: Commit and push if playlist changed
+    run: |
+      git config --global user.name "github-actions[bot]"
+      git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+      git add playlist.m3u
+      git diff --quiet && git diff --staged --quiet || (git commit -m "Auto-update M3U playlist [skip ci]" && git push)
+      
