@@ -2,16 +2,17 @@
 import os
 from badong_engine import get_live_channels, resolve_stream_url
 
+# Link logo riêng cho nhóm Bóng Đá VIP của anh Sơn
+BONG_DA_VIP_LOGO = "https://raw.githubusercontent.com/son90pro/Bong-Da-VIP/refs/heads/main/10894352.png"
+
 def generate_playlist():
-    print("Đang lấy danh sách kênh từ các nguồn (Tier 1, Tier 2)...")
-    # Lấy danh sách kênh trực tiếp (force_refresh=True để không dùng cache cũ)
+    print("Đang lấy danh sách kênh từ các nguồn...")
     channels = get_live_channels(force_refresh=True, enable_tier3=False)
     
     if not channels:
         print("Cảnh báo: Không lấy được kênh nào!")
         return
 
-    # Khởi tạo nội dung file M3U
     m3u_lines = ["#EXTM3U x-tvg-url=\"\""]
     
     for ch in channels:
@@ -21,10 +22,13 @@ def generate_playlist():
         raw_url = ch.get("url", "")
         provider = ch.get("provider", "")
         
-        # Tự động gắn pipe parameters (User-Agent & Referer) cho Kodi / VLC
+        # Chỉ thay logo riêng cho nhóm hoặc nhà cung cấp "Bóng Đá VIP"
+        if group.strip() == "Bóng Đá VIP" or provider.strip() == "Bóng Đá VIP":
+            logo = BONG_DA_VIP_LOGO
+        
+        # Gắn pipe parameters (User-Agent & Referer)
         stream_url = resolve_stream_url(raw_url, provider)
         
-        # Định dạng dòng #EXTINF chuẩn
         extinf = f'#EXTINF:-1 tvg-logo="{logo}" group-title="{group}",{title}'
         m3u_lines.append(extinf)
         m3u_lines.append(stream_url)
@@ -37,4 +41,4 @@ def generate_playlist():
 
 if __name__ == "__main__":
     generate_playlist()
-  
+    
