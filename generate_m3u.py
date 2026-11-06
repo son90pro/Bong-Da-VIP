@@ -2,7 +2,7 @@
 import os
 from badong_engine import get_live_channels, resolve_stream_url
 
-# Link logo chung cho tất cả các kênh
+# Link logo Bóng Đá VIP của anh Sơn
 BONG_DA_VIP_LOGO = "https://raw.githubusercontent.com/son90pro/Bong-Da-VIP/refs/heads/main/10894352.png"
 
 def generate_playlist():
@@ -17,11 +17,12 @@ def generate_playlist():
     
     for ch in channels:
         title = ch.get("title", "Trực tiếp Thể Thao")
+        # Giữ nguyên nhóm gốc của từng kênh (VD: Vua Sân Cỏ TV, Chuối Chiên TV, v.v.)
+        group = ch.get("group", "Thể Thao Live")
         raw_url = ch.get("url", "")
         provider = ch.get("provider", "")
         
-        # Ép tất cả các kênh về chung một nhóm "Bóng Đá VIP" và dùng logo của anh
-        group = "Bóng Đá VIP"
+        # Gán logo Bóng Đá VIP cho tất cả các kênh để hiển thị đẹp mắt ngoài giao diện chính
         logo = BONG_DA_VIP_LOGO
         
         # Gắn pipe parameters (User-Agent & Referer)
@@ -35,7 +36,7 @@ def generate_playlist():
     with open(output_filename, "w", encoding="utf-8") as f:
         f.write("\n".join(m3u_lines))
         
-    print(f"Đã tạo thành công {output_filename} với {len(channels)} kênh thuộc nhóm Bóng Đá VIP!")
+    print(f"Đã tạo thành công {output_filename} với {len(channels)} kênh phân theo nhóm!")
 
 if __name__ == "__main__":
     generate_playlist()
